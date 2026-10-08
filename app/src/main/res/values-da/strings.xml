@@ -2720,7 +2720,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Vis dit rigtige rum i stedet for de virtuelle omgivelser. Tip: tryk på Y for hurtigt at skifte.</string>
     <string name="vr_dim_playback_title">Dæmp omgivelser under afspilning</string>
-    <string name="vr_dim_playback_subtitle">Gør himlen og gulvet mørkere, mens en video afspilles, som i en biograf.</string>
+    <string name="vr_dim_playback_subtitle">Dæmp lyset i salen (eller himlen), mens en video afspilles, som i en rigtig biograf.</string>
     <string name="vr_settings_screen">Skærm</string>
     <string name="vr_recenter_title">Centrer skærmen</string>
     <string name="vr_recenter_subtitle">Flyt skærmen tilbage foran dig.</string>
@@ -2731,4 +2731,6 @@
     <string name="addon_configure_paste">Brug kopieret link</string>
     <string name="addon_configure_no_link">Der blev ikke fundet noget addon-link i udklipsholderen</string>
     <string name="addon_configure_updated">%1$s installeret med dine indstillinger</string>
+    <string name="vr_cinema_hall_title">Biografsal</string>
+    <string name="vr_cinema_hall_subtitle">Se i en klassisk biografsal med et stort lærred på scenen. Slå fra for nattehimlen.</string>
 </resources>

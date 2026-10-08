@@ -1054,7 +1054,7 @@ Klaida: Bandomoji simuliuojama klaida — tai nėra tikras gedimas. Šaltinis gr
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Rodyti tikrąjį kambarį vietoj virtualios aplinkos. Patarimas: paspauskite Y, kad greitai perjungtumėte.</string>
     <string name="vr_dim_playback_title">Pritemdyti aplinką atkūrimo metu</string>
-    <string name="vr_dim_playback_subtitle">Pritemdyti dangų ir grindis, kol leidžiamas vaizdo įrašas, kaip kino teatre.</string>
+    <string name="vr_dim_playback_subtitle">Pritemdyti salės šviesas (arba dangų), kol leidžiamas vaizdo įrašas, kaip tikrame kino teatre.</string>
     <string name="vr_settings_screen">Ekranas</string>
     <string name="vr_recenter_title">Centruoti ekraną iš naujo</string>
     <string name="vr_recenter_subtitle">Grąžinti ekraną priešais jus.</string>
@@ -1065,4 +1065,6 @@ Klaida: Bandomoji simuliuojama klaida — tai nėra tikras gedimas. Šaltinis gr
     <string name="addon_configure_paste">Naudoti nukopijuotą nuorodą</string>
     <string name="addon_configure_no_link">Iškarpinėje nerasta priedo nuorodos</string>
     <string name="addon_configure_updated">%1$s įdiegtas su jūsų nustatymais</string>
+    <string name="vr_cinema_hall_title">Kino salė</string>
+    <string name="vr_cinema_hall_subtitle">Žiūrėkite klasikinėje kino salėje su dideliu ekranu scenoje. Išjunkite, kad matytumėte naktinį dangų.</string>
 </resources>

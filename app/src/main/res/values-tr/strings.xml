@@ -3375,7 +3375,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Sanal ortam yerine gerçek odanızı gösterir. İpucu: Hızlıca geçiş yapmak için Y\'ye basın.</string>
     <string name="vr_dim_playback_title">Oynatma sırasında ortamı karart</string>
-    <string name="vr_dim_playback_subtitle">Video oynatılırken gökyüzünü ve zemini sinemadaki gibi karartır.</string>
+    <string name="vr_dim_playback_subtitle">Video oynatılırken salon ışıklarını (veya gökyüzünü) gerçek bir sinemadaki gibi karartır.</string>
     <string name="vr_settings_screen">Ekran</string>
     <string name="vr_recenter_title">Ekranı yeniden ortala</string>
     <string name="vr_recenter_subtitle">Ekranı tekrar önünüze getirir.</string>
@@ -3386,4 +3386,6 @@
     <string name="addon_configure_paste">Kopyalanan bağlantıyı kullan</string>
     <string name="addon_configure_no_link">Panoda eklenti bağlantısı bulunamadı</string>
     <string name="addon_configure_updated">%1$s ayarlarınızla kuruldu</string>
+    <string name="vr_cinema_hall_title">Sinema salonu</string>
+    <string name="vr_cinema_hall_subtitle">Sahnede büyük bir perdenin bulunduğu klasik bir sinema salonunda izleyin. Gece gökyüzü için kapatın.</string>
 </resources>

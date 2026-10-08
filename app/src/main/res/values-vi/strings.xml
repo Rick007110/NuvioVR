@@ -3374,7 +3374,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Hiển thị căn phòng thực của bạn thay cho môi trường ảo. Mẹo: nhấn Y để chuyển đổi nhanh.</string>
     <string name="vr_dim_playback_title">Làm tối môi trường khi phát</string>
-    <string name="vr_dim_playback_subtitle">Làm tối bầu trời và sàn khi đang phát video, như trong rạp chiếu phim.</string>
+    <string name="vr_dim_playback_subtitle">Làm tối đèn trong rạp (hoặc bầu trời) khi đang phát video, như trong rạp chiếu phim thật.</string>
     <string name="vr_settings_screen">Màn hình</string>
     <string name="vr_recenter_title">Căn giữa lại màn hình</string>
     <string name="vr_recenter_subtitle">Đưa màn hình trở lại phía trước bạn.</string>
@@ -3385,4 +3385,6 @@
     <string name="addon_configure_paste">Dùng liên kết đã sao chép</string>
     <string name="addon_configure_no_link">Không tìm thấy liên kết tiện ích trong bảng nhớ tạm</string>
     <string name="addon_configure_updated">Đã cài đặt %1$s với cài đặt của bạn</string>
+    <string name="vr_cinema_hall_title">Rạp chiếu phim</string>
+    <string name="vr_cinema_hall_subtitle">Xem trong một rạp chiếu phim cổ điển với màn hình lớn trên sân khấu. Tắt để xem bầu trời đêm.</string>
 </resources>

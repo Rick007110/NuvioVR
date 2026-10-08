@@ -3054,7 +3054,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">اعرض غرفتك الحقيقية بدلًا من البيئة الافتراضية. تلميح: اضغط Y للتبديل بسرعة.</string>
     <string name="vr_dim_playback_title">تعتيم البيئة أثناء التشغيل</string>
-    <string name="vr_dim_playback_subtitle">تعتيم السماء والأرضية أثناء تشغيل الفيديو، كما في السينما.</string>
+    <string name="vr_dim_playback_subtitle">تعتيم أضواء القاعة (أو السماء) أثناء تشغيل الفيديو، كما في سينما حقيقية.</string>
     <string name="vr_settings_screen">الشاشة</string>
     <string name="vr_recenter_title">إعادة توسيط الشاشة</string>
     <string name="vr_recenter_subtitle">إعادة الشاشة إلى أمامك.</string>
@@ -3065,4 +3065,6 @@
     <string name="addon_configure_paste">استخدام الرابط المنسوخ</string>
     <string name="addon_configure_no_link">لم يتم العثور على رابط إضافة في الحافظة</string>
     <string name="addon_configure_updated">تم تثبيت %1$s بإعداداتك</string>
+    <string name="vr_cinema_hall_title">قاعة السينما</string>
+    <string name="vr_cinema_hall_subtitle">شاهد في قاعة سينما كلاسيكية مع شاشة كبيرة على المسرح. أوقف التشغيل لعرض سماء الليل.</string>
 </resources>

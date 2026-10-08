@@ -3188,7 +3188,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Mostra o seu cômodo real em vez do ambiente virtual. Dica: pressione Y para alternar rapidamente.</string>
     <string name="vr_dim_playback_title">Escurecer o ambiente durante a reprodução</string>
-    <string name="vr_dim_playback_subtitle">Escurece o céu e o chão enquanto um vídeo é reproduzido, como no cinema.</string>
+    <string name="vr_dim_playback_subtitle">Diminui as luzes da sala (ou o céu) enquanto um vídeo é reproduzido, como em um cinema de verdade.</string>
     <string name="vr_settings_screen">Tela</string>
     <string name="vr_recenter_title">Recentralizar tela</string>
     <string name="vr_recenter_subtitle">Traz a tela de volta para a sua frente.</string>
@@ -3199,4 +3199,6 @@
     <string name="addon_configure_paste">Usar link copiado</string>
     <string name="addon_configure_no_link">Nenhum link de addon encontrado na área de transferência</string>
     <string name="addon_configure_updated">%1$s instalado com suas configurações</string>
+    <string name="vr_cinema_hall_title">Sala de cinema</string>
+    <string name="vr_cinema_hall_subtitle">Assista em uma sala de cinema clássica com uma tela grande no palco. Desative para ver o céu noturno.</string>
 </resources>

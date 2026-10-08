@@ -2721,7 +2721,7 @@
     <string name="vr_passthrough_title">パススルー</string>
     <string name="vr_passthrough_subtitle">仮想環境の代わりに実際の部屋を表示します。ヒント：Yボタンを押すとすばやく切り替えられます。</string>
     <string name="vr_dim_playback_title">再生中は環境を暗くする</string>
-    <string name="vr_dim_playback_subtitle">動画の再生中は、映画館のように空と床を暗くします。</string>
+    <string name="vr_dim_playback_subtitle">動画の再生中は、本物の映画館のように場内の照明（または空）を暗くします。</string>
     <string name="vr_settings_screen">画面</string>
     <string name="vr_recenter_title">画面の位置をリセット</string>
     <string name="vr_recenter_subtitle">画面を目の前に戻します。</string>
@@ -2732,4 +2732,6 @@
     <string name="addon_configure_paste">コピーしたリンクを使用</string>
     <string name="addon_configure_no_link">クリップボードにアドオンのリンクが見つかりません</string>
     <string name="addon_configure_updated">%1$s をあなたの設定でインストールしました</string>
+    <string name="vr_cinema_hall_title">映画館</string>
+    <string name="vr_cinema_hall_subtitle">ステージ上に大きなスクリーンがあるクラシックな映画館で視聴します。オフにすると夜空になります。</string>
 </resources>

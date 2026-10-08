@@ -3034,7 +3034,7 @@ Próbálj meg egy másik forrást. [%1$s]</string>
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">A virtuális környezet helyett a valódi szobád látható. Tipp: nyomd meg az Y gombot a gyors váltáshoz.</string>
     <string name="vr_dim_playback_title">Környezet elsötétítése lejátszás közben</string>
-    <string name="vr_dim_playback_subtitle">Az ég és a padló elsötétítése videólejátszás közben, mint egy moziban.</string>
+    <string name="vr_dim_playback_subtitle">A teremvilágítás (vagy az ég) tompítása videólejátszás közben, mint egy igazi moziban.</string>
     <string name="vr_settings_screen">Képernyő</string>
     <string name="vr_recenter_title">Képernyő középre igazítása</string>
     <string name="vr_recenter_subtitle">A képernyő visszahelyezése eléd.</string>
@@ -3045,4 +3045,6 @@ Próbálj meg egy másik forrást. [%1$s]</string>
     <string name="addon_configure_paste">Másolt link használata</string>
     <string name="addon_configure_no_link">Nem található bővítmény-link a vágólapon</string>
     <string name="addon_configure_updated">%1$s telepítve a beállításaiddal</string>
+    <string name="vr_cinema_hall_title">Moziterem</string>
+    <string name="vr_cinema_hall_subtitle">Nézd egy klasszikus moziteremben, nagy vászonnal a színpadon. Kapcsold ki az éjszakai égbolthoz.</string>
 </resources>

@@ -2468,7 +2468,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Tampilkan ruangan nyata Anda alih-alih lingkungan virtual. Tips: tekan Y untuk beralih dengan cepat.</string>
     <string name="vr_dim_playback_title">Redupkan lingkungan saat pemutaran</string>
-    <string name="vr_dim_playback_subtitle">Gelapkan langit dan lantai saat video diputar, seperti di bioskop.</string>
+    <string name="vr_dim_playback_subtitle">Redupkan lampu ruangan (atau langit) saat video diputar, seperti di bioskop sungguhan.</string>
     <string name="vr_settings_screen">Layar</string>
     <string name="vr_recenter_title">Posisikan ulang layar ke tengah</string>
     <string name="vr_recenter_subtitle">Pindahkan layar kembali ke depan Anda.</string>
@@ -2479,4 +2479,6 @@
     <string name="addon_configure_paste">Gunakan tautan yang disalin</string>
     <string name="addon_configure_no_link">Tidak ada tautan addon di Clipboard</string>
     <string name="addon_configure_updated">%1$s terpasang dengan pengaturan Anda</string>
+    <string name="vr_cinema_hall_title">Ruang bioskop</string>
+    <string name="vr_cinema_hall_subtitle">Tonton di ruang bioskop klasik dengan layar besar di panggung. Matikan untuk langit malam.</string>
 </resources>

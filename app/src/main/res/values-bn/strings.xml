@@ -3135,7 +3135,7 @@
     <string name="vr_passthrough_title">পাসথ্রু</string>
     <string name="vr_passthrough_subtitle">ভার্চুয়াল এনভায়রনমেন্টের বদলে আপনার আসল ঘর দেখান। টিপ: দ্রুত পরিবর্তন করতে Y চাপুন।</string>
     <string name="vr_dim_playback_title">প্লেব্যাকের সময় এনভায়রনমেন্ট অনুজ্জ্বল করুন</string>
-    <string name="vr_dim_playback_subtitle">ভিডিও চলার সময় আকাশ ও মেঝে অন্ধকার করুন, সিনেমা হলের মতো।</string>
+    <string name="vr_dim_playback_subtitle">ভিডিও চলার সময় হলের আলো (বা আকাশ) অনুজ্জ্বল করুন, আসল সিনেমা হলের মতো।</string>
     <string name="vr_settings_screen">স্ক্রিন</string>
     <string name="vr_recenter_title">স্ক্রিন রিসেন্টার করুন</string>
     <string name="vr_recenter_subtitle">স্ক্রিনটিকে আবার আপনার সামনে নিয়ে আসুন।</string>
@@ -3146,4 +3146,6 @@
     <string name="addon_configure_paste">কপি করা লিঙ্ক ব্যবহার করুন</string>
     <string name="addon_configure_no_link">ক্লিপবোর্ডে কোনো অ্যাডন লিঙ্ক পাওয়া যায়নি</string>
     <string name="addon_configure_updated">%1$s আপনার সেটিংস সহ ইনস্টল হয়েছে</string>
+    <string name="vr_cinema_hall_title">সিনেমা হল</string>
+    <string name="vr_cinema_hall_subtitle">মঞ্চে বড় স্ক্রিনসহ একটি ক্লাসিক সিনেমা হলে দেখুন। রাতের আকাশের জন্য বন্ধ করুন।</string>
     </resources>

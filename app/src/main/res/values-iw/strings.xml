@@ -3377,7 +3377,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">הצגת החדר האמיתי שלך במקום הסביבה הווירטואלית. טיפ: אפשר ללחוץ על Y למעבר מהיר.</string>
     <string name="vr_dim_playback_title">עמעום הסביבה במהלך ההפעלה</string>
-    <string name="vr_dim_playback_subtitle">השמיים והרצפה מוחשכים בזמן הפעלת סרטון, כמו בקולנוע.</string>
+    <string name="vr_dim_playback_subtitle">האורות באולם (או השמיים) מעומעמים בזמן הפעלת סרטון, כמו בקולנוע אמיתי.</string>
     <string name="vr_settings_screen">מסך</string>
     <string name="vr_recenter_title">מרכוז המסך מחדש</string>
     <string name="vr_recenter_subtitle">החזרת המסך אל מולך.</string>
@@ -3388,4 +3388,6 @@
     <string name="addon_configure_paste">שימוש בקישור שהועתק</string>
     <string name="addon_configure_no_link">לא נמצא קישור לתוסף בלוח</string>
     <string name="addon_configure_updated">%1$s הותקן עם ההגדרות שלך</string>
+    <string name="vr_cinema_hall_title">אולם קולנוע</string>
+    <string name="vr_cinema_hall_subtitle">צפייה באולם קולנוע קלאסי עם מסך גדול על הבמה. כיבוי יציג את שמי הלילה.</string>
 </resources>

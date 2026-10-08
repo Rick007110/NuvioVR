@@ -1175,7 +1175,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Vis det virkelige rommet ditt i stedet for det virtuelle miljøet. Tips: trykk Y for å bytte raskt.</string>
     <string name="vr_dim_playback_title">Demp miljøet under avspilling</string>
-    <string name="vr_dim_playback_subtitle">Gjør himmelen og gulvet mørkere mens en video spilles av, som på kino.</string>
+    <string name="vr_dim_playback_subtitle">Demp lyset i salen (eller himmelen) mens en video spilles av, som på en ekte kino.</string>
     <string name="vr_settings_screen">Skjerm</string>
     <string name="vr_recenter_title">Sentrer skjermen på nytt</string>
     <string name="vr_recenter_subtitle">Flytt skjermen tilbake foran deg.</string>
@@ -1186,4 +1186,6 @@
     <string name="addon_configure_paste">Bruk kopiert lenke</string>
     <string name="addon_configure_no_link">Fant ingen tilleggslenke på utklippstavlen</string>
     <string name="addon_configure_updated">%1$s installert med innstillingene dine</string>
+    <string name="vr_cinema_hall_title">Kinosal</string>
+    <string name="vr_cinema_hall_subtitle">Se i en klassisk kinosal med et stort lerret på scenen. Slå av for nattehimmelen.</string>
 </resources>

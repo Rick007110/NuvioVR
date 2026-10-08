@@ -3188,7 +3188,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Prikažite svoju stvarnu sobu umesto virtuelnog okruženja. Savet: pritisnite Y za brzo prebacivanje.</string>
     <string name="vr_dim_playback_title">Zatamni okruženje tokom reprodukcije</string>
-    <string name="vr_dim_playback_subtitle">Zatamnite nebo i pod dok se video reprodukuje, kao u bioskopu.</string>
+    <string name="vr_dim_playback_subtitle">Zatamnite svetla u sali (ili nebo) dok se video reprodukuje, kao u pravom bioskopu.</string>
     <string name="vr_settings_screen">Ekran</string>
     <string name="vr_recenter_title">Ponovo centriraj ekran</string>
     <string name="vr_recenter_subtitle">Vratite ekran ispred sebe.</string>
@@ -3199,4 +3199,6 @@
     <string name="addon_configure_paste">Koristi kopirani link</string>
     <string name="addon_configure_no_link">U međuspremniku nije pronađen link dodatka</string>
     <string name="addon_configure_updated">%1$s je instaliran sa vašim podešavanjima</string>
+    <string name="vr_cinema_hall_title">Bioskopska sala</string>
+    <string name="vr_cinema_hall_subtitle">Gledajte u klasičnoj bioskopskoj sali sa velikim platnom na bini. Isključite za noćno nebo.</string>
 </resources>

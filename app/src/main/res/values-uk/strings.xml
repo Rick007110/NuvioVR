@@ -2754,7 +2754,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Показувати вашу реальну кімнату замість віртуального середовища. Порада: натисніть Y, щоб швидко перемкнутися.</string>
     <string name="vr_dim_playback_title">Затемнювати середовище під час відтворення</string>
-    <string name="vr_dim_playback_subtitle">Затемнювати небо й підлогу під час відтворення відео, як у кінотеатрі.</string>
+    <string name="vr_dim_playback_subtitle">Приглушувати світло в залі (або небо) під час відтворення відео, як у справжньому кінотеатрі.</string>
     <string name="vr_settings_screen">Екран</string>
     <string name="vr_recenter_title">Відцентрувати екран</string>
     <string name="vr_recenter_subtitle">Повернути екран перед вами.</string>
@@ -2765,4 +2765,6 @@
     <string name="addon_configure_paste">Використати скопійоване посилання</string>
     <string name="addon_configure_no_link">У буфері обміну не знайдено посилання на адон</string>
     <string name="addon_configure_updated">%1$s встановлено з вашими налаштуваннями</string>
+    <string name="vr_cinema_hall_title">Кінозал</string>
+    <string name="vr_cinema_hall_subtitle">Дивіться в класичному кінозалі з великим екраном на сцені. Вимкніть, щоб бачити нічне небо.</string>
 </resources>

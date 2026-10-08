@@ -1650,7 +1650,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Visa ditt verkliga rum i stället för den virtuella miljön. Tips: tryck på Y för att snabbt växla.</string>
     <string name="vr_dim_playback_title">Dämpa miljön under uppspelning</string>
-    <string name="vr_dim_playback_subtitle">Gör himlen och golvet mörkare medan en video spelas upp, som på bio.</string>
+    <string name="vr_dim_playback_subtitle">Dämpa ljuset i salongen (eller himlen) medan en video spelas upp, som på en riktig bio.</string>
     <string name="vr_settings_screen">Skärm</string>
     <string name="vr_recenter_title">Centrera skärmen</string>
     <string name="vr_recenter_subtitle">Flytta tillbaka skärmen framför dig.</string>
@@ -1661,4 +1661,6 @@
     <string name="addon_configure_paste">Använd kopierad länk</string>
     <string name="addon_configure_no_link">Ingen tilläggslänk hittades i urklipp</string>
     <string name="addon_configure_updated">%1$s installerades med dina inställningar</string>
+    <string name="vr_cinema_hall_title">Biosalong</string>
+    <string name="vr_cinema_hall_subtitle">Titta i en klassisk biosalong med en stor duk på scenen. Stäng av för natthimlen.</string>
 </resources>

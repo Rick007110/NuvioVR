@@ -3279,7 +3279,7 @@
   <string name="vr_passthrough_title">Passthrough</string>
   <string name="vr_passthrough_subtitle">Εμφάνιση του πραγματικού σας χώρου αντί για το εικονικό περιβάλλον. Συμβουλή: πατήστε Y για γρήγορη εναλλαγή.</string>
   <string name="vr_dim_playback_title">Χαμήλωμα περιβάλλοντος κατά την αναπαραγωγή</string>
-  <string name="vr_dim_playback_subtitle">Σκουραίνει τον ουρανό και το δάπεδο όσο παίζει ένα βίντεο, όπως σε κινηματογράφο.</string>
+  <string name="vr_dim_playback_subtitle">Χαμηλώνει τα φώτα της αίθουσας (ή τον ουρανό) όσο παίζει ένα βίντεο, όπως σε πραγματικό κινηματογράφο.</string>
   <string name="vr_settings_screen">Οθόνη</string>
   <string name="vr_recenter_title">Επανακεντράρισμα οθόνης</string>
   <string name="vr_recenter_subtitle">Μετακινεί την οθόνη ξανά μπροστά σας.</string>
@@ -3290,4 +3290,6 @@
   <string name="addon_configure_paste">Χρήση αντιγραμμένου συνδέσμου</string>
   <string name="addon_configure_no_link">Δεν βρέθηκε σύνδεσμος πρόσθετου στο πρόχειρο</string>
   <string name="addon_configure_updated">Το %1$s εγκαταστάθηκε με τις ρυθμίσεις σας</string>
+  <string name="vr_cinema_hall_title">Αίθουσα κινηματογράφου</string>
+  <string name="vr_cinema_hall_subtitle">Παρακολουθήστε σε μια κλασική κινηματογραφική αίθουσα με μεγάλη οθόνη στη σκηνή. Απενεργοποιήστε το για τον νυχτερινό ουρανό.</string>
 </resources>

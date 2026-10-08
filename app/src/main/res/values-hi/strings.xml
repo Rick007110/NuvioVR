@@ -1050,7 +1050,7 @@
     <string name="vr_passthrough_title">पासथ्रू</string>
     <string name="vr_passthrough_subtitle">वर्चुअल वातावरण की जगह अपना असली कमरा दिखाएं। टिप: जल्दी बदलने के लिए Y दबाएं।</string>
     <string name="vr_dim_playback_title">प्लेबैक के दौरान वातावरण मंद करें</string>
-    <string name="vr_dim_playback_subtitle">वीडियो चलते समय आसमान और फ़र्श को गहरा करें, जैसे सिनेमा में।</string>
+    <string name="vr_dim_playback_subtitle">वीडियो चलते समय हॉल की लाइटें (या आसमान) मंद करें, जैसे असली सिनेमा में।</string>
     <string name="vr_settings_screen">स्क्रीन</string>
     <string name="vr_recenter_title">स्क्रीन को फिर से बीच में लाएं</string>
     <string name="vr_recenter_subtitle">स्क्रीन को वापस अपने सामने ले आएं।</string>
@@ -1061,4 +1061,6 @@
     <string name="addon_configure_paste">कॉपी किया गया लिंक इस्तेमाल करें</string>
     <string name="addon_configure_no_link">क्लिपबोर्ड पर कोई ऐडऑन लिंक नहीं मिला</string>
     <string name="addon_configure_updated">%1$s आपकी सेटिंग्स के साथ इंस्टॉल हो गया</string>
+    <string name="vr_cinema_hall_title">सिनेमा हॉल</string>
+    <string name="vr_cinema_hall_subtitle">मंच पर बड़ी स्क्रीन वाले एक क्लासिक सिनेमा हॉल में देखें। रात के आसमान के लिए बंद करें।</string>
 </resources>

@@ -2919,7 +2919,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Affiche votre pièce réelle au lieu de l’environnement virtuel. Astuce : appuyez sur Y pour basculer rapidement.</string>
     <string name="vr_dim_playback_title">Assombrir l’environnement pendant la lecture</string>
-    <string name="vr_dim_playback_subtitle">Assombrit le ciel et le sol pendant la lecture d’une vidéo, comme au cinéma.</string>
+    <string name="vr_dim_playback_subtitle">Tamise les lumières de la salle (ou le ciel) pendant la lecture d’une vidéo, comme dans un vrai cinéma.</string>
     <string name="vr_settings_screen">Écran</string>
     <string name="vr_recenter_title">Recentrer l’écran</string>
     <string name="vr_recenter_subtitle">Replace l’écran devant vous.</string>
@@ -2930,4 +2930,6 @@
     <string name="addon_configure_paste">Utiliser le lien copié</string>
     <string name="addon_configure_no_link">Aucun lien d’addon trouvé dans le presse-papiers</string>
     <string name="addon_configure_updated">%1$s installé avec vos paramètres</string>
+    <string name="vr_cinema_hall_title">Salle de cinéma</string>
+    <string name="vr_cinema_hall_subtitle">Regardez dans une salle de cinéma classique avec un grand écran sur la scène. Désactivez pour le ciel nocturne.</string>
 </resources>

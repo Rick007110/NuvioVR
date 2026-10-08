@@ -3448,7 +3448,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Pokaż prawdziwy pokój zamiast wirtualnego środowiska. Wskazówka: naciśnij Y, aby szybko przełączyć.</string>
     <string name="vr_dim_playback_title">Przyciemniaj środowisko podczas odtwarzania</string>
-    <string name="vr_dim_playback_subtitle">Przyciemnia niebo i podłogę podczas odtwarzania wideo, jak w kinie.</string>
+    <string name="vr_dim_playback_subtitle">Przyciemnia światła na sali (lub niebo) podczas odtwarzania wideo, jak w prawdziwym kinie.</string>
     <string name="vr_settings_screen">Ekran</string>
     <string name="vr_recenter_title">Wyśrodkuj ekran</string>
     <string name="vr_recenter_subtitle">Przesuń ekran z powrotem przed siebie.</string>
@@ -3459,4 +3459,6 @@
     <string name="addon_configure_paste">Użyj skopiowanego linku</string>
     <string name="addon_configure_no_link">Nie znaleziono linku do dodatku w schowku</string>
     <string name="addon_configure_updated">Zainstalowano %1$s z Twoimi ustawieniami</string>
+    <string name="vr_cinema_hall_title">Sala kinowa</string>
+    <string name="vr_cinema_hall_subtitle">Oglądaj w klasycznej sali kinowej z dużym ekranem na scenie. Wyłącz, aby zobaczyć nocne niebo.</string>
 </resources>

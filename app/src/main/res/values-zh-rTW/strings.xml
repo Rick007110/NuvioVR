@@ -3247,7 +3247,7 @@
     <string name="vr_passthrough_title">透視</string>
     <string name="vr_passthrough_subtitle">顯示您的真實房間，而非虛擬環境。提示：按 Y 鍵可快速切換。</string>
     <string name="vr_dim_playback_title">播放時調暗環境</string>
-    <string name="vr_dim_playback_subtitle">影片播放時調暗天空和地面，如同置身電影院。</string>
+    <string name="vr_dim_playback_subtitle">影片播放時調暗影廳燈光（或天空），如同置身真正的電影院。</string>
     <string name="vr_settings_screen">螢幕</string>
     <string name="vr_recenter_title">螢幕重新置中</string>
     <string name="vr_recenter_subtitle">將螢幕移回您的正前方。</string>
@@ -3258,4 +3258,6 @@
     <string name="addon_configure_paste">使用已複製的連結</string>
     <string name="addon_configure_no_link">剪貼簿中找不到擴充套件連結</string>
     <string name="addon_configure_updated">已依您的設定安裝 %1$s</string>
+    <string name="vr_cinema_hall_title">電影院</string>
+    <string name="vr_cinema_hall_subtitle">在舞台上設有大銀幕的經典電影院中觀看。關閉後顯示夜空。</string>
 </resources>

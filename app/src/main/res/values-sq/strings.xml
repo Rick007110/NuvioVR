@@ -2915,7 +2915,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Shfaq dhomën tënde reale në vend të mjedisit virtual. Këshillë: shtyp Y për të ndërruar shpejt.</string>
     <string name="vr_dim_playback_title">Errëso mjedisin gjatë riprodhimit</string>
-    <string name="vr_dim_playback_subtitle">Errëso qiellin dhe dyshemenë ndërsa luhet një video, si në kinema.</string>
+    <string name="vr_dim_playback_subtitle">Errëso dritat e sallës (ose qiellin) ndërsa luhet një video, si në një kinema të vërtetë.</string>
     <string name="vr_settings_screen">Ekrani</string>
     <string name="vr_recenter_title">Riqendërzo ekranin</string>
     <string name="vr_recenter_subtitle">Ktheje ekranin para teje.</string>
@@ -2926,4 +2926,6 @@
     <string name="addon_configure_paste">Përdor lidhjen e kopjuar</string>
     <string name="addon_configure_no_link">Nuk u gjet asnjë lidhje shtese në clipboard</string>
     <string name="addon_configure_updated">%1$s u instalua me cilësimet e tua</string>
+    <string name="vr_cinema_hall_title">Sallë kinemaje</string>
+    <string name="vr_cinema_hall_subtitle">Shiko në një sallë klasike kinemaje me një ekran të madh në skenë. Çaktivizoje për qiellin e natës.</string>
 </resources>

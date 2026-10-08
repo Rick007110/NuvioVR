@@ -2708,7 +2708,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Показвай истинската си стая вместо виртуалната среда. Съвет: натисни Y за бързо превключване.</string>
     <string name="vr_dim_playback_title">Затъмняване на средата при възпроизвеждане</string>
-    <string name="vr_dim_playback_subtitle">Затъмнява небето и пода, докато се възпроизвежда видео, като в кино.</string>
+    <string name="vr_dim_playback_subtitle">Затъмнява осветлението в залата (или небето), докато се възпроизвежда видео, като в истинско кино.</string>
     <string name="vr_settings_screen">Екран</string>
     <string name="vr_recenter_title">Центрирай екрана</string>
     <string name="vr_recenter_subtitle">Върни екрана пред себе си.</string>
@@ -2719,4 +2719,6 @@
     <string name="addon_configure_paste">Използвай копирания линк</string>
     <string name="addon_configure_no_link">В клипборда не е намерен линк към добавка</string>
     <string name="addon_configure_updated">%1$s е инсталирана с твоите настройки</string>
+    <string name="vr_cinema_hall_title">Киносалон</string>
+    <string name="vr_cinema_hall_subtitle">Гледай в класически киносалон с голям екран на сцената. Изключи за нощно небе.</string>
 </resources>

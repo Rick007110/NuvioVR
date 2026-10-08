@@ -2295,7 +2295,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Zeigt Ihren echten Raum statt der virtuellen Umgebung. Tipp: Drücken Sie Y, um schnell umzuschalten.</string>
     <string name="vr_dim_playback_title">Umgebung bei Wiedergabe abdunkeln</string>
-    <string name="vr_dim_playback_subtitle">Dunkelt Himmel und Boden ab, während ein Video läuft – wie im Kino.</string>
+    <string name="vr_dim_playback_subtitle">Dimmt das Saallicht (oder den Himmel), während ein Video läuft – wie in einem echten Kino.</string>
     <string name="vr_settings_screen">Bildschirm</string>
     <string name="vr_recenter_title">Bildschirm zentrieren</string>
     <string name="vr_recenter_subtitle">Setzt den Bildschirm wieder direkt vor Sie.</string>
@@ -2306,4 +2306,6 @@
     <string name="addon_configure_paste">Kopierten Link verwenden</string>
     <string name="addon_configure_no_link">Kein Addon-Link in der Zwischenablage gefunden</string>
     <string name="addon_configure_updated">%1$s mit Ihren Einstellungen installiert</string>
+    <string name="vr_cinema_hall_title">Kinosaal</string>
+    <string name="vr_cinema_hall_subtitle">Schauen Sie in einem klassischen Kinosaal mit großer Leinwand auf der Bühne. Ausschalten für den Nachthimmel.</string>
 </resources>

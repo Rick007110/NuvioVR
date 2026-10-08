@@ -2282,7 +2282,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">மெய்நிகர் சூழலுக்குப் பதிலாக உங்கள் உண்மையான அறையைக் காட்டு. குறிப்பு: விரைவாக மாற Y-ஐ அழுத்தவும்.</string>
     <string name="vr_dim_playback_title">இயக்கத்தின்போது சூழலை மங்கச்செய்</string>
-    <string name="vr_dim_playback_subtitle">காணொளி இயங்கும்போது, திரையரங்கில் இருப்பது போல வானத்தையும் தரையையும் இருட்டாக்கு.</string>
+    <string name="vr_dim_playback_subtitle">காணொளி இயங்கும்போது, உண்மையான திரையரங்கில் இருப்பது போல அரங்க விளக்குகளை (அல்லது வானத்தை) மங்கச்செய்.</string>
     <string name="vr_settings_screen">திரை</string>
     <string name="vr_recenter_title">திரையை மீண்டும் மையப்படுத்து</string>
     <string name="vr_recenter_subtitle">திரையை மீண்டும் உங்கள் முன்னால் கொண்டு வா.</string>
@@ -2293,4 +2293,6 @@
     <string name="addon_configure_paste">நகலெடுத்த இணைப்பைப் பயன்படுத்து</string>
     <string name="addon_configure_no_link">கிளிப்போர்டில் அட்ஆன் இணைப்பு எதுவும் இல்லை</string>
     <string name="addon_configure_updated">%1$s உங்கள் அமைப்புகளுடன் நிறுவப்பட்டது</string>
+    <string name="vr_cinema_hall_title">திரையரங்கம்</string>
+    <string name="vr_cinema_hall_subtitle">மேடையில் பெரிய திரையுடன் கூடிய பாரம்பரிய திரையரங்கில் பாருங்கள். இரவு வானத்திற்கு அணைக்கவும்.</string>
 </resources>
