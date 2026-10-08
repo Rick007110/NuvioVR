@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Nuvio</string>
+    <string name="app_name">NuvioVR</string>
     <string name="tv_channel_continue_watching">Continue Watching</string>
     <string name="type_movie">Movie</string>
     <string name="type_movies">Movies</string>
@@ -2236,15 +2236,15 @@
     <string name="auth_qr_finishing">Finishing sign in\u2026</string>
     <string name="auth_qr_code_label">Code: %1$s</string>
     <string name="auth_qr_expires">Expires in %1$s</string>
-    <string name="auth_qr_scan_instruction">Scan the QR code or enter the short code in your browser.</string>
+    <string name="auth_qr_scan_instruction">On your phone or computer, go to the link below and enter the code.</string>
     <string name="auth_qr_code_display">Code: %1$s</string>
     <string name="auth_qr_manual_instruction">Or go to %1$s and enter</string>
-    <string name="auth_qr_refresh">Refresh QR</string>
+    <string name="auth_qr_refresh">New code</string>
     <string name="auth_qr_continue_without_account">Continue without account</string>
     <string name="auth_qr_connected">Your account is connected on this TV.</string>
     <string name="auth_qr_synced_data">Your synced data</string>
-    <string name="auth_qr_generating">Generating QR\u2026</string>
-    <string name="auth_qr_unavailable">QR unavailable. Refresh to retry.</string>
+    <string name="auth_qr_generating">Generating code…</string>
+    <string name="auth_qr_unavailable">Code unavailable. Request a new code to retry.</string>
     <string name="auth_qr_please_wait">Please wait\u2026</string>
     <string name="auth_qr_continue">Continue</string>
     <string name="auth_qr_back">Back</string>

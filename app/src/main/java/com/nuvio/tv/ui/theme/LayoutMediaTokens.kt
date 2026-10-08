@@ -30,8 +30,9 @@ data class NuvioMediaTokens(
 
 object NuvioLayout {
     val tokens = NuvioLayoutTokens(
-        tvSafeHorizontal = 48.dp,
-        tvSafeVertical = 24.dp,
+        // VR panels have no overscan; keep only enough margin for the rounded panel corners.
+        tvSafeHorizontal = 32.dp,
+        tvSafeVertical = 20.dp,
         compactSafeHorizontal = 32.dp,
         compactSafeVertical = 16.dp,
         sidebarContentOffset = 54.dp,

@@ -5,4 +5,16 @@
     <style name="Theme.MyApplication.Launcher" parent="Theme.MyApplication">
         <item name="android:windowBackground">@drawable/splash_screen_background</item>
     </style>
+
+    <!-- App UI hosted in a VR panel: transparent window so the rounded panel corners
+         show the environment behind them. -->
+    <style name="Theme.MyApplication.Panel" parent="Theme.MyApplication">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- Immersive (OpenXR) activity: draws nothing itself. -->
+    <style name="Theme.NuvioVR.Immersive" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
 </resources>

@@ -365,6 +365,7 @@ open class MainActivity : ComponentActivity() {
         externalPlaybackTracker.activityLauncher = externalPlayerLauncher
 
         PluginRuntimeHooks.onActivityCreate(this)
+        com.nuvio.tv.vr.VrSession.attachPanelActivity(this)
 
         window?.decorView?.post {
             val snapshot = com.nuvio.tv.core.player.DisplayCapabilities.detect(this)
@@ -709,7 +710,8 @@ open class MainActivity : ComponentActivity() {
                 val transparentPlayerBackdrop = PlayerWindowBackdrop.isTransparentRequested
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    shape = RectangleShape,
+                    // Rounded VR panel: the corners are transparent and show the environment.
+                    shape = RoundedCornerShape(24.dp),
                     colors = SurfaceDefaults.colors(
                         containerColor = if (transparentPlayerBackdrop) {
                             Color.Transparent
@@ -721,7 +723,7 @@ open class MainActivity : ComponentActivity() {
                 ) {
                     // Wrap everything in a Box. This prevents any black flash between
                     // profile selection and the home content
-                    Box(modifier = Modifier.fillMaxSize()) {
+                    com.nuvio.tv.vr.VrPointerBridge(modifier = Modifier.fillMaxSize()) {
 
                     var startupDestination = StartupDestination.Loading
                     val surfaceContentReady = hasSeenAuthQrOnFirstLaunch != null &&
@@ -1349,6 +1351,7 @@ open class MainActivity : ComponentActivity() {
     override fun onDestroy() {
         super.onDestroy()
         PluginRuntimeHooks.onActivityDestroy()
+        com.nuvio.tv.vr.VrSession.detachPanelActivity(this)
     }
 }
 

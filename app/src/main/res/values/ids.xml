@@ -5,4 +5,5 @@
     <item name="player_view_aspect_mode_tag" type="id" />
     <item name="player_view_subtitle_style_tag" type="id" />
     <item name="player_view_sidecar_generation_tag" type="id" />
+    <item name="vr_main_panel" type="id" />
 </resources>

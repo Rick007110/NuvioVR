@@ -20,6 +20,7 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentHeight
@@ -524,40 +525,34 @@ private fun AuthQrCodeBlock(
     uiState: AccountUiState,
     remainingMillis: Long
 ) {
-    val qrBitmap = uiState.qrLoginBitmap
-    if (qrBitmap != null) {
-        Image(
-            bitmap = qrBitmap.asImageBitmap(),
-            contentDescription = stringResource(R.string.cd_qr_login),
-            modifier = Modifier
-                .size(206.dp)
-                .background(Color.White, RoundedCornerShape(8.dp))
-                .padding(8.dp),
-            contentScale = ContentScale.Fit
-        )
-    } else {
-        Box(
-            modifier = Modifier
-                .size(206.dp)
-                .background(AuthSecondaryButtonBackground, RoundedCornerShape(8.dp))
-                .border(1.dp, AuthSecondaryButtonBorder, RoundedCornerShape(8.dp)),
-            contentAlignment = Alignment.Center
-        ) {
+    // VR: a QR code can't be scanned from inside the headset, so only show the link + code.
+    Box(
+        modifier = Modifier
+            .width(460.dp)
+            .heightIn(min = 206.dp)
+            .background(AuthSecondaryButtonBackground, RoundedCornerShape(20.dp))
+            .border(1.dp, AuthSecondaryButtonBorder, RoundedCornerShape(20.dp))
+            .padding(horizontal = 24.dp, vertical = 20.dp),
+        contentAlignment = Alignment.Center
+    ) {
+        val hasCode = !uiState.qrLoginVerificationUri.isNullOrBlank() &&
+            !(uiState.qrLoginUserCode ?: uiState.qrLoginCode).isNullOrBlank()
+        if (hasCode || uiState.isLoading) {
+            AuthQrManualCodeDetails(
+                verificationUri = uiState.qrLoginVerificationUri,
+                qrLoginCode = uiState.qrLoginUserCode ?: uiState.qrLoginCode,
+                expiresAtMillis = uiState.qrLoginExpiresAtMillis,
+                remainingMillis = remainingMillis,
+                isLoading = uiState.isLoading
+            )
+        } else {
             Text(
-                text = if (uiState.isLoading) stringResource(R.string.auth_qr_generating) else stringResource(R.string.auth_qr_unavailable),
+                text = stringResource(R.string.auth_qr_unavailable),
                 color = AuthTextSecondary,
                 textAlign = TextAlign.Center
             )
         }
     }
-
-    AuthQrManualCodeDetails(
-        verificationUri = uiState.qrLoginVerificationUri,
-        qrLoginCode = uiState.qrLoginUserCode ?: uiState.qrLoginCode,
-        expiresAtMillis = uiState.qrLoginExpiresAtMillis,
-        remainingMillis = remainingMillis,
-        isLoading = uiState.isLoading
-    )
 
     Spacer(modifier = Modifier.height(12.dp))
     AuthTermsAcknowledgement()
@@ -599,19 +594,19 @@ private fun AuthQrManualCodeDetails(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         if (displayUri != null && displayCode != null) {
-            Spacer(modifier = Modifier.height(18.dp))
             Text(
-                text = stringResource(R.string.auth_qr_manual_instruction, displayVerificationUri(displayUri)),
-                style = MaterialTheme.typography.bodyMedium,
-                color = AuthTextSecondary,
+                text = displayVerificationUri(displayUri),
+                style = MaterialTheme.typography.headlineSmall.copy(fontSize = 26.sp),
+                color = AuthTextPrimary,
+                fontWeight = FontWeight.SemiBold,
                 textAlign = TextAlign.Center
             )
-            Spacer(modifier = Modifier.height(10.dp))
+            Spacer(modifier = Modifier.height(16.dp))
             Text(
                 text = formatDeviceLoginCode(displayCode),
                 style = MaterialTheme.typography.headlineSmall.copy(
-                    fontSize = if (displayCode.length == 6) 24.sp else 14.sp,
-                    letterSpacing = if (displayCode.length == 6) 3.sp else 0.sp
+                    fontSize = if (displayCode.length == 6) 44.sp else 18.sp,
+                    letterSpacing = if (displayCode.length == 6) 8.sp else 0.sp
                 ),
                 color = AuthTextPrimary,
                 fontWeight = FontWeight.SemiBold,
@@ -627,7 +622,6 @@ private fun AuthQrManualCodeDetails(
             }
         } else if (isLoading) {
             val shimmerBrush = rememberShimmerBrush(backdropAware = true)
-            Spacer(modifier = Modifier.height(18.dp))
             Box(
                 modifier = Modifier
                     .fillMaxWidth()

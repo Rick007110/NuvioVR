@@ -102,9 +102,10 @@ android {
     ndkVersion = "29.0.14206865"
 
     defaultConfig {
-        applicationId = "com.nuvio.tv"
+        applicationId = "com.nuvio.vr"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        minSdk = 24
+        // Meta Horizon OS (Quest 2/3/3S/Pro) is Android 14 and ships arm64 only.
+        minSdk = 34
         targetSdk = 36
         versionCode = 1068
         versionName = "1.1.0-beta.5"
@@ -148,8 +149,8 @@ android {
         buildConfigField("String", "SENTRY_DSN", buildConfigString(sentryDsn))
 
         // In-app updater (GitHub Releases)
-        buildConfigField("String", "GITHUB_OWNER", "\"NuvioMedia\"")
-        buildConfigField("String", "GITHUB_REPO", "\"NuvioTV\"")
+        buildConfigField("String", "GITHUB_OWNER", "\"Rick007110\"")
+        buildConfigField("String", "GITHUB_REPO", "\"NuvioVR\"")
     }
 
     flavorDimensions += "distribution"
@@ -165,7 +166,7 @@ android {
         }
         create("playstore") {
             dimension = "distribution"
-            applicationId = "com.nuvio.app"
+            applicationId = "com.nuvio.vr.app"
             buildConfigField("boolean", "FEATURE_PLUGINS_ENABLED", "false")
             buildConfigField("boolean", "FEATURE_IN_APP_UPDATES_ENABLED", "false")
             buildConfigField("boolean", "FEATURE_IN_APP_TRAILERS_ENABLED", "false")
@@ -194,7 +195,12 @@ android {
 
     buildTypes {
         debug {
-            signingConfig = signingConfigs.getByName("release")
+            // Fall back to the SDK debug key when the release keystore isn't available locally.
+            signingConfig = if (signingConfigs.getByName("release").storeFile?.exists() == true) {
+                signingConfigs.getByName("release")
+            } else {
+                signingConfigs.getByName("debug")
+            }
             isDebuggable = parseBooleanProperty(providers.gradleProperty("debuggable").orNull)
             isMinifyEnabled = false
 
@@ -276,8 +282,8 @@ android {
         abi {
             isEnable = !buildingAppBundle
             reset()
-            include("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
-            isUniversalApk = true
+            include("arm64-v8a")
+            isUniversalApk = false
         }
     }
 
@@ -291,13 +297,13 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
         isCoreLibraryDesugaringEnabled = true
     }
     kotlin {
         compilerOptions {
-            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
+            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
         }
     }
     buildFeatures {
@@ -312,6 +318,9 @@ android {
     }
 
     packaging {
+        resources {
+            excludes += "META-INF/LICENSE*"
+        }
         jniLibs {
             useLegacyPackaging = true
             // Keep one consistent native set across dependencies.
@@ -336,7 +345,7 @@ android {
 androidComponents {
     onVariants(selector().withBuildType("debug")) { variant ->
         val isPlaystore = variant.productFlavors.any { it.second == "playstore" }
-        variant.applicationId.set(if (isPlaystore) "com.nuvio.appdebug" else "com.nuviodebug.com")
+        variant.applicationId.set(if (isPlaystore) "com.nuvio.vr.appdebug" else "com.nuvio.vr.debug")
     }
 }
 
@@ -424,6 +433,13 @@ dependencies {
     implementation(libs.androidx.tvprovider)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation("androidx.activity:activity-compose:1.11.0")
+
+    // Meta Spatial SDK: immersive scene, panels, passthrough, controllers + hand tracking
+    implementation(libs.meta.spatial.sdk)
+    implementation(libs.meta.spatial.sdk.toolkit)
+    implementation(libs.meta.spatial.sdk.vr)
+    implementation(libs.meta.spatial.sdk.isdk)
+    implementation(libs.meta.spatial.sdk.compose)
 
     // Hilt
     implementation(libs.hilt.android)

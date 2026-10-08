@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Nuvio</string>
+    <string name="app_name">NuvioVR</string>
     <string name="tv_channel_continue_watching">Verder kijken</string>
     <string name="type_movie">Film</string>
     <string name="type_movies">Films</string>
@@ -2069,15 +2069,15 @@
     <string name="auth_qr_finishing">Aanmelden afronden\u2026</string>
     <string name="auth_qr_code_label">Code: %1$s</string>
     <string name="auth_qr_expires">Verloopt over %1$s</string>
-    <string name="auth_qr_scan_instruction">Scan de QR-code of voer de code in je browser in.</string>
+    <string name="auth_qr_scan_instruction">Ga op je telefoon of computer naar de link hieronder en voer de code in.</string>
     <string name="auth_qr_code_display">Code: %1$s</string>
     <string name="auth_qr_manual_instruction">Of ga naar %1$s en voer in</string>
-    <string name="auth_qr_refresh">QR vernieuwen</string>
+    <string name="auth_qr_refresh">Nieuwe code</string>
     <string name="auth_qr_continue_without_account">Doorgaan zonder account</string>
     <string name="auth_qr_connected">Je account is verbonden op deze tv.</string>
     <string name="auth_qr_synced_data">Je gesynchroniseerde gegevens</string>
-    <string name="auth_qr_generating">QR genereren\u2026</string>
-    <string name="auth_qr_unavailable">QR niet beschikbaar. Vernieuw om opnieuw te proberen.</string>
+    <string name="auth_qr_generating">Code genereren…</string>
+    <string name="auth_qr_unavailable">Code niet beschikbaar. Vraag een nieuwe code aan.</string>
     <string name="auth_qr_please_wait">Even geduld\u2026</string>
     <string name="auth_qr_continue">Doorgaan</string>
     <string name="auth_qr_back">Terug</string>
