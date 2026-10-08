@@ -3374,7 +3374,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Show your real room instead of the virtual environment. Tip: press Y to switch quickly.</string>
     <string name="vr_dim_playback_title">Dim environment during playback</string>
-    <string name="vr_dim_playback_subtitle">Darken the sky and floor while a video plays, like in a cinema.</string>
+    <string name="vr_dim_playback_subtitle">Dim the house lights (or the sky) while a video plays, like in a real cinema.</string>
     <string name="vr_settings_screen">Screen</string>
     <string name="vr_recenter_title">Recenter screen</string>
     <string name="vr_recenter_subtitle">Move the screen back in front of you.</string>
@@ -3385,4 +3385,6 @@
     <string name="addon_configure_paste">Use copied link</string>
     <string name="addon_configure_no_link">No addon link found on the clipboard</string>
     <string name="addon_configure_updated">%1$s installed with your settings</string>
+    <string name="vr_cinema_hall_title">Cinema hall</string>
+    <string name="vr_cinema_hall_subtitle">Watch in a classic movie theater with a big screen on the stage. Turn off for the night sky.</string>
 </resources>

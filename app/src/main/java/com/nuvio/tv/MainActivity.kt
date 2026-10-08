@@ -366,6 +366,7 @@ open class MainActivity : ComponentActivity() {
 
         PluginRuntimeHooks.onActivityCreate(this)
         com.nuvio.tv.vr.VrSession.attachPanelActivity(this)
+        com.nuvio.tv.vr.VrScreenLight.start(this, lifecycleScope)
 
         window?.decorView?.post {
             val snapshot = com.nuvio.tv.core.player.DisplayCapabilities.detect(this)

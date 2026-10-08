@@ -24,6 +24,7 @@ internal fun VrSettingsContent(
 ) {
     val passthroughEnabled by VrSession.passthroughEnabled.collectAsState()
     val dimDuringPlayback by VrSession.dimDuringPlayback.collectAsState()
+    val cinemaHall by VrSession.cinemaHall.collectAsState()
 
     Column(
         modifier = Modifier.fillMaxSize(),
@@ -47,6 +48,13 @@ internal fun VrSettingsContent(
                 } else {
                     Modifier
                 }
+            )
+            SettingsToggleRow(
+                title = stringResource(R.string.vr_cinema_hall_title),
+                subtitle = stringResource(R.string.vr_cinema_hall_subtitle),
+                checked = cinemaHall,
+                onToggle = { VrSession.setCinemaHall(!cinemaHall) },
+                enabled = !passthroughEnabled
             )
             SettingsToggleRow(
                 title = stringResource(R.string.vr_dim_playback_title),

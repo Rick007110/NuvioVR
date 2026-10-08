@@ -23,6 +23,7 @@ object VrSession {
     private const val PREFS_NAME = "vr_settings"
     private const val KEY_PASSTHROUGH = "passthrough_enabled"
     private const val KEY_DIM_DURING_PLAYBACK = "dim_during_playback"
+    private const val KEY_CINEMA_HALL = "cinema_hall"
 
     private var prefs: SharedPreferences? = null
 
@@ -35,6 +36,19 @@ object VrSession {
 
     /** Darken the virtual environment while a video plays. */
     val dimDuringPlayback: StateFlow<Boolean> = _dimDuringPlayback.asStateFlow()
+
+    private val _cinemaHall = MutableStateFlow(true)
+
+    /** Use the cinema hall as the virtual environment (otherwise the night sky). */
+    val cinemaHall: StateFlow<Boolean> = _cinemaHall.asStateFlow()
+
+    private val _screenColor = MutableStateFlow<Int?>(null)
+
+    /**
+     * Average colour of the video currently playing (ARGB), sampled a few times per second,
+     * so the cinema hall can be lit by the screen. Null when nothing is playing.
+     */
+    val screenColor: StateFlow<Int?> = _screenColor.asStateFlow()
 
     private val _isPlayingVideo = MutableStateFlow(false)
 
@@ -57,6 +71,7 @@ object VrSession {
         prefs = preferences
         _passthroughEnabled.value = preferences.getBoolean(KEY_PASSTHROUGH, false)
         _dimDuringPlayback.value = preferences.getBoolean(KEY_DIM_DURING_PLAYBACK, true)
+        _cinemaHall.value = preferences.getBoolean(KEY_CINEMA_HALL, true)
     }
 
     fun setPassthroughEnabled(enabled: Boolean) {
@@ -69,6 +84,15 @@ object VrSession {
     fun setDimDuringPlayback(enabled: Boolean) {
         _dimDuringPlayback.value = enabled
         prefs?.edit()?.putBoolean(KEY_DIM_DURING_PLAYBACK, enabled)?.apply()
+    }
+
+    fun setCinemaHall(enabled: Boolean) {
+        _cinemaHall.value = enabled
+        prefs?.edit()?.putBoolean(KEY_CINEMA_HALL, enabled)?.apply()
+    }
+
+    fun setScreenColor(color: Int?) {
+        _screenColor.value = color
     }
 
     fun requestRecenter() {

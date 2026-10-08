@@ -3158,7 +3158,7 @@
     <string name="vr_passthrough_title">Passthrough</string>
     <string name="vr_passthrough_subtitle">Toon je echte kamer in plaats van de virtuele omgeving. Tip: druk op Y om snel te wisselen.</string>
     <string name="vr_dim_playback_title">Omgeving dimmen tijdens afspelen</string>
-    <string name="vr_dim_playback_subtitle">Maak de lucht en vloer donker tijdens het afspelen, net als in de bioscoop.</string>
+    <string name="vr_dim_playback_subtitle">Dim de zaalverlichting (of de lucht) tijdens het afspelen, net als in een echte bioscoop.</string>
     <string name="vr_settings_screen">Scherm</string>
     <string name="vr_recenter_title">Scherm centreren</string>
     <string name="vr_recenter_subtitle">Zet het scherm weer recht voor je.</string>
@@ -3171,4 +3171,6 @@
     <string name="addon_configure_paste">Gekopieerde link gebruiken</string>
     <string name="addon_configure_no_link">Geen add-on-link gevonden op het klembord</string>
     <string name="addon_configure_updated">%1$s geïnstalleerd met jouw instellingen</string>
+    <string name="vr_cinema_hall_title">Bioscoopzaal</string>
+    <string name="vr_cinema_hall_subtitle">Kijk in een klassieke bioscoopzaal met een groot doek op het podium. Zet uit voor de sterrenhemel.</string>
 </resources>
