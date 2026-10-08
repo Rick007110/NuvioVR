@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name">Nuvio</string>
+  <string name="app_name">NuvioVR</string>
   <string name="tv_channel_continue_watching">Συνέχεια παρακολούθησης</string>
   <string name="type_movie">Ταινία</string>
   <string name="type_movies">Ταινίες</string>
@@ -18,26 +18,26 @@
   <string name="web_home_catalogs">Κατάλογοι και συλλογές αρχικής</string>
   <string name="web_no_catalogs">Δεν υπάρχουν διαθέσιμοι κατάλογοι αρχικής</string>
   <string name="web_btn_save">Αποθήκευση αλλαγών</string>
-  <string name="web_connection_lost">Η σύνδεση με την TV χάθηκε</string>
+  <string name="web_connection_lost">Η σύνδεση με το headset χάθηκε</string>
   <string name="web_btn_remove">Αφαίρεση</string>
   <string name="web_badge_new">Νέο</string>
   <string name="web_badge_disabled">Απενεργοποιημένο</string>
   <string name="web_btn_enable">Ενεργοποίηση</string>
   <string name="web_btn_disable">Απενεργοποίηση</string>
   <string name="web_error_addon_exists">Αυτό το πρόσθετο υπάρχει ήδη στη λίστα</string>
-  <string name="web_status_waiting_tv">Αναμονή για TV</string>
-  <string name="web_status_msg_waiting_tv">Επιβεβαιώστε τις αλλαγές στην TV σας για να εφαρμοστούν.</string>
+  <string name="web_status_waiting_tv">Αναμονή για το headset</string>
+  <string name="web_status_msg_waiting_tv">Επιβεβαιώστε τις αλλαγές στο headset σας για να εφαρμοστούν.</string>
   <string name="web_status_changes_applied">Οι αλλαγές εφαρμόστηκαν</string>
-  <string name="web_status_msg_addon_updated">Η διαμόρφωση πρόσθετων ενημερώθηκε στην TV.</string>
-  <string name="web_status_msg_repo_updated">Η διαμόρφωση αποθετηρίων ενημερώθηκε στην TV.</string>
+  <string name="web_status_msg_addon_updated">Οι ρυθμίσεις πρόσθετων ενημερώθηκαν στο NuvioVR.</string>
+  <string name="web_status_msg_repo_updated">Οι ρυθμίσεις αποθετηρίων ενημερώθηκαν στο NuvioVR.</string>
   <string name="web_status_changes_rejected">Οι αλλαγές απορρίφθηκαν</string>
-  <string name="web_status_msg_changes_rejected">Οι αλλαγές απορρίφθηκαν στην TV. Η λίστα σας επανήλθε.</string>
+  <string name="web_status_msg_changes_rejected">Οι αλλαγές απορρίφθηκαν στο headset. Η λίστα σας επανήλθε.</string>
   <string name="web_status_error">Κάτι πήγε στραβά</string>
-  <string name="web_error_failed_save">Αποτυχία αποθήκευσης. Ελέγξτε τη σύνδεσή σας με την TV.</string>
+  <string name="web_error_failed_save">Η αποθήκευση απέτυχε. Ελέγξτε τη σύνδεσή σας με το headset.</string>
   <string name="web_btn_dismiss">Απόρριψη</string>
   <string name="web_status_timeout">Λήξη χρονικού ορίου</string>
-  <string name="web_status_msg_timeout">Δεν υπήρξε απόκριση από την TV. Δοκιμάστε ξανά.</string>
-  <string name="web_status_msg_connection_lost">Ο διακομιστής TV δεν είναι πλέον προσβάσιμος. Οι αλλαγές ενδέχεται να εφαρμόστηκαν.</string>
+  <string name="web_status_msg_timeout">Καμία απόκριση από το headset. Δοκιμάστε ξανά.</string>
+  <string name="web_status_msg_connection_lost">Ο διακομιστής NuvioVR δεν είναι πλέον προσβάσιμος. Οι αλλαγές μπορεί να έχουν εφαρμοστεί.</string>
   <string name="web_manage_repos_title">Διαχείριση αποθετηρίων</string>
   <string name="web_manage_repos_subtitle">Διαχειριστείτε τα αποθετήριά σας</string>
   <string name="web_add_repo_url">Προσθήκη αποθετηρίου μέσω URL</string>
@@ -46,7 +46,7 @@
   <string name="web_error_repo_exists">Αυτό το αποθετήριο υπάρχει ήδη στη λίστα</string>
   <string name="web_manage_collections_title">Διαχείριση συλλογών</string>
   <string name="web_manage_collections_subtitle">Δημιουργήστε και διαχειριστείτε τις προσαρμοσμένες συλλογές σας</string>
-  <string name="web_status_msg_collections_updated">Οι συλλογές σας ενημερώθηκαν στην TV.</string>
+  <string name="web_status_msg_collections_updated">Οι συλλογές σας ενημερώθηκαν στο NuvioVR.</string>
   <string name="web_tab_addons">Πρόσθετα</string>
   <string name="web_tab_home_layout">Διάταξη αρχικής</string>
   <string name="web_tab_collections">Συλλογές</string>
@@ -399,15 +399,15 @@
   <string name="about_licenses_attributions">Άδειες &amp; αναγνώριση</string>
   <string name="about_licenses_attributions_subtitle">Πηγές δεδομένων, ευχαριστίες και άδειες Android</string>
   <string name="licenses_attributions_title">Άδειες &amp; αναγνώριση</string>
-  <string name="licenses_attributions_subtitle">Πάροχοι δεδομένων, αναγνώριση υπηρεσιών και άδειες αναπαραγωγής Android που χρησιμοποιεί το Nuvio TV.</string>
+  <string name="licenses_attributions_subtitle">Πάροχοι δεδομένων, αναφορές υπηρεσιών και άδειες αναπαραγωγής Android που χρησιμοποιεί το NuvioVR.</string>
   <string name="licenses_attributions_section_app">ΑΔΕΙΑ ΕΦΑΡΜΟΓΗΣ</string>
   <string name="licenses_attributions_section_data">ΔΕΔΟΜΕΝΑ &amp; ΥΠΗΡΕΣΙΕΣ</string>
   <string name="licenses_attributions_section_playback">ΑΔΕΙΕΣ ΑΝΑΠΑΡΑΓΩΓΗΣ ANDROID</string>
   <string name="licenses_attributions_section_ui">ΒΙΒΛΙΟΘΗΚΕΣ UI</string>
   <string name="licenses_attributions_haze_title">Haze 1.7.2</string>
   <string name="licenses_attributions_haze_body">Χρησιμοποιείται για εφέ θολώματος φόντου. Δημιουργήθηκε από τον Chris Banes. Διατίθεται υπό την άδεια Apache, έκδοση 2.0.</string>
-  <string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-  <string name="licenses_attributions_nuvio_body">Ο πηγαίος κώδικας και οι όροι άδειας είναι διαθέσιμοι στο αποθετήριο του έργου. Διατίθεται υπό την άδεια GNU General Public License v3.0.</string>
+  <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+  <string name="licenses_attributions_nuvio_body">Βασίζεται στο Nuvio TV της Nuvio Media. Ο πηγαίος κώδικας και οι όροι άδειας είναι διαθέσιμοι στο αποθετήριο του έργου. Διατίθεται με άδεια GNU General Public License v3.0.</string>
   <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
   <string name="licenses_attributions_tmdb_body">Το Nuvio χρησιμοποιεί το API του TMDB για μεταδεδομένα ταινιών και σειρών, εικόνες, τρέιλερ, ηθοποιούς, λεπτομέρειες παραγωγής, συλλογές και προτάσεις. Αυτό το προϊόν χρησιμοποιεί το API του TMDB αλλά δεν υποστηρίζεται ούτε πιστοποιείται από το TMDB.</string>
   <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -479,13 +479,13 @@
   <string name="account_error_password_too_weak">Ο κωδικός πρόσβασης είναι πολύ αδύναμος.</string>
   <string name="account_error_signup_disabled">Η εγγραφή είναι προσωρινά απενεργοποιημένη.</string>
   <string name="account_error_rate_limited">Πάρα πολλές προσπάθειες. Δοκιμάστε ξανά αργότερα.</string>
-  <string name="account_error_qr_login_expired">Η σύνδεση QR έληξε. Δοκιμάστε ξανά.</string>
-  <string name="account_error_invalid_qr_login">Μη έγκυρος κωδικός σύνδεσης QR.</string>
-  <string name="account_error_qr_login_other_device">Αυτή η σύνδεση QR ζητήθηκε από άλλη συσκευή.</string>
-  <string name="account_error_qr_login_outdated">Η υπηρεσία σύνδεσης QR είναι παρωχημένη. Εφαρμόστε ξανά τη ρύθμιση SQL TV login.</string>
-  <string name="account_error_qr_login_missing_setup">Το backend σύνδεσης QR δεν έχει ρυθμιστεί. Ενημερώστε τη ρύθμιση SQL TV login.</string>
-  <string name="account_error_qr_login_misconfigured">Η URL σύνδεσης QR είναι εσφαλμένα ρυθμισμένη.</string>
-  <string name="account_error_qr_login_invalid_request">Το αίτημα σύνδεσης QR ήταν μη έγκυρο. Δοκιμάστε ξανά.</string>
+  <string name="account_error_qr_login_expired">Ο κωδικός σύνδεσης έληξε. Δοκιμάστε ξανά.</string>
+  <string name="account_error_invalid_qr_login">Μη έγκυρος κωδικός σύνδεσης.</string>
+  <string name="account_error_qr_login_other_device">Αυτός ο κωδικός σύνδεσης ζητήθηκε από άλλη συσκευή.</string>
+  <string name="account_error_qr_login_outdated">Η υπηρεσία σύνδεσης συσκευής είναι παρωχημένη. Εφαρμόστε ξανά τη ρύθμιση SQL σύνδεσης συσκευής.</string>
+  <string name="account_error_qr_login_missing_setup">Λείπει η ρύθμιση από το backend σύνδεσης συσκευής. Ενημερώστε τη ρύθμιση SQL σύνδεσης συσκευής.</string>
+  <string name="account_error_qr_login_misconfigured">Η διεύθυνση URL σύνδεσης δεν έχει ρυθμιστεί σωστά.</string>
+  <string name="account_error_qr_login_invalid_request">Το αίτημα σύνδεσης δεν ήταν έγκυρο. Δοκιμάστε ξανά.</string>
   <string name="account_error_no_internet">Δεν υπάρχει σύνδεση στο Internet.</string>
   <string name="account_error_connection_timeout">Λήξη χρονικού ορίου σύνδεσης. Δοκιμάστε ξανά.</string>
   <string name="account_error_connection_refused">Δεν ήταν δυνατή η σύνδεση με τον διακομιστή.</string>
@@ -563,7 +563,7 @@
   <string name="action_close">Κλείσιμο</string>
   <!-- SupportersContributorsScreen -->
   <string name="supporters_contributors_title">Υποστηρικτές &amp; Συνεισφέροντες</string>
-  <string name="supporters_contributors_subtitle">Οι άνθρωποι που υποστηρίζουν το Nuvio και οι συνεισφέροντες που το χτίζουν σε TV και κινητά.</string>
+  <string name="supporters_contributors_subtitle">Οι άνθρωποι που υποστηρίζουν το Nuvio και οι συνεισφέροντες που το αναπτύσσουν για TV, κινητά και VR.</string>
   <string name="supporters_contributors_supporters_copy">Οι υποστηρικτές και δωρητές βοηθούν να συνεχίζεται το έργο, χρηματοδοτούν την υποδομή και ανοίγουν χώρο για φιλόδοξα χαρακτηριστικά.</string>
   <string name="supporters_contributors_donate_copy">Το Nuvio θα παραμείνει δωρεάν και ανοιχτού κώδικα. Αν θέλετε να υποστηρίξετε το έργο, μπορείτε να βοηθήσετε στην κάλυψη του χρόνου και της υποδομής πίσω από αυτό.</string>
   <string name="supporters_contributors_donate_button">Δωρεά στο Nuvio</string>
@@ -590,8 +590,8 @@
   <string name="contributors_error_title">Δεν ήταν δυνατή η φόρτωση συνεισφερόντων</string>
   <string name="contributors_total_contributions">%1$d συνολικές συνεισφορές</string>
   <string name="contributors_open_github">Άνοιγμα προφίλ GitHub</string>
-  <string name="contributors_show_kofi_qr">Εμφάνιση QR Ko-fi</string>
-  <string name="contributors_hide_kofi_qr">Απόκρυψη QR Ko-fi</string>
+  <string name="contributors_show_kofi_qr">Εμφάνιση συνδέσμου Ko-fi</string>
+  <string name="contributors_hide_kofi_qr">Απόκρυψη συνδέσμου Ko-fi</string>
   <string name="contributors_profile_unavailable">Ο σύνδεσμος προφίλ GitHub δεν είναι διαθέσιμος.</string>
   <!-- SupporterMembershipPanel -->
   <string name="support_nuvio_name">Υποστήριξη Nuvio</string>
@@ -610,9 +610,9 @@
   <string name="supporter_membership_tier_supporter_plus">Υποστηρικτής Plus</string>
   <string name="supporter_membership_connected_title">Το Patreon είναι συνδεδεμένο</string>
   <string name="supporter_membership_connected_description">Δεν βρέθηκε ενεργή βαθμίδα Nuvio σε αυτόν τον λογαριασμό Patreon. Δείτε τις διαθέσιμες επιλογές ή ανανεώστε μετά την αλλαγή της συνδρομής σας στο Patreon.</string>
-  <string name="supporter_membership_scan_support">Σάρωση για προβολή συνδρομής</string>
+  <string name="supporter_membership_scan_support">Προβολή συνδρομής online</string>
   <string name="supporter_membership_scan_support_description">Ανοίξτε τη σελίδα Συνδρομή υποστηρικτή στο κινητό σας.</string>
-  <string name="supporter_membership_scan_manage">Σάρωση για διαχείριση συνδρομής</string>
+  <string name="supporter_membership_scan_manage">Διαχείριση συνδρομής online</string>
   <string name="supporter_membership_scan_manage_description">Ανοίξτε τις ρυθμίσεις συνδρομής Patreon στο κινητό σας.</string>
   <string name="cd_membership_qr">QR code σελίδας συνδρομής</string>
   <string name="supporters_level_supporter">Υποστηρικτής</string>
@@ -724,7 +724,7 @@
   <string name="audio_enable_downmix_title">Ενεργοποίηση downmix</string>
   <string name="audio_enable_downmix_subtitle">Χρησιμοποιεί τη διαδρομή downmix FFmpeg. Απαιτεί «Προτίμηση αποκωδικοποιητών εφαρμογής (FFmpeg)». Όταν είναι απενεργοποιημένο, ο ήχος ακολουθεί την προηγούμενη διαδρομή Android/συσκευής.</string>
   <string name="audio_tunneled">Αναπαραγωγή tunneled</string>
-  <string name="audio_tunneled_sub">Συγχρονισμός ήχου/βίντεο σε επίπεδο υλικού. Μπορεί να βελτιώσει την αναπαραγωγή σε ορισμένες συσκευές Android TV</string>
+  <string name="audio_tunneled_sub">Συγχρονισμός ήχου/εικόνας σε επίπεδο υλικού. Μπορεί να βελτιώσει την αναπαραγωγή σε ορισμένες συσκευές</string>
   <string name="audio_mpv_hi10p_gnext_sw_title">Εφεδρική αποκωδικοποίηση λογισμικού G-NEXT για Hi10P (μόνο MPV)</string>
   <string name="audio_mpv_hi10p_gnext_sw_subtitle">Χρήση αποκωδικοποίησης λογισμικού G-NEXT όταν τα στοιχεία ροής αναγνωρίζουν H.264 Hi10P. Απενεργοποιημένο από προεπιλογή· ενεργοποιήστε το μόνο αν η αναπαραγωγή Hi10P κολλάει ή αποτυγχάνει.</string>
   <string name="audio_mpv_hwdec_title">Αποκωδικοποίηση υλικού (μόνο MPV)</string>
@@ -1026,7 +1026,7 @@
   <string name="layout_custom_poster_clear">Καθαρισμός</string>
   <string name="layout_custom_poster_active">✓ Η προσαρμοσμένη πηγή αφίσας είναι ενεργή</string>
   <string name="layout_custom_poster_qr">Διαμόρφωση μέσω κινητού</string>
-  <string name="custom_poster_qr_instruction">Σαρώστε τον κωδικό QR με το κινητό σας για να επικολλήσετε ένα μοτίβο URL αφίσας</string>
+  <string name="custom_poster_qr_instruction">Ανοίξτε αυτή τη διεύθυνση σε έναν browser στο ίδιο Wi-Fi για να επικολλήσετε ένα μοτίβο URL αφίσας</string>
   <string name="layout_custom_poster_screen_home">Αρχική</string>
   <string name="layout_custom_poster_screen_continue_watching">Συνέχεια παρακολούθησης</string>
   <string name="layout_custom_poster_screen_collections">Συλλογές</string>
@@ -1056,7 +1056,7 @@
   <string name="mdblist_connected_as">Συνδεδεμένος ως %1$s</string>
   <string name="mdblist_account_fallback">Χρήστης MDBList</string>
   <string name="mdblist_insufficient_scope">Το MDBList δεν παραχώρησε άδεια ενημέρωσης του ιστορικού παρακολούθησης. Συνδεθείτε ξανά και επιτρέψτε την πρόσβαση εγγραφής.</string>
-  <string name="mdblist_awaiting_instruction">Σαρώστε τον κωδικό QR ή εισαγάγετε αυτόν τον κωδικό στη διεύθυνση παρακάτω.</string>
+  <string name="mdblist_awaiting_instruction">Μεταβείτε στην παρακάτω διεύθυνση και εισαγάγετε αυτόν τον κωδικό.</string>
   <string name="mdblist_qr_description">Κωδικός QR για σύνδεση του λογαριασμού σας MDBList</string>
   <string name="mdblist_status_enter_code">Εγκρίνετε τη σύνδεση στον λογαριασμό σας MDBList.</string>
   <string name="mdblist_status_syncing">Συγχρονισμός ιστορικού παρακολούθησης και προόδου αναπαραγωγής…</string>
@@ -1151,7 +1151,7 @@
   <string name="debrid_disconnect">Αποσύνδεση</string>
   <string name="debrid_device_auth_connected">Το %1$s είναι συνδεδεμένο σε αυτή τη συσκευή.</string>
   <string name="debrid_device_auth_starting">Εκκίνηση ασφαλούς σύνδεσης…</string>
-  <string name="debrid_device_auth_instructions">Σαρώστε το QR και εισάγετε αυτόν τον κωδικό για έγκριση του Nuvio.</string>
+  <string name="debrid_device_auth_instructions">Μεταβείτε σε αυτή τη διεύθυνση από το τηλέφωνο ή τον υπολογιστή σας και εισαγάγετε τον κωδικό για να εγκρίνετε το Nuvio.</string>
   <string name="debrid_device_auth_code_copied">Ο κωδικός αντιγράφηκε.</string>
   <string name="debrid_device_auth_waiting">Αναμονή για έγκριση…</string>
   <string name="debrid_device_auth_failed">Δεν ήταν δυνατή η εκκίνηση της σύνδεσης.</string>
@@ -1200,7 +1200,7 @@
   <string name="debrid_formatter_configure">Άνοιγμα επεξεργαστή web</string>
   <string name="debrid_formatter_reset_title">Επαναφορά μορφοποίησης</string>
   <string name="debrid_formatter_reset_subtitle">Επαναφορά προεπιλεγμένης μορφοποίησης πηγών.</string>
-  <string name="debrid_formatter_qr_instruction">Σαρώστε αυτόν τον κωδικό QR στο τηλέφωνό σας για να ρυθμίσετε τις πηγές Debrid.</string>
+  <string name="debrid_formatter_qr_instruction">Ανοίξτε αυτή τη διεύθυνση σε έναν browser στο ίδιο Wi-Fi για να ρυθμίσετε τις πηγές Debrid.</string>
   <!-- Anime-Skip -->
   <string name="animeskip_title">Anime Skip</string>
   <string name="animeskip_subtitle">Διαμόρφωση Client ID για Anime Skip (παράλειψη εισαγωγής/επιλόγου anime)</string>
@@ -1253,14 +1253,14 @@
   <string name="trakt_waiting_approval">Αναμονή έγκρισης…</string>
   <string name="qr_login_approved">Η σύνδεση εγκρίθηκε. Ολοκλήρωση σύνδεσης…</string>
   <string name="qr_login_pending">Αναμονή έγκρισης στο κινητό σας…</string>
-  <string name="qr_login_expired">Η σύνδεση QR έληξε. Δημιουργήστε νέο κωδικό.</string>
-  <string name="qr_login_preparing">Προετοιμασία σύνδεσης QR...</string>
+  <string name="qr_login_expired">Ο κωδικός σύνδεσης έληξε. Ζητήστε νέο κωδικό.</string>
+  <string name="qr_login_preparing">Προετοιμασία κωδικού σύνδεσης…</string>
   <string name="qr_login_device_auth_failed">Αποτυχία ταυτοποίησης συσκευής</string>
-  <string name="qr_login_scan_prompt">Σαρώστε το QR και συνδεθείτε από το τηλέφωνό σας</string>
-  <string name="qr_login_start_failed">Αποτυχία έναρξης σύνδεσης QR</string>
+  <string name="qr_login_scan_prompt">Μεταβείτε στον σύνδεσμο και εισαγάγετε τον κωδικό από το τηλέφωνο ή τον υπολογιστή σας</string>
+  <string name="qr_login_start_failed">Αποτυχία έναρξης σύνδεσης με κωδικό</string>
   <string name="qr_login_signing_in">Γίνεται σύνδεση…</string>
   <string name="qr_login_success">Η σύνδεση ολοκληρώθηκε με επιτυχία</string>
-  <string name="qr_login_exchange_failed">Δεν ήταν δυνατή η ολοκλήρωση της σύνδεσης QR</string>
+  <string name="qr_login_exchange_failed">Δεν ήταν δυνατή η ολοκλήρωση της σύνδεσης με κωδικό</string>
   <string name="trakt_code_expires">Ο κωδικός λήγει σε %1$s</string>
   <string name="trakt_token_refreshes">Το token πρόσβασης Trakt ανανεώνεται σε %1$s</string>
   <string name="trakt_login_instruction">Πατήστε Σύνδεση για να ξεκινήσει η πιστοποίηση Trakt. Θα εμφανιστεί QR code εδώ.</string>
@@ -1475,13 +1475,13 @@
   <string name="profile_save">Αποθήκευση</string>
   <string name="profile_copy_settings_label">Αντιγραφή ρυθμίσεων</string>
   <string name="profile_copy_settings_setup_title">Ρυθμίσεις προφίλ</string>
-  <string name="profile_copy_settings_setup_subtitle">Ξεκινήστε από την αρχή ή αντιγράψτε μία φορά τις ρυθμίσεις TV από άλλο προφίλ.</string>
+  <string name="profile_copy_settings_setup_subtitle">Ξεκινήστε από την αρχή ή αντιγράψτε μία φορά τις ρυθμίσεις από άλλο προφίλ.</string>
   <string name="profile_copy_settings_start_fresh">Ξεκινήστε από την αρχή</string>
   <string name="profile_copy_settings_primary_source">%1$s (Κύριο)</string>
   <string name="profile_copy_settings_create_fresh">Ρυθμίσεις: Ξεκινήστε από την αρχή</string>
   <string name="profile_copy_settings_create_source">Ρυθμίσεις: %1$s</string>
   <string name="profile_copy_settings_title">Αντιγραφή ρυθμίσεων στο %1$s</string>
-  <string name="profile_copy_settings_subtitle">Επιλέξτε ένα προφίλ-πηγή. Οι υποστηριζόμενες ρυθμίσεις TV του θα αντικαταστήσουν μία φορά τις ρυθμίσεις αυτού του προφίλ.</string>
+  <string name="profile_copy_settings_subtitle">Επιλέξτε ένα προφίλ-πηγή. Οι υποστηριζόμενες ρυθμίσεις του θα αντικαταστήσουν μία φορά τις ρυθμίσεις αυτού του προφίλ.</string>
   <string name="profile_copy_settings_from">Αντιγραφή από</string>
   <string name="profile_copy_settings_action">Αντιγραφή ρυθμίσεων</string>
   <string name="profile_copy_settings_copying">Αντιγραφή\u2026</string>
@@ -1531,7 +1531,7 @@
   <!-- Essential addon setup wizard -->
   <string name="essential_addon_setup_title">Ρύθμιση πρόσθετων</string>
   <string name="essential_addon_setup_subtitle">Εγκαταστήστε ένα πρόσθετο για να ξεκινήσετε streaming. Μπορείτε να προσθέσετε περισσότερα αργότερα από τα Πρόσθετα.</string>
-  <string name="essential_addon_show_qr">Εμφάνιση QR</string>
+  <string name="essential_addon_show_qr">Διαχείριση από κινητό</string>
   <!-- Collection editor fallbacks -->
   <string name="collection_editor_no_trakt_lists_found">Δεν βρέθηκαν λίστες Trakt</string>
   <string name="collection_editor_untitled_folder">Χωρίς τίτλο</string>
@@ -1554,14 +1554,14 @@
   <string name="addon_delete_no">Όχι</string>
   <string name="addon_delete_yes">Ναι</string>
   <string name="addon_manage_from_phone_title">Διαχείριση από κινητό</string>
-  <string name="addon_manage_from_phone_subtitle">Σαρώστε QR code για να διαχειριστείτε πρόσθετα και καταλόγους αρχικής οθόνης από το κινητό σας</string>
-  <string name="addon_manage_addons_only_from_phone_subtitle">Σαρώστε QR code για εγκατάσταση ή αφαίρεση πρόσθετων από το κινητό σας</string>
-  <string name="addon_manage_collections_from_phone_subtitle">Σαρώστε QR code για διαχείριση συλλογών από το κινητό σας</string>
+  <string name="addon_manage_from_phone_subtitle">Ανοίξτε μια ιστοσελίδα στο κινητό ή τον υπολογιστή σας για διαχείριση πρόσθετων, καταλόγων και συλλογών</string>
+  <string name="addon_manage_addons_only_from_phone_subtitle">Ανοίξτε μια ιστοσελίδα στο κινητό ή τον υπολογιστή σας για εγκατάσταση ή αφαίρεση πρόσθετων</string>
+  <string name="addon_manage_collections_from_phone_subtitle">Ανοίξτε μια ιστοσελίδα στο κινητό ή τον υπολογιστή σας για διαχείριση συλλογών</string>
   <string name="addon_reorder_title">Αναδιάταξη καταλόγων αρχικής οθόνης</string>
   <string name="addon_reorder_subtitle">Ελέγχει τη σειρά των γραμμών καταλόγων στην Αρχική (Classic + Modern + Grid)</string>
-  <string name="addon_qr_scan_instruction">Σαρώστε με το κινητό σας για διαχείριση πρόσθετων και καταλόγων</string>
-  <string name="addon_qr_addons_only_scan_instruction">Σαρώστε με το κινητό σας για εγκατάσταση ή αφαίρεση πρόσθετων</string>
-  <string name="addon_qr_collections_scan_instruction">Σαρώστε με το κινητό σας για διαχείριση συλλογών</string>
+  <string name="addon_qr_scan_instruction">Ανοίξτε αυτή τη διεύθυνση σε έναν browser σε κινητό ή υπολογιστή στο ίδιο Wi-Fi για διαχείριση πρόσθετων, καταλόγων και συλλογών</string>
+  <string name="addon_qr_addons_only_scan_instruction">Ανοίξτε αυτή τη διεύθυνση σε έναν browser στο ίδιο Wi-Fi για εγκατάσταση ή αφαίρεση πρόσθετων</string>
+  <string name="addon_qr_collections_scan_instruction">Ανοίξτε αυτή τη διεύθυνση σε έναν browser στο ίδιο Wi-Fi για διαχείριση συλλογών</string>
   <string name="addon_qr_close">Κλείσιμο</string>
   <string name="addon_confirm_title">Επιβεβαίωση αλλαγών πρόσθετων &amp; καταλόγων</string>
   <string name="addon_confirm_subtitle">Έγιναν οι ακόλουθες αλλαγές από το κινητό σας:</string>
@@ -1979,8 +1979,8 @@
   <string name="account_loading">Φόρτωση…</string>
   <string name="account_sync_description">Συγχρονίστε τη βιβλιοθήκη, την πρόοδο παρακολούθησης και τα πρόσθετά σας σε όλες τις συσκευές.</string>
   <string name="account_sync_restart_note">Ο συγχρονισμός δεν είναι πραγματικού χρόνου σε ενεργές συσκευές. Επανεκκινήστε αυτή τη συσκευή μετά τη σύνδεση ή για να λάβετε αλλαγές που έγιναν αλλού.</string>
-  <string name="account_signin_qr_title">Σύνδεση με QR</string>
-  <string name="account_signin_qr_subtitle">Σαρώστε QR code και ολοκληρώστε τη σύνδεση με email στο κινητό σας</string>
+  <string name="account_signin_qr_title">Σύνδεση με κωδικό</string>
+  <string name="account_signin_qr_subtitle">Εισαγάγετε έναν κωδικό στο κινητό ή τον υπολογιστή σας για να συνδεθείτε</string>
   <string name="account_signin_email_title">Σύνδεση</string>
   <string name="account_signin_email_subtitle">Εισάγετε το email και τον κωδικό πρόσβασης του αυτοφιλοξενούμενου λογαριασμού σας</string>
   <string name="account_signed_in_label">Συνδεδεμένος</string>
@@ -1989,8 +1989,8 @@
   <string name="account_sign_out">Αποσύνδεση</string>
   <!-- AuthSignInScreen -->
   <string name="auth_signin_title">Σύνδεση</string>
-  <string name="auth_signin_tv_disabled">Η εισαγωγή email/κωδικού στην TV είναι απενεργοποιημένη. Συνεχίστε με QR σύνδεση.</string>
-  <string name="auth_signin_qr_btn">Συνέχεια με QR</string>
+  <string name="auth_signin_tv_disabled">Η σύνδεση με email/κωδικό πρόσβασης είναι απενεργοποιημένη σε αυτόν τον διακομιστή. Συνεχίστε με σύνδεση μέσω κωδικού.</string>
+  <string name="auth_signin_qr_btn">Συνέχεια με κωδικό</string>
   <string name="auth_email_hint">Συνδεθείτε απευθείας με τον λογαριασμό στον αυτοφιλοξενούμενο διακομιστή σας.</string>
   <string name="auth_email_instruction">Εισάγετε το email και τον κωδικό πρόσβασης για να συνεχίσετε.</string>
   <string name="auth_email_placeholder">Διεύθυνση email</string>
@@ -2039,19 +2039,19 @@
   <string name="custom_server_session_clear_failed">Δεν ήταν δυνατή η ασφαλής εκκαθάριση της τρέχουσας συνεδρίας. Ο διακομιστής δεν άλλαξε.</string>
   <string name="custom_server_restart_failed">Ο διακομιστής αποθηκεύτηκε, αλλά η εφαρμογή δεν μπόρεσε να επανεκκινήσει αυτόματα. Επανεκκινήστε την χειροκίνητα.</string>
   <!-- AuthQrSignInScreen -->
-  <string name="auth_qr_title">Σύνδεση με QR</string>
+  <string name="auth_qr_title">Σύνδεση με κωδικό</string>
   <string name="auth_qr_finishing">Ολοκλήρωση σύνδεσης…</string>
   <string name="auth_qr_code_label">Κωδικός: %1$s</string>
   <string name="auth_qr_expires">Λήγει σε %1$s</string>
-  <string name="auth_qr_scan_instruction">Σαρώστε QR, εγκρίνετε στον browser και επιστρέψτε εδώ.</string>
+  <string name="auth_qr_scan_instruction">Από το κινητό ή τον υπολογιστή σας, μεταβείτε στον παρακάτω σύνδεσμο και εισαγάγετε τον κωδικό.</string>
   <string name="auth_qr_code_display">Κωδικός: %1$s</string>
   <string name="auth_qr_manual_instruction">Ή μεταβείτε στο %1$s και εισάγετε τον κωδικό</string>
-  <string name="auth_qr_refresh">Ανανέωση QR</string>
+  <string name="auth_qr_refresh">Νέος κωδικός</string>
   <string name="auth_qr_continue_without_account">Συνέχεια χωρίς λογαριασμό</string>
-  <string name="auth_qr_connected">Ο λογαριασμός σας είναι συνδεδεμένος σε αυτή την TV.</string>
+  <string name="auth_qr_connected">Ο λογαριασμός σας είναι συνδεδεμένος σε αυτό το headset.</string>
   <string name="auth_qr_synced_data">Τα συγχρονισμένα σας δεδομένα</string>
-  <string name="auth_qr_generating">Δημιουργία QR…</string>
-  <string name="auth_qr_unavailable">Το QR δεν είναι διαθέσιμο. Ανανεώστε για επανάληψη.</string>
+  <string name="auth_qr_generating">Δημιουργία κωδικού…</string>
+  <string name="auth_qr_unavailable">Ο κωδικός δεν είναι διαθέσιμος. Ζητήστε νέο κωδικό για να δοκιμάσετε ξανά.</string>
   <string name="auth_qr_please_wait">Παρακαλώ περιμένετε…</string>
   <string name="auth_qr_continue">Συνέχεια</string>
   <string name="auth_qr_back">Πίσω</string>
@@ -2085,8 +2085,8 @@
   <string name="plugin_add_repository">Προσθήκη αποθετηρίου</string>
   <string name="plugin_add_btn">Προσθήκη</string>
   <string name="plugin_manage_from_phone_title">Διαχείριση από κινητό</string>
-  <string name="plugin_manage_from_phone_subtitle">Σαρώστε QR code για προσθήκη ή αφαίρεση αποθετηρίων από το κινητό σας</string>
-  <string name="plugin_qr_instruction">Σαρώστε με το κινητό σας για διαχείριση αποθετηρίων</string>
+  <string name="plugin_manage_from_phone_subtitle">Ανοίξτε μια ιστοσελίδα στο κινητό ή τον υπολογιστή σας για προσθήκη ή αφαίρεση αποθετηρίων</string>
+  <string name="plugin_qr_instruction">Ανοίξτε αυτή τη διεύθυνση σε έναν browser στο ίδιο Wi-Fi για διαχείριση αποθετηρίων</string>
   <string name="plugin_qr_close">Κλείσιμο</string>
   <string name="plugin_confirm_title">Επιβεβαίωση αλλαγών αποθετηρίων</string>
   <string name="plugin_confirm_subtitle">Έγιναν οι ακόλουθες αλλαγές από το κινητό σας:</string>
@@ -2387,7 +2387,7 @@
   <string name="collections_editor_pin_above">Καρφίτσωμα πάνω από τους καταλόγους</string>
   <string name="collections_editor_pin_above_desc">Εμφάνιση αυτής της συλλογής πάνω από όλους τους κανονικούς καταλόγους αρχικής. Πολλές καρφιτσωμένες συλλογές ακολουθούν τη σειρά δημιουργίας των συλλογών.</string>
   <string name="collections_editor_focus_glow">Λάμψη εστίασης</string>
-  <string name="collections_editor_focus_glow_desc">Χρήση της εγγενούς λάμψης TV στις προσαρμοσμένες κάρτες καταλόγου αυτής της συλλογής στην αρχική οθόνη</string>
+  <string name="collections_editor_focus_glow_desc">Χρήση της λάμψης εστίασης στις προσαρμοσμένες κάρτες καταλόγου αυτής της συλλογής στην αρχική οθόνη</string>
   <string name="collections_editor_view_mode">Τρόπος προβολής</string>
   <string name="collections_editor_show_all_tab">Εμφάνιση καρτέλας «Όλα»</string>
   <string name="collections_editor_show_all_tab_desc">Συνδυάστε όλους τους καταλόγους σε μία καρτέλα</string>
@@ -2886,7 +2886,7 @@
   <string name="settings_fusion_badge_preview_empty">Δεν υπάρχουν εικόνες Fusion-style badge σε αυτό το URL.</string>
   <string name="settings_fusion_badge_group_title">Ομάδα %1$d</string>
   <string name="settings_fusion_badge_other_group_title">Άλλα Fusion badges</string>
-  <string name="stream_badge_qr_instruction">Σαρώστε αυτό το QR code από το κινητό σας για διαχείριση Fusion badge URLs.</string>
+  <string name="stream_badge_qr_instruction">Ανοίξτε αυτή τη διεύθυνση σε έναν browser στο ίδιο Wi-Fi για να διαχειριστείτε τα URL σημάτων Fusion.</string>
   <string name="streams_size">ΜΕΓΕΘΟΣ %1$s</string>
   <string name="action_import">Εισαγωγή</string>
   <string name="action_delete">Διαγραφή</string>
@@ -3272,4 +3272,17 @@
   <string name="autosync_toast_failed_no_reference">Ο συγχρονισμός απέτυχε: αυτό το βίντεο δεν έχει ενσωματωμένους υπότιτλους για σύγκριση.</string>
   <string name="autosync_toast_failed_unsupported">Ο συγχρονισμός απέτυχε: ο αυτόματος συγχρονισμός δεν υποστηρίζει αυτή τη μορφή υποτίτλων.</string>
   <string name="autosync_label_synced">Αυτόματα συγχρονισμένος</string>
+  <!-- NuvioVR -->
+  <string name="settings_vr">VR</string>
+  <string name="vr_settings_subtitle">Περιβάλλον και οθόνη στο headset σας</string>
+  <string name="vr_settings_environment">Περιβάλλον</string>
+  <string name="vr_passthrough_title">Passthrough</string>
+  <string name="vr_passthrough_subtitle">Εμφάνιση του πραγματικού σας χώρου αντί για το εικονικό περιβάλλον. Συμβουλή: πατήστε Y για γρήγορη εναλλαγή.</string>
+  <string name="vr_dim_playback_title">Χαμήλωμα περιβάλλοντος κατά την αναπαραγωγή</string>
+  <string name="vr_dim_playback_subtitle">Σκουραίνει τον ουρανό και το δάπεδο όσο παίζει ένα βίντεο, όπως σε κινηματογράφο.</string>
+  <string name="vr_settings_screen">Οθόνη</string>
+  <string name="vr_recenter_title">Επανακεντράρισμα οθόνης</string>
+  <string name="vr_recenter_subtitle">Μετακινεί την οθόνη ξανά μπροστά σας.</string>
+  <string name="player_vr_passthrough_on">Εμφάνιση περιβάλλοντος χώρου</string>
+  <string name="player_vr_passthrough_off">Απόκρυψη περιβάλλοντος χώρου</string>
 </resources>

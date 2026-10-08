@@ -2,10 +2,8 @@
 
 package com.nuvio.tv.ui.screens.settings
 
-import android.graphics.Bitmap
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -32,7 +30,6 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.res.stringResource
@@ -46,7 +43,7 @@ import androidx.tv.material3.ExperimentalTvMaterial3Api
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
 import com.nuvio.tv.R
-import com.nuvio.tv.core.qr.QrCodeGenerator
+import com.nuvio.tv.ui.components.ManualLinkCard
 import com.nuvio.tv.domain.model.MemberTier
 import com.nuvio.tv.domain.model.MembershipOverview
 import com.nuvio.tv.domain.model.MembershipOverviewState
@@ -79,9 +76,6 @@ internal fun SupporterMembershipPanel(
 ) {
     val manageMembership = state.overview?.subscriptionActive == true
     val actionUrl = if (manageMembership) PatreonMembershipUrl else supportUrl
-    val qrBitmap = remember(actionUrl) {
-        runCatching { QrCodeGenerator.generate(actionUrl, 420) }.getOrNull()
-    }
     val rotation = animateFloatAsState(
         targetValue = if (showQr) 180f else 0f,
         animationSpec = tween(durationMillis = 480),
@@ -123,7 +117,7 @@ internal fun SupporterMembershipPanel(
         )
 
         MembershipPanelBack(
-            qrBitmap = qrBitmap,
+            actionUrl = actionUrl,
             manageMembership = manageMembership,
             backFocusRequester = backFocusRequester,
             isVisible = showQr,
@@ -431,7 +425,7 @@ private fun MembershipPrimaryButton(
 
 @Composable
 private fun MembershipPanelBack(
-    qrBitmap: Bitmap?,
+    actionUrl: String,
     manageMembership: Boolean,
     backFocusRequester: FocusRequester,
     isVisible: Boolean,
@@ -470,15 +464,13 @@ private fun MembershipPanelBack(
             textAlign = TextAlign.Center
         )
         Spacer(modifier = Modifier.height(22.dp))
-        if (qrBitmap != null) {
-            Image(
-                bitmap = qrBitmap.asImageBitmap(),
-                contentDescription = stringResource(R.string.cd_membership_qr),
-                modifier = Modifier
-                    .size(220.dp)
-                    .clip(RoundedCornerShape(NuvioTheme.spacing.xl))
-            )
-        }
+        // VR: a QR code can't be scanned from inside the headset, so show the link to type instead.
+        ManualLinkCard(
+            url = actionUrl,
+            stripScheme = true,
+            minWidth = 0.dp,
+            modifier = Modifier.fillMaxWidth()
+        )
         Spacer(modifier = Modifier.height(18.dp))
         Button(
             onClick = onHideQr,

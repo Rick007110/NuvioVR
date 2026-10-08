@@ -124,21 +124,17 @@ fun LayoutSettingsContent(
 
         if (streamBadgeUiState.isQrModeActive) {
             QrCodeOverlay(
-                qrBitmap = streamBadgeUiState.qrCodeBitmap,
                 serverUrl = streamBadgeUiState.serverUrl,
                 instruction = stringResource(R.string.stream_badge_qr_instruction),
-                onClose = viewModel::stopStreamBadgeQrMode,
-                qrSize = 168.dp
+                onClose = viewModel::stopStreamBadgeQrMode
             )
         }
 
         if (customPosterQrState.isActive) {
             QrCodeOverlay(
-                qrBitmap = customPosterQrState.qrCodeBitmap,
                 serverUrl = customPosterQrState.serverUrl,
                 instruction = stringResource(R.string.custom_poster_qr_instruction),
-                onClose = viewModel::stopCustomPosterQrMode,
-                qrSize = 168.dp
+                onClose = viewModel::stopCustomPosterQrMode
             )
         }
     }

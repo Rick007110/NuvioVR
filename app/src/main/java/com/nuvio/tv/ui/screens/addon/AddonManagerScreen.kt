@@ -2,14 +2,12 @@ package com.nuvio.tv.ui.screens.addon
 
 import com.nuvio.tv.ui.theme.NuvioTheme
 
-import android.graphics.Bitmap
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.rememberScrollState
@@ -27,6 +25,7 @@ import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActions
@@ -39,7 +38,7 @@ import androidx.compose.material.icons.filled.ArrowUpward
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.PhoneAndroid
-import androidx.compose.material.icons.filled.QrCode2
+import androidx.compose.material.icons.filled.Language
 import androidx.compose.material.icons.filled.Reorder
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.Card
@@ -67,8 +66,6 @@ import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.asImageBitmap
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
@@ -80,10 +77,9 @@ import androidx.compose.ui.state.ToggleableState
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.window.Popup
+import com.nuvio.tv.vr.Popup
 import androidx.compose.ui.window.PopupProperties
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.compose.foundation.lazy.LazyColumn
@@ -107,6 +103,7 @@ import com.nuvio.tv.domain.model.Addon
 import com.nuvio.tv.domain.model.CatalogDescriptor
 import com.nuvio.tv.domain.model.ExperienceMode
 import com.nuvio.tv.ui.components.LoadingIndicator
+import com.nuvio.tv.ui.components.ManualLinkCard
 import com.nuvio.tv.ui.components.NuvioDialog
 import com.nuvio.tv.ui.util.contentTextDirection
 import androidx.lifecycle.Lifecycle
@@ -512,7 +509,6 @@ fun AddonManagerScreen(
         if (uiState.isQrModeActive) {
             Popup(properties = PopupProperties(focusable = true)) {
                 QrCodeOverlay(
-                    qrBitmap = uiState.qrCodeBitmap,
                     serverUrl = uiState.serverUrl,
                     instruction = qrInstruction,
                     onClose = viewModel::stopQrMode,
@@ -659,7 +655,7 @@ private fun ManageFromPhoneCard(
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Icon(
-                    imageVector = Icons.Default.QrCode2,
+                    imageVector = Icons.Default.Language,
                     contentDescription = null,
                     modifier = Modifier.size(28.dp),
                     tint = if (isFocused) NuvioTheme.colors.Secondary else NuvioTheme.colors.TextSecondary
@@ -881,12 +877,10 @@ private fun RefreshAddonsEntryCard(
 @OptIn(ExperimentalTvMaterial3Api::class)
 @Composable
 internal fun QrCodeOverlay(
-    qrBitmap: Bitmap?,
     serverUrl: String?,
     instruction: String,
     onClose: () -> Unit,
-    hasPendingChange: Boolean = false,
-    qrSize: Dp = 220.dp
+    hasPendingChange: Boolean = false
 ) {
     val focusRequester = remember { FocusRequester() }
 
@@ -909,32 +903,19 @@ internal fun QrCodeOverlay(
         ) {
             Text(
                 text = instruction,
-                style = MaterialTheme.typography.bodyMedium,
+                style = MaterialTheme.typography.bodyLarge,
                 color = NuvioTheme.colors.TextSecondary,
-                textAlign = TextAlign.Center
+                textAlign = TextAlign.Center,
+                modifier = Modifier.widthIn(max = 560.dp)
             )
 
             Spacer(modifier = Modifier.height(NuvioTheme.spacing.lg))
 
-            if (qrBitmap != null) {
-                Image(
-                    bitmap = qrBitmap.asImageBitmap(),
-                    contentDescription = stringResource(R.string.cd_qr_code),
-                    modifier = Modifier.size(qrSize),
-                    contentScale = ContentScale.Fit
-                )
-            }
-
-            Spacer(modifier = Modifier.height(NuvioTheme.spacing.md))
-
-            if (serverUrl != null) {
-                Text(
-                    text = serverUrl,
-                    style = MaterialTheme.typography.bodySmall,
-                    color = NuvioTheme.colors.TextTertiary,
-                    textAlign = TextAlign.Center
-                )
-            }
+            // VR: a QR code can't be scanned from inside the headset, so show the URL to type instead.
+            ManualLinkCard(
+                url = serverUrl,
+                isLoading = serverUrl == null
+            )
 
             Spacer(modifier = Modifier.height(NuvioTheme.spacing.xl))
 

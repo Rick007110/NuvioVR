@@ -24,7 +24,7 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 private const val TAG = "DeviceSessionRegistration"
-private const val CLIENT_NAME = "Nuvio TV"
+private const val CLIENT_NAME = "NuvioVR"
 private const val REGISTRATION_INTERVAL_MS = 15 * 60 * 1000L
 private const val MAX_DEVICE_NAME_LENGTH = 160
 
@@ -132,7 +132,7 @@ internal fun currentDeviceClientMetadata(context: Context): DeviceClientMetadata
         configuredName = configuredName,
         manufacturer = Build.MANUFACTURER.orEmpty(),
         model = Build.MODEL.orEmpty(),
-        fallback = "Android TV"
+        fallback = "Meta Quest"
     ).take(MAX_DEVICE_NAME_LENGTH)
     val osVersion = Build.VERSION.RELEASE.orEmpty()
         .trim()
@@ -140,7 +140,7 @@ internal fun currentDeviceClientMetadata(context: Context): DeviceClientMetadata
 
     return DeviceClientMetadata(
         deviceName = deviceName,
-        platform = "Android TV $osVersion"
+        platform = "Meta Quest (Android $osVersion)"
     )
 }
 

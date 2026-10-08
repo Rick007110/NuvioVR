@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Nuvio</string>
+    <string name="app_name">NuvioVR</string>
     <string name="tv_channel_continue_watching">متابعة المشاهدة</string>
     <string name="type_movies">أفلام</string>
     <string name="type_movie">فيلم</string>
@@ -19,26 +19,26 @@
     <string name="web_home_catalogs">القوائم والمجموعات الرئيسية</string>
     <string name="web_no_catalogs">لا توجد قوائم رئيسية متاحة</string>
     <string name="web_btn_save">حفظ التغييرات</string>
-    <string name="web_connection_lost">فُقد الاتصال بالتلفاز</string>
+    <string name="web_connection_lost">فُقد الاتصال بالنظارة</string>
     <string name="web_btn_remove">إزالة</string>
     <string name="web_badge_new">جديد</string>
     <string name="web_badge_disabled">معطل</string>
     <string name="web_btn_enable">تفعيل</string>
     <string name="web_btn_disable">تعطيل</string>
     <string name="web_error_addon_exists">هذه الإضافة موجودة مسبقاً في القائمة</string>
-    <string name="web_status_waiting_tv">في انتظار التلفاز</string>
-    <string name="web_status_msg_waiting_tv">يرجى تأكيد التغييرات على التلفاز لتطبيقها.</string>
+    <string name="web_status_waiting_tv">بانتظار النظارة</string>
+    <string name="web_status_msg_waiting_tv">يرجى تأكيد التغييرات في نظارتك لتطبيقها.</string>
     <string name="web_status_changes_applied">تم تطبيق التغييرات</string>
-    <string name="web_status_msg_addon_updated">تم تحديث إعدادات الإضافات على التلفاز.</string>
-    <string name="web_status_msg_repo_updated">تم تحديث إعدادات مستودعك على التلفاز.</string>
+    <string name="web_status_msg_addon_updated">تم تحديث إعدادات الإضافات في NuvioVR.</string>
+    <string name="web_status_msg_repo_updated">تم تحديث إعدادات المستودعات في NuvioVR.</string>
     <string name="web_status_changes_rejected">تم رفض التغييرات</string>
-    <string name="web_status_msg_changes_rejected">تم رفض التغييرات على التلفاز. تمت استعادة قائمتك إلى ما كانت عليه.</string>
+    <string name="web_status_msg_changes_rejected">تم رفض التغييرات في النظارة. تمت استعادة قائمتك.</string>
     <string name="web_status_error">حدث خطأ ما</string>
-    <string name="web_error_failed_save">فشل الحفظ. تحقق من اتصالك بالتلفاز.</string>
+    <string name="web_error_failed_save">فشل الحفظ. تحقق من الاتصال بالنظارة.</string>
     <string name="web_btn_dismiss">تجاهل</string>
     <string name="web_status_timeout">انتهت المهلة</string>
-    <string name="web_status_msg_timeout">لا توجد استجابة من التلفاز. يرجى إعادة المحاولة .</string>
-    <string name="web_status_msg_connection_lost">لم يعد من الممكن الوصول إلى خادم التلفاز. ربما تم تطبيق التغييرات.</string>
+    <string name="web_status_msg_timeout">لا توجد استجابة من النظارة. يرجى المحاولة مرة أخرى.</string>
+    <string name="web_status_msg_connection_lost">لم يعد خادم NuvioVR متاحًا. ربما تم تطبيق التغييرات.</string>
     <string name="web_manage_repos_title">إدارة المستودعات</string>
     <string name="web_manage_repos_subtitle">إدارة مستودعاتك</string>
     <string name="web_add_repo_url">إضافة مستودع عبر الرابط</string>
@@ -47,7 +47,7 @@
     <string name="web_error_repo_exists">هذا المستودع موجود مسبقًا في القائمة</string>
     <string name="web_manage_collections_title">إدارة المجموعات</string>
     <string name="web_manage_collections_subtitle">إنشاء وإدارة مجموعاتك الخاصة</string>
-    <string name="web_status_msg_collections_updated">تم تحديث مجموعاتك على التلفاز.</string>
+    <string name="web_status_msg_collections_updated">تم تحديث مجموعاتك في NuvioVR.</string>
     <string name="web_tab_addons">الإضافات</string>
     <string name="web_tab_home_layout">تنسيق الواجهة الرئيسية</string>
     <string name="web_tab_collections">المجموعات</string>
@@ -360,12 +360,12 @@
     <string name="about_licenses_attributions">Licenses &amp; Attribution</string>
     <string name="about_licenses_attributions_subtitle">Data sources, acknowledgements, and Android licenses</string>
     <string name="licenses_attributions_title">Licenses &amp; Attribution</string>
-    <string name="licenses_attributions_subtitle">Data providers, service credits, and Android playback licenses used by Nuvio TV.</string>
+    <string name="licenses_attributions_subtitle">مزودو البيانات وشكر الخدمات وتراخيص تشغيل Android التي يستخدمها NuvioVR.</string>
     <string name="licenses_attributions_section_app">APP LICENSE</string>
     <string name="licenses_attributions_section_data">DATA &amp; SERVICES</string>
     <string name="licenses_attributions_section_playback">ANDROID PLAYBACK LICENSES</string>
-    <string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-    <string name="licenses_attributions_nuvio_body">Source code and license terms are available in the project repository. Licensed under the GNU General Public License v3.0.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">مبني على Nuvio TV من Nuvio Media. الشيفرة المصدرية وشروط الترخيص متاحة في مستودع المشروع. مرخّص بموجب GNU General Public License v3.0.</string>
     <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
     <string name="licenses_attributions_tmdb_body">Nuvio uses the TMDB API for movie and TV metadata, artwork, trailers, cast, production details, collections, and recommendations. This product uses the TMDB API but is not endorsed or certified by TMDB.</string>
     <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -436,13 +436,13 @@
     <string name="account_error_password_too_weak">كلمة المرور ضعيفة جداً.</string>
     <string name="account_error_signup_disabled">التسجيل معطل حالياً.</string>
     <string name="account_error_rate_limited">محاولات كثيرة. يرجى إعادة المحاولة لاحقاً.</string>
-    <string name="account_error_qr_login_expired">انتهت صلاحية تسجيل الدخول عبر رمز QR. يرجى المحاولة مرة أخرى.</string>
-    <string name="account_error_invalid_qr_login">رمز تسجيل الدخول QR غير صالح.</string>
-    <string name="account_error_qr_login_other_device">تم طلب تسجيل الدخول عبر رمز QR من جهاز آخر.</string>
-    <string name="account_error_qr_login_outdated">خدمة تسجيل الدخول عبر رمز QR قديمة. أعد تطبيق إعدادات SQL لتسجيل دخول التلفاز.</string>
-    <string name="account_error_qr_login_missing_setup">إعدادات الواجهة الخلفية لتسجيل الدخول عبر رمز QR مفقودة. قم بتحديث إعدادات SQL لتسجيل دخول التلفاز.</string>
-    <string name="account_error_qr_login_misconfigured">رابط تسجيل الدخول عبر رمز QR غير مهيأ بشكل صحيح.</string>
-    <string name="account_error_qr_login_invalid_request">طلب تسجيل الدخول عبر رمز QR غير صالح. يرجى إعادة المحاولة.</string>
+    <string name="account_error_qr_login_expired">انتهت صلاحية رمز تسجيل الدخول. يرجى المحاولة مرة أخرى.</string>
+    <string name="account_error_invalid_qr_login">رمز تسجيل الدخول غير صالح.</string>
+    <string name="account_error_qr_login_other_device">تم طلب رمز تسجيل الدخول هذا من جهاز آخر.</string>
+    <string name="account_error_qr_login_outdated">خدمة تسجيل دخول الجهاز قديمة. أعد تطبيق إعداد SQL لتسجيل دخول الجهاز.</string>
+    <string name="account_error_qr_login_missing_setup">إعداد الخادم الخلفي لتسجيل دخول الجهاز غير مكتمل. حدّث إعداد SQL لتسجيل دخول الجهاز.</string>
+    <string name="account_error_qr_login_misconfigured">عنوان URL لتسجيل الدخول غير مُعدّ بشكل صحيح.</string>
+    <string name="account_error_qr_login_invalid_request">طلب تسجيل الدخول غير صالح. يرجى إعادة المحاولة.</string>
     <string name="account_error_no_internet">لا يوجد اتصال بالإنترنت.</string>
     <string name="account_error_connection_timeout">انتهت مهلة الاتصال. يرجى المحاولة مرة أخرى.</string>
     <string name="account_error_connection_refused">تعذر الاتصال بالخادم.</string>
@@ -515,7 +515,7 @@
     <string name="action_close">إغلاق</string>
 
     <string name="supporters_contributors_title">الداعمون &amp; المساهمون</string>
-    <string name="supporters_contributors_subtitle">الأشخاص الداعمون لـ Nuvio والمساهمون في بنائه عبر التلفاز والهاتف.</string>
+    <string name="supporters_contributors_subtitle">الأشخاص الداعمون لـ Nuvio والمساهمون في بنائه عبر التلفاز والهاتف والواقع الافتراضي.</string>
     <string name="supporters_contributors_supporters_copy">يساعد الداعمون والمتبرعون في استمرار المشروع وتمويل البنية التحتية وإفساح المجال للميزات الطموحة.</string>
     <string name="supporters_contributors_donate_copy">سيبقى Nuvio مجانياً ومفتوح المصدر. إذا كنت ترغب في دعم المشروع، يمكنك المساعدة في تغطية تكاليف الوقت والبنية التحتية.</string>
     <string name="supporters_contributors_donate_button">التبرع لـ Nuvio</string>
@@ -542,8 +542,8 @@
     <string name="contributors_error_title">تعذر تحميل قائمة المساهمين</string>
     <string name="contributors_total_contributions">إجمالي المساهمات %1$d</string>
     <string name="contributors_open_github">فتح الملف الشخصي على GitHub</string>
-    <string name="contributors_show_kofi_qr">إظهار رمز QR لـ Ko-fi</string>
-    <string name="contributors_hide_kofi_qr">إخفاء رمز QR لـ Ko-fi</string>
+    <string name="contributors_show_kofi_qr">إظهار رابط Ko-fi</string>
+    <string name="contributors_hide_kofi_qr">إخفاء رابط Ko-fi</string>
     <string name="contributors_profile_unavailable">رابط ملف GitHub غير متاح.</string>
     <!-- PlaybackSettingsSections -->
     <string name="playback_loading_overlay">واجهة التحميل</string>
@@ -624,7 +624,7 @@
     <string name="audio_decoder_priority">أولوية فك التشفير</string>
     <string name="audio_enable_downmix_title">تفعيل دمج القنوات (Downmix).</string>
     <string name="audio_tunneled">التشغيل النفقي</string>
-    <string name="audio_tunneled_sub">Hardware-level audio/video sync. May improve playback on some Android TV devices</string>
+    <string name="audio_tunneled_sub">مزامنة الصوت والفيديو على مستوى العتاد. قد يحسّن التشغيل على بعض الأجهزة</string>
     <!-- DV7 Handling Mode -->
     <string name="dv7_handling_title">Dolby Vision Profile 7 Handling</string>
     <string name="dv7_handling_dialog_subtitle">Choose how DV Profile 7 streams are processed at playback time.</string>
@@ -946,7 +946,7 @@
     <string name="debrid_disconnect">قطع الاتصال</string>
     <string name="debrid_device_auth_connected">حساب %1$s متصل.</string>
     <string name="debrid_device_auth_starting">بدء الدخول...</string>
-    <string name="debrid_device_auth_instructions">امسح الـ QR وأدخل الرمز للموافقة.</string>
+    <string name="debrid_device_auth_instructions">انتقل إلى هذا العنوان على هاتفك أو حاسوبك وأدخل الرمز للموافقة على Nuvio.</string>
     <string name="debrid_device_auth_code_copied">تم النسخ.</string>
     <string name="debrid_device_auth_waiting">بانتظار التأكيد...</string>
     <string name="debrid_device_auth_failed">تعذر الدخول.</string>
@@ -1034,7 +1034,7 @@
     <string name="debrid_formatter_configure">فتح محرر الويب</string>
     <string name="debrid_formatter_reset_title">استعادة الإعدادات</string>
     <string name="debrid_formatter_reset_subtitle">استعادة التنسيق الافتراضي للمصدر.</string>
-    <string name="debrid_formatter_qr_instruction">امسح الباركود لضبط الإعدادات.</string>
+    <string name="debrid_formatter_qr_instruction">افتح هذا العنوان في متصفح على نفس شبكة Wi-Fi لضبط إعدادات مصادر Debrid.</string>
     <string name="settings_stream_badges_section">شارات Fusion</string>
     <string name="settings_stream_size_badges_title">شارات الحجم</string>
     <string name="settings_stream_size_badges_description">إظهار شارات حجم الملف في نتائج البحث والمصادر داخل المشغل.</string>
@@ -1054,7 +1054,7 @@
     <string name="settings_fusion_badge_preview_empty">هذا الرابط لا يحتوي على صور.</string>
     <string name="settings_fusion_badge_group_title">مجموعة %1$d</string>
     <string name="settings_fusion_badge_other_group_title">شارات أخرى</string>
-    <string name="stream_badge_qr_instruction">امسح الباركود للتحكم بروابط Fusion.</string>
+    <string name="stream_badge_qr_instruction">افتح هذا العنوان في متصفح على نفس شبكة Wi-Fi لإدارة روابط شارات Fusion.</string>
     <string name="streams_size">حجم %1$s</string>
     <string name="action_import">جلب</string>
     <string name="action_delete">حذف</string>
@@ -1114,14 +1114,14 @@
     <string name="trakt_waiting_approval">بانتظار الموافقة…</string>
     <string name="qr_login_approved">تمت الموافقة على الدخول. جاري إنهاء تسجيل الدخول…</string>
     <string name="qr_login_pending">بانتظار الموافقة على هاتفك…</string>
-    <string name="qr_login_expired">انتهت صلاحية تسجيل الدخول عبر QR. قم بإنشاء رمز جديد.</string>
-    <string name="qr_login_preparing">جاري تجهيز رمز QR للدخول...</string>
+    <string name="qr_login_expired">انتهت صلاحية رمز تسجيل الدخول. اطلب رمزًا جديدًا.</string>
+    <string name="qr_login_preparing">جارٍ تجهيز رمز تسجيل الدخول\u2026</string>
     <string name="qr_login_device_auth_failed">فشلت مصادقة الجهاز</string>
-    <string name="qr_login_scan_prompt">امسح رمز QR وسجل الدخول من هاتفك</string>
-    <string name="qr_login_start_failed">فشل بدء تسجيل الدخول عبر رمز QR</string>
+    <string name="qr_login_scan_prompt">انتقل إلى الرابط وأدخل الرمز على هاتفك أو حاسوبك</string>
+    <string name="qr_login_start_failed">تعذّر بدء تسجيل الدخول بالرمز</string>
     <string name="qr_login_signing_in">جاري تسجيل الدخول…</string>
     <string name="qr_login_success">تم تسجيل الدخول بنجاح</string>
-    <string name="qr_login_exchange_failed">تعذر إكمال تسجيل الدخول عبر رمز QR</string>
+    <string name="qr_login_exchange_failed">تعذّر إكمال تسجيل الدخول بالرمز</string>
     <string name="trakt_code_expires">تنتهي صلاحية الرمز خلال %1$s</string>
     <string name="trakt_token_refreshes">يتجدد رمز وصول Trakt خلال %1$s</string>
     <string name="trakt_login_instruction">اضغط تسجيل دخول لبدء مصادقة جهاز Trakt. سيظهر رمز QR هنا.</string>
@@ -1289,7 +1289,7 @@
     <!-- Essential addon setup wizard -->
     <string name="essential_addon_setup_title">ضبط الإضافات</string>
     <string name="essential_addon_setup_subtitle">ثبت اضافة واحدة لبدء المشاهدة. يمكنك تثبيت المزيد لاحقًا من خانة الاضافات.</string>
-    <string name="essential_addon_show_qr">أظهر رمز QR</string>
+    <string name="essential_addon_show_qr">الإدارة من الهاتف</string>
     <!-- Collection editor fallbacks -->
     <string name="collection_editor_no_trakt_lists_found">لم يتم العثور على قوائم Trakt</string>
     <string name="collection_editor_untitled_folder">بدون عنوان</string>
@@ -1309,14 +1309,14 @@
     <string name="addon_remove">إزالة</string>
     <string name="addons_badge_disabled">معطل</string>
     <string name="addon_manage_from_phone_title">الإدارة من الهاتف</string>
-    <string name="addon_manage_from_phone_subtitle">امسح رمز QR لإدارة الإضافات والقوائم الرئيسية من هاتفك</string>
-    <string name="addon_manage_addons_only_from_phone_subtitle">امسح رمز QR لإدارة الإضافات من هاتفك</string>
-    <string name="addon_manage_collections_from_phone_subtitle">امسح رمز QR لإدارة المجموعات من هاتفك</string>
+    <string name="addon_manage_from_phone_subtitle">افتح صفحة ويب على هاتفك أو حاسوبك لإدارة الإضافات والقوائم والمجموعات</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">افتح صفحة ويب على هاتفك أو حاسوبك لتثبيت الإضافات أو إزالتها</string>
+    <string name="addon_manage_collections_from_phone_subtitle">افتح صفحة ويب على هاتفك أو حاسوبك لإدارة المجموعات</string>
     <string name="addon_reorder_title">إعادة ترتيب القوائم الرئيسية</string>
     <string name="addon_reorder_subtitle">يتحكم في ترتيب صفوف القوائم في الواجهة (كلاسيكي + حديث + شبكي)</string>
-    <string name="addon_qr_scan_instruction">امسح بهاتفك لإدارة الإضافات والقوائم</string>
-    <string name="addon_qr_addons_only_scan_instruction">امسح بهاتفك لإدارة الإضافات</string>
-    <string name="addon_qr_collections_scan_instruction">امسح بهاتفك لإدارة المجموعات</string>
+    <string name="addon_qr_scan_instruction">افتح هذا العنوان في متصفح على هاتف أو حاسوب متصل بنفس شبكة Wi-Fi لإدارة الإضافات والقوائم والمجموعات</string>
+    <string name="addon_qr_addons_only_scan_instruction">افتح هذا العنوان في متصفح على نفس شبكة Wi-Fi لتثبيت الإضافات أو إزالتها</string>
+    <string name="addon_qr_collections_scan_instruction">افتح هذا العنوان في متصفح على نفس شبكة Wi-Fi لإدارة المجموعات</string>
     <string name="addon_qr_close">إغلاق</string>
     <string name="addon_confirm_title">تأكيد تغييرات &amp; الإضافات والقوائم</string>
     <string name="addon_confirm_subtitle">تم إجراء التغييرات التالية من هاتفك:</string>
@@ -1702,8 +1702,8 @@
     <string name="account_loading">جاري التحميل\u2026</string>
     <string name="account_sync_description">زامن مكتبتك، تقدم المشاهدة، الإضافات، والملحقات عبر أجهزتك.</string>
     <string name="account_sync_restart_note">المزامنة ليست فورية عبر الأجهزة النشطة. أعد تشغيل هذا الجهاز بعد تسجيل الدخول أو لالتقاط التغييرات التي تمت في مكان آخر.</string>
-    <string name="account_signin_qr_title">الدخول برمز QR</string>
-    <string name="account_signin_qr_subtitle">امسح رمز QR وأكمل تسجيل الدخول ببريدك من هاتفك</string>
+    <string name="account_signin_qr_title">تسجيل الدخول برمز</string>
+    <string name="account_signin_qr_subtitle">أدخل رمزًا على هاتفك أو حاسوبك لتسجيل الدخول</string>
     <string name="account_signed_in_label">تم تسجيل الدخول</string>
     <string name="account_total_label">الإجمالي</string>
     <string name="account_loading_sync">جاري تحميل بيانات المزامنة\u2026</string>
@@ -1719,22 +1719,22 @@
 
     <!-- AuthSignInScreen -->
     <string name="auth_signin_title">تسجيل الدخول</string>
-    <string name="auth_signin_tv_disabled">إدخال البريد/كلمة السر على التلفاز معطل. تابع عبر رمز QR.</string>
-    <string name="auth_signin_qr_btn">المتابعة عبر QR</string>
+    <string name="auth_signin_tv_disabled">تسجيل الدخول بالبريد الإلكتروني/كلمة المرور معطّل على هذا الخادم. تابع بتسجيل الدخول بالرمز.</string>
+    <string name="auth_signin_qr_btn">المتابعة برمز</string>
 
     <!-- AuthQrSignInScreen -->
-    <string name="auth_qr_title">الدخول برمز QR</string>
+    <string name="auth_qr_title">تسجيل الدخول برمز</string>
     <string name="auth_qr_finishing">جاري إنهاء تسجيل الدخول\u2026</string>
     <string name="auth_qr_code_label">الرمز: %1$s</string>
     <string name="auth_qr_expires">ينتهي خلال %1$s</string>
-    <string name="auth_qr_scan_instruction">امسح رمز QR، وافق من المتصفح، ثم عُد إلى هنا.</string>
+    <string name="auth_qr_scan_instruction">على هاتفك أو حاسوبك، انتقل إلى الرابط أدناه وأدخل الرمز.</string>
     <string name="auth_qr_code_display">الرمز: %1$s</string>
-    <string name="auth_qr_refresh">تحديث الرمز</string>
+    <string name="auth_qr_refresh">رمز جديد</string>
     <string name="auth_qr_continue_without_account">المتابعة بدون حساب</string>
-    <string name="auth_qr_connected">حسابك متصل على هذا التلفاز.</string>
+    <string name="auth_qr_connected">حسابك متصل على هذه النظارة.</string>
     <string name="auth_qr_synced_data">بياناتك المتزامنة</string>
-    <string name="auth_qr_generating">جاري إنشاء رمز QR\u2026</string>
-    <string name="auth_qr_unavailable">رمز QR غير متاح. حدث للمحاولة مرة أخرى.</string>
+    <string name="auth_qr_generating">جارٍ إنشاء الرمز\u2026</string>
+    <string name="auth_qr_unavailable">الرمز غير متاح. اطلب رمزًا جديدًا لإعادة المحاولة.</string>
     <string name="auth_qr_please_wait">يرجى الانتظار\u2026</string>
     <string name="auth_qr_continue">متابعة</string>
     <string name="auth_qr_back">رجوع</string>
@@ -1774,8 +1774,8 @@
     <string name="plugin_add_repository">إضافة مستودع</string>
     <string name="plugin_add_btn">إضافة</string>
     <string name="plugin_manage_from_phone_title">الإدارة من الهاتف</string>
-    <string name="plugin_manage_from_phone_subtitle">امسح رمز QR لإضافة أو إزالة المستودعات من هاتفك</string>
-    <string name="plugin_qr_instruction">امسح بهاتفك لإدارة المستودعات</string>
+    <string name="plugin_manage_from_phone_subtitle">افتح صفحة ويب على هاتفك أو حاسوبك لإضافة المستودعات أو إزالتها</string>
+    <string name="plugin_qr_instruction">افتح هذا العنوان في متصفح على نفس شبكة Wi-Fi لإدارة المستودعات</string>
     <string name="plugin_qr_close">إغلاق</string>
     <string name="plugin_confirm_title">تأكيد تغييرات المستودعات</string>
     <string name="plugin_confirm_subtitle">تم إجراء التغييرات التالية من هاتفك:</string>
@@ -2065,7 +2065,7 @@
     <string name="collections_editor_pin_above">تثبيت أعلى الفهارس</string>
     <string name="collections_editor_pin_above_desc">عرض هذه المجموعة فوق فهارس الرئيسية. المجموعات المتعددة تتبع ترتيب إنشائها.</string>
     <string name="collections_editor_focus_glow">توهج التركيز</string>
-    <string name="collections_editor_focus_glow_desc">تفعيل توهج التلفاز الافتراضي لبطاقات هذه المجموعة</string>
+    <string name="collections_editor_focus_glow_desc">استخدام توهج التركيز على بطاقات القوائم المخصصة لهذه المجموعة في الشاشة الرئيسية</string>
     <string name="collections_editor_view_mode">وضع العرض</string>
     <string name="collections_editor_show_all_tab">عرض علامة "الكل"</string>
     <string name="collections_editor_show_all_tab_desc">دمج جميع الفهارس في علامة تبويب واحدة</string>
@@ -3041,4 +3041,23 @@
     <string name="web_stream_badge_imported">استُورد رابط الشارة.</string>
     <string name="web_stream_badge_importing">جارٍ الاستيراد\u2026</string>
     <string name="web_stream_badge_load_error">تعذر تحميل إعدادات شارات البث</string>
+    <!-- NuvioVR -->
+    <string name="supporter_membership_scan_support">عرض العضوية عبر الإنترنت</string>
+    <string name="supporter_membership_scan_manage">إدارة العضوية عبر الإنترنت</string>
+    <string name="custom_poster_qr_instruction">افتح هذا العنوان في متصفح على نفس شبكة Wi-Fi للصق نمط رابط الملصق</string>
+    <string name="mdblist_awaiting_instruction">انتقل إلى العنوان أدناه وأدخل هذا الرمز.</string>
+    <string name="profile_copy_settings_setup_subtitle">ابدأ من جديد أو انسخ الإعدادات من ملف شخصي آخر لمرة واحدة.</string>
+    <string name="profile_copy_settings_subtitle">اختر ملفًا شخصيًا مصدرًا. ستحل إعداداته المدعومة محل إعدادات هذا الملف الشخصي لمرة واحدة.</string>
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">البيئة والشاشة في نظارتك</string>
+    <string name="vr_settings_environment">البيئة</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">اعرض غرفتك الحقيقية بدلًا من البيئة الافتراضية. تلميح: اضغط Y للتبديل بسرعة.</string>
+    <string name="vr_dim_playback_title">تعتيم البيئة أثناء التشغيل</string>
+    <string name="vr_dim_playback_subtitle">تعتيم السماء والأرضية أثناء تشغيل الفيديو، كما في السينما.</string>
+    <string name="vr_settings_screen">الشاشة</string>
+    <string name="vr_recenter_title">إعادة توسيط الشاشة</string>
+    <string name="vr_recenter_subtitle">إعادة الشاشة إلى أمامك.</string>
+    <string name="player_vr_passthrough_on">إظهار المحيط</string>
+    <string name="player_vr_passthrough_off">إخفاء المحيط</string>
 </resources>

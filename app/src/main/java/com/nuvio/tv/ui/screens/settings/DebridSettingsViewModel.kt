@@ -1,7 +1,6 @@
 package com.nuvio.tv.ui.screens.settings
 
 import android.content.Context
-import android.graphics.Bitmap
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.nuvio.tv.BuildConfig
@@ -11,7 +10,6 @@ import com.nuvio.tv.core.debrid.DebridDeviceAuthorizationTokenResult
 import com.nuvio.tv.core.debrid.DebridProviderCapability
 import com.nuvio.tv.core.debrid.DebridProviders
 import com.nuvio.tv.core.debrid.supports
-import com.nuvio.tv.core.qr.QrCodeGenerator
 import com.nuvio.tv.core.server.DebridFormatterConfigServer
 import com.nuvio.tv.core.server.DebridFormatterSettings
 import com.nuvio.tv.core.server.DeviceIpAddress
@@ -136,7 +134,6 @@ class DebridSettingsViewModel @Inject constructor(
         _uiState.update {
             it.copy(
                 isFormatterQrModeActive = true,
-                formatterQrCodeBitmap = QrCodeGenerator.generate(url, 512),
                 formatterServerUrl = url,
                 serverError = null
             )
@@ -148,7 +145,6 @@ class DebridSettingsViewModel @Inject constructor(
         _uiState.update {
             it.copy(
                 isFormatterQrModeActive = false,
-                formatterQrCodeBitmap = null,
                 formatterServerUrl = null
             )
         }
@@ -399,7 +395,6 @@ data class DebridSettingsUiState(
     val streamNameTemplate: String = "",
     val streamDescriptionTemplate: String = "",
     val isFormatterQrModeActive: Boolean = false,
-    val formatterQrCodeBitmap: Bitmap? = null,
     val formatterServerUrl: String? = null,
     val serverError: String? = null
 ) {

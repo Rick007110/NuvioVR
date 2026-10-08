@@ -31,6 +31,9 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.focusGroup
 import androidx.compose.foundation.focusable
+import androidx.compose.foundation.gestures.detectHorizontalDragGestures
+import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.Box
@@ -66,6 +69,8 @@ import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.SkipNext
+import androidx.compose.material.icons.filled.VisibilityOff
+import androidx.compose.material.icons.filled.Visibility
 import androidx.compose.material.icons.filled.Speed
 import androidx.compose.material.icons.filled.SwapHoriz
 import androidx.compose.runtime.Composable
@@ -101,7 +106,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
-import androidx.compose.ui.window.Dialog
+import com.nuvio.tv.vr.Dialog
 import androidx.compose.ui.zIndex
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.Lifecycle
@@ -562,6 +567,12 @@ fun PlayerScreen(
         focusPlayAfterMoreBack = false
     }
 
+    // VR: switch the scene to cinema mode (no passthrough, larger screen) while playing.
+    DisposableEffect(Unit) {
+        com.nuvio.tv.vr.VrSession.setPlayingVideo(true)
+        onDispose { com.nuvio.tv.vr.VrSession.setPlayingVideo(false) }
+    }
+
     val transparentLetterbox = uiState.transparentLetterbox &&
         uiState.internalPlayerEngine != InternalPlayerEngine.MVP_PLAYER
     DisposableEffect(transparentLetterbox) {
@@ -576,6 +587,10 @@ fun PlayerScreen(
         modifier = Modifier
             .fillMaxSize()
             .then(if (transparentLetterbox) Modifier else Modifier.background(Color.Black))
+            // VR pointer: tapping the video (anything not clickable) toggles the controls.
+            .pointerInput(Unit) {
+                detectTapGestures { viewModel.onEvent(PlayerEvent.OnToggleControls) }
+            }
             .focusRequester(containerFocusRequester)
             .focusable(enabled = uiState.error == null)
             .onPreviewKeyEvent { keyEvent ->
@@ -2199,6 +2214,12 @@ private fun PlayerControlsOverlay(
                 )
         )
 
+        // VR: back button for hand tracking, shown with the rest of the controls.
+        com.nuvio.tv.vr.VrBackButton(
+            modifier = Modifier.align(Alignment.TopStart),
+            onClick = onBack
+        )
+
         // Bottom gradient
         Box(
             modifier = Modifier
@@ -2344,6 +2365,24 @@ private fun PlayerControlsOverlay(
                         contentDescription = if (uiState.isPlaying) stringResource(R.string.cd_pause) else stringResource(R.string.cd_play),
                         onClick = onPlayPause,
                         focusRequester = playPauseFocusRequester,
+                        upFocusRequester = progressUpTarget,
+                        onDownKey = onHideControls,
+                        onFocused = onResetHideTimer
+                    )
+
+                    // VR: quick switch between the virtual environment and the real room.
+                    val passthroughEnabled by com.nuvio.tv.vr.VrSession.passthroughEnabled.collectAsState()
+                    ControlButton(
+                        icon = if (passthroughEnabled) Icons.Default.VisibilityOff else Icons.Default.Visibility,
+                        contentDescription = if (passthroughEnabled) {
+                            stringResource(R.string.player_vr_passthrough_off)
+                        } else {
+                            stringResource(R.string.player_vr_passthrough_on)
+                        },
+                        onClick = {
+                            com.nuvio.tv.vr.VrSession.togglePassthrough()
+                            onResetHideTimer()
+                        },
                         upFocusRequester = progressUpTarget,
                         onDownKey = onHideControls,
                         onFocused = onResetHideTimer
@@ -2534,7 +2573,8 @@ private fun PlayerControlsProgressBarHost(
         downFocusRequester = downFocusRequester,
         onUpKey = onUpKey,
         onFocused = onFocused,
-        bufferedPosition = playbackTimeline.bufferedPosition
+        bufferedPosition = playbackTimeline.bufferedPosition,
+        onSeekTo = { viewModel.onEvent(PlayerEvent.OnSeekTo(it)) }
     )
 }
 
@@ -2686,10 +2726,13 @@ private fun ProgressBar(
     onUpKey: (() -> Unit)? = null,
     onFocused: (() -> Unit)? = null,
     /** Position (ms) up to which content is buffered. Pass 0 to skip the overlay. */
-    bufferedPosition: Long = 0L
+    bufferedPosition: Long = 0L,
+    /** Pointer seeking (VR ray / pinch): called with the target position in ms. */
+    onSeekTo: ((Long) -> Unit)? = null
 ) {
     val accentBrush = NuvioTheme.palette.accentBrush()
-    val progress = if (duration > 0) {
+    var pointerSeekFraction by remember { mutableStateOf<Float?>(null) }
+    val progress = pointerSeekFraction ?: if (duration > 0) {
         (currentPosition.toFloat() / duration.toFloat()).coerceIn(0f, 1f)
     } else 0f
 
@@ -2712,7 +2755,36 @@ private fun ProgressBar(
     BoxWithConstraints(
         modifier = Modifier
             .fillMaxWidth()
-            .height(if (isFocused) NuvioTheme.spacing.md else NuvioTheme.spacing.sm)
+            .then(
+                if (onSeekTo != null && duration > 0) {
+                    Modifier
+                        .pointerInput(duration) {
+                            detectTapGestures { offset ->
+                                onSeekTo((offset.x / size.width * duration).toLong().coerceIn(0L, duration))
+                            }
+                        }
+                        .pointerInput(duration) {
+                            fun fractionAt(x: Float) = (x / size.width).coerceIn(0f, 1f)
+                            detectHorizontalDragGestures(
+                                onDragStart = { pointerSeekFraction = fractionAt(it.x) },
+                                onDragEnd = {
+                                    pointerSeekFraction?.let { onSeekTo((it * duration).toLong()) }
+                                    pointerSeekFraction = null
+                                },
+                                onDragCancel = { pointerSeekFraction = null },
+                                onHorizontalDrag = { change, _ ->
+                                    change.consume()
+                                    pointerSeekFraction = fractionAt(change.position.x)
+                                }
+                            )
+                        }
+                        // Taller hit target: the bar itself is only a few dp high.
+                        .padding(vertical = NuvioTheme.spacing.sm)
+                } else {
+                    Modifier
+                }
+            )
+            .height(if (isFocused || pointerSeekFraction != null) NuvioTheme.spacing.md else NuvioTheme.spacing.sm)
             .then(
                 if (focusRequester != null) Modifier.focusRequester(focusRequester)
                 else Modifier

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Nuvio</string>
+    <string name="app_name">NuvioVR</string>
     <string name="type_movie">Filmas</string>
     <string name="type_series">Serialas</string>
     <string name="type_unknown">Nežinoma</string>
@@ -213,7 +213,7 @@
 
     <!-- SupportersContributorsScreen -->
     <string name="supporters_contributors_title">Rėmėjai ir pagalbininkai</string>
-    <string name="supporters_contributors_subtitle">Žmonės, palaikantys „Nuvio“, ir pagalbininkai, kuriantys ją televizijai ir mobiliesiems įrenginiams.</string>
+    <string name="supporters_contributors_subtitle">Žmonės, palaikantys „Nuvio“, ir pagalbininkai, kuriantys ją televizijai, mobiliesiems įrenginiams ir VR.</string>
     <string name="supporters_contributors_supporters_copy">Rėmėjai ir aukotojai padeda projektui judėti į priekį, finansuoja infrastruktūrą ir suteikia vietos ambicingoms funkcijoms.</string>
     <string name="supporters_contributors_donate_copy">„Nuvio“ išliks nemokama ir atviro kodo sistema. Jei norite paremti projektą, galite padėti padengti laiką ir infrastruktūrą už jo.</string>
     <string name="supporters_contributors_donate_button">Paaukoti „Nuvio“</string>
@@ -233,8 +233,8 @@
     <string name="contributors_error_title">Nepavyko įkelti pagalbininkų</string>
     <string name="contributors_total_contributions">Iš viso prisidėta: %1$d</string>
     <string name="contributors_open_github">Atidaryti „GitHub“ profilį</string>
-    <string name="contributors_show_kofi_qr">Rodyti „Ko-fi“ QR</string>
-    <string name="contributors_hide_kofi_qr">Slėpti „Ko-fi“ QR</string>
+    <string name="contributors_show_kofi_qr">Rodyti „Ko-fi“ nuorodą</string>
+    <string name="contributors_hide_kofi_qr">Slėpti „Ko-fi“ nuorodą</string>
     <string name="contributors_profile_unavailable">„GitHub“ profilio nuoroda nepasiekiama.</string>
 
     <!-- PlaybackSettingsSections -->
@@ -281,7 +281,7 @@
     <string name="audio_decoder_prefer_app">Teikti pirmenybę programos dekoderiams (FFmpeg)</string>
     <string name="audio_decoder_priority">Dekoderio prioritetas</string>
     <string name="audio_tunneled">Tunelinis atkūrimas (Tunneled Playback)</string>
-    <string name="audio_tunneled_sub">Aparatūros lygio garso / vaizdo sinchronizavimas. Gali pagerinti atkūrimą kai kuriuose „Android TV“ įrenginiuose.</string>
+    <string name="audio_tunneled_sub">Aparatūros lygio garso / vaizdo sinchronizavimas. Gali pagerinti atkūrimą kai kuriuose įrenginiuose.</string>
     <string name="audio_decoder_device_only_desc">Naudoti tik integruotus aparatūros dekoderius. Labiausiai suderinama, bet gali palaikyti ne visus formatus.</string>
     <string name="audio_decoder_prefer_device_desc">Naudoti aparatūros dekoderius, kai jie prieinami, kitu atveju — FFmpeg. Rekomenduojama daugumai įrenginių.</string>
     <string name="audio_decoder_prefer_app_desc">Naudoti FFmpeg dekoderius, kai jie prieinami. Geresnis formatų palaikymas, bet didesnis CPU naudojimas.</string>
@@ -532,7 +532,7 @@
     <string name="trakt_waiting_approval">Laukiama patvirtinimo…</string>
     <string name="qr_login_approved">Prisijungimas patvirtintas. Užbaigiama…</string>
     <string name="qr_login_pending">Laukiama patvirtinimo jūsų telefone…</string>
-    <string name="qr_login_expired">QR prisijungimo galiojimas pasibaigė. Sugeneruokite naują kodą.</string>
+    <string name="qr_login_expired">Prisijungimo kodo galiojimas baigėsi. Paprašykite naujo kodo.</string>
     <string name="trakt_code_expires">Kodas galioja dar %1$s</string>
     <string name="trakt_token_refreshes">„Trakt“ prieigos raktas atnaujinamas po %1$s</string>
     <string name="trakt_login_instruction">Paspauskite „Prisijungti“, kad pradėtumėte „Trakt“ įrenginio autentifikavimą. Čia pasirodys QR kodas.</string>
@@ -645,10 +645,10 @@ Klaida: Bandomoji simuliuojama klaida — tai nėra tikras gedimas. Šaltinis gr
     <string name="addon_empty">Nėra įdiegtų priedų. Pridėkite vieną, kad pradėtumėte.</string>
     <string name="addon_remove">Pašalinti</string>
     <string name="addon_manage_from_phone_title">Valdyti iš telefono</string>
-    <string name="addon_manage_from_phone_subtitle">Skenuokite QR kodą, kad valdytumėte priedus ir pradinio ekrano katalogus iš savo telefono</string>
+    <string name="addon_manage_from_phone_subtitle">Atidarykite tinklalapį telefone arba kompiuteryje, kad valdytumėte priedus, katalogus ir kolekcijas</string>
     <string name="addon_reorder_title">Keisti pradinio ekrano katalogų tvarką</string>
     <string name="addon_reorder_subtitle">Valdo katalogų eiliškumą pradiniame ekrane (Klasikinis + Modernus + Tinklelis)</string>
-    <string name="addon_qr_scan_instruction">Skenuokite telefonu, kad valdytumėte priedus ir katalogus</string>
+    <string name="addon_qr_scan_instruction">Atidarykite šį adresą telefono arba kompiuterio naršyklėje tame pačiame Wi-Fi tinkle, kad valdytumėte priedus, katalogus ir kolekcijas</string>
     <string name="addon_qr_close">Uždaryti</string>
     <string name="addon_confirm_title">Patvirtinti priedų ir katalogų pakeitimus</string>
     <string name="addon_confirm_subtitle">Iš jūsų telefono buvo padaryti šie pakeitimai:</string>
@@ -838,8 +838,8 @@ Klaida: Bandomoji simuliuojama klaida — tai nėra tikras gedimas. Šaltinis gr
     <string name="account_loading">Įkeliama…</string>
     <string name="account_sync_description">Jūsų paskyra sinchronizuojama per „Nuvio Sync“.</string>
     <string name="account_sync_restart_note">Pakeitimų įsigaliojimui gali reikėti paleisti programą iš naujo.</string>
-    <string name="account_signin_qr_title">Prisijungti</string>
-    <string name="account_signin_qr_subtitle">„Nuvio“ naudoja „Supabase“ sinchronizavimui</string>
+    <string name="account_signin_qr_title">Prisijungti su kodu</string>
+    <string name="account_signin_qr_subtitle">Įveskite kodą telefone arba kompiuteryje, kad prisijungtumėte</string>
     <string name="account_signed_in_label">Prisijungta kaip</string>
     <string name="account_total_label">Iš viso</string>
     <string name="account_loading_sync">Sinchronizuojama…</string>
@@ -847,22 +847,22 @@ Klaida: Bandomoji simuliuojama klaida — tai nėra tikras gedimas. Šaltinis gr
 
     <!-- AuthSignInScreen -->
     <string name="auth_signin_title">Prisijungti</string>
-    <string name="auth_signin_tv_disabled">Rankinis prisijungimas televizoriuje saugumo sumetimais išjungtas.</string>
-    <string name="auth_signin_qr_btn">Prisijungti per QR</string>
+    <string name="auth_signin_tv_disabled">Šiame serveryje prisijungimas el. paštu ir slaptažodžiu išjungtas. Tęskite prisijungdami kodu.</string>
+    <string name="auth_signin_qr_btn">Tęsti su kodu</string>
 
     <!-- AuthQrSignInScreen -->
-    <string name="auth_qr_title">Prisijungti per telefoną</string>
+    <string name="auth_qr_title">Prisijungti su kodu</string>
     <string name="auth_qr_finishing">Užbaigiama…</string>
     <string name="auth_qr_code_label">Skenuokite QR kodą</string>
     <string name="auth_qr_expires">Kodas baigsis po %1$s</string>
-    <string name="auth_qr_scan_instruction">Nukreipkite kamerą į kodą</string>
+    <string name="auth_qr_scan_instruction">Telefone arba kompiuteryje atidarykite žemiau esančią nuorodą ir įveskite kodą.</string>
     <string name="auth_qr_code_display">QR kodo rodymas</string>
-    <string name="auth_qr_refresh">Atnaujinti kodą</string>
+    <string name="auth_qr_refresh">Naujas kodas</string>
     <string name="auth_qr_continue_without_account">Tęsti be paskyros</string>
-    <string name="auth_qr_connected">Prijungta</string>
+    <string name="auth_qr_connected">Jūsų paskyra prijungta prie šių VR akinių.</string>
     <string name="auth_qr_synced_data">Duomenys sinchronizuoti</string>
-    <string name="auth_qr_generating">Generuojama…</string>
-    <string name="auth_qr_unavailable">QR paslauga laikinai nepasiekiama</string>
+    <string name="auth_qr_generating">Generuojamas kodas…</string>
+    <string name="auth_qr_unavailable">Kodas nepasiekiamas. Paprašykite naujo kodo ir bandykite dar kartą.</string>
     <string name="auth_qr_please_wait">Prašome palaukti…</string>
     <string name="auth_qr_continue">Tęsti</string>
     <string name="auth_qr_back">Atgal</string>
@@ -895,8 +895,8 @@ Klaida: Bandomoji simuliuojama klaida — tai nėra tikras gedimas. Šaltinis gr
     <string name="plugin_add_repository">Pridėti repozitoriją</string>
     <string name="plugin_add_btn">Pridėti</string>
     <string name="plugin_manage_from_phone_title">Valdyti iš telefono</string>
-    <string name="plugin_manage_from_phone_subtitle">Keisti įskiepių nustatymus per telefoną</string>
-    <string name="plugin_qr_instruction">Skenuokite QR kodą</string>
+    <string name="plugin_manage_from_phone_subtitle">Atidarykite tinklalapį telefone arba kompiuteryje, kad pridėtumėte arba pašalintumėte repozitorijas</string>
+    <string name="plugin_qr_instruction">Atidarykite šį adresą naršyklėje, prijungtoje prie to paties Wi-Fi tinklo, kad valdytumėte repozitorijas</string>
     <string name="plugin_qr_close">Uždaryti</string>
     <string name="plugin_confirm_title">Patvirtinti įskiepių pakeitimus</string>
     <string name="plugin_confirm_subtitle">Padaryti šie pakeitimai:</string>
@@ -1008,4 +1008,56 @@ Klaida: Bandomoji simuliuojama klaida — tai nėra tikras gedimas. Šaltinis gr
     <string name="watchlist_removed">Pašalinta iš žiūrėjimo sąrašo</string>
     <string name="playback_player_auto">Automatiškai (Geriausia turiniui)</string>
     <string name="playback_player_auto_desc">ExoPlayer filmams ir serialams · MPV animėms</string>
+    <!-- NuvioVR -->
+    <string name="web_connection_lost">Prarastas ryšys su VR akiniais</string>
+    <string name="web_status_waiting_tv">Laukiama VR akinių</string>
+    <string name="web_status_msg_waiting_tv">Patvirtinkite pakeitimus VR akiniuose, kad jie būtų pritaikyti.</string>
+    <string name="web_status_msg_addon_updated">Jūsų priedų konfigūracija atnaujinta „NuvioVR“.</string>
+    <string name="web_status_msg_repo_updated">Jūsų repozitorijų konfigūracija atnaujinta „NuvioVR“.</string>
+    <string name="web_status_msg_changes_rejected">Pakeitimai buvo atmesti VR akiniuose. Jūsų sąrašas atkurtas.</string>
+    <string name="web_error_failed_save">Nepavyko išsaugoti. Patikrinkite ryšį su VR akiniais.</string>
+    <string name="web_status_msg_timeout">VR akiniai neatsako. Bandykite dar kartą.</string>
+    <string name="web_status_msg_connection_lost">„NuvioVR“ serveris nebepasiekiamas. Pakeitimai galėjo būti pritaikyti.</string>
+    <string name="web_status_msg_collections_updated">Jūsų kolekcijos atnaujintos „NuvioVR“.</string>
+    <string name="licenses_attributions_subtitle">Duomenų teikėjai, paslaugų padėkos ir „Android“ atkūrimo licencijos, naudojamos „NuvioVR“.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">Sukurta pagal „Nuvio Media“ programą „Nuvio TV“. Šaltinio kodas ir licencijos sąlygos pateikiami projekto repozitorijoje. Licencijuota pagal GNU General Public License v3.0.</string>
+    <string name="account_error_qr_login_expired">Prisijungimo kodo galiojimas baigėsi. Bandykite dar kartą.</string>
+    <string name="account_error_invalid_qr_login">Neteisingas prisijungimo kodas.</string>
+    <string name="account_error_qr_login_other_device">Šio prisijungimo kodo buvo paprašyta iš kito įrenginio.</string>
+    <string name="account_error_qr_login_outdated">Įrenginio prisijungimo paslauga pasenusi. Iš naujo pritaikykite įrenginio prisijungimo SQL sąranką.</string>
+    <string name="account_error_qr_login_missing_setup">Trūksta įrenginio prisijungimo serverio sąrankos. Atnaujinkite įrenginio prisijungimo SQL sąranką.</string>
+    <string name="account_error_qr_login_misconfigured">Prisijungimo URL sukonfigūruotas neteisingai.</string>
+    <string name="account_error_qr_login_invalid_request">Prisijungimo užklausa buvo neteisinga. Bandykite dar kartą.</string>
+    <string name="supporter_membership_scan_support">Peržiūrėti narystę internetu</string>
+    <string name="supporter_membership_scan_manage">Valdyti narystę internetu</string>
+    <string name="custom_poster_qr_instruction">Atidarykite šį adresą naršyklėje, prijungtoje prie to paties Wi-Fi tinklo, kad įklijuotumėte plakatų URL šabloną</string>
+    <string name="mdblist_awaiting_instruction">Eikite žemiau nurodytu adresu ir įveskite šį kodą.</string>
+    <string name="debrid_device_auth_instructions">Atidarykite šį adresą telefone arba kompiuteryje ir įveskite kodą, kad patvirtintumėte „Nuvio“.</string>
+    <string name="debrid_formatter_qr_instruction">Atidarykite šį adresą naršyklėje, prijungtoje prie to paties Wi-Fi tinklo, kad sukonfigūruotumėte Debrid šaltinių nustatymus.</string>
+    <string name="stream_badge_qr_instruction">Atidarykite šį adresą naršyklėje, prijungtoje prie to paties Wi-Fi tinklo, kad valdytumėte Fusion ženklelių URL.</string>
+    <string name="qr_login_preparing">Ruošiamas prisijungimo kodas…</string>
+    <string name="qr_login_scan_prompt">Telefone arba kompiuteryje atidarykite nuorodą ir įveskite kodą</string>
+    <string name="qr_login_start_failed">Nepavyko pradėti prisijungimo kodu</string>
+    <string name="qr_login_exchange_failed">Nepavyko užbaigti prisijungimo kodu</string>
+    <string name="profile_copy_settings_setup_subtitle">Pradėkite iš naujo arba vieną kartą nukopijuokite nustatymus iš kito profilio.</string>
+    <string name="profile_copy_settings_subtitle">Pasirinkite šaltinio profilį. Jo palaikomi nustatymai vieną kartą pakeis šio profilio nustatymus.</string>
+    <string name="essential_addon_show_qr">Valdyti telefonu</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">Atidarykite tinklalapį telefone arba kompiuteryje, kad įdiegtumėte arba pašalintumėte priedus</string>
+    <string name="addon_manage_collections_from_phone_subtitle">Atidarykite tinklalapį telefone arba kompiuteryje, kad valdytumėte kolekcijas</string>
+    <string name="addon_qr_addons_only_scan_instruction">Atidarykite šį adresą naršyklėje, prijungtoje prie to paties Wi-Fi tinklo, kad įdiegtumėte arba pašalintumėte priedus</string>
+    <string name="addon_qr_collections_scan_instruction">Atidarykite šį adresą naršyklėje, prijungtoje prie to paties Wi-Fi tinklo, kad valdytumėte kolekcijas</string>
+    <string name="collections_editor_focus_glow_desc">Naudoti fokusavimo švytėjimą šios kolekcijos pasirinktinių katalogų kortelėse pradiniame ekrane</string>
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">Aplinka ir ekranas VR akiniuose</string>
+    <string name="vr_settings_environment">Aplinka</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">Rodyti tikrąjį kambarį vietoj virtualios aplinkos. Patarimas: paspauskite Y, kad greitai perjungtumėte.</string>
+    <string name="vr_dim_playback_title">Pritemdyti aplinką atkūrimo metu</string>
+    <string name="vr_dim_playback_subtitle">Pritemdyti dangų ir grindis, kol leidžiamas vaizdo įrašas, kaip kino teatre.</string>
+    <string name="vr_settings_screen">Ekranas</string>
+    <string name="vr_recenter_title">Centruoti ekraną iš naujo</string>
+    <string name="vr_recenter_subtitle">Grąžinti ekraną priešais jus.</string>
+    <string name="player_vr_passthrough_on">Rodyti tikrąją aplinką</string>
+    <string name="player_vr_passthrough_off">Slėpti tikrąją aplinką</string>
 </resources>

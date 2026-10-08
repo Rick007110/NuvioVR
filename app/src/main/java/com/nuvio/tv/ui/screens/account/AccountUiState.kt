@@ -1,6 +1,5 @@
 package com.nuvio.tv.ui.screens.account
 
-import android.graphics.Bitmap
 import com.nuvio.tv.data.remote.supabase.SupabaseLinkedDevice
 import com.nuvio.tv.domain.model.AuthState
 
@@ -49,7 +48,6 @@ data class AccountUiState(
     val qrLoginUrl: String? = null,
     val qrLoginVerificationUri: String? = null,
     val qrLoginNonce: String? = null,
-    val qrLoginBitmap: Bitmap? = null,
     val qrLoginStatus: String? = null,
     val qrLoginExpiresAtMillis: Long? = null,
     val qrLoginPollIntervalSeconds: Int = 3

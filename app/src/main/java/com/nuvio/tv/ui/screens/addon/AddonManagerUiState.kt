@@ -1,6 +1,5 @@
 package com.nuvio.tv.ui.screens.addon
 
-import android.graphics.Bitmap
 import com.nuvio.tv.domain.model.Addon
 
 data class AddonManagerUiState(
@@ -13,7 +12,6 @@ data class AddonManagerUiState(
     val transientMessageIsError: Boolean = false,
     // QR mode
     val isQrModeActive: Boolean = false,
-    val qrCodeBitmap: Bitmap? = null,
     val serverUrl: String? = null,
     // Pending change from phone
     val pendingChange: PendingChangeInfo? = null

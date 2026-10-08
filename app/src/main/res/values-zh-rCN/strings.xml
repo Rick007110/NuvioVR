@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Nuvio</string>
+    <string name="app_name">NuvioVR</string>
     <string name="tv_channel_continue_watching">继续观看</string>
     <string name="type_movie">电影</string>
     <string name="type_movies">电影</string>
@@ -18,26 +18,26 @@
     <string name="web_home_catalogs">首页目录与收藏</string>
     <string name="web_no_catalogs">没有可用的首页目录</string>
     <string name="web_btn_save">保存更改</string>
-    <string name="web_connection_lost">与电视的连接已断开</string>
+    <string name="web_connection_lost">与头显的连接已断开</string>
     <string name="web_btn_remove">移除</string>
     <string name="web_badge_new">全新</string>
     <string name="web_badge_disabled">已禁用</string>
     <string name="web_btn_enable">启用</string>
     <string name="web_btn_disable">禁用</string>
     <string name="web_error_addon_exists">此扩展已在列表中</string>
-    <string name="web_status_waiting_tv">正在等待电视</string>
-    <string name="web_status_msg_waiting_tv">请在电视上确认更改以应用。</string>
+    <string name="web_status_waiting_tv">正在等待头显</string>
+    <string name="web_status_msg_waiting_tv">请在头显中确认更改以应用。</string>
     <string name="web_status_changes_applied">更改已应用</string>
-    <string name="web_status_msg_addon_updated">扩展配置已在电视上更新。</string>
-    <string name="web_status_msg_repo_updated">仓库配置已在电视上更新。</string>
+    <string name="web_status_msg_addon_updated">您的扩展配置已在 NuvioVR 中更新。</string>
+    <string name="web_status_msg_repo_updated">您的仓库配置已在 NuvioVR 中更新。</string>
     <string name="web_status_changes_rejected">更改已拒绝</string>
-    <string name="web_status_msg_changes_rejected">电视已拒绝此更改。您的列表已还原。</string>
+    <string name="web_status_msg_changes_rejected">更改已在头显中被拒绝。您的列表已还原。</string>
     <string name="web_status_error">出错了</string>
-    <string name="web_error_failed_save">保存失败。请检查与电视的连接。</string>
+    <string name="web_error_failed_save">保存失败。请检查与头显的连接。</string>
     <string name="web_btn_dismiss">关闭</string>
     <string name="web_status_timeout">已超时</string>
-    <string name="web_status_msg_timeout">电视无响应。请重试。</string>
-    <string name="web_status_msg_connection_lost">无法连接到电视服务器。更改可能已应用。</string>
+    <string name="web_status_msg_timeout">头显无响应。请重试。</string>
+    <string name="web_status_msg_connection_lost">已无法连接到 NuvioVR 服务器。更改可能已应用。</string>
     <string name="web_manage_repos_title">管理仓库</string>
     <string name="web_manage_repos_subtitle">管理您的仓库</string>
     <string name="web_add_repo_url">通过网址添加仓库</string>
@@ -46,7 +46,7 @@
     <string name="web_error_repo_exists">此仓库已在列表中</string>
     <string name="web_manage_collections_title">管理收藏</string>
     <string name="web_manage_collections_subtitle">创建并管理您的自定义收藏</string>
-    <string name="web_status_msg_collections_updated">您的收藏已在电视上更新。</string>
+    <string name="web_status_msg_collections_updated">您的收藏已在 NuvioVR 中更新。</string>
     <string name="web_tab_addons">扩展</string>
     <string name="web_tab_home_layout">首页布局</string>
     <string name="web_tab_collections">收藏</string>
@@ -415,15 +415,15 @@
     <string name="about_licenses_attributions">许可与出处</string>
     <string name="about_licenses_attributions_subtitle">数据来源、致谢与 Android 许可</string>
     <string name="licenses_attributions_title">许可与出处</string>
-    <string name="licenses_attributions_subtitle">Nuvio TV 使用的数据提供者、服务致谢与 Android 播放许可。</string>
+    <string name="licenses_attributions_subtitle">NuvioVR 使用的数据提供者、服务致谢与 Android 播放许可。</string>
     <string name="licenses_attributions_section_app">应用许可</string>
     <string name="licenses_attributions_section_data">数据与服务</string>
     <string name="licenses_attributions_section_playback">Android 播放许可</string>
     <string name="licenses_attributions_section_ui">UI 库</string>
     <string name="licenses_attributions_haze_title">Haze 1.7.2</string>
     <string name="licenses_attributions_haze_body">用于背景模糊效果。由 Chris Banes 创建。基于 Apache License, Version 2.0 许可。</string>
-    <string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-    <string name="licenses_attributions_nuvio_body">源代码和许可条款可在项目仓库中获取。基于 GNU General Public License v3.0 许可。</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">基于 Nuvio Media 的 Nuvio TV。源代码和许可条款可在项目仓库中获取。基于 GNU General Public License v3.0 许可。</string>
     <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
     <string name="licenses_attributions_tmdb_body">Nuvio 使用 TMDB API 获取电影和电视节目的元数据、美术图、预告片、演员、制作细节、收藏和推荐内容。本产品使用 TMDB API，但未经 TMDB 认可或认证。</string>
     <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -532,13 +532,13 @@
     <string name="account_error_password_too_weak">密码强度太弱。</string>
     <string name="account_error_signup_disabled">注册功能目前已禁用。</string>
     <string name="account_error_rate_limited">尝试次数过多。请稍后再试。</string>
-    <string name="account_error_qr_login_expired">QR 码登录已过期。请重试。</string>
-    <string name="account_error_invalid_qr_login">无效的 QR 码登录。</string>
-    <string name="account_error_qr_login_other_device">此 QR 码登录是从其他设备请求的。</string>
-    <string name="account_error_qr_login_outdated">QR 码登录服务已过时。请重新应用电视登录 SQL 设置。</string>
-    <string name="account_error_qr_login_missing_setup">QR 码登录后端缺少设置。请更新电视登录 SQL 设置。</string>
-    <string name="account_error_qr_login_misconfigured">QR 码登录网址配置错误。</string>
-    <string name="account_error_qr_login_invalid_request">QR 码登录请求无效。请重试。</string>
+    <string name="account_error_qr_login_expired">登录代码已过期。请重试。</string>
+    <string name="account_error_invalid_qr_login">无效的登录代码。</string>
+    <string name="account_error_qr_login_other_device">此登录代码是从其他设备请求的。</string>
+    <string name="account_error_qr_login_outdated">设备登录服务已过时。请重新应用设备登录 SQL 设置。</string>
+    <string name="account_error_qr_login_missing_setup">设备登录后端缺少设置。请更新设备登录 SQL 设置。</string>
+    <string name="account_error_qr_login_misconfigured">登录网址配置错误。</string>
+    <string name="account_error_qr_login_invalid_request">登录请求无效。请重试。</string>
     <string name="account_error_no_internet">无网络连接。</string>
     <string name="account_error_connection_timeout">连接超时。请重试。</string>
     <string name="account_error_connection_refused">无法连接至服务器。</string>
@@ -644,7 +644,7 @@
     <string name="action_close">关闭</string>
 
     <string name="supporters_contributors_title">支持 Nuvio</string>
-    <string name="supporters_contributors_subtitle">支持 Nuvio 的人们，以及在电视和移动设备上共同构建的贡献者。</string>
+    <string name="supporters_contributors_subtitle">支持 Nuvio 的人们，以及在电视、移动设备和 VR 上共同构建它的贡献者。</string>
     <string name="supporters_contributors_supporters_copy">支持者和捐赠者帮助项目持续推进，资助基础设施，并为雄心勃勃的功能创造空间。</string>
     <string name="supporters_contributors_donate_copy">Nuvio 将保持免费和开源。如果您想支持项目，可以帮助支付其背后的时间和基础设施费用。</string>
     <string name="supporters_contributors_donation_progress_title">本月的服务器与维护</string>
@@ -671,9 +671,9 @@
     <string name="supporter_membership_tier_supporter_plus">支持者 Plus</string>
     <string name="supporter_membership_connected_title">Patreon 已连接</string>
     <string name="supporter_membership_connected_description">在此 Patreon 账户上未找到有效的 Nuvio 会员等级。查看可用选项，或在更改 Patreon 会员后刷新。</string>
-    <string name="supporter_membership_scan_support">扫描以查看会员</string>
+    <string name="supporter_membership_scan_support">在线查看会员</string>
     <string name="supporter_membership_scan_support_description">在手机上打开支持者会员页面。</string>
-    <string name="supporter_membership_scan_manage">扫描以管理会员</string>
+    <string name="supporter_membership_scan_manage">在线管理会员</string>
     <string name="supporter_membership_scan_manage_description">在手机上打开 Patreon 会员设置。</string>
     <string name="cd_membership_qr">会员页面 QR 码</string>
     <string name="supporters_tab">支持者</string>
@@ -699,8 +699,8 @@
     <string name="contributors_error_title">无法加载贡献者</string>
     <string name="contributors_total_contributions">共 %1$d 次贡献</string>
     <string name="contributors_open_github">打开 GitHub 个人资料</string>
-    <string name="contributors_show_kofi_qr">显示 Ko-fi QR 码</string>
-    <string name="contributors_hide_kofi_qr">隐藏 Ko-fi QR 码</string>
+    <string name="contributors_show_kofi_qr">显示 Ko-fi 链接</string>
+    <string name="contributors_hide_kofi_qr">隐藏 Ko-fi 链接</string>
     <string name="contributors_profile_unavailable">GitHub 个人资料链接不可用。</string>
 
     <string name="playback_loading_overlay">加载覆盖层</string>
@@ -789,7 +789,7 @@
     <string name="audio_enable_downmix_title">启用混音下转</string>
     <string name="audio_enable_downmix_subtitle">使用 FFmpeg 混音下转路径。需要「偏好应用解码器 (FFmpeg)」。禁用时，音频将遵循先前的 Android/设备路径。</string>
     <string name="audio_tunneled">通道化播放</string>
-    <string name="audio_tunneled_sub">硬件级别的音频/视频同步。可能在部分 Android TV 设备上改善播放。</string>
+    <string name="audio_tunneled_sub">硬件级别的音频/视频同步。可能在部分设备上改善播放</string>
     <string name="audio_force_optical_passthrough">强制 AC-3 转码 (光纤/SPDIF)</string>
     <string name="audio_force_optical_passthrough_sub">实时将多声道格式 (TrueHD、DTS、AAC 等) 转码为 Dolby Digital 5.1，用于光纤/SPDIF 连接。</string>
     <!-- DV7 处理模式 -->
@@ -1115,7 +1115,7 @@
     <string name="layout_custom_poster_clear">清除</string>
     <string name="layout_custom_poster_active">✓ 自定义海报来源已启用</string>
     <string name="layout_custom_poster_qr">通过手机配置</string>
-    <string name="custom_poster_qr_instruction">用手机扫描 QR 码以粘贴海报网址模式</string>
+    <string name="custom_poster_qr_instruction">在同一 Wi-Fi 下的浏览器中打开此地址，以粘贴海报网址模式</string>
 
     <!-- Custom Poster Web Page -->
     <string name="web_custom_poster_title">自定义海报来源</string>
@@ -1141,7 +1141,7 @@
     <string name="mdblist_connected_as">以 %1$s 身份连接</string>
     <string name="mdblist_account_fallback">MDBList 用户</string>
     <string name="mdblist_insufficient_scope">MDBList 未授予更新观看历史的权限。请重新连接并允许写入访问。</string>
-    <string name="mdblist_awaiting_instruction">扫描 QR 码，或在下方地址输入此代码。</string>
+    <string name="mdblist_awaiting_instruction">前往下方地址并输入此代码。</string>
     <string name="mdblist_qr_description">用于连接您的 MDBList 账户的 QR 码</string>
     <string name="mdblist_status_enter_code">在您的 MDBList 账户中批准连接。</string>
     <string name="mdblist_status_syncing">正在同步观看历史和播放进度…</string>
@@ -1227,7 +1227,7 @@
     <string name="debrid_disconnect">断开连接</string>
     <string name="debrid_device_auth_connected">%1$s 已在此设备上连接。</string>
     <string name="debrid_device_auth_starting">正在启动安全登录…</string>
-    <string name="debrid_device_auth_instructions">扫描 QR 码并输入此代码以批准 Nuvio。</string>
+    <string name="debrid_device_auth_instructions">在手机或电脑上前往此地址并输入代码，以批准 Nuvio。</string>
     <string name="debrid_device_auth_code_copied">代码已复制。</string>
     <string name="debrid_device_auth_waiting">正在等待批准…</string>
     <string name="debrid_device_auth_failed">无法启动登录。</string>
@@ -1315,7 +1315,7 @@
     <string name="debrid_formatter_configure">打开网页编辑器</string>
     <string name="debrid_formatter_reset_title">重置格式设置</string>
     <string name="debrid_formatter_reset_subtitle">还原默认来源格式。</string>
-    <string name="debrid_formatter_qr_instruction">在手机上扫描此 QR 码以配置 Debrid 来源设置。</string>
+    <string name="debrid_formatter_qr_instruction">在同一 Wi-Fi 下的浏览器中打开此地址，以配置 Debrid 来源设置。</string>
     <string name="settings_stream_badges_section">Fusion 样式</string>
     <string name="settings_stream_size_badges_title">大小徽章</string>
     <string name="settings_stream_size_badges_description">在流结果和播放器来源面板中显示文件大小徽章。</string>
@@ -1344,7 +1344,7 @@
     <string name="settings_fusion_badge_preview_empty">此网址中没有 Fusion 风格徽章图片。</string>
     <string name="settings_fusion_badge_group_title">组 %1$d</string>
     <string name="settings_fusion_badge_other_group_title">其他 Fusion 徽章</string>
-    <string name="stream_badge_qr_instruction">在手机上扫描此 QR 码以管理 Fusion 徽章网址。</string>
+    <string name="stream_badge_qr_instruction">在同一 Wi-Fi 下的浏览器中打开此地址，以管理 Fusion 徽章网址。</string>
     <string name="streams_size">大小 %1$s</string>
     <string name="action_import">导入</string>
     <string name="action_delete">删除</string>
@@ -1402,14 +1402,14 @@
     <string name="trakt_waiting_approval">正在等待批准…</string>
     <string name="qr_login_approved">登录已批准。正在完成登录…</string>
     <string name="qr_login_pending">正在等待手机上的批准…</string>
-    <string name="qr_login_expired">QR 码登录已过期。请生成新代码。</string>
-    <string name="qr_login_preparing">正在准备 QR 码登录…</string>
+    <string name="qr_login_expired">登录代码已过期。请获取新代码。</string>
+    <string name="qr_login_preparing">正在准备登录代码…</string>
     <string name="qr_login_device_auth_failed">设备验证失败</string>
-    <string name="qr_login_scan_prompt">扫描 QR 码并在手机上登录</string>
-    <string name="qr_login_start_failed">启动 QR 码登录失败</string>
+    <string name="qr_login_scan_prompt">在手机或电脑上前往链接并输入代码</string>
+    <string name="qr_login_start_failed">无法启动代码登录</string>
     <string name="qr_login_signing_in">正在为您登录…</string>
     <string name="qr_login_success">登录成功</string>
-    <string name="qr_login_exchange_failed">无法完成 QR 码登录</string>
+    <string name="qr_login_exchange_failed">无法完成代码登录</string>
     <string name="trakt_code_expires">代码将在 %1$s 后过期</string>
     <string name="trakt_token_refreshes">Trakt 访问令牌将在 %1$s 后刷新</string>
     <string name="trakt_login_instruction">按下「登录」以启动 Trakt 设备验证。QR 码将在此显示。</string>
@@ -1557,13 +1557,13 @@
     <string name="profile_save">保存</string>
     <string name="profile_copy_settings_label">复制设置</string>
     <string name="profile_copy_settings_setup_title">个人资料设置</string>
-    <string name="profile_copy_settings_setup_subtitle">从头开始，或从另一个个人资料一次性复制电视设置。</string>
+    <string name="profile_copy_settings_setup_subtitle">从头开始，或从另一个个人资料一次性复制设置。</string>
     <string name="profile_copy_settings_start_fresh">从头开始</string>
     <string name="profile_copy_settings_primary_source">%1$s (主要)</string>
     <string name="profile_copy_settings_create_fresh">设置：从头开始</string>
     <string name="profile_copy_settings_create_source">设置：%1$s</string>
     <string name="profile_copy_settings_title">复制设置到 %1$s</string>
-    <string name="profile_copy_settings_subtitle">选择来源个人资料。其支持的电视设置将一次性替换此个人资料的设置。</string>
+    <string name="profile_copy_settings_subtitle">选择来源个人资料。其支持的设置将一次性替换此个人资料的设置。</string>
     <string name="profile_copy_settings_from">复制自</string>
     <string name="profile_copy_settings_action">复制设置</string>
     <string name="profile_copy_settings_copying">复制中…</string>
@@ -1615,7 +1615,7 @@
     <!-- 基础扩展设置向导 -->
     <string name="essential_addon_setup_title">设置扩展</string>
     <string name="essential_addon_setup_subtitle">安装一个扩展即可开始流式传输。您之后可以从「扩展」添加更多。</string>
-    <string name="essential_addon_show_qr">显示 QR</string>
+    <string name="essential_addon_show_qr">从手机管理</string>
     <!-- 收藏编辑器备用文字 -->
     <string name="collection_editor_no_trakt_lists_found">找不到 Trakt 列表</string>
     <string name="collection_editor_untitled_folder">未命名</string>
@@ -1639,14 +1639,14 @@
     <string name="addon_delete_yes">是</string>
     <string name="addons_badge_disabled">已禁用</string>
     <string name="addon_manage_from_phone_title">从手机管理</string>
-    <string name="addon_manage_from_phone_subtitle">扫描 QR 码以从手机管理扩展、目录和收藏</string>
-    <string name="addon_manage_addons_only_from_phone_subtitle">扫描 QR 码以从手机安装或移除扩展</string>
-    <string name="addon_manage_collections_from_phone_subtitle">扫描 QR 码以从手机管理收藏</string>
+    <string name="addon_manage_from_phone_subtitle">在手机或电脑上打开网页，管理扩展、目录和收藏</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">在手机或电脑上打开网页，安装或移除扩展</string>
+    <string name="addon_manage_collections_from_phone_subtitle">在手机或电脑上打开网页，管理收藏</string>
     <string name="addon_reorder_title">重新排序首页目录</string>
     <string name="addon_reorder_subtitle">控制首页上的目录和收藏行顺序 (经典 + 现代 + 网格)</string>
-    <string name="addon_qr_scan_instruction">用手机扫描以管理扩展、目录和收藏</string>
-    <string name="addon_qr_addons_only_scan_instruction">用手机扫描以安装或移除扩展</string>
-    <string name="addon_qr_collections_scan_instruction">用手机扫描以管理收藏</string>
+    <string name="addon_qr_scan_instruction">在连接同一 Wi-Fi 的手机或电脑浏览器中打开此地址，管理扩展、目录和收藏</string>
+    <string name="addon_qr_addons_only_scan_instruction">在同一 Wi-Fi 下的浏览器中打开此地址，安装或移除扩展</string>
+    <string name="addon_qr_collections_scan_instruction">在同一 Wi-Fi 下的浏览器中打开此地址，管理收藏</string>
     <string name="addon_qr_close">关闭</string>
     <string name="addon_confirm_title">确认扩展与目录更改</string>
     <string name="addon_confirm_subtitle">已从您的手机进行以下更改：</string>
@@ -2076,8 +2076,8 @@
     <string name="account_loading">加载中…</string>
     <string name="account_sync_description">在设备间同步您的媒体库、观看进度、扩展和插件。</string>
     <string name="account_sync_restart_note">同步并非跨活动设备实时进行。登录后或要应用在其他位置进行的更改时，请重新启动此设备。</string>
-    <string name="account_signin_qr_title">使用 QR 码登录</string>
-    <string name="account_signin_qr_subtitle">扫描 QR 码并在手机上完成电子邮件登录</string>
+    <string name="account_signin_qr_title">使用代码登录</string>
+    <string name="account_signin_qr_subtitle">在手机或电脑上输入代码以登录</string>
     <string name="account_signin_email_title">登录</string>
     <string name="account_signin_email_subtitle">输入您自托管账户的电子邮件和密码</string>
     <string name="account_signed_in_label">已登录</string>
@@ -2096,8 +2096,8 @@
     <string name="account_unknown_device">未知设备</string>
 
     <string name="auth_signin_title">登录</string>
-    <string name="auth_signin_tv_disabled">电视上的电子邮件/密码输入已禁用。请继续使用 QR 码登录。</string>
-    <string name="auth_signin_qr_btn">继续使用 QR</string>
+    <string name="auth_signin_tv_disabled">此服务器已禁用电子邮件/密码登录。请继续使用代码登录。</string>
+    <string name="auth_signin_qr_btn">使用代码继续</string>
     <string name="auth_email_hint">直接使用您自托管服务器上的账户登录。</string>
     <string name="auth_email_instruction">输入您的电子邮件和密码以继续。</string>
     <string name="auth_email_placeholder">电子邮件地址</string>
@@ -2145,20 +2145,20 @@
     <string name="custom_server_session_clear_failed">无法安全清除当前会话。服务器未被更改。</string>
     <string name="custom_server_restart_failed">服务器已保存，但应用无法自动重启。请手动重启。</string>
 
-    <string name="auth_qr_title">使用 QR 码登录</string>
+    <string name="auth_qr_title">使用代码登录</string>
     <string name="auth_qr_tagline">随时随地观看您的媒体库</string>
     <string name="auth_qr_finishing">正在完成登录…</string>
     <string name="auth_qr_code_label">代码：%1$s</string>
     <string name="auth_qr_expires">将在 %1$s 后过期</string>
-    <string name="auth_qr_scan_instruction">扫描 QR 码或在浏览器中输入短代码。</string>
+    <string name="auth_qr_scan_instruction">在手机或电脑上前往下方链接并输入代码。</string>
     <string name="auth_qr_code_display">代码：%1$s</string>
     <string name="auth_qr_manual_instruction">或前往 %1$s 并输入</string>
-    <string name="auth_qr_refresh">刷新 QR</string>
+    <string name="auth_qr_refresh">新代码</string>
     <string name="auth_qr_continue_without_account">不使用账户继续</string>
-    <string name="auth_qr_connected">您的账户已在此电视上连接。</string>
+    <string name="auth_qr_connected">您的账户已在此头显上连接。</string>
     <string name="auth_qr_synced_data">您的同步数据</string>
-    <string name="auth_qr_generating">正在生成 QR…</string>
-    <string name="auth_qr_unavailable">QR 不可用。刷新以重试。</string>
+    <string name="auth_qr_generating">正在生成代码…</string>
+    <string name="auth_qr_unavailable">代码不可用。请获取新代码以重试。</string>
     <string name="auth_qr_please_wait">请稍候…</string>
     <string name="auth_qr_continue">继续</string>
     <string name="auth_qr_back">返回</string>
@@ -2197,8 +2197,8 @@
     <string name="plugin_add_repository">添加仓库</string>
     <string name="plugin_add_btn">添加</string>
     <string name="plugin_manage_from_phone_title">从手机管理</string>
-    <string name="plugin_manage_from_phone_subtitle">扫描 QR 码以从手机添加或移除仓库</string>
-    <string name="plugin_qr_instruction">用手机扫描以管理仓库</string>
+    <string name="plugin_manage_from_phone_subtitle">在手机或电脑上打开网页，添加或移除仓库</string>
+    <string name="plugin_qr_instruction">在同一 Wi-Fi 下的浏览器中打开此地址，管理仓库</string>
     <string name="plugin_qr_close">关闭</string>
     <string name="plugin_confirm_title">确认仓库更改</string>
     <string name="plugin_confirm_subtitle">已从您的手机进行以下更改：</string>
@@ -2502,7 +2502,7 @@
     <string name="collections_editor_pin_above">固定到目录上方</string>
     <string name="collections_editor_pin_above_desc">将此收藏显示在所有常规首页目录之上。多个固定的收藏按创建顺序排列。</string>
     <string name="collections_editor_focus_glow">焦点光晕</string>
-    <string name="collections_editor_focus_glow_desc">在此收藏的首页画面自定义目录卡片上使用原生电视光晕效果</string>
+    <string name="collections_editor_focus_glow_desc">在此收藏的首页自定义目录卡片上使用焦点光晕</string>
     <string name="collections_editor_view_mode">查看模式</string>
     <string name="collections_editor_show_all_tab">显示「全部」标签</string>
     <string name="collections_editor_show_all_tab_desc">将所有目录合并为一个标签</string>
@@ -3240,4 +3240,17 @@
     <string name="stream_test_video_bitrate">平均视频比特率：%1$s</string>
     <string name="stream_test_error_connection">连接失败。上次播放的流链接可能已过期或无法访问。请重新播放视频并重试。</string>
 
+    <!-- NuvioVR -->
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">头显中的环境和屏幕</string>
+    <string name="vr_settings_environment">环境</string>
+    <string name="vr_passthrough_title">透视</string>
+    <string name="vr_passthrough_subtitle">显示您的真实房间，而非虚拟环境。提示：按 Y 键可快速切换。</string>
+    <string name="vr_dim_playback_title">播放时调暗环境</string>
+    <string name="vr_dim_playback_subtitle">视频播放时调暗天空和地面，如同置身影院。</string>
+    <string name="vr_settings_screen">屏幕</string>
+    <string name="vr_recenter_title">屏幕重新居中</string>
+    <string name="vr_recenter_subtitle">将屏幕移回您的正前方。</string>
+    <string name="player_vr_passthrough_on">显示周围环境</string>
+    <string name="player_vr_passthrough_off">隐藏周围环境</string>
 </resources>

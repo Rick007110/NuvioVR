@@ -1,6 +1,5 @@
 package com.nuvio.tv.ui.screens.plugin
 
-import android.graphics.Bitmap
 import com.nuvio.tv.core.plugin.TestDiagnostics
 import com.nuvio.tv.domain.model.LocalScraperResult
 import com.nuvio.tv.domain.model.PluginRepository
@@ -21,7 +20,6 @@ data class PluginUiState(
     val successMessage: String? = null,
     // QR mode
     val isQrModeActive: Boolean = false,
-    val qrCodeBitmap: Bitmap? = null,
     val serverUrl: String? = null,
     // Pending change from phone
     val pendingRepoChange: PendingRepoChangeInfo? = null,

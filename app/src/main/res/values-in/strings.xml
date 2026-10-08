@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Nuvio</string>
+    <string name="app_name">NuvioVR</string>
     <string name="tv_channel_continue_watching">Lanjutkan Menonton</string>
     <string name="type_movie">Film</string>
     <string name="type_movies">Film</string>
@@ -19,26 +19,26 @@
     <string name="web_home_catalogs">Katalog &amp; Koleksi Beranda</string>
     <string name="web_no_catalogs">Tidak ada katalog beranda tersedia</string>
     <string name="web_btn_save">Simpan Perubahan</string>
-    <string name="web_connection_lost">Koneksi ke TV terputus</string>
+    <string name="web_connection_lost">Koneksi ke headset terputus</string>
     <string name="web_btn_remove">Hapus</string>
     <string name="web_badge_new">Baru</string>
     <string name="web_badge_disabled">Dinonaktifkan</string>
     <string name="web_btn_enable">Aktifkan</string>
     <string name="web_btn_disable">Nonaktifkan</string>
     <string name="web_error_addon_exists">Addon ini sudah ada dalam daftar</string>
-    <string name="web_status_waiting_tv">Menunggu TV</string>
-    <string name="web_status_msg_waiting_tv">Konfirmasi perubahan di TV Anda untuk menerapkannya.</string>
+    <string name="web_status_waiting_tv">Menunggu headset</string>
+    <string name="web_status_msg_waiting_tv">Harap konfirmasi perubahan di headset Anda untuk menerapkannya.</string>
     <string name="web_status_changes_applied">Perubahan Diterapkan</string>
-    <string name="web_status_msg_addon_updated">Konfigurasi addon Anda telah diperbarui di TV.</string>
-    <string name="web_status_msg_repo_updated">Konfigurasi repositori Anda telah diperbarui di TV.</string>
+    <string name="web_status_msg_addon_updated">Konfigurasi addon Anda telah diperbarui di NuvioVR.</string>
+    <string name="web_status_msg_repo_updated">Konfigurasi repositori Anda telah diperbarui di NuvioVR.</string>
     <string name="web_status_changes_rejected">Perubahan Ditolak</string>
-    <string name="web_status_msg_changes_rejected">Perubahan ditolak di TV. Daftar Anda telah dikembalikan.</string>
+    <string name="web_status_msg_changes_rejected">Perubahan ditolak di headset. Daftar Anda telah dikembalikan.</string>
     <string name="web_status_error">Terjadi Kesalahan</string>
-    <string name="web_error_failed_save">Gagal menyimpan. Periksa koneksi Anda ke TV.</string>
+    <string name="web_error_failed_save">Gagal menyimpan. Periksa koneksi Anda ke headset.</string>
     <string name="web_btn_dismiss">Tutup</string>
     <string name="web_status_timeout">Waktu Habis</string>
-    <string name="web_status_msg_timeout">Tidak ada respons dari TV. Coba lagi.</string>
-    <string name="web_status_msg_connection_lost">Server TV sudah tidak dapat dijangkau. Perubahan mungkin sudah diterapkan.</string>
+    <string name="web_status_msg_timeout">Tidak ada respons dari headset. Silakan coba lagi.</string>
+    <string name="web_status_msg_connection_lost">Server NuvioVR tidak lagi dapat dijangkau. Perubahan mungkin sudah diterapkan.</string>
     <string name="web_manage_repos_title">Kelola Repositori</string>
     <string name="web_manage_repos_subtitle">Kelola repositori Anda</string>
     <string name="web_add_repo_url">Tambah repositori lewat URL</string>
@@ -47,7 +47,7 @@
     <string name="web_error_repo_exists">Repositori ini sudah ada dalam daftar</string>
     <string name="web_manage_collections_title">Kelola Koleksi</string>
     <string name="web_manage_collections_subtitle">Buat dan kelola koleksi kustom Anda</string>
-    <string name="web_status_msg_collections_updated">Koleksi Anda telah diperbarui di TV.</string>
+    <string name="web_status_msg_collections_updated">Koleksi Anda telah diperbarui di NuvioVR.</string>
     <string name="web_tab_addons">Addon</string>
     <string name="web_tab_home_layout">Tata Letak Beranda</string>
     <string name="web_tab_collections">Koleksi</string>
@@ -360,12 +360,12 @@
     <string name="about_licenses_attributions">Lisensi &amp; Atribusi</string>
     <string name="about_licenses_attributions_subtitle">Sumber data, pengakuan, dan lisensi Android</string>
     <string name="licenses_attributions_title">Lisensi &amp; Atribusi</string>
-    <string name="licenses_attributions_subtitle">Penyedia data, kredit layanan, dan lisensi pemutaran Android yang digunakan oleh Nuvio TV.</string>
+    <string name="licenses_attributions_subtitle">Penyedia data, kredit layanan, dan lisensi pemutaran Android yang digunakan oleh NuvioVR.</string>
     <string name="licenses_attributions_section_app">LISENSI APLIKASI</string>
     <string name="licenses_attributions_section_data">DATA &amp; LAYANAN</string>
     <string name="licenses_attributions_section_playback">LISENSI PEMUTARAN ANDROID</string>
-    <string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-    <string name="licenses_attributions_nuvio_body">Kode sumber dan ketentuan lisensi tersedia di repositori proyek. Dilisensikan di bawah GNU General Public License v3.0.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">Berdasarkan Nuvio TV oleh Nuvio Media. Kode sumber dan ketentuan lisensi tersedia di repositori proyek. Dilisensikan di bawah GNU General Public License v3.0.</string>
     <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
     <string name="licenses_attributions_tmdb_body">Nuvio menggunakan API TMDB untuk metadata film dan TV, poster dan latar belakang, trailer, pemeran, detail produksi, koleksi, dan rekomendasi. Produk ini menggunakan API TMDB namun tidak didukung atau disertifikasi oleh TMDB.</string>
     <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -436,13 +436,13 @@
     <string name="account_error_password_too_weak">Kata sandi terlalu lemah.</string>
     <string name="account_error_signup_disabled">Pendaftaran saat ini dinonaktifkan.</string>
     <string name="account_error_rate_limited">Terlalu banyak percobaan. Coba lagi nanti.</string>
-    <string name="account_error_qr_login_expired">Login QR kedaluwarsa. Coba lagi.</string>
-    <string name="account_error_invalid_qr_login">Kode login QR tidak valid.</string>
-    <string name="account_error_qr_login_other_device">Login QR ini diminta dari perangkat lain.</string>
-    <string name="account_error_qr_login_outdated">Layanan login QR sudah usang. Terapkan ulang pengaturan SQL login TV.</string>
-    <string name="account_error_qr_login_missing_setup">Backend login QR tidak memiliki pengaturan. Perbarui pengaturan SQL login TV.</string>
-    <string name="account_error_qr_login_misconfigured">URL login QR salah konfigurasi.</string>
-    <string name="account_error_qr_login_invalid_request">Permintaan login QR tidak valid. Coba lagi.</string>
+    <string name="account_error_qr_login_expired">Kode masuk telah kedaluwarsa. Silakan coba lagi.</string>
+    <string name="account_error_invalid_qr_login">Kode masuk tidak valid.</string>
+    <string name="account_error_qr_login_other_device">Kode masuk ini diminta dari perangkat lain.</string>
+    <string name="account_error_qr_login_outdated">Layanan login perangkat sudah usang. Terapkan ulang pengaturan SQL login perangkat.</string>
+    <string name="account_error_qr_login_missing_setup">Backend login perangkat belum disiapkan. Perbarui pengaturan SQL login perangkat.</string>
+    <string name="account_error_qr_login_misconfigured">URL masuk salah dikonfigurasi.</string>
+    <string name="account_error_qr_login_invalid_request">Permintaan masuk tidak valid. Silakan coba lagi.</string>
     <string name="account_error_no_internet">Tidak ada koneksi internet.</string>
     <string name="account_error_connection_timeout">Koneksi habis waktu. Coba lagi.</string>
     <string name="account_error_connection_refused">Tidak dapat terhubung ke server.</string>
@@ -516,7 +516,7 @@
 
     <!-- SupportersContributorsScreen -->
     <string name="supporters_contributors_title">Kontributor &amp; Donatur</string>
-    <string name="supporters_contributors_subtitle">Orang-orang yang mendukung Nuvio dan kontributor yang membangunnya di TV dan mobile.</string>
+    <string name="supporters_contributors_subtitle">Orang-orang yang mendukung Nuvio dan kontributor yang membangunnya di TV, mobile, dan VR.</string>
     <string name="supporters_contributors_supporters_copy">Pendukung dan donatur membantu proyek terus berjalan, mendanai infrastruktur, dan membuka ruang untuk fitur-fitur ambisius.</string>
     <string name="supporters_contributors_donate_copy">Nuvio akan tetap gratis dan open source. Jika Anda ingin mendukung proyek ini, Anda bisa membantu menutup waktu dan infrastruktur di baliknya.</string>
     <string name="supporters_contributors_donate_button">Donasi ke Nuvio</string>
@@ -543,8 +543,8 @@
     <string name="contributors_error_title">Tidak dapat memuat kontributor</string>
     <string name="contributors_total_contributions">%1$d total kontribusi</string>
     <string name="contributors_open_github">Buka Profil GitHub</string>
-    <string name="contributors_show_kofi_qr">Tampilkan QR Ko-fi</string>
-    <string name="contributors_hide_kofi_qr">Sembunyikan QR Ko-fi</string>
+    <string name="contributors_show_kofi_qr">Tampilkan tautan Ko-fi</string>
+    <string name="contributors_hide_kofi_qr">Sembunyikan tautan Ko-fi</string>
     <string name="contributors_profile_unavailable">Tautan profil GitHub tidak tersedia.</string>
 
     <!-- PlaybackSettingsSections -->
@@ -625,7 +625,7 @@
     <string name="audio_decoder_priority">Prioritas Dekoder</string>
     <string name="audio_enable_downmix_title">Aktifkan downmix</string>
     <string name="audio_tunneled">Tunneled Playback</string>
-    <string name="audio_tunneled_sub">Sinkronisasi audio/video tingkat hardware. Mungkin meningkatkan pemutaran di beberapa perangkat Android TV</string>
+    <string name="audio_tunneled_sub">Sinkronisasi audio/video tingkat hardware. Mungkin meningkatkan pemutaran di beberapa perangkat</string>
     <string name="audio_mpv_hwdec_title">Dekoding Hardware (Hanya MPV)</string>
     <string name="audio_mpv_hwdec_dialog_subtitle">Pilih cara libmpv menggunakan dekoder hardware.</string>
     <string name="audio_mpv_hwdec_legacy_direct_copy">Lama (direct → copy)</string>
@@ -916,7 +916,7 @@
     <string name="debrid_disconnect">Terputus</string>
     <string name="debrid_device_auth_connected">%1$s telah terhubung di perangkat ini.</string>
     <string name="debrid_device_auth_starting">Memulai sign-in dengan aman...</string>
-    <string name="debrid_device_auth_instructions">Scan QR dan masukkan kode ini untuk mengizinkan Nuvio.</string>
+    <string name="debrid_device_auth_instructions">Buka alamat ini di ponsel atau komputer Anda dan masukkan kodenya untuk mengizinkan Nuvio.</string>
     <string name="debrid_device_auth_code_copied">Kode tersalin.</string>
     <string name="debrid_device_auth_waiting">Menunggu persetujuan...</string>
     <string name="debrid_device_auth_failed">Tidak dapat memulai sign-in.</string>
@@ -998,7 +998,7 @@
     <string name="debrid_formatter_configure">Buka editor web</string>
     <string name="debrid_formatter_reset_title">Atur ulang format</string>
     <string name="debrid_formatter_reset_subtitle">Kembalikan format ke setelan bawaan.</string>
-    <string name="debrid_formatter_qr_instruction">Pindai kode QR ini di ponsel Anda untuk mengonfigurasi pengaturan sumber Debrid.</string>
+    <string name="debrid_formatter_qr_instruction">Buka alamat ini di browser pada Wi-Fi yang sama untuk mengonfigurasi pengaturan sumber Debrid.</string>
 
     <!-- Anime-Skip -->
     <string name="animeskip_title">Anime Skip</string>
@@ -1055,14 +1055,14 @@
     <string name="trakt_waiting_approval">Menunggu persetujuan…</string>
     <string name="qr_login_approved">Login disetujui. Menyelesaikan masuk…</string>
     <string name="qr_login_pending">Menunggu persetujuan di ponsel Anda…</string>
-    <string name="qr_login_expired">Login QR kedaluwarsa. Buat kode baru.</string>
-    <string name="qr_login_preparing">Mempersiapkan login QR...</string>
+    <string name="qr_login_expired">Kode masuk telah kedaluwarsa. Minta kode baru.</string>
+    <string name="qr_login_preparing">Menyiapkan kode masuk…</string>
     <string name="qr_login_device_auth_failed">Gagal mengautentikasi perangkat</string>
-    <string name="qr_login_scan_prompt">Pindai QR dan masuk di ponsel Anda</string>
-    <string name="qr_login_start_failed">Gagal memulai login QR</string>
+    <string name="qr_login_scan_prompt">Buka tautan dan masukkan kode di ponsel atau komputer Anda</string>
+    <string name="qr_login_start_failed">Gagal memulai masuk dengan kode</string>
     <string name="qr_login_signing_in">Sedang masuk…</string>
     <string name="qr_login_success">Berhasil masuk</string>
-    <string name="qr_login_exchange_failed">Tidak dapat menyelesaikan masuk QR</string>
+    <string name="qr_login_exchange_failed">Tidak dapat menyelesaikan masuk dengan kode</string>
     <string name="trakt_code_expires">Kode kedaluwarsa dalam %1$s</string>
     <string name="trakt_token_refreshes">Token akses Trakt diperbarui dalam %1$s</string>
     <string name="trakt_login_instruction">Tekan Login untuk memulai autentikasi perangkat Trakt. Kode QR akan muncul di sini.</string>
@@ -1228,7 +1228,7 @@
     <!-- Essential addon setup wizard -->
     <string name="essential_addon_setup_title">Siapkan add-on</string>
     <string name="essential_addon_setup_subtitle">Pasang satu add-on untuk mulai streaming. Anda bisa menambahkan lebih banyak nanti dari Addon.</string>
-    <string name="essential_addon_show_qr">Tampilkan QR</string>
+    <string name="essential_addon_show_qr">Kelola dari ponsel</string>
     <!-- Collection editor fallbacks -->
     <string name="collection_editor_no_trakt_lists_found">Tidak ada daftar Trakt ditemukan</string>
     <string name="collection_editor_untitled_folder">Tanpa Judul</string>
@@ -1248,14 +1248,14 @@
     <string name="addon_remove">Hapus</string>
     <string name="addons_badge_disabled">Tidak Aktif</string>
     <string name="addon_manage_from_phone_title">Kelola dari ponsel</string>
-    <string name="addon_manage_from_phone_subtitle">Pindai kode QR untuk mengelola addon, katalog, dan koleksi dari ponsel Anda</string>
-    <string name="addon_manage_addons_only_from_phone_subtitle">Pindai kode QR untuk memasang atau menghapus add-on dari ponsel Anda</string>
-    <string name="addon_manage_collections_from_phone_subtitle">Pindai kode QR untuk mengelola koleksi dari ponsel Anda</string>
+    <string name="addon_manage_from_phone_subtitle">Buka halaman web di ponsel atau komputer Anda untuk mengelola addon, katalog, dan koleksi</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">Buka halaman web di ponsel atau komputer Anda untuk memasang atau menghapus addon</string>
+    <string name="addon_manage_collections_from_phone_subtitle">Buka halaman web di ponsel atau komputer Anda untuk mengelola koleksi</string>
     <string name="addon_reorder_title">Susun ulang katalog beranda</string>
     <string name="addon_reorder_subtitle">Mengontrol urutan baris katalog dan koleksi di Beranda (Klasik + Modern + Grid)</string>
-    <string name="addon_qr_scan_instruction">Pindai dengan ponsel Anda untuk mengelola addon, katalog, dan koleksi</string>
-    <string name="addon_qr_addons_only_scan_instruction">Pindai dengan ponsel Anda untuk memasang atau menghapus add-on</string>
-    <string name="addon_qr_collections_scan_instruction">Pindai dengan ponsel Anda untuk mengelola koleksi</string>
+    <string name="addon_qr_scan_instruction">Buka alamat ini di browser pada ponsel atau komputer yang terhubung ke Wi-Fi yang sama untuk mengelola addon, katalog, dan koleksi</string>
+    <string name="addon_qr_addons_only_scan_instruction">Buka alamat ini di browser pada Wi-Fi yang sama untuk memasang atau menghapus addon</string>
+    <string name="addon_qr_collections_scan_instruction">Buka alamat ini di browser pada Wi-Fi yang sama untuk mengelola koleksi</string>
     <string name="addon_qr_close">Tutup</string>
     <string name="addon_confirm_title">Konfirmasi perubahan addon &amp; katalog</string>
     <string name="addon_confirm_subtitle">Perubahan berikut dibuat dari ponsel Anda:</string>
@@ -1622,8 +1622,8 @@
     <string name="account_loading">Memuat\u2026</string>
     <string name="account_sync_description">Sinkronkan pustaka, progres tonton, addon, dan plugin di semua perangkat.</string>
     <string name="account_sync_restart_note">Sinkronisasi tidak real-time di semua perangkat aktif. Restart perangkat ini setelah masuk atau untuk mengambil perubahan yang dibuat di tempat lain.</string>
-    <string name="account_signin_qr_title">Masuk dengan QR</string>
-    <string name="account_signin_qr_subtitle">Pindai kode QR dan selesaikan login email di ponsel Anda</string>
+    <string name="account_signin_qr_title">Masuk dengan kode</string>
+    <string name="account_signin_qr_subtitle">Masukkan kode di ponsel atau komputer Anda untuk masuk</string>
     <string name="account_signed_in_label">Sudah masuk</string>
     <string name="account_total_label">Total</string>
     <string name="account_loading_sync">Memuat data sinkronisasi\u2026</string>
@@ -1631,22 +1631,22 @@
 
     <!-- AuthSignInScreen -->
     <string name="auth_signin_title">Masuk</string>
-    <string name="auth_signin_tv_disabled">Entri email/kata sandi di TV dinonaktifkan. Lanjutkan dengan masuk QR.</string>
-    <string name="auth_signin_qr_btn">Lanjutkan dengan QR</string>
+    <string name="auth_signin_tv_disabled">Masuk dengan email/kata sandi dinonaktifkan di server ini. Lanjutkan dengan masuk menggunakan kode.</string>
+    <string name="auth_signin_qr_btn">Lanjutkan dengan kode</string>
 
     <!-- AuthQrSignInScreen -->
-    <string name="auth_qr_title">Masuk dengan QR</string>
+    <string name="auth_qr_title">Masuk dengan kode</string>
     <string name="auth_qr_finishing">Menyelesaikan masuk\u2026</string>
     <string name="auth_qr_code_label">Kode: %1$s</string>
     <string name="auth_qr_expires">Kedaluwarsa dalam %1$s</string>
-    <string name="auth_qr_scan_instruction">Pindai QR, setujui di browser, lalu kembali ke sini.</string>
+    <string name="auth_qr_scan_instruction">Di ponsel atau komputer Anda, buka tautan di bawah dan masukkan kodenya.</string>
     <string name="auth_qr_code_display">Kode: %1$s</string>
-    <string name="auth_qr_refresh">Muat Ulang QR</string>
+    <string name="auth_qr_refresh">Kode baru</string>
     <string name="auth_qr_continue_without_account">Lanjutkan tanpa akun</string>
-    <string name="auth_qr_connected">Akun Anda terhubung di TV ini.</string>
+    <string name="auth_qr_connected">Akun Anda terhubung di headset ini.</string>
     <string name="auth_qr_synced_data">Data tersinkronisasi Anda</string>
-    <string name="auth_qr_generating">Membuat QR\u2026</string>
-    <string name="auth_qr_unavailable">QR tidak tersedia. Muat ulang untuk mencoba lagi.</string>
+    <string name="auth_qr_generating">Membuat kode…</string>
+    <string name="auth_qr_unavailable">Kode tidak tersedia. Minta kode baru untuk mencoba lagi.</string>
     <string name="auth_qr_please_wait">Harap tunggu\u2026</string>
     <string name="auth_qr_continue">Lanjutkan</string>
     <string name="auth_qr_back">Kembali</string>
@@ -1683,8 +1683,8 @@
     <string name="plugin_add_repository">Tambah repositori</string>
     <string name="plugin_add_btn">Tambah</string>
     <string name="plugin_manage_from_phone_title">Kelola dari ponsel</string>
-    <string name="plugin_manage_from_phone_subtitle">Pindai kode QR untuk menambah atau menghapus repositori dari ponsel Anda</string>
-    <string name="plugin_qr_instruction">Pindai dengan ponsel Anda untuk mengelola repositori</string>
+    <string name="plugin_manage_from_phone_subtitle">Buka halaman web di ponsel atau komputer Anda untuk menambah atau menghapus repositori</string>
+    <string name="plugin_qr_instruction">Buka alamat ini di browser pada Wi-Fi yang sama untuk mengelola repositori</string>
     <string name="plugin_qr_close">Tutup</string>
     <string name="plugin_confirm_title">Konfirmasi perubahan repositori</string>
     <string name="plugin_confirm_subtitle">Perubahan berikut dibuat dari ponsel Anda:</string>
@@ -2011,7 +2011,7 @@
     <string name="collections_editor_pin_above">Sematkan di Atas Katalog</string>
     <string name="collections_editor_pin_above_desc">Tampilkan koleksi ini di atas semua katalog beranda biasa. Beberapa koleksi yang disematkan mengikuti urutan pembuatan koleksi.</string>
     <string name="collections_editor_focus_glow">Cahaya Fokus</string>
-    <string name="collections_editor_focus_glow_desc">Gunakan cahaya TV asli pada kartu katalog kustom layar beranda koleksi ini</string>
+    <string name="collections_editor_focus_glow_desc">Gunakan cahaya fokus pada kartu katalog kustom layar beranda koleksi ini</string>
     <string name="collections_editor_view_mode">Mode Tampilan</string>
     <string name="collections_editor_show_all_tab">Tampilkan Tab \"Semua\"</string>
     <string name="collections_editor_show_all_tab_desc">Gabungkan semua katalog menjadi satu tab</string>
@@ -2454,4 +2454,24 @@
     <string name="trakt_comments_error_request_failed">Permintaan komentar Trakt gagal</string>
     <string name="trakt_library_error_fetch_list_items">Gagal mengambil item daftar</string>
 
+    <!-- NuvioVR -->
+    <string name="supporter_membership_scan_support">Lihat keanggotaan secara online</string>
+    <string name="supporter_membership_scan_manage">Kelola keanggotaan secara online</string>
+    <string name="custom_poster_qr_instruction">Buka alamat ini di browser pada Wi-Fi yang sama untuk menempelkan pola URL poster</string>
+    <string name="mdblist_awaiting_instruction">Buka alamat di bawah dan masukkan kode ini.</string>
+    <string name="stream_badge_qr_instruction">Buka alamat ini di browser pada Wi-Fi yang sama untuk mengelola URL lencana Fusion.</string>
+    <string name="profile_copy_settings_setup_subtitle">Mulai dari awal atau salin pengaturan dari profil lain satu kali.</string>
+    <string name="profile_copy_settings_subtitle">Pilih profil sumber. Pengaturan yang didukung dari profil tersebut akan menggantikan pengaturan profil ini satu kali.</string>
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">Lingkungan dan layar di headset Anda</string>
+    <string name="vr_settings_environment">Lingkungan</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">Tampilkan ruangan nyata Anda alih-alih lingkungan virtual. Tips: tekan Y untuk beralih dengan cepat.</string>
+    <string name="vr_dim_playback_title">Redupkan lingkungan saat pemutaran</string>
+    <string name="vr_dim_playback_subtitle">Gelapkan langit dan lantai saat video diputar, seperti di bioskop.</string>
+    <string name="vr_settings_screen">Layar</string>
+    <string name="vr_recenter_title">Posisikan ulang layar ke tengah</string>
+    <string name="vr_recenter_subtitle">Pindahkan layar kembali ke depan Anda.</string>
+    <string name="player_vr_passthrough_on">Tampilkan sekitar</string>
+    <string name="player_vr_passthrough_off">Sembunyikan sekitar</string>
 </resources>

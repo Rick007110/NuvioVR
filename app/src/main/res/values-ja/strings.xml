@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Nuvio</string>
+    <string name="app_name">NuvioVR</string>
     <string name="tv_channel_continue_watching">視聴を続ける</string>
     <string name="type_movie">映画</string>
     <string name="type_movies">映画</string>
@@ -18,26 +18,26 @@
     <string name="web_home_catalogs">ホームカタログとコレクション</string>
     <string name="web_no_catalogs">利用可能なホームカタログがありません</string>
     <string name="web_btn_save">変更を保存</string>
-    <string name="web_connection_lost">TVとの接続が切断されました</string>
+    <string name="web_connection_lost">ヘッドセットとの接続が切断されました</string>
     <string name="web_btn_remove">削除</string>
     <string name="web_badge_new">新規</string>
     <string name="web_badge_disabled">無効</string>
     <string name="web_btn_enable">有効化</string>
     <string name="web_btn_disable">無効化</string>
     <string name="web_error_addon_exists">このアドオンは既にリストにあります</string>
-    <string name="web_status_waiting_tv">TVを待機中</string>
-    <string name="web_status_msg_waiting_tv">変更を適用するにはTVで確認してください。</string>
+    <string name="web_status_waiting_tv">ヘッドセットを待機中</string>
+    <string name="web_status_msg_waiting_tv">変更を適用するにはヘッドセットで確認してください。</string>
     <string name="web_status_changes_applied">変更が適用されました</string>
-    <string name="web_status_msg_addon_updated">アドオン設定がTVで更新されました。</string>
-    <string name="web_status_msg_repo_updated">リポジトリ設定がTVで更新されました。</string>
+    <string name="web_status_msg_addon_updated">アドオン設定がNuvioVRで更新されました。</string>
+    <string name="web_status_msg_repo_updated">リポジトリ設定がNuvioVRで更新されました。</string>
     <string name="web_status_changes_rejected">変更が拒否されました</string>
-    <string name="web_status_msg_changes_rejected">TVで変更が拒否されました。リストを元に戻しました。</string>
+    <string name="web_status_msg_changes_rejected">ヘッドセットで変更が拒否されました。リストを元に戻しました。</string>
     <string name="web_status_error">問題が発生しました</string>
-    <string name="web_error_failed_save">保存に失敗しました。TVとの接続を確認してください。</string>
+    <string name="web_error_failed_save">保存に失敗しました。ヘッドセットとの接続を確認してください。</string>
     <string name="web_btn_dismiss">閉じる</string>
     <string name="web_status_timeout">タイムアウト</string>
-    <string name="web_status_msg_timeout">TVからの応答がありません。もう一度お試しください。</string>
-    <string name="web_status_msg_connection_lost">TVサーバーにアクセスできません。変更は適用された可能性があります。</string>
+    <string name="web_status_msg_timeout">ヘッドセットからの応答がありません。もう一度お試しください。</string>
+    <string name="web_status_msg_connection_lost">NuvioVRサーバーにアクセスできなくなりました。変更は適用された可能性があります。</string>
     <string name="web_manage_repos_title">リポジトリ管理</string>
     <string name="web_manage_repos_subtitle">リポジトリを管理</string>
     <string name="web_add_repo_url">URLでリポジトリを追加</string>
@@ -46,7 +46,7 @@
     <string name="web_error_repo_exists">このリポジトリは既にリストにあります</string>
     <string name="web_manage_collections_title">コレクション管理</string>
     <string name="web_manage_collections_subtitle">カスタムコレクションを作成・管理</string>
-    <string name="web_status_msg_collections_updated">コレクションがTVで更新されました。</string>
+    <string name="web_status_msg_collections_updated">コレクションがNuvioVRで更新されました。</string>
     <string name="web_tab_addons">アドオン</string>
     <string name="web_tab_home_layout">ホームレイアウト</string>
     <string name="web_tab_collections">コレクション</string>
@@ -347,12 +347,12 @@
     <string name="about_licenses_attributions">ライセンス &amp; 帰属</string>
     <string name="about_licenses_attributions_subtitle">データソース、謝辞、Androidライセンス</string>
     <string name="licenses_attributions_title">ライセンス &amp; 帰属</string>
-    <string name="licenses_attributions_subtitle">Nuvio TVが使用するデータプロバイダー、サービス、Android再生ライセンス</string>
+    <string name="licenses_attributions_subtitle">NuvioVRが使用するデータプロバイダー、サービスクレジット、Android再生ライセンス</string>
     <string name="licenses_attributions_section_app">アプリライセンス</string>
     <string name="licenses_attributions_section_data">データ &amp; サービス</string>
     <string name="licenses_attributions_section_playback">Android再生ライセンス</string>
-    <string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-    <string name="licenses_attributions_nuvio_body">ソースコードとライセンス条項はプロジェクトリポジトリで入手可能です。GNU General Public License v3.0 の下でライセンスされています。</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">Nuvio MediaのNuvio TVをベースにしています。ソースコードとライセンス条項はプロジェクトリポジトリで入手可能です。GNU General Public License v3.0 の下でライセンスされています。</string>
     <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
     <string name="licenses_attributions_tmdb_body">Nuvioは映画・TVのメタデータ、アートワーク、予告編、キャスト、制作詳細、コレクション、レコメンドにTMDB APIを使用しています。この製品はTMDB APIを使用していますが、TMDBによって承認または認定されていません。</string>
     <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -432,13 +432,13 @@
     <string name="account_error_password_too_weak">パスワードが弱すぎます。</string>
     <string name="account_error_signup_disabled">現在、新規登録は無効です。</string>
     <string name="account_error_rate_limited">試行回数が多すぎます。しばらくしてからもう一度お試しください。</string>
-    <string name="account_error_qr_login_expired">QRログインの有効期限が切れました。もう一度お試しください。</string>
-    <string name="account_error_invalid_qr_login">無効なQRログインコードです。</string>
-    <string name="account_error_qr_login_other_device">このQRログインは別のデバイスから要求されました。</string>
-    <string name="account_error_qr_login_outdated">QRログインサービスが古いです。TVログインSQLセットアップを再適用してください。</string>
-    <string name="account_error_qr_login_missing_setup">QRログインバックエンドのセットアップが不足しています。TVログインSQLセットアップを更新してください。</string>
-    <string name="account_error_qr_login_misconfigured">QRログインURLの設定が正しくありません。</string>
-    <string name="account_error_qr_login_invalid_request">QRログインリクエストが無効でした。再試行してください。</string>
+    <string name="account_error_qr_login_expired">サインインコードの有効期限が切れました。もう一度お試しください。</string>
+    <string name="account_error_invalid_qr_login">無効なサインインコードです。</string>
+    <string name="account_error_qr_login_other_device">このサインインコードは別のデバイスから要求されました。</string>
+    <string name="account_error_qr_login_outdated">デバイスログインサービスが古くなっています。デバイスログインSQLセットアップを再適用してください。</string>
+    <string name="account_error_qr_login_missing_setup">デバイスログインバックエンドのセットアップが不足しています。デバイスログインSQLセットアップを更新してください。</string>
+    <string name="account_error_qr_login_misconfigured">サインインURLの設定が正しくありません。</string>
+    <string name="account_error_qr_login_invalid_request">サインインリクエストが無効でした。再試行してください。</string>
     <string name="account_error_no_internet">インターネット接続がありません。</string>
     <string name="account_error_connection_timeout">接続がタイムアウトしました。もう一度お試しください。</string>
     <string name="account_error_connection_refused">サーバーに接続できませんでした。</string>
@@ -511,7 +511,7 @@
     <string name="action_close">閉じる</string>
 
     <string name="supporters_contributors_title">サポーター &amp; 貢献者</string>
-    <string name="supporters_contributors_subtitle">Nuvioを支援するサポーターとTV・モバイルで開発する貢献者</string>
+    <string name="supporters_contributors_subtitle">Nuvioを支援するサポーターと、TV・モバイル・VR向けに開発する貢献者</string>
     <string name="supporters_contributors_supporters_copy">サポーターと寄付者はプロジェクトの継続を支え、インフラを維持し、新機能の実現を後押しします</string>
     <string name="supporters_contributors_donate_copy">Nuvioは無料のオープンソースプロジェクトです。サポートしたい方は、開発・インフラの維持にご協力いただけます</string>
     <string name="supporters_contributors_donation_progress_title">今月のサーバー &amp; メンテナンス</string>
@@ -542,8 +542,8 @@
     <string name="contributors_error_title">貢献者を読み込めませんでした</string>
     <string name="contributors_total_contributions">合計%1$d件の貢献</string>
     <string name="contributors_open_github">GitHubプロフィールを開く</string>
-    <string name="contributors_show_kofi_qr">Ko-fi QRを表示</string>
-    <string name="contributors_hide_kofi_qr">Ko-fi QRを非表示</string>
+    <string name="contributors_show_kofi_qr">Ko-fiリンクを表示</string>
+    <string name="contributors_hide_kofi_qr">Ko-fiリンクを非表示</string>
     <string name="contributors_profile_unavailable">GitHubプロフィールリンクは利用できません</string>
 
     <string name="playback_loading_overlay">ローディングオーバーレイ</string>
@@ -625,7 +625,7 @@
     <string name="audio_decoder_priority">デコーダー優先度</string>
     <string name="audio_enable_downmix_title">ダウンミックスを有効にする</string>
     <string name="audio_tunneled">トンネル再生</string>
-    <string name="audio_tunneled_sub">ハードウェアレベルの音声/映像同期。一部のAndroid TVデバイスで再生を改善する可能性があります</string>
+    <string name="audio_tunneled_sub">ハードウェアレベルの音声/映像同期。一部のデバイスで再生を改善する可能性があります</string>
     <string name="audio_force_optical_passthrough">AC-3トランスコードを強制（光学/SPDIF）</string>
     <string name="audio_force_optical_passthrough_sub">マルチチャンネル形式（TrueHD、DTS、AACなど）をリアルタイムでDolby Digital 5.1にトランスコードし、光学/SPDIF接続に対応します。</string>
     <!-- DV7 Handling Mode -->
@@ -949,7 +949,7 @@
     <string name="debrid_disconnect">切断</string>
     <string name="debrid_device_auth_connected">%1$sがこのデバイスに接続されています。</string>
     <string name="debrid_device_auth_starting">セキュアサインインを開始中…</string>
-    <string name="debrid_device_auth_instructions">QRをスキャンし、このコードを入力してNuvioを承認してください。</string>
+    <string name="debrid_device_auth_instructions">スマートフォンまたはパソコンでこのアドレスにアクセスし、コードを入力してNuvioを承認してください。</string>
     <string name="debrid_device_auth_code_copied">コードをコピーしました。</string>
     <string name="debrid_device_auth_waiting">承認待ち…</string>
     <string name="debrid_device_auth_failed">サインインを開始できませんでした。</string>
@@ -1037,7 +1037,7 @@
     <string name="debrid_formatter_configure">Webエディターを開く</string>
     <string name="debrid_formatter_reset_title">フォーマットをリセット</string>
     <string name="debrid_formatter_reset_subtitle">デフォルトのソースフォーマットを復元します。</string>
-    <string name="debrid_formatter_qr_instruction">スマートフォンでこのQRコードをスキャンしてDebridソース設定を構成します。</string>
+    <string name="debrid_formatter_qr_instruction">同じWi-Fiに接続したブラウザでこのアドレスを開き、Debridソース設定を構成します。</string>
     <string name="settings_stream_badges_section">フュージョンスタイル</string>
     <string name="settings_stream_size_badges_title">サイズバッジ</string>
     <string name="settings_stream_size_badges_description">ストリーム結果とプレーヤーソースパネルにファイルサイズバッジを表示します。</string>
@@ -1066,7 +1066,7 @@
     <string name="settings_fusion_badge_preview_empty">このURLにフュージョンスタイルバッジ画像はありません。</string>
     <string name="settings_fusion_badge_group_title">グループ%1$d</string>
     <string name="settings_fusion_badge_other_group_title">その他のフュージョンバッジ</string>
-    <string name="stream_badge_qr_instruction">スマートフォンでこのQRコードをスキャンしてフュージョンバッジURLを管理します。</string>
+    <string name="stream_badge_qr_instruction">同じWi-Fiに接続したブラウザでこのアドレスを開き、FusionバッジURLを管理します。</string>
     <string name="streams_size">サイズ %1$s</string>
     <string name="action_import">インポート</string>
     <string name="action_delete">削除</string>
@@ -1124,14 +1124,14 @@
     <string name="trakt_waiting_approval">承認待ち…</string>
     <string name="qr_login_approved">ログイン承認済み。サインインを完了中…</string>
     <string name="qr_login_pending">スマートフォンで承認待ち…</string>
-    <string name="qr_login_expired">QRログインの期限が切れました。新しいコードを生成してください</string>
-    <string name="qr_login_preparing">QRログインを準備中…</string>
+    <string name="qr_login_expired">サインインコードの有効期限が切れました。新しいコードをリクエストしてください。</string>
+    <string name="qr_login_preparing">サインインコードを準備中…</string>
     <string name="qr_login_device_auth_failed">デバイス認証に失敗しました</string>
-    <string name="qr_login_scan_prompt">QRをスキャンし、スマートフォンでサインイン</string>
-    <string name="qr_login_start_failed">QRログインの開始に失敗しました</string>
+    <string name="qr_login_scan_prompt">スマートフォンまたはパソコンでリンクにアクセスし、コードを入力してください</string>
+    <string name="qr_login_start_failed">コードによるサインインを開始できませんでした</string>
     <string name="qr_login_signing_in">サインイン中…</string>
     <string name="qr_login_success">サインイン成功</string>
-    <string name="qr_login_exchange_failed">QRサインインを完了できませんでした</string>
+    <string name="qr_login_exchange_failed">コードによるサインインを完了できませんでした</string>
     <string name="trakt_code_expires">コードの有効期限: %1$s</string>
     <string name="trakt_token_refreshes">Traktアクセストークンの更新: %1$s後</string>
     <string name="trakt_login_instruction">ログインを押してTraktデバイス認証を開始してください。ここにQRコードが表示されます</string>
@@ -1297,7 +1297,7 @@
     <!-- Essential addon setup wizard -->
     <string name="essential_addon_setup_title">アドオンをセットアップ</string>
     <string name="essential_addon_setup_subtitle">ストリーミングを開始するにはアドオンを1つインストールしてください。後でアドオンから追加できます。</string>
-    <string name="essential_addon_show_qr">QRを表示</string>
+    <string name="essential_addon_show_qr">スマートフォンから管理</string>
     <!-- Collection editor fallbacks -->
     <string name="collection_editor_no_trakt_lists_found">Traktリストが見つかりません</string>
     <string name="collection_editor_untitled_folder">無題</string>
@@ -1317,14 +1317,14 @@
     <string name="addon_remove">削除</string>
     <string name="addons_badge_disabled">無効</string>
     <string name="addon_manage_from_phone_title">スマートフォンから管理</string>
-    <string name="addon_manage_from_phone_subtitle">QRコードをスキャンしてスマートフォンからアドオン、カタログ、コレクションを管理</string>
-    <string name="addon_manage_addons_only_from_phone_subtitle">QRコードをスキャンしてスマートフォンからアドオンをインストール・削除</string>
-    <string name="addon_manage_collections_from_phone_subtitle">QRコードをスキャンしてスマートフォンからコレクションを管理</string>
+    <string name="addon_manage_from_phone_subtitle">スマートフォンまたはパソコンでウェブページを開き、アドオン、カタログ、コレクションを管理</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">スマートフォンまたはパソコンでウェブページを開き、アドオンをインストール・削除</string>
+    <string name="addon_manage_collections_from_phone_subtitle">スマートフォンまたはパソコンでウェブページを開き、コレクションを管理</string>
     <string name="addon_reorder_title">ホームカタログを並び替え</string>
     <string name="addon_reorder_subtitle">ホームのカタログ行の順序を制御（クラシック + モダン + グリッド）</string>
-    <string name="addon_qr_scan_instruction">スマートフォンでスキャンしてアドオン、カタログ、コレクションを管理</string>
-    <string name="addon_qr_addons_only_scan_instruction">スマートフォンでスキャンしてアドオンをインストール・削除</string>
-    <string name="addon_qr_collections_scan_instruction">スマートフォンでスキャンしてコレクションを管理</string>
+    <string name="addon_qr_scan_instruction">同じWi-Fiに接続したスマートフォンまたはパソコンのブラウザでこのアドレスを開き、アドオン、カタログ、コレクションを管理</string>
+    <string name="addon_qr_addons_only_scan_instruction">同じWi-Fiに接続したブラウザでこのアドレスを開き、アドオンをインストール・削除</string>
+    <string name="addon_qr_collections_scan_instruction">同じWi-Fiに接続したブラウザでこのアドレスを開き、コレクションを管理</string>
     <string name="addon_qr_close">閉じる</string>
     <string name="addon_confirm_title">アドオンとカタログの変更を確認</string>
     <string name="addon_confirm_subtitle">スマートフォンから以下の変更が行われました:</string>
@@ -1696,8 +1696,8 @@
     <string name="account_loading">読み込み中\u2026</string>
     <string name="account_sync_description">デバイス間でライブラリ、視聴進行状況、アドオン、プラグインを同期</string>
     <string name="account_sync_restart_note">同期はリアルタイムではありません。サインイン後、または他のデバイスでの変更を反映するにはアプリを再起動してください</string>
-    <string name="account_signin_qr_title">QRでサインイン</string>
-    <string name="account_signin_qr_subtitle">QRコードをスキャンしてスマートフォンでメールログインを完了</string>
+    <string name="account_signin_qr_title">コードでサインイン</string>
+    <string name="account_signin_qr_subtitle">スマートフォンまたはパソコンでコードを入力してサインイン</string>
     <string name="account_signed_in_label">サインイン済み</string>
     <string name="account_total_label">合計</string>
     <string name="account_loading_sync">同期データを読み込み中\u2026</string>
@@ -1712,21 +1712,21 @@
     <string name="account_unknown_device">不明なデバイス</string>
 
     <string name="auth_signin_title">サインイン</string>
-    <string name="auth_signin_tv_disabled">TVでのメール/パスワード入力は無効です。QRサインインで続けてください</string>
-    <string name="auth_signin_qr_btn">QRで続ける</string>
+    <string name="auth_signin_tv_disabled">このサーバーではメール/パスワードによるサインインが無効です。コードによるサインインで続けてください。</string>
+    <string name="auth_signin_qr_btn">コードで続ける</string>
 
-    <string name="auth_qr_title">QRでサインイン</string>
+    <string name="auth_qr_title">コードでサインイン</string>
     <string name="auth_qr_finishing">サインインを完了中\u2026</string>
     <string name="auth_qr_code_label">コード: %1$s</string>
     <string name="auth_qr_expires">有効期限: %1$s</string>
-    <string name="auth_qr_scan_instruction">QRをスキャンし、ブラウザで承認してからここに戻ってください</string>
+    <string name="auth_qr_scan_instruction">スマートフォンまたはパソコンで下のリンクにアクセスし、コードを入力してください。</string>
     <string name="auth_qr_code_display">コード: %1$s</string>
-    <string name="auth_qr_refresh">QRを更新</string>
+    <string name="auth_qr_refresh">新しいコード</string>
     <string name="auth_qr_continue_without_account">アカウントなしで続ける</string>
-    <string name="auth_qr_connected">このTVにアカウントが接続されています</string>
+    <string name="auth_qr_connected">このヘッドセットにアカウントが接続されています。</string>
     <string name="auth_qr_synced_data">同期されたデータ</string>
-    <string name="auth_qr_generating">QRを生成中\u2026</string>
-    <string name="auth_qr_unavailable">QRが利用できません。更新して再試行してください</string>
+    <string name="auth_qr_generating">コードを生成中…</string>
+    <string name="auth_qr_unavailable">コードを利用できません。新しいコードをリクエストして再試行してください。</string>
     <string name="auth_qr_please_wait">お待ちください\u2026</string>
     <string name="auth_qr_continue">続ける</string>
     <string name="auth_qr_back">戻る</string>
@@ -1763,8 +1763,8 @@
     <string name="plugin_add_repository">リポジトリを追加</string>
     <string name="plugin_add_btn">追加</string>
     <string name="plugin_manage_from_phone_title">スマートフォンから管理</string>
-    <string name="plugin_manage_from_phone_subtitle">QRコードをスキャンしてスマートフォンからリポジトリを追加・削除</string>
-    <string name="plugin_qr_instruction">スマートフォンでスキャンしてリポジトリを管理</string>
+    <string name="plugin_manage_from_phone_subtitle">スマートフォンまたはパソコンでウェブページを開き、リポジトリを追加・削除</string>
+    <string name="plugin_qr_instruction">同じWi-Fiに接続したブラウザでこのアドレスを開き、リポジトリを管理</string>
     <string name="plugin_qr_close">閉じる</string>
     <string name="plugin_confirm_title">リポジトリの変更を確認</string>
     <string name="plugin_confirm_subtitle">スマートフォンから以下の変更が行われました:</string>
@@ -2057,7 +2057,7 @@
     <string name="collections_editor_pin_above">カタログの上に固定</string>
     <string name="collections_editor_pin_above_desc">このコレクションをすべての通常のホームカタログの上に表示します。複数の固定コレクションは作成順に従います。</string>
     <string name="collections_editor_focus_glow">フォーカスグロー</string>
-    <string name="collections_editor_focus_glow_desc">このコレクションのホーム画面カスタムカタログカードにネイティブTVグローを使用</string>
+    <string name="collections_editor_focus_glow_desc">このコレクションのホーム画面カスタムカタログカードにフォーカスグローを使用</string>
     <string name="collections_editor_view_mode">表示モード</string>
     <string name="collections_editor_show_all_tab">「すべて」タブを表示</string>
     <string name="collections_editor_show_all_tab_desc">すべてのカタログを1つのタブにまとめる</string>
@@ -2708,4 +2708,23 @@
     <string name="profile_default_name">プロフィール%1$d</string>
     <string name="detail_tmdb_fallback_title">TMDB %1$d</string>
     <string name="collections_editor_tmdb_collection_fallback">TMDBコレクション%1$d</string>
+    <!-- NuvioVR -->
+    <string name="supporter_membership_scan_support">メンバーシップをオンラインで表示</string>
+    <string name="supporter_membership_scan_manage">メンバーシップをオンラインで管理</string>
+    <string name="custom_poster_qr_instruction">同じWi-Fiに接続したブラウザでこのアドレスを開き、ポスターURLパターンを貼り付けます</string>
+    <string name="mdblist_awaiting_instruction">下のアドレスにアクセスし、このコードを入力してください。</string>
+    <string name="profile_copy_settings_setup_subtitle">新しく始めるか、別のプロフィールから設定を一度だけコピーします。</string>
+    <string name="profile_copy_settings_subtitle">コピー元のプロフィールを選択してください。対応する設定でこのプロフィールの設定が一度だけ置き換えられます。</string>
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">ヘッドセット内の環境と画面</string>
+    <string name="vr_settings_environment">環境</string>
+    <string name="vr_passthrough_title">パススルー</string>
+    <string name="vr_passthrough_subtitle">仮想環境の代わりに実際の部屋を表示します。ヒント：Yボタンを押すとすばやく切り替えられます。</string>
+    <string name="vr_dim_playback_title">再生中は環境を暗くする</string>
+    <string name="vr_dim_playback_subtitle">動画の再生中は、映画館のように空と床を暗くします。</string>
+    <string name="vr_settings_screen">画面</string>
+    <string name="vr_recenter_title">画面の位置をリセット</string>
+    <string name="vr_recenter_subtitle">画面を目の前に戻します。</string>
+    <string name="player_vr_passthrough_on">周囲を表示</string>
+    <string name="player_vr_passthrough_off">周囲を非表示</string>
 </resources>

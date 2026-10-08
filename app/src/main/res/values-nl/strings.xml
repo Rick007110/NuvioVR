@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Nuvio</string>
+    <string name="app_name">NuvioVR</string>
     <string name="tv_channel_continue_watching">Verder kijken</string>
     <string name="type_movie">Film</string>
     <string name="type_movies">Films</string>
@@ -18,26 +18,26 @@
     <string name="web_home_catalogs">Startcatalogi en collecties</string>
     <string name="web_no_catalogs">Geen startcatalogi beschikbaar</string>
     <string name="web_btn_save">Wijzigingen opslaan</string>
-    <string name="web_connection_lost">Verbinding met de tv verbroken</string>
+    <string name="web_connection_lost">Verbinding met de headset verbroken</string>
     <string name="web_btn_remove">Verwijderen</string>
     <string name="web_badge_new">Nieuw</string>
     <string name="web_badge_disabled">Uitgeschakeld</string>
     <string name="web_btn_enable">Inschakelen</string>
     <string name="web_btn_disable">Uitschakelen</string>
     <string name="web_error_addon_exists">Deze add-on staat al in de lijst</string>
-    <string name="web_status_waiting_tv">Wachten op de tv</string>
-    <string name="web_status_msg_waiting_tv">Bevestig de wijzigingen op je tv om ze toe te passen.</string>
+    <string name="web_status_waiting_tv">Wachten op de headset</string>
+    <string name="web_status_msg_waiting_tv">Bevestig de wijzigingen in je headset om ze toe te passen.</string>
     <string name="web_status_changes_applied">Wijzigingen toegepast</string>
-    <string name="web_status_msg_addon_updated">Je add-onconfiguratie is bijgewerkt op de tv.</string>
-    <string name="web_status_msg_repo_updated">Je repositoryconfiguratie is bijgewerkt op de tv.</string>
+    <string name="web_status_msg_addon_updated">Je add-onconfiguratie is bijgewerkt in NuvioVR.</string>
+    <string name="web_status_msg_repo_updated">Je repositoryconfiguratie is bijgewerkt in NuvioVR.</string>
     <string name="web_status_changes_rejected">Wijzigingen geweigerd</string>
-    <string name="web_status_msg_changes_rejected">De wijzigingen zijn op de tv geweigerd. Je lijst is teruggezet.</string>
+    <string name="web_status_msg_changes_rejected">De wijzigingen zijn in de headset geweigerd. Je lijst is teruggezet.</string>
     <string name="web_status_error">Er is iets misgegaan</string>
-    <string name="web_error_failed_save">Opslaan mislukt. Controleer je verbinding met de tv.</string>
+    <string name="web_error_failed_save">Opslaan mislukt. Controleer je verbinding met de headset.</string>
     <string name="web_btn_dismiss">Sluiten</string>
     <string name="web_status_timeout">Time-out</string>
-    <string name="web_status_msg_timeout">Geen reactie van de tv. Probeer het opnieuw.</string>
-    <string name="web_status_msg_connection_lost">De tv-server is niet meer bereikbaar. De wijzigingen zijn mogelijk toch toegepast.</string>
+    <string name="web_status_msg_timeout">Geen reactie van de headset. Probeer het opnieuw.</string>
+    <string name="web_status_msg_connection_lost">De NuvioVR-server is niet meer bereikbaar. De wijzigingen zijn mogelijk toch toegepast.</string>
     <string name="web_manage_repos_title">Repositories beheren</string>
     <string name="web_manage_repos_subtitle">Beheer je repositories</string>
     <string name="web_add_repo_url">Repository toevoegen via URL</string>
@@ -46,7 +46,7 @@
     <string name="web_error_repo_exists">Deze repository staat al in de lijst</string>
     <string name="web_manage_collections_title">Collecties beheren</string>
     <string name="web_manage_collections_subtitle">Maak en beheer je eigen collecties</string>
-    <string name="web_status_msg_collections_updated">Je collecties zijn bijgewerkt op de tv.</string>
+    <string name="web_status_msg_collections_updated">Je collecties zijn bijgewerkt in NuvioVR.</string>
     <string name="web_tab_addons">Add-ons</string>
     <string name="web_tab_home_layout">Startindeling</string>
     <string name="web_tab_collections">Collecties</string>
@@ -407,12 +407,12 @@
     <string name="about_licenses_attributions">Licenties &amp; naamsvermelding</string>
     <string name="about_licenses_attributions_subtitle">Gegevensbronnen, dankbetuigingen en Android-licenties</string>
     <string name="licenses_attributions_title">Licenties &amp; naamsvermelding</string>
-    <string name="licenses_attributions_subtitle">Gegevensleveranciers, service-credits en Android-afspeellicenties die door Nuvio TV worden gebruikt.</string>
+    <string name="licenses_attributions_subtitle">Gegevensleveranciers, service-credits en Android-afspeellicenties die door NuvioVR worden gebruikt.</string>
     <string name="licenses_attributions_section_app">APP-LICENTIE</string>
     <string name="licenses_attributions_section_data">GEGEVENS &amp; SERVICES</string>
     <string name="licenses_attributions_section_playback">ANDROID-AFSPEELLICENTIES</string>
-    <string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-    <string name="licenses_attributions_nuvio_body">De broncode en licentievoorwaarden zijn beschikbaar in de projectrepository. Gelicentieerd onder de GNU General Public License v3.0.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">Gebaseerd op Nuvio TV van Nuvio Media. De broncode en licentievoorwaarden zijn beschikbaar in de projectrepository. Gelicentieerd onder de GNU General Public License v3.0.</string>
     <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
     <string name="licenses_attributions_tmdb_body">Nuvio gebruikt de TMDB-API voor metadata, illustraties, trailers, cast, productiedetails, collecties en aanbevelingen van films en series. Dit product gebruikt de TMDB-API, maar wordt niet onderschreven of gecertificeerd door TMDB.</string>
     <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -520,13 +520,13 @@
     <string name="account_error_password_too_weak">Het wachtwoord is te zwak.</string>
     <string name="account_error_signup_disabled">Registreren is momenteel uitgeschakeld.</string>
     <string name="account_error_rate_limited">Te veel pogingen. Probeer het later opnieuw.</string>
-    <string name="account_error_qr_login_expired">QR-aanmelding is verlopen. Probeer het opnieuw.</string>
-    <string name="account_error_invalid_qr_login">Ongeldige QR-aanmeldcode.</string>
-    <string name="account_error_qr_login_other_device">Deze QR-aanmelding is vanaf een ander apparaat aangevraagd.</string>
-    <string name="account_error_qr_login_outdated">De QR-aanmeldservice is verouderd. Pas de SQL-installatie voor tv-aanmelding opnieuw toe.</string>
-    <string name="account_error_qr_login_missing_setup">De QR-aanmeldbackend is niet ingesteld. Werk de SQL-installatie voor tv-aanmelding bij.</string>
-    <string name="account_error_qr_login_misconfigured">De QR-aanmeld-URL is verkeerd geconfigureerd.</string>
-    <string name="account_error_qr_login_invalid_request">Het QR-aanmeldverzoek was ongeldig. Probeer het opnieuw.</string>
+    <string name="account_error_qr_login_expired">De aanmeldcode is verlopen. Probeer het opnieuw.</string>
+    <string name="account_error_invalid_qr_login">Ongeldige aanmeldcode.</string>
+    <string name="account_error_qr_login_other_device">Deze aanmeldcode is aangevraagd vanaf een ander apparaat.</string>
+    <string name="account_error_qr_login_outdated">De aanmeldservice voor apparaten is verouderd. Pas de SQL-installatie voor apparaataanmelding opnieuw toe.</string>
+    <string name="account_error_qr_login_missing_setup">De aanmeldbackend voor apparaten is niet ingesteld. Werk de SQL-installatie voor apparaataanmelding bij.</string>
+    <string name="account_error_qr_login_misconfigured">De aanmeld-URL is verkeerd ingesteld.</string>
+    <string name="account_error_qr_login_invalid_request">Het aanmeldverzoek was ongeldig. Probeer het opnieuw.</string>
     <string name="account_error_no_internet">Geen internetverbinding.</string>
     <string name="account_error_connection_timeout">Time-out bij de verbinding. Probeer het opnieuw.</string>
     <string name="account_error_connection_refused">Kon geen verbinding maken met de server.</string>
@@ -631,7 +631,7 @@
     <string name="action_close">Sluiten</string>
 
     <string name="supporters_contributors_title">Steun Nuvio</string>
-    <string name="supporters_contributors_subtitle">De mensen die Nuvio steunen en de bijdragers die eraan bouwen voor tv en mobiel.</string>
+    <string name="supporters_contributors_subtitle">De mensen die Nuvio steunen en de bijdragers die eraan bouwen voor tv, mobiel en VR.</string>
     <string name="supporters_contributors_supporters_copy">Ondersteuners en donateurs houden het project in beweging, financieren de infrastructuur en maken ruimte voor ambitieuze functies.</string>
     <string name="supporters_contributors_donate_copy">Nuvio blijft gratis en opensource. Wil je het project steunen, dan kun je helpen de tijd en infrastructuur erachter te dekken.</string>
     <string name="supporters_contributors_donation_progress_title">Server &amp; onderhoud van deze maand</string>
@@ -658,9 +658,9 @@
     <string name="supporter_membership_tier_supporter_plus">Ondersteuner Plus</string>
     <string name="supporter_membership_connected_title">Patreon is verbonden</string>
     <string name="supporter_membership_connected_description">Er is geen actieve Nuvio-tier gevonden op dit Patreon-account. Bekijk de beschikbare opties of vernieuw nadat je je Patreon-lidmaatschap hebt gewijzigd.</string>
-    <string name="supporter_membership_scan_support">Scan om lidmaatschap te bekijken</string>
+    <string name="supporter_membership_scan_support">Lidmaatschap online bekijken</string>
     <string name="supporter_membership_scan_support_description">Open de pagina Ondersteunerslidmaatschap op je telefoon.</string>
-    <string name="supporter_membership_scan_manage">Scan om lidmaatschap te beheren</string>
+    <string name="supporter_membership_scan_manage">Lidmaatschap online beheren</string>
     <string name="supporter_membership_scan_manage_description">Open de Patreon-lidmaatschapsinstellingen op je telefoon.</string>
     <string name="cd_membership_qr">QR-code van de lidmaatschapspagina</string>
     <string name="supporters_tab">Ondersteuners</string>
@@ -686,8 +686,8 @@
     <string name="contributors_error_title">Kon bijdragers niet laden</string>
     <string name="contributors_total_contributions">%1$d bijdragen in totaal</string>
     <string name="contributors_open_github">GitHub-profiel openen</string>
-    <string name="contributors_show_kofi_qr">Ko-fi-QR tonen</string>
-    <string name="contributors_hide_kofi_qr">Ko-fi-QR verbergen</string>
+    <string name="contributors_show_kofi_qr">Ko-fi-link tonen</string>
+    <string name="contributors_hide_kofi_qr">Ko-fi-link verbergen</string>
     <string name="contributors_profile_unavailable">Link naar GitHub-profiel niet beschikbaar.</string>
 
     <string name="playback_loading_overlay">Laadoverlay</string>
@@ -772,7 +772,7 @@
     <string name="audio_enable_downmix_title">Downmix inschakelen</string>
     <string name="audio_enable_downmix_subtitle">Gebruikt het FFmpeg-downmixpad. Vereist Voorkeur voor app-decoders (FFmpeg). Als dit uitstaat, volgt de audio het vorige Android-/apparaatpad.</string>
     <string name="audio_tunneled">Getunneld afspelen</string>
-    <string name="audio_tunneled_sub">Hardwarematige audio/video-synchronisatie. Kan de weergave verbeteren op sommige Android TV-apparaten</string>
+    <string name="audio_tunneled_sub">Hardwarematige audio/video-synchronisatie. Kan de weergave op sommige apparaten verbeteren</string>
     <string name="audio_force_optical_passthrough">AC-3-transcodering forceren (optisch/SPDIF)</string>
     <string name="audio_force_optical_passthrough_sub">Zet meerkanaalsformaten (TrueHD, DTS, AAC enz.) in realtime om naar Dolby Digital 5.1 voor optische/SPDIF-verbindingen.</string>
     <!-- DV7 Handling Mode -->
@@ -1147,7 +1147,7 @@
     <string name="debrid_disconnect">Loskoppelen</string>
     <string name="debrid_device_auth_connected">%1$s is verbonden op dit apparaat.</string>
     <string name="debrid_device_auth_starting">Beveiligde aanmelding starten...</string>
-    <string name="debrid_device_auth_instructions">Scan de QR-code en voer deze code in om Nuvio goed te keuren.</string>
+    <string name="debrid_device_auth_instructions">Ga op je telefoon of computer naar dit adres en voer de code in om Nuvio goed te keuren.</string>
     <string name="debrid_device_auth_code_copied">Code gekopieerd.</string>
     <string name="debrid_device_auth_waiting">Wachten op goedkeuring...</string>
     <string name="debrid_device_auth_failed">Kon de aanmelding niet starten.</string>
@@ -1235,7 +1235,7 @@
     <string name="debrid_formatter_configure">Web-editor openen</string>
     <string name="debrid_formatter_reset_title">Opmaak herstellen</string>
     <string name="debrid_formatter_reset_subtitle">Herstel de standaardopmaak van bronnen.</string>
-    <string name="debrid_formatter_qr_instruction">Scan deze QR-code met je telefoon om de instellingen van Debrid-bronnen te configureren.</string>
+    <string name="debrid_formatter_qr_instruction">Open dit adres in een browser op hetzelfde wifi-netwerk om de Debrid-broninstellingen te configureren.</string>
     <string name="settings_stream_badges_section">Fusion-stijl</string>
     <string name="settings_stream_size_badges_title">Groottelabels</string>
     <string name="settings_stream_size_badges_description">Toon labels met bestandsgrootte in streamresultaten en bronpanelen van de speler.</string>
@@ -1264,7 +1264,7 @@
     <string name="settings_fusion_badge_preview_empty">Geen labelafbeeldingen in Fusion-stijl in deze URL.</string>
     <string name="settings_fusion_badge_group_title">Groep %1$d</string>
     <string name="settings_fusion_badge_other_group_title">Overige Fusion-labels</string>
-    <string name="stream_badge_qr_instruction">Scan deze QR-code met je telefoon om de URL\'s van Fusion-labels te beheren.</string>
+    <string name="stream_badge_qr_instruction">Open dit adres in een browser op hetzelfde wifi-netwerk om Fusion-badge-URL\'s te beheren.</string>
     <string name="streams_size">GROOTTE %1$s</string>
     <string name="action_import">Importeren</string>
     <string name="action_delete">Verwijderen</string>
@@ -1322,14 +1322,14 @@
     <string name="trakt_waiting_approval">Wachten op goedkeuring…</string>
     <string name="qr_login_approved">Aanmelding goedgekeurd. Aanmelden wordt voltooid…</string>
     <string name="qr_login_pending">Wachten op goedkeuring op je telefoon…</string>
-    <string name="qr_login_expired">QR-login verlopen. Genereer een nieuwe code.</string>
-    <string name="qr_login_preparing">QR-aanmelding voorbereiden...</string>
+    <string name="qr_login_expired">De aanmeldcode is verlopen. Vraag een nieuwe code aan.</string>
+    <string name="qr_login_preparing">Aanmeldcode voorbereiden…</string>
     <string name="qr_login_device_auth_failed">Verificatie van het apparaat is mislukt</string>
-    <string name="qr_login_scan_prompt">Scan de QR-code en meld je aan op je telefoon</string>
-    <string name="qr_login_start_failed">Kon de QR-aanmelding niet starten</string>
+    <string name="qr_login_scan_prompt">Ga naar de link en voer de code in op je telefoon of computer</string>
+    <string name="qr_login_start_failed">Aanmelden met een code kon niet worden gestart</string>
     <string name="qr_login_signing_in">Je wordt aangemeld…</string>
     <string name="qr_login_success">Aanmelden gelukt</string>
-    <string name="qr_login_exchange_failed">Kon de QR-aanmelding niet voltooien</string>
+    <string name="qr_login_exchange_failed">Aanmelden met een code kon niet worden voltooid</string>
     <string name="trakt_code_expires">Code verloopt over %1$s</string>
     <string name="trakt_token_refreshes">Trakt-toegangstoken wordt vernieuwd over %1$s</string>
     <string name="trakt_login_instruction">Druk op Aanmelden bij account om de apparaatverificatie van Trakt te starten. Hier verschijnt een QR-code.</string>
@@ -1477,13 +1477,13 @@
     <string name="profile_save">Opslaan</string>
     <string name="profile_copy_settings_label">Instellingen kopiëren</string>
     <string name="profile_copy_settings_setup_title">Profielinstellingen</string>
-    <string name="profile_copy_settings_setup_subtitle">Begin opnieuw of kopieer eenmalig de tv-instellingen van een ander profiel.</string>
+    <string name="profile_copy_settings_setup_subtitle">Begin opnieuw of kopieer eenmalig de instellingen van een ander profiel.</string>
     <string name="profile_copy_settings_start_fresh">Opnieuw beginnen</string>
     <string name="profile_copy_settings_primary_source">%1$s (primair)</string>
     <string name="profile_copy_settings_create_fresh">Instellingen: opnieuw beginnen</string>
     <string name="profile_copy_settings_create_source">Instellingen: %1$s</string>
     <string name="profile_copy_settings_title">Instellingen kopiëren naar %1$s</string>
-    <string name="profile_copy_settings_subtitle">Kies een bronprofiel. De ondersteunde tv-instellingen daarvan vervangen eenmalig de instellingen van dit profiel.</string>
+    <string name="profile_copy_settings_subtitle">Kies een bronprofiel. De ondersteunde instellingen daarvan vervangen eenmalig de instellingen van dit profiel.</string>
     <string name="profile_copy_settings_from">Kopiëren van</string>
     <string name="profile_copy_settings_action">Instellingen kopiëren</string>
     <string name="profile_copy_settings_copying">Kopiëren\u2026</string>
@@ -1535,7 +1535,7 @@
     <!-- Essential addon setup wizard -->
     <string name="essential_addon_setup_title">Add-ons instellen</string>
     <string name="essential_addon_setup_subtitle">Installeer één add-on om te beginnen met streamen. Je kunt er later meer toevoegen via Add-ons.</string>
-    <string name="essential_addon_show_qr">QR tonen</string>
+    <string name="essential_addon_show_qr">Beheren via telefoon</string>
     <!-- Collection editor fallbacks -->
     <string name="collection_editor_no_trakt_lists_found">Geen Trakt-lijsten gevonden</string>
     <string name="collection_editor_untitled_folder">Naamloos</string>
@@ -1559,14 +1559,14 @@
     <string name="addon_delete_yes">Ja</string>
     <string name="addons_badge_disabled">Uitgeschakeld</string>
     <string name="addon_manage_from_phone_title">Beheren via telefoon</string>
-    <string name="addon_manage_from_phone_subtitle">Scan een QR-code om add-ons, catalogi en collecties te beheren vanaf je telefoon</string>
-    <string name="addon_manage_addons_only_from_phone_subtitle">Scan een QR-code om add-ons vanaf je telefoon te installeren of te verwijderen</string>
-    <string name="addon_manage_collections_from_phone_subtitle">Scan een QR-code om collecties vanaf je telefoon te beheren</string>
+    <string name="addon_manage_from_phone_subtitle">Open een webpagina op je telefoon of computer om add-ons, catalogi en collecties te beheren</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">Open een webpagina op je telefoon of computer om add-ons te installeren of te verwijderen</string>
+    <string name="addon_manage_collections_from_phone_subtitle">Open een webpagina op je telefoon of computer om collecties te beheren</string>
     <string name="addon_reorder_title">Startcatalogi herschikken</string>
     <string name="addon_reorder_subtitle">Bepaalt de volgorde van catalogus- en collectierijen op het startscherm (Klassieke weergave + Moderne weergave + Rasterweergave)</string>
-    <string name="addon_qr_scan_instruction">Scan met je telefoon om add-ons, catalogi en collecties te beheren</string>
-    <string name="addon_qr_addons_only_scan_instruction">Scan met je telefoon om add-ons te installeren of te verwijderen</string>
-    <string name="addon_qr_collections_scan_instruction">Scan met je telefoon om collecties te beheren</string>
+    <string name="addon_qr_scan_instruction">Open dit adres in een browser op een telefoon of computer op hetzelfde wifi-netwerk om add-ons, catalogi en collecties te beheren</string>
+    <string name="addon_qr_addons_only_scan_instruction">Open dit adres in een browser op hetzelfde wifi-netwerk om add-ons te installeren of te verwijderen</string>
+    <string name="addon_qr_collections_scan_instruction">Open dit adres in een browser op hetzelfde wifi-netwerk om collecties te beheren</string>
     <string name="addon_qr_close">Sluiten</string>
     <string name="addon_confirm_title">Add-on- en cataloguswijzigingen bevestigen</string>
     <string name="addon_confirm_subtitle">De volgende wijzigingen zijn via je telefoon aangebracht:</string>
@@ -1995,8 +1995,8 @@
     <string name="account_loading">Laden\u2026</string>
     <string name="account_sync_description">Synchroniseer je bibliotheek, kijkvoortgang, add-ons en plug-ins op al je apparaten.</string>
     <string name="account_sync_restart_note">Synchronisatie verloopt niet in realtime tussen actieve apparaten. Start dit apparaat opnieuw op na het aanmelden of om wijzigingen van elders over te nemen.</string>
-    <string name="account_signin_qr_title">Aanmelden met QR</string>
-    <string name="account_signin_qr_subtitle">Scan een QR-code en voltooi het aanmelden met je e-mailadres op je telefoon</string>
+    <string name="account_signin_qr_title">Aanmelden met een code</string>
+    <string name="account_signin_qr_subtitle">Voer een code in op je telefoon of computer om je aan te melden</string>
     <string name="account_signin_email_title">Aanmelden</string>
     <string name="account_signin_email_subtitle">Voer het e-mailadres en wachtwoord van je zelfgehoste account in</string>
     <string name="account_signed_in_label">Aangemeld</string>
@@ -2015,8 +2015,8 @@
     <string name="account_unknown_device">Onbekend apparaat</string>
 
     <string name="auth_signin_title">Aanmelden</string>
-    <string name="auth_signin_tv_disabled">Invoer van e-mailadres en wachtwoord op tv is uitgeschakeld. Ga door met QR-aanmelding.</string>
-    <string name="auth_signin_qr_btn">Doorgaan met QR</string>
+    <string name="auth_signin_tv_disabled">Aanmelden met e-mail en wachtwoord is uitgeschakeld op deze server. Ga door met aanmelden via een code.</string>
+    <string name="auth_signin_qr_btn">Doorgaan met een code</string>
     <string name="auth_email_hint">Meld je rechtstreeks aan met het account op je zelfgehoste server.</string>
     <string name="auth_email_instruction">Voer je e-mailadres en wachtwoord in om door te gaan.</string>
     <string name="auth_email_placeholder">E-mailadres</string>
@@ -2064,20 +2064,20 @@
     <string name="custom_server_session_clear_failed">Kon de huidige sessie niet veilig wissen. De server is niet gewijzigd.</string>
     <string name="custom_server_restart_failed">De server is opgeslagen, maar de app kon niet automatisch opnieuw opstarten. Start de app handmatig opnieuw op.</string>
 
-    <string name="auth_qr_title">Aanmelden met QR</string>
+    <string name="auth_qr_title">Aanmelden met een code</string>
     <string name="auth_qr_tagline">Bekijk je bibliotheek, waar je ook bent</string>
     <string name="auth_qr_finishing">Aanmelden afronden\u2026</string>
     <string name="auth_qr_code_label">Code: %1$s</string>
     <string name="auth_qr_expires">Verloopt over %1$s</string>
-    <string name="auth_qr_scan_instruction">Scan de QR-code of voer de code in je browser in.</string>
+    <string name="auth_qr_scan_instruction">Ga op je telefoon of computer naar de link hieronder en voer de code in.</string>
     <string name="auth_qr_code_display">Code: %1$s</string>
     <string name="auth_qr_manual_instruction">Of ga naar %1$s en voer in</string>
-    <string name="auth_qr_refresh">QR vernieuwen</string>
+    <string name="auth_qr_refresh">Nieuwe code</string>
     <string name="auth_qr_continue_without_account">Doorgaan zonder account</string>
-    <string name="auth_qr_connected">Je account is verbonden op deze tv.</string>
+    <string name="auth_qr_connected">Je account is verbonden op deze headset.</string>
     <string name="auth_qr_synced_data">Je gesynchroniseerde gegevens</string>
-    <string name="auth_qr_generating">QR genereren\u2026</string>
-    <string name="auth_qr_unavailable">QR niet beschikbaar. Vernieuw om opnieuw te proberen.</string>
+    <string name="auth_qr_generating">Code genereren…</string>
+    <string name="auth_qr_unavailable">Code niet beschikbaar. Vraag een nieuwe code aan.</string>
     <string name="auth_qr_please_wait">Even geduld\u2026</string>
     <string name="auth_qr_continue">Doorgaan</string>
     <string name="auth_qr_back">Terug</string>
@@ -2116,8 +2116,8 @@
     <string name="plugin_add_repository">Repository toevoegen</string>
     <string name="plugin_add_btn">Toevoegen</string>
     <string name="plugin_manage_from_phone_title">Beheren via telefoon</string>
-    <string name="plugin_manage_from_phone_subtitle">Scan een QR-code om repositories vanaf je telefoon toe te voegen of te verwijderen</string>
-    <string name="plugin_qr_instruction">Scan met je telefoon om repositories te beheren</string>
+    <string name="plugin_manage_from_phone_subtitle">Open een webpagina op je telefoon of computer om repositories toe te voegen of te verwijderen</string>
+    <string name="plugin_qr_instruction">Open dit adres in een browser op hetzelfde wifi-netwerk om repositories te beheren</string>
     <string name="plugin_qr_close">Sluiten</string>
     <string name="plugin_confirm_title">Wijzigingen in repositories bevestigen</string>
     <string name="plugin_confirm_subtitle">De volgende wijzigingen zijn via je telefoon aangebracht:</string>
@@ -2421,7 +2421,7 @@
     <string name="collections_editor_pin_above">Vastzetten boven catalogi</string>
     <string name="collections_editor_pin_above_desc">Toon deze collectie boven alle gewone startcatalogi. Meerdere vastgezette collecties volgen de volgorde waarin ze zijn gemaakt.</string>
     <string name="collections_editor_focus_glow">Focusgloed</string>
-    <string name="collections_editor_focus_glow_desc">Gebruik de eigen tv-gloed op de aangepaste cataloguskaarten van deze collectie op het startscherm</string>
+    <string name="collections_editor_focus_glow_desc">Gebruik de focusgloed op de aangepaste cataloguskaarten van deze collectie op het startscherm</string>
     <string name="collections_editor_view_mode">Weergavemodus</string>
     <string name="collections_editor_show_all_tab">Tabblad \"Alle\" tonen</string>
     <string name="collections_editor_show_all_tab_desc">Voeg alle catalogi samen in één tabblad</string>
@@ -3151,4 +3151,19 @@
     <string name="stream_test_video_bitrate">Gemiddelde videobitrate: %1$s</string>
     <string name="stream_test_error_connection">Verbinding mislukt. De link van de laatst afgespeelde stream is mogelijk verlopen of onbereikbaar. Speel de video opnieuw af en probeer het nogmaals.</string>
 
+    <!-- NuvioVR -->
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">Omgeving en scherm in je headset</string>
+    <string name="vr_settings_environment">Omgeving</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">Toon je echte kamer in plaats van de virtuele omgeving. Tip: druk op Y om snel te wisselen.</string>
+    <string name="vr_dim_playback_title">Omgeving dimmen tijdens afspelen</string>
+    <string name="vr_dim_playback_subtitle">Maak de lucht en vloer donker tijdens het afspelen, net als in de bioscoop.</string>
+    <string name="vr_settings_screen">Scherm</string>
+    <string name="vr_recenter_title">Scherm centreren</string>
+    <string name="vr_recenter_subtitle">Zet het scherm weer recht voor je.</string>
+    <string name="player_vr_passthrough_on">Omgeving tonen</string>
+    <string name="player_vr_passthrough_off">Omgeving verbergen</string>
+    <string name="custom_poster_qr_instruction">Open dit adres in een browser op hetzelfde wifi-netwerk om een poster-URL-patroon te plakken</string>
+    <string name="mdblist_awaiting_instruction">Ga naar het adres hieronder en voer deze code in.</string>
 </resources>

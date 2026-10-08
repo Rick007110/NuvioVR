@@ -2,11 +2,9 @@ package com.nuvio.tv.ui.screens.settings
 
 import com.nuvio.tv.domain.model.catalogRowLegacyKey
 import android.content.Context
-import android.graphics.Bitmap
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.nuvio.tv.R
-import com.nuvio.tv.core.qr.QrCodeGenerator
 import com.nuvio.tv.core.server.DeviceIpAddress
 import com.nuvio.tv.core.server.StreamBadgeConfigServer
 import com.nuvio.tv.core.streams.StreamBadgePlacement
@@ -520,7 +518,6 @@ class LayoutSettingsViewModel @Inject constructor(
         _streamBadgeUiState.update {
             it.copy(
                 isQrModeActive = true,
-                qrCodeBitmap = QrCodeGenerator.generate(url, 512),
                 serverUrl = url,
                 serverError = null
             )
@@ -532,7 +529,6 @@ class LayoutSettingsViewModel @Inject constructor(
         _streamBadgeUiState.update {
             it.copy(
                 isQrModeActive = false,
-                qrCodeBitmap = null,
                 serverUrl = null
             )
         }
@@ -965,7 +961,6 @@ class LayoutSettingsViewModel @Inject constructor(
         _customPosterQrState.update {
             it.copy(
                 isActive = true,
-                qrCodeBitmap = com.nuvio.tv.core.qr.QrCodeGenerator.generate(url, 512),
                 serverUrl = url,
                 serverError = null
             )
@@ -975,7 +970,7 @@ class LayoutSettingsViewModel @Inject constructor(
     fun stopCustomPosterQrMode() {
         stopCustomPosterServer()
         _customPosterQrState.update {
-            it.copy(isActive = false, qrCodeBitmap = null, serverUrl = null)
+            it.copy(isActive = false, serverUrl = null)
         }
     }
 
@@ -1016,7 +1011,6 @@ class LayoutSettingsViewModel @Inject constructor(
 data class StreamBadgeSettingsUiState(
     val settings: StreamBadgeSettings = StreamBadgeSettings(),
     val isQrModeActive: Boolean = false,
-    val qrCodeBitmap: Bitmap? = null,
     val serverUrl: String? = null,
     val serverError: String? = null
 ) {
@@ -1035,7 +1029,6 @@ data class StreamBadgeSettingsUiState(
 
 data class CustomPosterQrState(
     val isActive: Boolean = false,
-    val qrCodeBitmap: android.graphics.Bitmap? = null,
     val serverUrl: String? = null,
     val serverError: String? = null
 )

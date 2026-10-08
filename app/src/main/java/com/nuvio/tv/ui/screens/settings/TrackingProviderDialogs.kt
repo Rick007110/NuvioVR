@@ -40,7 +40,6 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
@@ -57,11 +56,11 @@ import androidx.tv.material3.Icon
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
 import com.nuvio.tv.R
-import com.nuvio.tv.core.qr.QrCodeGenerator
 import com.nuvio.tv.data.repository.TraktProgressService
 import com.nuvio.tv.data.simkl.SIMKL_AUTOMATIC_REFRESH_INTERVAL_MINUTES
 import com.nuvio.tv.data.simkl.SimklConnectionMode
 import com.nuvio.tv.ui.components.LoadingIndicator
+import com.nuvio.tv.ui.components.ManualLinkCard
 import com.nuvio.tv.ui.components.NuvioDialog
 import com.nuvio.tv.ui.theme.NuvioMotion
 import com.nuvio.tv.ui.theme.NuvioTheme
@@ -307,9 +306,6 @@ internal fun TrackingDeviceAuthContent(
             }
         }
         !userCode.isNullOrBlank() && !qrUrl.isNullOrBlank() -> {
-            val qrBitmap = remember(qrUrl) {
-                runCatching { QrCodeGenerator.generate(qrUrl, 420, margin = 1) }.getOrNull()
-            }
             val nowMillis by produceState(
                 initialValue = System.currentTimeMillis(),
                 key1 = expiresAtEpochMs
@@ -326,52 +322,22 @@ internal fun TrackingDeviceAuthContent(
                 textAlign = TextAlign.Center,
                 modifier = Modifier.fillMaxWidth()
             )
-            if (qrBitmap != null) {
-                Box(
-                    modifier = Modifier.fillMaxWidth(),
-                    contentAlignment = Alignment.Center
-                ) {
-                    Image(
-                        bitmap = qrBitmap.asImageBitmap(),
-                        contentDescription = qrContentDescription,
-                        modifier = Modifier.size(144.dp),
-                        contentScale = ContentScale.Fit
-                    )
-                }
-            }
-            Column(
+            // VR: a QR code can't be scanned from inside the headset, so only show the link + code.
+            Box(
                 modifier = Modifier.fillMaxWidth(),
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(NuvioTheme.spacing.xs)
+                contentAlignment = Alignment.Center
             ) {
-                Text(
-                    text = userCode,
-                    style = MaterialTheme.typography.headlineMedium.copy(fontWeight = FontWeight.Bold),
-                    color = NuvioTheme.colors.TextPrimary,
-                    textAlign = TextAlign.Center,
-                    modifier = Modifier.fillMaxWidth()
-                )
-                if (!displayUrl.isNullOrBlank()) {
-                    Text(
-                        text = displayUrl,
-                        style = MaterialTheme.typography.bodySmall,
-                        color = NuvioTheme.colors.TextTertiary,
-                        textAlign = TextAlign.Center,
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                }
-                expiresAtEpochMs?.let { expiresAt ->
-                    Text(
-                        text = stringResource(
+                ManualLinkCard(
+                    url = displayUrl?.takeIf { it.isNotBlank() } ?: qrUrl,
+                    code = userCode,
+                    stripScheme = true,
+                    footer = expiresAtEpochMs?.let { expiresAt ->
+                        stringResource(
                             R.string.trakt_code_expires,
                             formatTrackingDuration((expiresAt - nowMillis).coerceAtLeast(0L))
-                        ),
-                        style = MaterialTheme.typography.bodySmall,
-                        color = NuvioTheme.colors.TextSecondary,
-                        textAlign = TextAlign.Center,
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                }
+                        )
+                    }
+                )
             }
         }
         else -> {
