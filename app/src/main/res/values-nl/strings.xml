@@ -3151,4 +3151,17 @@
     <string name="stream_test_video_bitrate">Gemiddelde videobitrate: %1$s</string>
     <string name="stream_test_error_connection">Verbinding mislukt. De link van de laatst afgespeelde stream is mogelijk verlopen of onbereikbaar. Speel de video opnieuw af en probeer het nogmaals.</string>
 
+    <!-- NuvioVR -->
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">Omgeving en scherm in je headset</string>
+    <string name="vr_settings_environment">Omgeving</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">Toon je echte kamer in plaats van de virtuele omgeving. Tip: druk op Y om snel te wisselen.</string>
+    <string name="vr_dim_playback_title">Omgeving dimmen tijdens afspelen</string>
+    <string name="vr_dim_playback_subtitle">Maak de lucht en vloer donker tijdens het afspelen, net als in de bioscoop.</string>
+    <string name="vr_settings_screen">Scherm</string>
+    <string name="vr_recenter_title">Scherm centreren</string>
+    <string name="vr_recenter_subtitle">Zet het scherm weer recht voor je.</string>
+    <string name="player_vr_passthrough_on">Omgeving tonen</string>
+    <string name="player_vr_passthrough_off">Omgeving verbergen</string>
 </resources>

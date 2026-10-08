@@ -69,6 +69,8 @@ import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.SkipNext
+import androidx.compose.material.icons.filled.VisibilityOff
+import androidx.compose.material.icons.filled.Visibility
 import androidx.compose.material.icons.filled.Speed
 import androidx.compose.material.icons.filled.SwapHoriz
 import androidx.compose.runtime.Composable
@@ -2357,6 +2359,24 @@ private fun PlayerControlsOverlay(
                         contentDescription = if (uiState.isPlaying) stringResource(R.string.cd_pause) else stringResource(R.string.cd_play),
                         onClick = onPlayPause,
                         focusRequester = playPauseFocusRequester,
+                        upFocusRequester = progressUpTarget,
+                        onDownKey = onHideControls,
+                        onFocused = onResetHideTimer
+                    )
+
+                    // VR: quick switch between the virtual environment and the real room.
+                    val passthroughEnabled by com.nuvio.tv.vr.VrSession.passthroughEnabled.collectAsState()
+                    ControlButton(
+                        icon = if (passthroughEnabled) Icons.Default.VisibilityOff else Icons.Default.Visibility,
+                        contentDescription = if (passthroughEnabled) {
+                            stringResource(R.string.player_vr_passthrough_off)
+                        } else {
+                            stringResource(R.string.player_vr_passthrough_on)
+                        },
+                        onClick = {
+                            com.nuvio.tv.vr.VrSession.togglePassthrough()
+                            onResetHideTimer()
+                        },
                         upFocusRequester = progressUpTarget,
                         onDownKey = onHideControls,
                         onFocused = onResetHideTimer

@@ -3367,4 +3367,17 @@
     <string name="autosync_toast_failed_no_reference">Sync failed: this video has no embedded subtitles to compare with.</string>
     <string name="autosync_toast_failed_unsupported">Sync failed: Auto Sync doesn\'t support this subtitle format.</string>
     <string name="autosync_label_synced">Auto synced</string>
+    <!-- NuvioVR -->
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">Environment and screen in your headset</string>
+    <string name="vr_settings_environment">Environment</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">Show your real room instead of the virtual environment. Tip: press Y to switch quickly.</string>
+    <string name="vr_dim_playback_title">Dim environment during playback</string>
+    <string name="vr_dim_playback_subtitle">Darken the sky and floor while a video plays, like in a cinema.</string>
+    <string name="vr_settings_screen">Screen</string>
+    <string name="vr_recenter_title">Recenter screen</string>
+    <string name="vr_recenter_subtitle">Move the screen back in front of you.</string>
+    <string name="player_vr_passthrough_on">Show surroundings</string>
+    <string name="player_vr_passthrough_off">Hide surroundings</string>
 </resources>
