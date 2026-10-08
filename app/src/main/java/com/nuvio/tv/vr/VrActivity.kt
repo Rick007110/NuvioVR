@@ -297,19 +297,23 @@ class VrActivity : AppSystemActivity() {
         // In LOCAL_FLOOR space the user stands at the origin looking down +Z.
         val BROWSE_POSE = Pose(Vector3(0f, 1.35f, 2.2f), Quaternion(0f, 0f, 0f))
 
-        // Cinema screen on the stage (see tools/cinema/generate_cinema.py): 12 x 6.75 m.
-        val BIG_SCREEN_POSE = Pose(Vector3(0f, 3.2f, 11.0f), Quaternion(0f, 0f, 0f))
-        const val BIG_SCREEN_SCALE = 12.0f / SCREEN_WIDTH_M
+        // Cinema screen: the unscaled 2 m panel at 1.85 m covers the same ~57 degrees as the
+        // 12 m screen frame on the stage (tools/cinema/generate_cinema.py). Placing a 6x scaled
+        // panel on the stage itself (11 m away) made it unreachable for controller rays and
+        // hand pinches, so the player controls could not be opened.
+        val BIG_SCREEN_POSE = Pose(Vector3(0f, 1.25f, 1.85f), Quaternion(0f, 0f, 0f))
+        const val BIG_SCREEN_SCALE = 1f
 
         // House lights up (browsing) vs down (playing in the cinema).
         const val BROWSE_AMBIENT = 0.55f
         const val BROWSE_SUN = 0.45f
         const val BROWSE_ENVIRONMENT_INTENSITY = 0.35f
         val BROWSE_SUN_DIRECTION = Vector3(-0.3f, -1f, 0.4f)
-        const val DIM_AMBIENT = 0.03f
-        const val DIM_ENVIRONMENT_INTENSITY = 0.05f
-        const val SCREEN_LIGHT_AMBIENT = 0.35f
-        const val SCREEN_LIGHT_SUN = 0.9f
+        // House lights down: nearly pitch black, the film only faintly lights the hall.
+        const val DIM_AMBIENT = 0.004f
+        const val DIM_ENVIRONMENT_INTENSITY = 0f
+        const val SCREEN_LIGHT_AMBIENT = 0.04f
+        const val SCREEN_LIGHT_SUN = 0.12f
         val SCREEN_LIGHT_DIRECTION = Vector3(0f, -0.25f, -1f)
         const val LIGHT_SMOOTHING = 0.08f
     }
