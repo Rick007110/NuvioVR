@@ -1394,7 +1394,7 @@ internal fun PlayerChoiceDialog(
         focusRequester.requestFocus()
     }
 
-    androidx.compose.ui.window.Dialog(onDismissRequest = onDismiss) {
+    com.nuvio.tv.vr.Dialog(onDismissRequest = onDismiss) {
         Box(
             modifier = Modifier
                 .clip(RoundedCornerShape(NuvioTheme.radii.xl))
