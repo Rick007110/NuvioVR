@@ -18,7 +18,7 @@ internal object CustomPosterWebPage {
             } else base
         }
 
-        val appName = context?.getString(R.string.app_name) ?: "NuvioTV"
+        val appName = context?.getString(R.string.app_name) ?: "NuvioVR"
         val pageTitle = context?.getString(R.string.web_custom_poster_title) ?: "Custom Poster Source"
         val pageSubtitle = context?.getString(R.string.web_custom_poster_subtitle)
             ?: "Paste a poster URL pattern below and press Save."

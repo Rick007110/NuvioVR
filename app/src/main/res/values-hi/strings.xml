@@ -222,7 +222,7 @@
 
     <!-- SupportersContributorsScreen -->
     <string name="supporters_contributors_title">समर्थक और योगदानकर्ता</string>
-    <string name="supporters_contributors_subtitle">वे लोग जो Nuvio को समर्थन देते हैं और TV व मोबाइल पर इसे बनाने में योगदान करते हैं।</string>
+    <string name="supporters_contributors_subtitle">वे लोग जो Nuvio को समर्थन देते हैं और TV, मोबाइल व VR पर इसे बनाने में योगदान करते हैं।</string>
     <string name="supporters_contributors_supporters_copy">समर्थक और दानकर्ता प्रोजेक्ट को आगे बढ़ाने, इंफ्रास्ट्रक्चर फंड करने और नए फीचर्स के लिए मदद करते हैं।</string>
     <string name="supporters_contributors_donate_copy">Nuvio हमेशा मुफ्त और ओपन सोर्स रहेगा। यदि आप प्रोजेक्ट का समर्थन करना चाहते हैं, तो आप इसके विकास और इंफ्रास्ट्रक्चर में मदद कर सकते हैं।</string>
     <string name="supporters_contributors_donate_button">Nuvio को डोनेट करें</string>
@@ -242,8 +242,8 @@
     <string name="contributors_error_title">योगदानकर्ताओं को लोड नहीं किया जा सका</string>
     <string name="contributors_total_contributions">%1$d कुल योगदान</string>
     <string name="contributors_open_github">GitHub प्रोफाइल खोलें</string>
-    <string name="contributors_show_kofi_qr">Ko-fi QR दिखाएँ</string>
-    <string name="contributors_hide_kofi_qr">Ko-fi QR छिपाएँ</string>
+    <string name="contributors_show_kofi_qr">Ko-fi लिंक दिखाएं</string>
+    <string name="contributors_hide_kofi_qr">Ko-fi लिंक छिपाएं</string>
     <string name="contributors_profile_unavailable">GitHub प्रोफाइल लिंक उपलब्ध नहीं है।</string>
 
     <!-- PlaybackSettingsSections -->
@@ -290,7 +290,7 @@
     <string name="audio_decoder_prefer_app">ऐप डिकोडर को प्राथमिकता दें (FFmpeg)</string>
     <string name="audio_decoder_priority">डिकोडर प्राथमिकता</string>
     <string name="audio_tunneled">टनल्ड प्लेबैक</string>
-    <string name="audio_tunneled_sub">हार्डवेयर स्तर का ऑडियो/वीडियो सिंक। कुछ Android TV डिवाइस पर प्लेबैक बेहतर हो सकता है</string>
+    <string name="audio_tunneled_sub">हार्डवेयर स्तर का ऑडियो/वीडियो सिंक। कुछ डिवाइस पर प्लेबैक बेहतर हो सकता है</string>
     <string name="audio_decoder_device_only_desc">केवल बिल्ट-इन हार्डवेयर डिकोडर का उपयोग करें। सबसे अधिक संगत लेकिन सभी फॉर्मेट सपोर्ट नहीं हो सकते।</string>
     <string name="audio_decoder_prefer_device_desc">जहाँ उपलब्ध हो हार्डवेयर डिकोडर उपयोग करें, अन्यथा FFmpeg पर जाएँ। अधिकांश डिवाइस के लिए अनुशंसित।</string>
     <string name="audio_decoder_prefer_app_desc">जहाँ उपलब्ध हो FFmpeg डिकोडर उपयोग करें। बेहतर फॉर्मेट सपोर्ट लेकिन अधिक CPU उपयोग।</string>
@@ -541,7 +541,7 @@
     <string name="trakt_waiting_approval">स्वीकृति की प्रतीक्षा हो रही है…</string>
     <string name="qr_login_approved">लॉगिन स्वीकृत। साइन इन पूरा किया जा रहा है…</string>
     <string name="qr_login_pending">आपके फोन पर स्वीकृति की प्रतीक्षा हो रही है…</string>
-    <string name="qr_login_expired">QR लॉगिन समाप्त हो गया। नया कोड जनरेट करें।</string>
+    <string name="qr_login_expired">साइन-इन कोड की समय-सीमा समाप्त हो गई। नया कोड मांगें।</string>
     <string name="trakt_code_expires">कोड %1$s में समाप्त होगा</string>
     <string name="trakt_token_refreshes">Trakt एक्सेस टोकन %1$s में रिफ्रेश होगा</string>
     <string name="trakt_login_instruction">Trakt डिवाइस ऑथेंटिकेशन शुरू करने के लिए Login दबाएँ। यहाँ एक QR कोड दिखाई देगा।</string>
@@ -644,10 +644,10 @@
     <string name="addon_empty">कोई ऐडऑन इंस्टॉल नहीं है। शुरू करने के लिए एक जोड़ें।</string>
     <string name="addon_remove">हटाएँ</string>
     <string name="addon_manage_from_phone_title">फोन से मैनेज करें</string>
-    <string name="addon_manage_from_phone_subtitle">अपने फोन से ऐडऑन और होम कैटलॉग मैनेज करने के लिए QR कोड स्कैन करें</string>
+    <string name="addon_manage_from_phone_subtitle">ऐडऑन, कैटलॉग और कलेक्शन मैनेज करने के लिए अपने फोन या कंप्यूटर पर एक वेब पेज खोलें</string>
     <string name="addon_reorder_title">होम कैटलॉग क्रम बदलें</string>
     <string name="addon_reorder_subtitle">होम पर कैटलॉग रो का क्रम नियंत्रित करता है (Classic + Modern + Grid)</string>
-    <string name="addon_qr_scan_instruction">ऐडऑन और कैटलॉग मैनेज करने के लिए अपने फोन से स्कैन करें</string>
+    <string name="addon_qr_scan_instruction">ऐडऑन, कैटलॉग और कलेक्शन मैनेज करने के लिए इसी Wi-Fi से जुड़े फोन या कंप्यूटर के ब्राउज़र में यह पता खोलें</string>
     <string name="addon_qr_close">बंद करें</string>
     <string name="addon_confirm_title">ऐडऑन और कैटलॉग बदलाव की पुष्टि करें</string>
     <string name="addon_confirm_subtitle">निम्नलिखित बदलाव आपके फोन से किए गए:</string>
@@ -836,8 +836,8 @@
     <string name="account_loading">लोड हो रहा है\u2026</string>
     <string name="account_sync_description">अपनी लाइब्रेरी, वॉच प्रोग्रेस, ऐडऑन और प्लगइन को डिवाइसों के बीच सिंक करें।</string>
     <string name="account_sync_restart_note">सिंक सक्रिय डिवाइसों के बीच रियल-टाइम नहीं है। साइन इन करने के बाद या अन्य जगह किए बदलाव लाने के लिए इस डिवाइस को रीस्टार्ट करें।</string>
-    <string name="account_signin_qr_title">QR से साइन इन</string>
-    <string name="account_signin_qr_subtitle">QR कोड स्कैन करें और अपने फोन पर ईमेल लॉगिन पूरा करें</string>
+    <string name="account_signin_qr_title">कोड से साइन इन करें</string>
+    <string name="account_signin_qr_subtitle">साइन इन करने के लिए अपने फोन या कंप्यूटर पर एक कोड दर्ज करें</string>
     <string name="account_signed_in_label">साइन इन</string>
     <string name="account_total_label">कुल</string>
     <string name="account_loading_sync">सिंक डेटा लोड हो रहा है\u2026</string>
@@ -845,22 +845,22 @@
 
     <!-- AuthSignInScreen -->
     <string name="auth_signin_title">साइन इन</string>
-    <string name="auth_signin_tv_disabled">टीवी पर ईमेल/पासवर्ड एंट्री बंद है। QR साइन इन जारी रखें।</string>
-    <string name="auth_signin_qr_btn">QR से जारी रखें</string>
+    <string name="auth_signin_tv_disabled">इस सर्वर पर ईमेल/पासवर्ड से साइन इन बंद है। कोड से साइन इन जारी रखें।</string>
+    <string name="auth_signin_qr_btn">कोड के साथ जारी रखें</string>
 
     <!-- AuthQrSignInScreen -->
-    <string name="auth_qr_title">QR से साइन इन</string>
+    <string name="auth_qr_title">कोड से साइन इन</string>
     <string name="auth_qr_finishing">साइन इन पूरा किया जा रहा है\u2026</string>
     <string name="auth_qr_code_label">कोड: %1$s</string>
     <string name="auth_qr_expires">%1$s में समाप्त</string>
-    <string name="auth_qr_scan_instruction">QR स्कैन करें, ब्राउज़र में अनुमति दें, फिर यहाँ लौटें।</string>
+    <string name="auth_qr_scan_instruction">अपने फोन या कंप्यूटर पर नीचे दिए गए लिंक पर जाएं और कोड दर्ज करें।</string>
     <string name="auth_qr_code_display">कोड: %1$s</string>
-    <string name="auth_qr_refresh">QR रीफ्रेश करें</string>
+    <string name="auth_qr_refresh">नया कोड</string>
     <string name="auth_qr_continue_without_account">अकाउंट के बिना जारी रखें</string>
-    <string name="auth_qr_connected">आपका अकाउंट इस टीवी से जुड़ा है।</string>
+    <string name="auth_qr_connected">आपका अकाउंट इस हेडसेट से जुड़ा है।</string>
     <string name="auth_qr_synced_data">आपका सिंक किया हुआ डेटा</string>
-    <string name="auth_qr_generating">QR बनाया जा रहा है\u2026</string>
-    <string name="auth_qr_unavailable">QR उपलब्ध नहीं। फिर से कोशिश करने के लिए रीफ्रेश करें।</string>
+    <string name="auth_qr_generating">कोड बनाया जा रहा है…</string>
+    <string name="auth_qr_unavailable">कोड उपलब्ध नहीं है। फिर से कोशिश करने के लिए नया कोड मांगें।</string>
     <string name="auth_qr_please_wait">कृपया प्रतीक्षा करें\u2026</string>
     <string name="auth_qr_continue">जारी रखें</string>
     <string name="auth_qr_back">वापस</string>
@@ -893,8 +893,8 @@
     <string name="plugin_add_repository">रिपॉजिटरी जोड़ें</string>
     <string name="plugin_add_btn">जोड़ें</string>
     <string name="plugin_manage_from_phone_title">फोन से मैनेज करें</string>
-    <string name="plugin_manage_from_phone_subtitle">अपने फोन से रिपॉजिटरी जोड़ने या हटाने के लिए QR कोड स्कैन करें</string>
-    <string name="plugin_qr_instruction">रिपॉजिटरी मैनेज करने के लिए फोन से स्कैन करें</string>
+    <string name="plugin_manage_from_phone_subtitle">रिपॉजिटरी जोड़ने या हटाने के लिए अपने फोन या कंप्यूटर पर एक वेब पेज खोलें</string>
+    <string name="plugin_qr_instruction">रिपॉजिटरी मैनेज करने के लिए इसी Wi-Fi पर किसी ब्राउज़र में यह पता खोलें</string>
     <string name="plugin_qr_close">बंद करें</string>
     <string name="plugin_confirm_title">रिपॉजिटरी बदलाव की पुष्टि करें</string>
     <string name="plugin_confirm_subtitle">निम्नलिखित बदलाव आपके फोन से किए गए:</string>
@@ -1004,4 +1004,56 @@
     <string name="update_ignore">नज़रअंदाज़ करें</string>
     <string name="playback_player_auto">ऑटो (सामग्री के लिए सर्वश्रेष्ठ)</string>
     <string name="playback_player_auto_desc">ExoPlayer मूवीज़ और टीवी शोज़ के लिए · MPV एनीमे के लिए</string>
+    <!-- NuvioVR -->
+    <string name="web_connection_lost">हेडसेट से कनेक्शन टूट गया</string>
+    <string name="web_status_waiting_tv">हेडसेट की प्रतीक्षा की जा रही है</string>
+    <string name="web_status_msg_waiting_tv">बदलाव लागू करने के लिए कृपया अपने हेडसेट में उनकी पुष्टि करें।</string>
+    <string name="web_status_msg_addon_updated">NuvioVR में आपका ऐडऑन कॉन्फ़िगरेशन अपडेट कर दिया गया है।</string>
+    <string name="web_status_msg_repo_updated">NuvioVR में आपका रिपॉजिटरी कॉन्फ़िगरेशन अपडेट कर दिया गया है।</string>
+    <string name="web_status_msg_changes_rejected">हेडसेट में बदलाव अस्वीकार कर दिए गए। आपकी सूची पहले जैसी कर दी गई है।</string>
+    <string name="web_error_failed_save">सेव नहीं हो सका। हेडसेट से अपना कनेक्शन जांचें।</string>
+    <string name="web_status_msg_timeout">हेडसेट से कोई जवाब नहीं मिला। कृपया फिर से कोशिश करें।</string>
+    <string name="web_status_msg_connection_lost">NuvioVR सर्वर अब उपलब्ध नहीं है। हो सकता है बदलाव लागू हो गए हों।</string>
+    <string name="web_status_msg_collections_updated">NuvioVR में आपके कलेक्शन अपडेट कर दिए गए हैं।</string>
+    <string name="licenses_attributions_subtitle">NuvioVR द्वारा उपयोग किए गए डेटा प्रदाता, सेवा क्रेडिट और Android प्लेबैक लाइसेंस।</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">Nuvio Media के Nuvio TV पर आधारित। सोर्स कोड और लाइसेंस की शर्तें प्रोजेक्ट रिपॉजिटरी में उपलब्ध हैं। GNU General Public License v3.0 के तहत लाइसेंस प्राप्त।</string>
+    <string name="account_error_qr_login_expired">साइन-इन कोड की समय-सीमा समाप्त हो गई। कृपया फिर से कोशिश करें।</string>
+    <string name="account_error_invalid_qr_login">अमान्य साइन-इन कोड।</string>
+    <string name="account_error_qr_login_other_device">यह साइन-इन कोड किसी दूसरे डिवाइस से मांगा गया था।</string>
+    <string name="account_error_qr_login_outdated">डिवाइस लॉगिन सेवा पुरानी हो गई है। डिवाइस लॉगिन SQL सेटअप फिर से लागू करें।</string>
+    <string name="account_error_qr_login_missing_setup">डिवाइस लॉगिन बैकएंड का सेटअप अधूरा है। डिवाइस लॉगिन SQL सेटअप अपडेट करें।</string>
+    <string name="account_error_qr_login_misconfigured">साइन-इन URL गलत तरीके से कॉन्फ़िगर किया गया है।</string>
+    <string name="account_error_qr_login_invalid_request">साइन-इन अनुरोध अमान्य था। कृपया फिर से कोशिश करें।</string>
+    <string name="supporter_membership_scan_support">सदस्यता ऑनलाइन देखें</string>
+    <string name="supporter_membership_scan_manage">सदस्यता ऑनलाइन मैनेज करें</string>
+    <string name="custom_poster_qr_instruction">पोस्टर URL पैटर्न पेस्ट करने के लिए इसी Wi-Fi पर किसी ब्राउज़र में यह पता खोलें</string>
+    <string name="mdblist_awaiting_instruction">नीचे दिए गए पते पर जाएं और यह कोड दर्ज करें।</string>
+    <string name="debrid_device_auth_instructions">Nuvio को अनुमति देने के लिए अपने फोन या कंप्यूटर पर इस पते पर जाएं और कोड दर्ज करें।</string>
+    <string name="debrid_formatter_qr_instruction">Debrid सोर्स सेटिंग्स कॉन्फ़िगर करने के लिए इसी Wi-Fi पर किसी ब्राउज़र में यह पता खोलें।</string>
+    <string name="stream_badge_qr_instruction">Fusion बैज URL मैनेज करने के लिए इसी Wi-Fi पर किसी ब्राउज़र में यह पता खोलें।</string>
+    <string name="qr_login_preparing">साइन-इन कोड तैयार किया जा रहा है…</string>
+    <string name="qr_login_scan_prompt">अपने फोन या कंप्यूटर पर लिंक खोलें और कोड दर्ज करें</string>
+    <string name="qr_login_start_failed">कोड से साइन इन शुरू नहीं हो सका</string>
+    <string name="qr_login_exchange_failed">कोड से साइन इन पूरा नहीं हो सका</string>
+    <string name="profile_copy_settings_setup_subtitle">नए सिरे से शुरू करें या किसी दूसरी प्रोफ़ाइल से एक बार सेटिंग्स कॉपी करें।</string>
+    <string name="profile_copy_settings_subtitle">एक स्रोत प्रोफ़ाइल चुनें। उसकी समर्थित सेटिंग्स एक बार इस प्रोफ़ाइल की सेटिंग्स की जगह ले लेंगी।</string>
+    <string name="essential_addon_show_qr">फोन से मैनेज करें</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">ऐडऑन इंस्टॉल करने या हटाने के लिए अपने फोन या कंप्यूटर पर एक वेब पेज खोलें</string>
+    <string name="addon_manage_collections_from_phone_subtitle">कलेक्शन मैनेज करने के लिए अपने फोन या कंप्यूटर पर एक वेब पेज खोलें</string>
+    <string name="addon_qr_addons_only_scan_instruction">ऐडऑन इंस्टॉल करने या हटाने के लिए इसी Wi-Fi पर किसी ब्राउज़र में यह पता खोलें</string>
+    <string name="addon_qr_collections_scan_instruction">कलेक्शन मैनेज करने के लिए इसी Wi-Fi पर किसी ब्राउज़र में यह पता खोलें</string>
+    <string name="collections_editor_focus_glow_desc">इस कलेक्शन के होम स्क्रीन कस्टम कैटलॉग कार्ड पर फ़ोकस ग्लो का उपयोग करें</string>
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">आपके हेडसेट में वातावरण और स्क्रीन</string>
+    <string name="vr_settings_environment">वातावरण</string>
+    <string name="vr_passthrough_title">पासथ्रू</string>
+    <string name="vr_passthrough_subtitle">वर्चुअल वातावरण की जगह अपना असली कमरा दिखाएं। टिप: जल्दी बदलने के लिए Y दबाएं।</string>
+    <string name="vr_dim_playback_title">प्लेबैक के दौरान वातावरण मंद करें</string>
+    <string name="vr_dim_playback_subtitle">वीडियो चलते समय आसमान और फ़र्श को गहरा करें, जैसे सिनेमा में।</string>
+    <string name="vr_settings_screen">स्क्रीन</string>
+    <string name="vr_recenter_title">स्क्रीन को फिर से बीच में लाएं</string>
+    <string name="vr_recenter_subtitle">स्क्रीन को वापस अपने सामने ले आएं।</string>
+    <string name="player_vr_passthrough_on">आसपास का दृश्य दिखाएं</string>
+    <string name="player_vr_passthrough_off">आसपास का दृश्य छिपाएं</string>
 </resources>

@@ -18,26 +18,26 @@
     <string name="web_home_catalogs">Danh mục và bộ sưu tập Trang chủ</string>
     <string name="web_no_catalogs">Không có danh mục Trang chủ nào</string>
     <string name="web_btn_save">Lưu thay đổi</string>
-    <string name="web_connection_lost">Mất kết nối với TV</string>
+    <string name="web_connection_lost">Mất kết nối với kính</string>
     <string name="web_btn_remove">Xóa</string>
     <string name="web_badge_new">Mới</string>
     <string name="web_badge_disabled">Đã tắt</string>
     <string name="web_btn_enable">Bật</string>
     <string name="web_btn_disable">Tắt</string>
     <string name="web_error_addon_exists">Tiện ích này đã có trong danh sách</string>
-    <string name="web_status_waiting_tv">Đang chờ TV</string>
-    <string name="web_status_msg_waiting_tv">Vui lòng xác nhận thay đổi này trên TV để áp dụng.</string>
+    <string name="web_status_waiting_tv">Đang chờ kính</string>
+    <string name="web_status_msg_waiting_tv">Vui lòng xác nhận các thay đổi trên kính để áp dụng.</string>
     <string name="web_status_changes_applied">Đã áp dụng thay đổi</string>
-    <string name="web_status_msg_addon_updated">Cấu hình tiện ích của bạn đã được cập nhật trên TV.</string>
-    <string name="web_status_msg_repo_updated">Cấu hình kho lưu trữ của bạn đã được cập nhật trên TV.</string>
+    <string name="web_status_msg_addon_updated">Cấu hình tiện ích của bạn đã được cập nhật trong NuvioVR.</string>
+    <string name="web_status_msg_repo_updated">Cấu hình kho lưu trữ của bạn đã được cập nhật trong NuvioVR.</string>
     <string name="web_status_changes_rejected">Thay đổi bị từ chối</string>
-    <string name="web_status_msg_changes_rejected">Các thay đổi đã bị từ chối trên TV. Danh sách của bạn đã được hoàn nguyên.</string>
+    <string name="web_status_msg_changes_rejected">Các thay đổi đã bị từ chối trên kính. Danh sách của bạn đã được hoàn nguyên.</string>
     <string name="web_status_error">Đã xảy ra lỗi</string>
-    <string name="web_error_failed_save">Không thể lưu. Vui lòng kiểm tra kết nối với TV.</string>
+    <string name="web_error_failed_save">Không thể lưu. Vui lòng kiểm tra kết nối với kính.</string>
     <string name="web_btn_dismiss">Bỏ qua</string>
     <string name="web_status_timeout">Đã hết thời gian chờ</string>
-    <string name="web_status_msg_timeout">Không nhận được phản hồi từ TV. Vui lòng thử lại.</string>
-    <string name="web_status_msg_connection_lost">Không thể kết nối đến máy chủ TV. Các thay đổi có thể đã được áp dụng.</string>
+    <string name="web_status_msg_timeout">Không nhận được phản hồi từ kính. Vui lòng thử lại.</string>
+    <string name="web_status_msg_connection_lost">Không thể kết nối đến máy chủ NuvioVR nữa. Các thay đổi có thể đã được áp dụng.</string>
     <string name="web_manage_repos_title">Quản lý kho lưu trữ</string>
     <string name="web_manage_repos_subtitle">Quản lý các kho lưu trữ của bạn</string>
     <string name="web_add_repo_url">Thêm kho lưu trữ từ URL</string>
@@ -46,7 +46,7 @@
     <string name="web_error_repo_exists">Kho lưu trữ này đã có trong danh sách</string>
     <string name="web_manage_collections_title">Quản lý Bộ sưu tập</string>
     <string name="web_manage_collections_subtitle">Tạo và quản lý các bộ sưu tập tùy chỉnh của bạn</string>
-    <string name="web_status_msg_collections_updated">Bộ sưu tập của bạn đã được cập nhật trên TV.</string>
+    <string name="web_status_msg_collections_updated">Bộ sưu tập của bạn đã được cập nhật trong NuvioVR.</string>
     <string name="web_tab_addons">Tiện ích</string>
     <string name="web_tab_home_layout">Bố cục Trang chủ</string>
     <string name="web_tab_collections">Bộ sưu tập</string>
@@ -416,15 +416,15 @@
     <string name="about_licenses_attributions">Giấy phép &amp; Ghi công</string>
     <string name="about_licenses_attributions_subtitle">Nguồn dữ liệu, lời cảm ơn và giấy phép Android</string>
     <string name="licenses_attributions_title">Giấy phép &amp; Ghi công</string>
-    <string name="licenses_attributions_subtitle">Nhà cung cấp dữ liệu, ghi nhận dịch vụ và giấy phép phát lại Android được Nuvio TV sử dụng.</string>
+    <string name="licenses_attributions_subtitle">Nhà cung cấp dữ liệu, ghi nhận dịch vụ và giấy phép phát lại Android được NuvioVR sử dụng.</string>
     <string name="licenses_attributions_section_app">GIẤY PHÉP ỨNG DỤNG</string>
     <string name="licenses_attributions_section_data">DỮ LIỆU &amp; DỊCH VỤ</string>
     <string name="licenses_attributions_section_playback">GIẤY PHÉP PHÁT LẠI TRÊN ANDROID</string>
     <string name="licenses_attributions_section_ui">THƯ VIỆN GIAO DIỆN NGƯỜI DÙNG</string>
     <string name="licenses_attributions_haze_title">Haze 1.7.2</string>
     <string name="licenses_attributions_haze_body">Dùng cho hiệu ứng làm mờ nền. Được tạo bởi Chris Banes. Được cấp phép theo Giấy phép Apache, Phiên bản 2.0.</string>
-    <string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-    <string name="licenses_attributions_nuvio_body">Mã nguồn và các điều khoản cấp phép có sẵn trong kho lưu trữ của dự án. Phần mềm được cấp phép theo Giấy phép Công cộng GNU phiên bản 3.0.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">Dựa trên Nuvio TV của Nuvio Media. Mã nguồn và các điều khoản cấp phép có sẵn trong kho lưu trữ của dự án. Được cấp phép theo GNU General Public License v3.0.</string>
     <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
     <string name="licenses_attributions_tmdb_body">Nuvio sử dụng API TMDB để lấy dữ liệu phim và TV, ảnh hiển thị, trailer, diễn viên, thông tin sản xuất, bộ sưu tập và đề xuất. Sản phẩm này sử dụng API TMDB nhưng không được TMDB xác thực hoặc chứng nhận.</string>
     <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -533,13 +533,13 @@
     <string name="account_error_password_too_weak">Mật khẩu quá yếu.</string>
     <string name="account_error_signup_disabled">Đăng ký hiện đang bị tắt.</string>
     <string name="account_error_rate_limited">Quá nhiều lần thử. Vui lòng thử lại sau.</string>
-    <string name="account_error_qr_login_expired">Mã QR đăng nhập đã hết hạn. Vui lòng thử lại.</string>
-    <string name="account_error_invalid_qr_login">Mã QR đăng nhập không hợp lệ.</string>
-    <string name="account_error_qr_login_other_device">Mã QR đăng nhập này được yêu cầu từ thiết bị khác.</string>
-    <string name="account_error_qr_login_outdated">Dịch vụ đăng nhập bằng mã QR không còn được hỗ trợ. Vui lòng thiết lập lại đăng nhập TV bằng SQL.</string>
-    <string name="account_error_qr_login_missing_setup">Hệ thống hậu kỳ đăng nhập bằng mã QR chưa được thiết lập. Vui lòng cập nhật thiết lập đăng nhập TV bằng SQL.</string>
-    <string name="account_error_qr_login_misconfigured">URL đăng nhập bằng mã QR được cấu hình sai.</string>
-    <string name="account_error_qr_login_invalid_request">Yêu cầu đăng nhập bằng mã QR không hợp lệ. Vui lòng thử lại.</string>
+    <string name="account_error_qr_login_expired">Mã đăng nhập đã hết hạn. Vui lòng thử lại.</string>
+    <string name="account_error_invalid_qr_login">Mã đăng nhập không hợp lệ.</string>
+    <string name="account_error_qr_login_other_device">Mã đăng nhập này được yêu cầu từ thiết bị khác.</string>
+    <string name="account_error_qr_login_outdated">Dịch vụ đăng nhập thiết bị đã lỗi thời. Vui lòng áp dụng lại thiết lập SQL đăng nhập thiết bị.</string>
+    <string name="account_error_qr_login_missing_setup">Hệ thống phụ trợ đăng nhập thiết bị chưa được thiết lập đầy đủ. Vui lòng cập nhật thiết lập SQL đăng nhập thiết bị.</string>
+    <string name="account_error_qr_login_misconfigured">URL đăng nhập được cấu hình sai.</string>
+    <string name="account_error_qr_login_invalid_request">Yêu cầu đăng nhập không hợp lệ. Vui lòng thử lại.</string>
     <string name="account_error_no_internet">Không có kết nối internet..</string>
     <string name="account_error_connection_timeout">Kết nối đã hết thời gian chờ. Vui lòng thử lại.</string>
     <string name="account_error_connection_refused">Không thể kết nối đến máy chủ.</string>
@@ -647,7 +647,7 @@
     <string name="action_close">Đóng</string>
 
     <string name="supporters_contributors_title">Người tài trợ &amp; Người đóng góp</string>
-    <string name="supporters_contributors_subtitle">Những người tài trợ Nuvio và những người đóng góp xây dựng ứng dụng trên TV và thiết bị di động.</string>
+    <string name="supporters_contributors_subtitle">Những người ủng hộ Nuvio và những người đóng góp xây dựng ứng dụng trên TV, thiết bị di động và VR.</string>
     <string name="supporters_contributors_supporters_copy">Những người tài trợ và quyên góp giúp dự án tiếp tục phát triển, tài trợ cho cơ sở hạ tầng và tạo điều kiện để triển khai những tính năng đầy tham vọng.</string>
     <string name="supporters_contributors_donate_copy">Nuvio sẽ luôn miễn phí và là mã nguồn mở. Nếu bạn muốn tài trợ dự án, bạn có thể góp phần trang trải thời gian và cơ sở hạ tầng cần thiết để duy trì dự án.</string>
     <string name="supporters_contributors_donation_progress_title">Máy chủ và bảo trì trong tháng này</string>
@@ -674,9 +674,9 @@
     <string name="supporter_membership_tier_supporter_plus">Người tài trợ cao cấp</string>
     <string name="supporter_membership_connected_title">Patreon đã được kết nối</string>
     <string name="supporter_membership_connected_description">Không tìm thấy gói Nuvio đang hoạt động nào trên tài khoản Patreon này. Vui lòng xem các tùy chọn hiện có hoặc làm mới sau khi thay đổi gói thành viên Patreon.</string>
-    <string name="supporter_membership_scan_support">Quét để xem gói thành viên</string>
+    <string name="supporter_membership_scan_support">Xem gói thành viên trực tuyến</string>
     <string name="supporter_membership_scan_support_description">Mở trang Gói thành viên của người tài trợ trên điện thoại của bạn.</string>
-    <string name="supporter_membership_scan_manage">Quét để quản lý gói thành viên</string>
+    <string name="supporter_membership_scan_manage">Quản lý gói thành viên trực tuyến</string>
     <string name="supporter_membership_scan_manage_description">Mở phần cài đặt gói thành viên Patreon trên điện thoại của bạn.</string>
     <string name="cd_membership_qr">Mã QR của trang gói thành viên</string>
     <string name="supporters_tab">Người tài trợ</string>
@@ -702,8 +702,8 @@
     <string name="contributors_error_title">Không thể tải danh sách người đóng góp</string>
     <string name="contributors_total_contributions">Tổng cộng %1$d lượt đóng góp</string>
     <string name="contributors_open_github">Mở hồ sơ GitHub</string>
-    <string name="contributors_show_kofi_qr">Hiển thị mã QR Ko-fi</string>
-    <string name="contributors_hide_kofi_qr">Ẩn mã QR Ko-fi</string>
+    <string name="contributors_show_kofi_qr">Hiển thị liên kết Ko-fi</string>
+    <string name="contributors_hide_kofi_qr">Ẩn liên kết Ko-fi</string>
     <string name="contributors_profile_unavailable">Liên kết hồ sơ GitHub không có sẵn.</string>
 
     <string name="playback_section_player_title">Trình phát</string>
@@ -815,7 +815,7 @@
     <string name="audio_enable_downmix_title">Bật tính năng hạ kênh âm thanh</string>
     <string name="audio_enable_downmix_subtitle">Sử dụng đường dẫn hạ kênh âm thanh của FFmpeg. Yêu cầu bật Ưu tiên bộ giải mã ứng dụng (FFmpeg). Khi tắt, âm thanh sẽ sử dụng lại đường dẫn xử lý trước đây của Android/thiết bị.</string>
     <string name="audio_tunneled">Phát trực tiếp qua phần cứng</string>
-    <string name="audio_tunneled_sub">Đồng bộ âm thanh/video ở cấp phần cứng. Có thể cải thiện việc phát lại trên một số thiết bị Android TV</string>
+    <string name="audio_tunneled_sub">Đồng bộ âm thanh/video ở cấp phần cứng. Có thể cải thiện việc phát lại trên một số thiết bị</string>
     <string name="audio_force_optical_passthrough">Buộc chuyển mã AC-3 (Cổng quang/SPDIF)</string>
     <string name="audio_force_optical_passthrough_sub">Chuyển mã các định dạng đa kênh (TrueHD, DTS, AAC...) sang Dolby Digital 5.1 theo thời gian thực cho kết nối Cổng quang/SPDIF.</string>
     <!-- DV7 Handling Mode -->
@@ -1155,7 +1155,7 @@
     <string name="layout_custom_poster_clear">Xóa</string>
     <string name="layout_custom_poster_active">✓ Nguồn poster tùy chỉnh đang hoạt động</string>
     <string name="layout_custom_poster_qr">Thiết lập qua điện thoại</string>
-    <string name="custom_poster_qr_instruction">Quét mã QR bằng điện thoại để dán mẫu URL poster</string>
+    <string name="custom_poster_qr_instruction">Mở địa chỉ này trong trình duyệt trên cùng mạng Wi-Fi để dán mẫu URL poster</string>
 
     <!-- Custom Poster URL - Screen Toggles -->
     <string name="layout_custom_poster_screen_home">Trang chủ</string>
@@ -1191,7 +1191,7 @@
     <string name="mdblist_connected_as">Đã kết nối với %1$s</string>
     <string name="mdblist_account_fallback">Người dùng MDBList</string>
     <string name="mdblist_insufficient_scope">MDBList chưa cấp quyền cập nhật lịch sử xem. Hãy kết nối lại và cho phép quyền ghi.</string>
-    <string name="mdblist_awaiting_instruction">Quét mã QR hoặc nhập mã này tại địa chỉ bên dưới.</string>
+    <string name="mdblist_awaiting_instruction">Truy cập địa chỉ bên dưới và nhập mã này.</string>
     <string name="mdblist_qr_description">Mã QR để kết nối tài khoản MDBList của bạn</string>
     <string name="mdblist_status_enter_code">Phê duyệt kết nối trong tài khoản MDBList của bạn.</string>
     <string name="mdblist_status_syncing">Đang đồng bộ lịch sử đã xem và tiến trình phát lại…</string>
@@ -1287,7 +1287,7 @@
     <string name="debrid_disconnect">Ngắt kết nối</string>
     <string name="debrid_device_auth_connected">%1$s đã được kết nối trên thiết bị này</string>
     <string name="debrid_device_auth_starting">Đang bắt đầu đăng nhập bảo mật…</string>
-    <string name="debrid_device_auth_instructions">Quét mã QR và nhập mã này để phê duyệt Nuvio.</string>
+    <string name="debrid_device_auth_instructions">Truy cập địa chỉ này trên điện thoại hoặc máy tính và nhập mã để phê duyệt Nuvio.</string>
     <string name="debrid_device_auth_code_copied">Đã sao chép mã</string>
     <string name="debrid_device_auth_waiting">Đang chờ phê duyệt…</string>
     <string name="debrid_device_auth_failed">Không thể đăng nhập.</string>
@@ -1375,7 +1375,7 @@
     <string name="debrid_formatter_configure">Mở trình chỉnh sửa web</string>
     <string name="debrid_formatter_reset_title">Đặt lại định dạng</string>
     <string name="debrid_formatter_reset_subtitle">Khôi phục định dạng nguồn mặc định.</string>
-    <string name="debrid_formatter_qr_instruction">Quét mã QR này bằng điện thoại để cấu hình cài đặt nguồn Debrid.</string>
+    <string name="debrid_formatter_qr_instruction">Mở địa chỉ này trong trình duyệt trên cùng mạng Wi-Fi để cấu hình cài đặt nguồn Debrid.</string>
     <string name="settings_stream_badges_section">Kiểu Fusion</string>
     <string name="settings_stream_size_badges_title">Nhãn dung lượng</string>
     <string name="settings_stream_size_badges_description">Hiển thị nhãn dung lượng tệp trong kết quả luồng và bảng chọn nguồn phát.</string>
@@ -1404,7 +1404,7 @@
     <string name="settings_fusion_badge_preview_empty">Không có hình ảnh nhãn kiểu Fusion trong URL này</string>
     <string name="settings_fusion_badge_group_title">Nhóm %1$d</string>
     <string name="settings_fusion_badge_other_group_title">Các nhãn Fusion khác</string>
-    <string name="stream_badge_qr_instruction">Quét mã QR này bằng điện thoại để quản lý các URL nhãn Fusion.</string>
+    <string name="stream_badge_qr_instruction">Mở địa chỉ này trong trình duyệt trên cùng mạng Wi-Fi để quản lý các URL nhãn Fusion.</string>
     <string name="streams_size">DUNG LƯỢNG %1$s</string>
     <string name="action_import">Nhập</string>
     <string name="action_delete">Xóa</string>
@@ -1462,14 +1462,14 @@
     <string name="trakt_waiting_approval">Đang chờ phê duyệt…</string>
     <string name="qr_login_approved">Đã phê duyệt đăng nhập. Đang hoàn tất đăng nhập...</string>
     <string name="qr_login_pending">Đang chờ phê duyệt trên điện thoại của bạn…</string>
-    <string name="qr_login_expired">Mã QR đã hết hạn. Tạo mã mới.</string>
-    <string name="qr_login_preparing">Đang chuẩn bị đăng nhập bằng mã QR...</string>
+    <string name="qr_login_expired">Mã đăng nhập đã hết hạn. Hãy yêu cầu mã mới.</string>
+    <string name="qr_login_preparing">Đang chuẩn bị mã đăng nhập…</string>
     <string name="qr_login_device_auth_failed">Không thể xác thực thiết bị</string>
-    <string name="qr_login_scan_prompt">Quét mã QR và đăng nhập trên điện thoại của bạn</string>
-    <string name="qr_login_start_failed">Không thể bắt đầu đăng nhập bằng mã QR</string>
+    <string name="qr_login_scan_prompt">Truy cập liên kết và nhập mã trên điện thoại hoặc máy tính của bạn</string>
+    <string name="qr_login_start_failed">Không thể bắt đầu đăng nhập bằng mã</string>
     <string name="qr_login_signing_in">Đang đăng nhập…</string>
     <string name="qr_login_success">Đăng nhập thành công</string>
-    <string name="qr_login_exchange_failed">Không thể hoàn tất đăng nhập bằng mã QR</string>
+    <string name="qr_login_exchange_failed">Không thể hoàn tất đăng nhập bằng mã</string>
     <string name="trakt_code_expires">Mã hết hạn sau %1$s</string>
     <string name="trakt_token_refreshes">Token truy cập Trakt làm mới sau %1$s</string>
     <string name="trakt_login_instruction">Nhấn Đăng nhập để bắt đầu xác thực thiết bị Trakt. Mã QR sẽ xuất hiện ở đây.</string>
@@ -1618,13 +1618,13 @@
     <string name="profile_save">Lưu</string>
     <string name="profile_copy_settings_label">Sao chép cài đặt</string>
     <string name="profile_copy_settings_setup_title">Cài đặt hồ sơ</string>
-    <string name="profile_copy_settings_setup_subtitle">Bắt đầu mới hoàn toàn hoặc sao chép cài đặt TV từ một hồ sơ khác một lần duy nhất.</string>
+    <string name="profile_copy_settings_setup_subtitle">Bắt đầu mới hoàn toàn hoặc sao chép cài đặt từ một hồ sơ khác một lần duy nhất.</string>
     <string name="profile_copy_settings_start_fresh">Bắt đầu mới</string>
     <string name="profile_copy_settings_primary_source">%1$s (Chính)</string>
     <string name="profile_copy_settings_create_fresh">Cài đặt: Bắt đầu mới</string>
     <string name="profile_copy_settings_create_source">Cài đặt: %1$s</string>
     <string name="profile_copy_settings_title">Sao chép cài đặt vào %1$s</string>
-    <string name="profile_copy_settings_subtitle">Chọn một hồ sơ nguồn. Các cài đặt TV được hỗ trợ từ hồ sơ đó sẽ thay thế cài đặt của hồ sơ này một lần duy nhất.</string>
+    <string name="profile_copy_settings_subtitle">Chọn một hồ sơ nguồn. Các cài đặt được hỗ trợ từ hồ sơ đó sẽ thay thế cài đặt của hồ sơ này một lần duy nhất.</string>
     <string name="profile_copy_settings_from">Sao chép từ</string>
     <string name="profile_copy_settings_action">Sao chép cài đặt</string>
     <string name="profile_copy_settings_copying">Đang sao chép\u2026</string>
@@ -1676,7 +1676,7 @@
     <!-- Essential addon setup wizard -->
     <string name="essential_addon_setup_title">Thiết lập tiện ích</string>
     <string name="essential_addon_setup_subtitle">Cài đặt một tiện ích để bắt đầu phát luồng. Bạn có thể thêm các tiện ích khác sau trong mục Tiện ích.</string>
-    <string name="essential_addon_show_qr">Hiển thị mã QR</string>
+    <string name="essential_addon_show_qr">Quản lý từ điện thoại</string>
     <!-- Collection editor fallbacks -->
     <string name="collection_editor_no_trakt_lists_found">Không tìm thấy danh sách Trakt</string>
     <string name="collection_editor_untitled_folder">Chưa có tiêu đề</string>
@@ -1700,14 +1700,14 @@
     <string name="addon_delete_yes">Có</string>
     <string name="addons_badge_disabled">Đã tắt</string>
     <string name="addon_manage_from_phone_title">Quản lý từ điện thoại</string>
-    <string name="addon_manage_from_phone_subtitle">Quét mã QR để quản lý tiện ích, danh mục và bộ sưu tập từ điện thoại</string>
-    <string name="addon_manage_addons_only_from_phone_subtitle">Quét mã QR để cài đặt hoặc gỡ bỏ tiện ích từ điện thoại</string>
-    <string name="addon_manage_collections_from_phone_subtitle">Quét mã QR để quản lý các bộ sưu tập từ điện thoại</string>
+    <string name="addon_manage_from_phone_subtitle">Mở một trang web trên điện thoại hoặc máy tính để quản lý tiện ích, danh mục và bộ sưu tập</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">Mở một trang web trên điện thoại hoặc máy tính để cài đặt hoặc gỡ bỏ tiện ích</string>
+    <string name="addon_manage_collections_from_phone_subtitle">Mở một trang web trên điện thoại hoặc máy tính để quản lý bộ sưu tập</string>
     <string name="addon_reorder_title">Sắp xếp lại danh mục trang chủ</string>
     <string name="addon_reorder_subtitle">Kiểm soát thứ tự hàng danh mục trên Trang chủ (Cổ điển + Hiện đại + Lưới)</string>
-    <string name="addon_qr_scan_instruction">Quét bằng điện thoại để quản lý tiện ích, danh mục và bộ sưu tập</string>
-    <string name="addon_qr_addons_only_scan_instruction">Quét bằng điện thoại để cài đặt hoặc gỡ bỏ tiện ích</string>
-    <string name="addon_qr_collections_scan_instruction">Quét bằng điện thoại để quản lý bộ sưu tập</string>
+    <string name="addon_qr_scan_instruction">Mở địa chỉ này trong trình duyệt trên điện thoại hoặc máy tính dùng cùng mạng Wi-Fi để quản lý tiện ích, danh mục và bộ sưu tập</string>
+    <string name="addon_qr_addons_only_scan_instruction">Mở địa chỉ này trong trình duyệt trên cùng mạng Wi-Fi để cài đặt hoặc gỡ bỏ tiện ích</string>
+    <string name="addon_qr_collections_scan_instruction">Mở địa chỉ này trong trình duyệt trên cùng mạng Wi-Fi để quản lý bộ sưu tập</string>
     <string name="addon_qr_close">Đóng</string>
     <string name="addon_confirm_title">Xác nhận thay đổi tiện ích &amp; danh mục</string>
     <string name="addon_confirm_subtitle">Những thay đổi sau đây được thực hiện từ điện thoại của bạn:</string>
@@ -2162,8 +2162,8 @@
     <string name="account_loading">Đang tải\u2026</string>
     <string name="account_sync_description">Đồng bộ thư viện, tiến độ xem, tiện ích và trình mở rộng trên nhiều thiết bị.</string>
     <string name="account_sync_restart_note">Đồng bộ không diễn ra theo thời gian thực trên các thiết bị đang hoạt động. Vui lòng khởi động lại thiết bị này sau khi đăng nhập hoặc để nhận các thay đổi được thực hiện trên thiết bị khác.</string>
-    <string name="account_signin_qr_title">Đăng nhập bằng mã QR</string>
-    <string name="account_signin_qr_subtitle">Quét mã QR và hoàn tất đăng nhập email trên điện thoại</string>
+    <string name="account_signin_qr_title">Đăng nhập bằng mã</string>
+    <string name="account_signin_qr_subtitle">Nhập mã trên điện thoại hoặc máy tính để đăng nhập</string>
     <string name="account_signin_email_title">Đăng nhập</string>
     <string name="account_signin_email_subtitle">Nhập email và mật khẩu tài khoản tự lưu trữ của bạn</string>
     <string name="account_signed_in_label">Đã đăng nhập</string>
@@ -2182,8 +2182,8 @@
     <string name="account_unknown_device">Thiết bị không rõ</string>
 
     <string name="auth_signin_title">Đăng nhập</string>
-    <string name="auth_signin_tv_disabled">Tính năng nhập email/mật khẩu trên TV đã bị tắt. Tiếp tục bằng cách đăng nhập qua mã QR.</string>
-    <string name="auth_signin_qr_btn">Tiếp tục bằng mã QR</string>
+    <string name="auth_signin_tv_disabled">Đăng nhập bằng email/mật khẩu đã bị tắt trên máy chủ này. Hãy tiếp tục bằng cách đăng nhập bằng mã.</string>
+    <string name="auth_signin_qr_btn">Tiếp tục bằng mã</string>
     <string name="auth_email_hint">Đăng nhập trực tiếp bằng tài khoản trên máy chủ riêng của bạn.</string>
     <string name="auth_email_instruction">Nhập email và mật khẩu để tiếp tục.</string>
     <string name="auth_email_placeholder">Địa chỉ email</string>
@@ -2231,20 +2231,20 @@
     <string name="custom_server_session_clear_failed">Không thể xóa an toàn phiên hiện tại. Máy chủ chưa được thay đổi.</string>
     <string name="custom_server_restart_failed">Đã lưu máy chủ nhưng ứng dụng không thể tự động khởi động lại. Vui lòng khởi động lại ứng dụng thủ công.</string>
 
-    <string name="auth_qr_title">Đăng nhập bằng QR</string>
+    <string name="auth_qr_title">Đăng nhập bằng mã</string>
     <string name="auth_qr_tagline">Mang thư viện phim theo bạn mọi nơi</string>
     <string name="auth_qr_finishing">Đang hoàn tất đăng nhập\u2026</string>
     <string name="auth_qr_code_label">Mã: %1$s</string>
     <string name="auth_qr_expires">Hết hạn sau %1$s</string>
-    <string name="auth_qr_scan_instruction">Quét mã QR, xác nhận trên trình duyệt, sau đó quay lại đây.</string>
+    <string name="auth_qr_scan_instruction">Trên điện thoại hoặc máy tính, hãy truy cập liên kết bên dưới và nhập mã.</string>
     <string name="auth_qr_code_display">Mã: %1$s</string>
     <string name="auth_qr_manual_instruction">Hoặc truy cập %1$s và nhập</string>
-    <string name="auth_qr_refresh">Làm mới mã QR</string>
+    <string name="auth_qr_refresh">Mã mới</string>
     <string name="auth_qr_continue_without_account">Tiếp tục không cần tài khoản</string>
-    <string name="auth_qr_connected">Tài khoản của bạn đã được kết nối trên TV này.</string>
+    <string name="auth_qr_connected">Tài khoản của bạn đã được kết nối trên kính này.</string>
     <string name="auth_qr_synced_data">Dữ liệu đã đồng bộ</string>
-    <string name="auth_qr_generating">Đang tạo mã QR\u2026</string>
-    <string name="auth_qr_unavailable">Mã QR không khả dụng. Làm mới để thử lại.</string>
+    <string name="auth_qr_generating">Đang tạo mã…</string>
+    <string name="auth_qr_unavailable">Mã không khả dụng. Hãy yêu cầu mã mới để thử lại.</string>
     <string name="auth_qr_please_wait">Vui lòng đợi\u2026</string>
     <string name="auth_qr_continue">Tiếp tục</string>
     <string name="auth_qr_back">Quay lại</string>
@@ -2283,8 +2283,8 @@
     <string name="plugin_add_repository">Thêm kho lưu trữ</string>
     <string name="plugin_add_btn">Thêm</string>
     <string name="plugin_manage_from_phone_title">Quản lý từ điện thoại</string>
-    <string name="plugin_manage_from_phone_subtitle">Quét mã QR để thêm hoặc xóa kho lưu trữ từ điện thoại</string>
-    <string name="plugin_qr_instruction">Quét bằng điện thoại để quản lý kho lưu trữ</string>
+    <string name="plugin_manage_from_phone_subtitle">Mở một trang web trên điện thoại hoặc máy tính để thêm hoặc xóa kho lưu trữ</string>
+    <string name="plugin_qr_instruction">Mở địa chỉ này trong trình duyệt trên cùng mạng Wi-Fi để quản lý kho lưu trữ</string>
     <string name="plugin_qr_close">Đóng</string>
     <string name="plugin_confirm_title">Xác nhận thay đổi kho lưu trữ</string>
     <string name="plugin_confirm_subtitle">Những thay đổi sau đây được thực hiện từ điện thoại của bạn:</string>
@@ -2588,7 +2588,7 @@
     <string name="collections_editor_pin_above">Ghim phía trên các danh mục</string>
     <string name="collections_editor_pin_above_desc">Hiển thị bộ sưu tập này phía trên tất cả danh mục trang chủ thông thường. Các bộ sưu tập được ghim sẽ theo thứ tự tạo bộ sưu tập.</string>
     <string name="collections_editor_focus_glow">Phát sáng khi chọn</string>
-    <string name="collections_editor_focus_glow_desc">Sử dụng hiệu ứng phát sáng gốc của TV trên các thẻ danh mục tùy chỉnh thuộc màn hình chính của bộ sưu tập này</string>
+    <string name="collections_editor_focus_glow_desc">Sử dụng hiệu ứng phát sáng khi chọn trên các thẻ danh mục tùy chỉnh thuộc màn hình chính của bộ sưu tập này</string>
     <string name="collections_editor_view_mode">Chế độ hiển thị</string>
     <string name="collections_editor_show_all_tab">Hiển thị thẻ \"Tất cả\"</string>
     <string name="collections_editor_show_all_tab_desc">Gộp tất cả danh mục vào một thẻ</string>
@@ -3367,4 +3367,17 @@
     <string name="autosync_toast_failed_no_reference">Đồng bộ thất bại: video này không có phụ đề nhúng sẵn để so sánh.</string>
     <string name="autosync_toast_failed_unsupported">Đồng bộ thất bại: Tự động đồng bộ không hỗ trợ đồng bộ định dạng phụ đề này.</string>
     <string name="autosync_label_synced">Đã tự động đồng bộ</string>
+    <!-- NuvioVR -->
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">Môi trường và màn hình trong kính</string>
+    <string name="vr_settings_environment">Môi trường</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">Hiển thị căn phòng thực của bạn thay cho môi trường ảo. Mẹo: nhấn Y để chuyển đổi nhanh.</string>
+    <string name="vr_dim_playback_title">Làm tối môi trường khi phát</string>
+    <string name="vr_dim_playback_subtitle">Làm tối bầu trời và sàn khi đang phát video, như trong rạp chiếu phim.</string>
+    <string name="vr_settings_screen">Màn hình</string>
+    <string name="vr_recenter_title">Căn giữa lại màn hình</string>
+    <string name="vr_recenter_subtitle">Đưa màn hình trở lại phía trước bạn.</string>
+    <string name="player_vr_passthrough_on">Hiện không gian xung quanh</string>
+    <string name="player_vr_passthrough_off">Ẩn không gian xung quanh</string>
 </resources>

@@ -4,7 +4,6 @@ package com.nuvio.tv.ui.screens.plugin
 
 import com.nuvio.tv.ui.theme.NuvioTheme
 
-import android.graphics.Bitmap
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
@@ -12,7 +11,6 @@ import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.rememberScrollState
@@ -35,6 +33,7 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
@@ -43,7 +42,7 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.PhoneAndroid
 import androidx.compose.material.icons.filled.PlayArrow
-import androidx.compose.material.icons.filled.QrCode2
+import androidx.compose.material.icons.filled.Language
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
@@ -60,9 +59,7 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
-import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.semantics.Role
@@ -97,6 +94,7 @@ import com.nuvio.tv.domain.model.LocalScraperResult
 import com.nuvio.tv.domain.model.PluginRepository
 import com.nuvio.tv.domain.model.ScraperInfo
 import com.nuvio.tv.ui.components.LoadingIndicator
+import com.nuvio.tv.ui.components.ManualLinkCard
 import kotlinx.coroutines.delay
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -286,7 +284,6 @@ fun PluginScreenContent(
     if (uiState.isQrModeActive) {
         Popup(properties = PopupProperties(focusable = true)) {
             QrCodeOverlay(
-                qrBitmap = uiState.qrCodeBitmap,
                 serverUrl = uiState.serverUrl,
                 onClose = { viewModel.onEvent(PluginUiEvent.StopQrMode) },
                 hasPendingChange = uiState.pendingRepoChange != null
@@ -628,7 +625,7 @@ private fun ManageFromPhoneCard(onClick: () -> Unit) {
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Icon(
-                    imageVector = Icons.Default.QrCode2,
+                    imageVector = Icons.Default.Language,
                     contentDescription = null,
                     modifier = Modifier.size(28.dp),
                     tint = if (isFocused) NuvioTheme.colors.Secondary else NuvioTheme.colors.TextSecondary
@@ -659,7 +656,6 @@ private fun ManageFromPhoneCard(onClick: () -> Unit) {
 
 @Composable
 private fun QrCodeOverlay(
-    qrBitmap: Bitmap?,
     serverUrl: String?,
     onClose: () -> Unit,
     hasPendingChange: Boolean = false
@@ -685,32 +681,19 @@ private fun QrCodeOverlay(
         ) {
             Text(
                 text = stringResource(R.string.plugin_qr_instruction),
-                style = MaterialTheme.typography.bodyMedium,
+                style = MaterialTheme.typography.bodyLarge,
                 color = NuvioTheme.colors.TextSecondary,
-                textAlign = TextAlign.Center
+                textAlign = TextAlign.Center,
+                modifier = Modifier.widthIn(max = 560.dp)
             )
 
             Spacer(modifier = Modifier.height(NuvioTheme.spacing.lg))
 
-            if (qrBitmap != null) {
-                Image(
-                    bitmap = qrBitmap.asImageBitmap(),
-                    contentDescription = stringResource(R.string.cd_qr_code),
-                    modifier = Modifier.size(220.dp),
-                    contentScale = ContentScale.Fit
-                )
-            }
-
-            Spacer(modifier = Modifier.height(NuvioTheme.spacing.md))
-
-            if (serverUrl != null) {
-                Text(
-                    text = serverUrl,
-                    style = MaterialTheme.typography.bodySmall,
-                    color = NuvioTheme.colors.TextTertiary,
-                    textAlign = TextAlign.Center
-                )
-            }
+            // VR: a QR code can't be scanned from inside the headset, so show the URL to type instead.
+            ManualLinkCard(
+                url = serverUrl,
+                isLoading = serverUrl == null
+            )
 
             Spacer(modifier = Modifier.height(NuvioTheme.spacing.xl))
 

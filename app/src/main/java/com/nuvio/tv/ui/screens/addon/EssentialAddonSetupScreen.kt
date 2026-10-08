@@ -18,7 +18,7 @@ import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.PhoneAndroid
-import androidx.compose.material.icons.filled.QrCode2
+import androidx.compose.material.icons.filled.Language
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.collectAsState
@@ -207,7 +207,7 @@ fun EssentialAddonSetupScreen(
                             ),
                             shape = ButtonDefaults.shape(RoundedCornerShape(50))
                         ) {
-                            Icon(imageVector = Icons.Default.QrCode2, contentDescription = null)
+                            Icon(imageVector = Icons.Default.Language, contentDescription = null)
                             Text(text = stringResource(R.string.essential_addon_show_qr))
                         }
                     }
@@ -234,7 +234,6 @@ fun EssentialAddonSetupScreen(
         if (uiState.isQrModeActive) {
             Popup(properties = PopupProperties(focusable = true)) {
                 QrCodeOverlay(
-                    qrBitmap = uiState.qrCodeBitmap,
                     serverUrl = uiState.serverUrl,
                     instruction = stringResource(R.string.addon_qr_addons_only_scan_instruction),
                     onClose = viewModel::stopQrMode,

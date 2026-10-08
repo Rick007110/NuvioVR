@@ -19,26 +19,26 @@
     <string name="web_home_catalogs">Каталоги та колекції на головному екрані</string>
     <string name="web_no_catalogs">Немає доступних каталогів для головного екрана</string>
     <string name="web_btn_save">Зберегти зміни</string>
-    <string name="web_connection_lost">Зв\'язок з ТВ втрачено</string>
+    <string name="web_connection_lost">Зв\'язок із гарнітурою втрачено</string>
     <string name="web_btn_remove">Видалити</string>
     <string name="web_badge_new">Новий</string>
     <string name="web_badge_disabled">Вимкнено</string>
     <string name="web_btn_enable">Увімкнути</string>
     <string name="web_btn_disable">Вимкнути</string>
     <string name="web_error_addon_exists">Цей адон вже є у списку</string>
-    <string name="web_status_waiting_tv">Очікування ТВ</string>
-    <string name="web_status_msg_waiting_tv">Будь ласка, підтвердіть зміни на вашому ТВ, щоб застосувати їх.</string>
+    <string name="web_status_waiting_tv">Очікування гарнітури</string>
+    <string name="web_status_msg_waiting_tv">Будь ласка, підтвердіть зміни в гарнітурі, щоб застосувати їх.</string>
     <string name="web_status_changes_applied">Зміни застосовано</string>
-    <string name="web_status_msg_addon_updated">Вашу конфігурацію адонів оновлено на ТВ.</string>
-    <string name="web_status_msg_repo_updated">Вашу конфігурацію репозиторіїв оновлено на ТВ.</string>
+    <string name="web_status_msg_addon_updated">Вашу конфігурацію адонів оновлено в NuvioVR.</string>
+    <string name="web_status_msg_repo_updated">Вашу конфігурацію репозиторіїв оновлено в NuvioVR.</string>
     <string name="web_status_changes_rejected">Зміни відхилено</string>
-    <string name="web_status_msg_changes_rejected">Зміни було відхилено на ТВ. Ваш список повернуто до початкового стану.</string>
+    <string name="web_status_msg_changes_rejected">Зміни було відхилено в гарнітурі. Ваш список повернуто до початкового стану.</string>
     <string name="web_status_error">Щось пішло не так</string>
-    <string name="web_error_failed_save">Не вдалося зберегти. Перевірте підключення до ТВ.</string>
+    <string name="web_error_failed_save">Не вдалося зберегти. Перевірте підключення до гарнітури.</string>
     <string name="web_btn_dismiss">Закрити</string>
     <string name="web_status_timeout">Час очікування вичерпано</string>
-    <string name="web_status_msg_timeout">Немає відповіді від ТВ. Будь ласка, спробуйте ще раз.</string>
-    <string name="web_status_msg_connection_lost">Сервер ТВ більше недоступний. Зміни могли бути застосовані.</string>
+    <string name="web_status_msg_timeout">Немає відповіді від гарнітури. Будь ласка, спробуйте ще раз.</string>
+    <string name="web_status_msg_connection_lost">Сервер NuvioVR більше недоступний. Зміни могли бути застосовані.</string>
     <string name="web_manage_repos_title">Керування репозиторіями</string>
     <string name="web_manage_repos_subtitle">Керуйте вашими репозиторіями</string>
     <string name="web_add_repo_url">Додати репозиторій за URL</string>
@@ -47,7 +47,7 @@
     <string name="web_error_repo_exists">Цей репозиторій вже є у списку</string>
     <string name="web_manage_collections_title">Керування колекціями</string>
     <string name="web_manage_collections_subtitle">Створюйте та керуйте власними колекціями</string>
-    <string name="web_status_msg_collections_updated">Ваші колекції оновлено на ТВ.</string>
+    <string name="web_status_msg_collections_updated">Ваші колекції оновлено в NuvioVR.</string>
     <string name="web_tab_addons">Адони</string>
     <string name="web_tab_home_layout">Головний екран</string>
     <string name="web_tab_collections">Колекції</string>
@@ -352,12 +352,12 @@
     <string name="about_licenses_attributions">Ліцензії та зазначення авторства</string>
     <string name="about_licenses_attributions_subtitle">Джерела даних, подяки та ліцензії Android</string>
     <string name="licenses_attributions_title">Ліцензії та зазначення авторства</string>
-    <string name="licenses_attributions_subtitle">Постачальники даних, кредити сервісів та ліцензії відтворення Android, що використовуються Nuvio TV.</string>
+    <string name="licenses_attributions_subtitle">Постачальники даних, кредити сервісів та ліцензії відтворення Android, що використовуються NuvioVR.</string>
     <string name="licenses_attributions_section_app">ЛІЦЕНЗІЯ ЗАСТОСУНКУ</string>
     <string name="licenses_attributions_section_data">ДАНІ ТА СЕРВІСИ</string>
     <string name="licenses_attributions_section_playback">ЛІЦЕНЗІЇ ВІДТВОРЕННЯ ANDROID</string>
-    <string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-    <string name="licenses_attributions_nuvio_body">Вихідний код та умови ліцензії доступні в репозиторії проєкту. Ліцензовано під GNU General Public License v3.0.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">Базується на Nuvio TV від Nuvio Media. Вихідний код та умови ліцензії доступні в репозиторії проєкту. Ліцензовано під GNU General Public License v3.0.</string>
     <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
     <string name="licenses_attributions_tmdb_body">Nuvio використовує API TMDB для метаданих фільмів та ТВ, ілюстрацій, трейлерів, акторів, виробничих деталей, колекцій та рекомендацій. Цей продукт використовує API TMDB, але не схвалений та не сертифікований TMDB.</string>
     <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -433,13 +433,13 @@
     <string name="account_error_password_too_weak">Пароль занадто слабкий.</string>
     <string name="account_error_signup_disabled">Реєстрація зараз недоступна.</string>
     <string name="account_error_rate_limited">Забагато спроб. Повторіть пізніше.</string>
-    <string name="account_error_qr_login_expired">QR-вхід закінчився. Спробуйте ще раз.</string>
-    <string name="account_error_invalid_qr_login">Невірний код QR-входу.</string>
-    <string name="account_error_qr_login_other_device">Цей QR-вхід було запрошено з іншого пристрою.</string>
-    <string name="account_error_qr_login_outdated">Сервіс QR-входу застарів. Оновіть налаштування SQL TV-входу.</string>
-    <string name="account_error_qr_login_missing_setup">Бекенд QR-входу не налаштовано. Оновіть налаштування SQL TV-входу.</string>
-    <string name="account_error_qr_login_misconfigured">URL QR-входу налаштовано невірно.</string>
-    <string name="account_error_qr_login_invalid_request">Запит QR-входу був невірним. Спробуйте ще раз.</string>
+    <string name="account_error_qr_login_expired">Термін дії коду входу минув. Спробуйте ще раз.</string>
+    <string name="account_error_invalid_qr_login">Невірний код входу.</string>
+    <string name="account_error_qr_login_other_device">Цей код входу було запрошено з іншого пристрою.</string>
+    <string name="account_error_qr_login_outdated">Сервіс входу з пристрою застарів. Повторно застосуйте налаштування SQL для входу з пристрою.</string>
+    <string name="account_error_qr_login_missing_setup">Бекенд входу з пристрою не налаштовано. Оновіть налаштування SQL для входу з пристрою.</string>
+    <string name="account_error_qr_login_misconfigured">URL входу налаштовано невірно.</string>
+    <string name="account_error_qr_login_invalid_request">Запит на вхід був невірним. Спробуйте ще раз.</string>
     <string name="account_error_no_internet">Немає підключення до інтернету.</string>
     <string name="account_error_connection_timeout">Час очікування підключення вичерпано. Спробуйте ще раз.</string>
     <string name="account_error_connection_refused">Не вдалося підключитися до сервера.</string>
@@ -512,7 +512,7 @@
     <string name="action_close">Закрити</string>
 
     <string name="supporters_contributors_title">Спонсори та учасники</string>
-    <string name="supporters_contributors_subtitle">Люди, які підтримують Nuvio, та контриб\'ютори, які створюють його для ТВ і мобільних пристроїв.</string>
+    <string name="supporters_contributors_subtitle">Люди, які підтримують Nuvio, та контриб\'ютори, які створюють його для ТВ, мобільних пристроїв і VR.</string>
     <string name="supporters_contributors_supporters_copy">Спонсори та донатери допомагають проєкту рухатися вперед, фінансувати інфраструктуру та реалізовувати амбітні функції.</string>
     <string name="supporters_contributors_donate_copy">Nuvio завжди буде безкоштовним і відкритим. Якщо ви хочете підтримати проєкт, ви можете допомогти покрити витрати на час та інфраструктуру.</string>
     <string name="supporters_contributors_donate_button">Підтримати Nuvio</string>
@@ -539,8 +539,8 @@
     <string name="contributors_error_title">Не вдалося завантажити учасників</string>
     <string name="contributors_total_contributions">Всього внесків: %1$d</string>
     <string name="contributors_open_github">Відкрити профіль GitHub</string>
-    <string name="contributors_show_kofi_qr">Показати Ko-fi QR</string>
-    <string name="contributors_hide_kofi_qr">Приховати Ko-fi QR</string>
+    <string name="contributors_show_kofi_qr">Показати посилання Ko-fi</string>
+    <string name="contributors_hide_kofi_qr">Приховати посилання Ko-fi</string>
     <string name="contributors_profile_unavailable">Посилання на профіль GitHub недоступне.</string>
 
     <string name="playback_loading_overlay">Екран завантаження</string>
@@ -622,7 +622,7 @@
     <string name="audio_decoder_priority">Пріоритет декодерів</string>
     <string name="audio_enable_downmix_title">Увімкнути мікшування</string>
     <string name="audio_tunneled">Тунельне відтворення</string>
-    <string name="audio_tunneled_sub">Апаратна синхронізація аудіо/відео. Може покращити відтворення на деяких пристроях Android TV</string>
+    <string name="audio_tunneled_sub">Апаратна синхронізація аудіо/відео. Може покращити відтворення на деяких пристроях</string>
     <!-- DV7 Handling Mode -->
     <string name="dv7_handling_title">Обробка Dolby Vision Profile 7</string>
     <string name="dv7_handling_dialog_subtitle">Оберіть, як обробляються потоки DV Profile 7 при відтворенні.</string>
@@ -942,7 +942,7 @@
     <string name="debrid_disconnect">Відключити</string>
     <string name="debrid_device_auth_connected">%1$s підключено на цьому пристрої.</string>
     <string name="debrid_device_auth_starting">Запуск безпечного входу...</string>
-    <string name="debrid_device_auth_instructions">Відскануйте QR та введіть цей код для підтвердження Nuvio.</string>
+    <string name="debrid_device_auth_instructions">Перейдіть за цією адресою на телефоні або комп\'ютері та введіть код, щоб підтвердити Nuvio.</string>
     <string name="debrid_device_auth_code_copied">Код скопійовано.</string>
     <string name="debrid_device_auth_waiting">Очікування підтвердження...</string>
     <string name="debrid_device_auth_failed">Не вдалося запустити вхід.</string>
@@ -1030,7 +1030,7 @@
     <string name="debrid_formatter_configure">Відкрити веб-редактор</string>
     <string name="debrid_formatter_reset_title">Скинути форматування</string>
     <string name="debrid_formatter_reset_subtitle">Відновити форматування джерел за замовчуванням.</string>
-    <string name="debrid_formatter_qr_instruction">Відскануйте цей QR-код на телефоні для налаштування джерел Debrid.</string>
+    <string name="debrid_formatter_qr_instruction">Відкрийте цю адресу в браузері в тій самій мережі Wi-Fi, щоб налаштувати джерела Debrid.</string>
     <string name="settings_stream_badges_section">Стиль Fusion</string>
     <string name="settings_stream_size_badges_title">Значки розміру</string>
     <string name="settings_stream_size_badges_description">Показувати значки розміру файлу в результатах потоків та панелях джерел плеєра.</string>
@@ -1056,7 +1056,7 @@
     <string name="settings_fusion_badge_preview_empty">Немає зображень значків у стилі Fusion за цим URL.</string>
     <string name="settings_fusion_badge_group_title">Група %1$d</string>
     <string name="settings_fusion_badge_other_group_title">Інші значки Fusion</string>
-    <string name="stream_badge_qr_instruction">Відскануйте цей QR-код на телефоні для керування URL значків Fusion.</string>
+    <string name="stream_badge_qr_instruction">Відкрийте цю адресу в браузері в тій самій мережі Wi-Fi, щоб керувати URL значків Fusion.</string>
     <string name="streams_size">РОЗМІР %1$s</string>
     <string name="action_import">Імпортувати</string>
     <string name="action_delete">Видалити</string>
@@ -1114,14 +1114,14 @@
     <string name="trakt_waiting_approval">Очікування підтвердження…</string>
     <string name="qr_login_approved">Вхід підтверджено. Завершення…</string>
     <string name="qr_login_pending">Очікування підтвердження на вашому телефоні…</string>
-    <string name="qr_login_expired">QR-код застарів. Згенеруйте новий код.</string>
-    <string name="qr_login_preparing">Підготовка QR-входу...</string>
+    <string name="qr_login_expired">Термін дії коду входу минув. Запросіть новий код.</string>
+    <string name="qr_login_preparing">Підготовка коду входу…</string>
     <string name="qr_login_device_auth_failed">Не вдалося аутентифікувати пристрій</string>
-    <string name="qr_login_scan_prompt">Відскануйте QR та увійдіть на телефоні</string>
-    <string name="qr_login_start_failed">Не вдалося запустити QR-вхід</string>
+    <string name="qr_login_scan_prompt">Перейдіть за посиланням і введіть код на телефоні або комп\'ютері</string>
+    <string name="qr_login_start_failed">Не вдалося розпочати вхід за кодом</string>
     <string name="qr_login_signing_in">Виконується вхід…</string>
     <string name="qr_login_success">Вхід виконано успішно</string>
-    <string name="qr_login_exchange_failed">Не вдалося завершити QR-вхід</string>
+    <string name="qr_login_exchange_failed">Не вдалося завершити вхід за кодом</string>
     <string name="trakt_code_expires">Код закінчується через %1$s</string>
     <string name="trakt_token_refreshes">Токен доступу Trakt оновиться через %1$s</string>
     <string name="trakt_login_instruction">Натисніть «Увійти», щоб почати аутентифікацію пристрою в Trakt. Тут з\'явиться QR-код.</string>
@@ -1287,7 +1287,7 @@
     <!-- Essential addon setup wizard -->
     <string name="essential_addon_setup_title">Налаштуйте адони</string>
     <string name="essential_addon_setup_subtitle">Встановіть один адон для початку стримінгу. Пізніше можна додати ще з розділу Адони.</string>
-    <string name="essential_addon_show_qr">Показати QR</string>
+    <string name="essential_addon_show_qr">Керувати з телефону</string>
     <!-- Collection editor fallbacks -->
     <string name="collection_editor_no_trakt_lists_found">Списки Trakt не знайдено</string>
     <string name="collection_editor_untitled_folder">Без назви</string>
@@ -1307,14 +1307,14 @@
     <string name="addon_remove">Видалити</string>
     <string name="addons_badge_disabled">Вимкнено</string>
     <string name="addon_manage_from_phone_title">Керувати з телефону</string>
-    <string name="addon_manage_from_phone_subtitle">Відскануйте QR-код для керування адонами, каталогами та колекціями з вашого телефону</string>
-    <string name="addon_manage_addons_only_from_phone_subtitle">Відскануйте QR-код для встановлення або видалення адонів з телефону</string>
-    <string name="addon_manage_collections_from_phone_subtitle">Відскануйте QR-код для керування колекціями з телефону</string>
+    <string name="addon_manage_from_phone_subtitle">Відкрийте вебсторінку на телефоні або комп\'ютері, щоб керувати адонами, каталогами та колекціями</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">Відкрийте вебсторінку на телефоні або комп\'ютері, щоб встановити або видалити адони</string>
+    <string name="addon_manage_collections_from_phone_subtitle">Відкрийте вебсторінку на телефоні або комп\'ютері, щоб керувати колекціями</string>
     <string name="addon_reorder_title">Змінити порядок каталогів</string>
     <string name="addon_reorder_subtitle">Керує порядком рядків каталогів та колекцій на головному екрані (Класичний + Сучасний + Сітка)</string>
-    <string name="addon_qr_scan_instruction">Відскануйте з телефону для керування адонами, каталогами та колекціями</string>
-    <string name="addon_qr_addons_only_scan_instruction">Відскануйте телефоном для встановлення або видалення адонів</string>
-    <string name="addon_qr_collections_scan_instruction">Відскануйте телефоном для керування колекціями</string>
+    <string name="addon_qr_scan_instruction">Відкрийте цю адресу в браузері на телефоні або комп\'ютері в тій самій мережі Wi-Fi, щоб керувати адонами, каталогами та колекціями</string>
+    <string name="addon_qr_addons_only_scan_instruction">Відкрийте цю адресу в браузері в тій самій мережі Wi-Fi, щоб встановити або видалити адони</string>
+    <string name="addon_qr_collections_scan_instruction">Відкрийте цю адресу в браузері в тій самій мережі Wi-Fi, щоб керувати колекціями</string>
     <string name="addon_qr_close">Закрити</string>
     <string name="addon_confirm_title">Підтвердіть зміни адонів та каталогів</string>
     <string name="addon_confirm_subtitle">З вашого телефону було зроблено такі зміни:</string>
@@ -1686,8 +1686,8 @@
     <string name="account_loading">Завантаження\u2026</string>
     <string name="account_sync_description">Синхронізуйте вашу бібліотеку, прогрес перегляду, адони та плагіни між пристроями.</string>
     <string name="account_sync_restart_note">Синхронізація не відбувається в реальному часі на активних пристроях. Перезавантажте цей пристрій після входу або щоб отримати зміни, зроблені в іншому місці.</string>
-    <string name="account_signin_qr_title">Вхід за QR</string>
-    <string name="account_signin_qr_subtitle">Відскануйте QR-код та завершіть вхід через email на вашому телефоні</string>
+    <string name="account_signin_qr_title">Вхід за кодом</string>
+    <string name="account_signin_qr_subtitle">Введіть код на телефоні або комп\'ютері, щоб увійти</string>
     <string name="account_signed_in_label">Виконано вхід</string>
     <string name="account_total_label">Всього</string>
     <string name="account_loading_sync">Завантаження даних синхронізації\u2026</string>
@@ -1702,21 +1702,21 @@
     <string name="account_unknown_device">Невідомий пристрій</string>
 
     <string name="auth_signin_title">Увійти</string>
-    <string name="auth_signin_tv_disabled">Введення Email/пароля на ТВ вимкнено. Продовжіть за допомогою QR-коду.</string>
-    <string name="auth_signin_qr_btn">Продовжити за QR</string>
+    <string name="auth_signin_tv_disabled">Вхід через email/пароль на цьому сервері вимкнено. Продовжіть із входом за кодом.</string>
+    <string name="auth_signin_qr_btn">Продовжити з кодом</string>
 
-    <string name="auth_qr_title">Вхід за QR</string>
+    <string name="auth_qr_title">Вхід за кодом</string>
     <string name="auth_qr_finishing">Завершення входу\u2026</string>
     <string name="auth_qr_code_label">Код: %1$s</string>
     <string name="auth_qr_expires">Закінчується через %1$s</string>
-    <string name="auth_qr_scan_instruction">Відскануйте QR, підтвердіть у браузері, потім поверніться сюди.</string>
+    <string name="auth_qr_scan_instruction">На телефоні або комп\'ютері перейдіть за посиланням нижче та введіть код.</string>
     <string name="auth_qr_code_display">Код: %1$s</string>
-    <string name="auth_qr_refresh">Оновити QR</string>
+    <string name="auth_qr_refresh">Новий код</string>
     <string name="auth_qr_continue_without_account">Продовжити без акаунту</string>
-    <string name="auth_qr_connected">Ваш акаунт підключено на цьому ТВ.</string>
+    <string name="auth_qr_connected">Ваш акаунт підключено на цій гарнітурі.</string>
     <string name="auth_qr_synced_data">Ваші синхронізовані дані</string>
-    <string name="auth_qr_generating">Генерація QR\u2026</string>
-    <string name="auth_qr_unavailable">QR недоступний. Оновіть для повтору.</string>
+    <string name="auth_qr_generating">Генерація коду…</string>
+    <string name="auth_qr_unavailable">Код недоступний. Запросіть новий код, щоб повторити спробу.</string>
     <string name="auth_qr_please_wait">Будь ласка, зачекайте\u2026</string>
     <string name="auth_qr_continue">Продовжити</string>
     <string name="auth_qr_back">Назад</string>
@@ -1753,8 +1753,8 @@
     <string name="plugin_add_repository">Додати репозиторій</string>
     <string name="plugin_add_btn">Додати</string>
     <string name="plugin_manage_from_phone_title">Керувати з телефону</string>
-    <string name="plugin_manage_from_phone_subtitle">Відскануйте QR-код для додавання або видалення репозиторіїв з вашого телефону</string>
-    <string name="plugin_qr_instruction">Відскануйте з телефону для керування репозиторіями</string>
+    <string name="plugin_manage_from_phone_subtitle">Відкрийте вебсторінку на телефоні або комп\'ютері, щоб додати або видалити репозиторії</string>
+    <string name="plugin_qr_instruction">Відкрийте цю адресу в браузері в тій самій мережі Wi-Fi, щоб керувати репозиторіями</string>
     <string name="plugin_qr_close">Закрити</string>
     <string name="plugin_confirm_title">Підтвердити зміни репозиторіїв</string>
     <string name="plugin_confirm_subtitle">З вашого телефону було зроблено такі зміни:</string>
@@ -2050,7 +2050,7 @@
     <string name="collections_editor_pin_above">Закріпити вище каталогів</string>
     <string name="collections_editor_pin_above_desc">Показувати цю колекцію вище всіх звичайних каталогів на головній. Кілька закріплених колекцій сортуються в порядку їх створення.</string>
     <string name="collections_editor_focus_glow">Сяяння при фокусі</string>
-    <string name="collections_editor_focus_glow_desc">Використовувати нативне сяяння ТВ на користувацьких картках каталогу цієї колекції</string>
+    <string name="collections_editor_focus_glow_desc">Використовувати сяйво фокусу на користувацьких картках каталогу цієї колекції на головному екрані</string>
     <string name="collections_editor_view_mode">Режим перегляду</string>
     <string name="collections_editor_show_all_tab">Показувати вкладку «Всі»</string>
     <string name="collections_editor_show_all_tab_desc">Об\'єднати всі каталоги в одну вкладку</string>
@@ -2741,4 +2741,23 @@
     <string name="profile_default_name">Профіль %1$d</string>
     <string name="detail_tmdb_fallback_title">TMDB %1$d</string>
     <string name="collections_editor_tmdb_collection_fallback">Колекція TMDB %1$d</string>
+    <!-- NuvioVR -->
+    <string name="supporter_membership_scan_support">Переглянути членство онлайн</string>
+    <string name="supporter_membership_scan_manage">Керувати членством онлайн</string>
+    <string name="custom_poster_qr_instruction">Відкрийте цю адресу в браузері в тій самій мережі Wi-Fi, щоб вставити шаблон URL постера</string>
+    <string name="mdblist_awaiting_instruction">Перейдіть за адресою нижче та введіть цей код.</string>
+    <string name="profile_copy_settings_setup_subtitle">Почніть з нуля або одноразово скопіюйте налаштування з іншого профілю.</string>
+    <string name="profile_copy_settings_subtitle">Виберіть профіль-джерело. Його підтримувані налаштування одноразово замінять налаштування цього профілю.</string>
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">Середовище та екран у гарнітурі</string>
+    <string name="vr_settings_environment">Середовище</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">Показувати вашу реальну кімнату замість віртуального середовища. Порада: натисніть Y, щоб швидко перемкнутися.</string>
+    <string name="vr_dim_playback_title">Затемнювати середовище під час відтворення</string>
+    <string name="vr_dim_playback_subtitle">Затемнювати небо й підлогу під час відтворення відео, як у кінотеатрі.</string>
+    <string name="vr_settings_screen">Екран</string>
+    <string name="vr_recenter_title">Відцентрувати екран</string>
+    <string name="vr_recenter_subtitle">Повернути екран перед вами.</string>
+    <string name="player_vr_passthrough_on">Показати оточення</string>
+    <string name="player_vr_passthrough_off">Приховати оточення</string>
 </resources>

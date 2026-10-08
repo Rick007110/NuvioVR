@@ -10,7 +10,6 @@ import com.nuvio.tv.core.sync.StartupSyncService
 import com.nuvio.tv.core.sync.homeCatalogKey
 import com.nuvio.tv.core.sync.homeLegacyDisabledCatalogKey
 import com.nuvio.tv.core.network.NetworkResult
-import com.nuvio.tv.core.qr.QrCodeGenerator
 import com.nuvio.tv.core.server.AddonConfigServer
 import com.nuvio.tv.core.server.AddonInfo
 import com.nuvio.tv.core.server.AddonWebConfigMode
@@ -365,12 +364,9 @@ class AddonManagerViewModel @Inject constructor(
         }
 
         val url = "http://$ip:${activeServer.listeningPort}"
-        val qrBitmap = QrCodeGenerator.generate(url, 512)
-
         _uiState.update {
             it.copy(
                 isQrModeActive = true,
-                qrCodeBitmap = qrBitmap,
                 serverUrl = url,
                 error = null
             )
@@ -382,7 +378,6 @@ class AddonManagerViewModel @Inject constructor(
         _uiState.update {
             it.copy(
                 isQrModeActive = false,
-                qrCodeBitmap = null,
                 serverUrl = null,
                 pendingChange = null
             )
@@ -633,7 +628,6 @@ class AddonManagerViewModel @Inject constructor(
             _uiState.update {
                 it.copy(
                     isQrModeActive = false,
-                    qrCodeBitmap = null,
                     serverUrl = null
                 )
             }

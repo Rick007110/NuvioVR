@@ -18,26 +18,26 @@
 <string name="web_home_catalogs">Cataloghi e Collezioni Home</string>
 <string name="web_no_catalogs">Nessun catalogo home disponibile</string>
 <string name="web_btn_save">Salva Modifiche</string>
-<string name="web_connection_lost">Connessione alla TV interrotta</string>
+<string name="web_connection_lost">Connessione al visore persa</string>
 <string name="web_btn_remove">Rimuovi</string>
 <string name="web_badge_new">Nuovo</string>
 <string name="web_badge_disabled">Disattivato</string>
 <string name="web_btn_enable">Abilita</string>
 <string name="web_btn_disable">Disabilita</string>
 <string name="web_error_addon_exists">Questo addon è già presente nell\'elenco</string>
-<string name="web_status_waiting_tv">In attesa della TV</string>
-<string name="web_status_msg_waiting_tv">Conferma le modifiche sulla tua TV per applicarle.</string>
+<string name="web_status_waiting_tv">In attesa del visore</string>
+<string name="web_status_msg_waiting_tv">Conferma le modifiche nel visore per applicarle.</string>
 <string name="web_status_changes_applied">Modifiche Applicate</string>
-<string name="web_status_msg_addon_updated">La configurazione degli addon è stata aggiornata sulla TV.</string>
-<string name="web_status_msg_repo_updated">La configurazione del repository è stata aggiornata sulla TV.</string>
+<string name="web_status_msg_addon_updated">La configurazione degli addon è stata aggiornata in NuvioVR.</string>
+<string name="web_status_msg_repo_updated">La configurazione dei repository è stata aggiornata in NuvioVR.</string>
 <string name="web_status_changes_rejected">Modifiche Rifiutate</string>
-<string name="web_status_msg_changes_rejected">Le modifiche sono state rifiutate sulla TV. L\'elenco è stato ripristinato.</string>
+<string name="web_status_msg_changes_rejected">Le modifiche sono state rifiutate nel visore. La tua lista è stata ripristinata.</string>
 <string name="web_status_error">Qualcosa è andato storto</string>
-<string name="web_error_failed_save">Salvataggio fallito. Controlla la connessione con la TV.</string>
+<string name="web_error_failed_save">Salvataggio non riuscito. Controlla la connessione al visore.</string>
 <string name="web_btn_dismiss">Chiudi</string>
 <string name="web_status_timeout">Tempo Scaduto</string>
-<string name="web_status_msg_timeout">Nessuna risposta dalla TV. Riprova.</string>
-<string name="web_status_msg_connection_lost">Il server della TV non è più raggiungibile. Le modifiche potrebbero essere state applicate.</string>
+<string name="web_status_msg_timeout">Nessuna risposta dal visore. Riprova.</string>
+<string name="web_status_msg_connection_lost">Il server NuvioVR non è più raggiungibile. Le modifiche potrebbero essere state applicate.</string>
 <string name="web_manage_repos_title">Gestisci Repository</string>
 <string name="web_manage_repos_subtitle">Gestisci i tuoi repository</string>
 <string name="web_add_repo_url">Aggiungi repository tramite URL</string>
@@ -46,7 +46,7 @@
 <string name="web_error_repo_exists">Questo repository è già presente nell\'elenco</string>
 <string name="web_manage_collections_title">Gestisci Collezioni</string>
 <string name="web_manage_collections_subtitle">Crea e gestisci le tue collezioni personalizzate</string>
-<string name="web_status_msg_collections_updated">Le tue collezioni sono state aggiornate sulla TV.</string>
+<string name="web_status_msg_collections_updated">Le tue collezioni sono state aggiornate in NuvioVR.</string>
 <string name="web_tab_addons">Addon</string>
 <string name="web_tab_home_layout">Layout Home</string>
 <string name="web_tab_collections">Collezioni</string>
@@ -390,12 +390,12 @@
 <string name="about_licenses_attributions">Licenze e attribuzioni</string>
 <string name="about_licenses_attributions_subtitle">Sorgenti dati, ringraziamenti e licenze Android</string>
 <string name="licenses_attributions_title">Licenze e attribuzioni</string>
-<string name="licenses_attributions_subtitle">Fornitori di dati, crediti dei servizi e licenze di riproduzione Android utilizzate da Nuvio TV.</string>
+<string name="licenses_attributions_subtitle">Fornitori di dati, crediti dei servizi e licenze di riproduzione Android utilizzate da NuvioVR.</string>
 <string name="licenses_attributions_section_app">LICENZA APP</string>
 <string name="licenses_attributions_section_data">DATI E SERVIZI</string>
 <string name="licenses_attributions_section_playback">LICENZE DI RIPRODUZIONE ANDROID</string>
-<string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-<string name="licenses_attributions_nuvio_body">Il codice sorgente e i termini della licenza sono disponibili nel repository del progetto. Distribuito sotto licenza GNU General Public License v3.0.</string>
+<string name="licenses_attributions_nuvio_title">NuvioVR</string>
+<string name="licenses_attributions_nuvio_body">Basato su Nuvio TV di Nuvio Media. Il codice sorgente e i termini di licenza sono disponibili nel repository del progetto. Distribuito con licenza GNU General Public License v3.0.</string>
 <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
 <string name="licenses_attributions_tmdb_body">Nuvio utilizza l\'API di TMDB per metadati di film e serie TV, locandine, trailer, cast, dettagli di produzione, collezioni e raccomandazioni. Questo prodotto utilizza l\'API di TMDB ma non è approvato o certificato da TMDB.</string>
 <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -503,13 +503,13 @@
 <string name="account_error_password_too_weak">La password è troppo debole.</string>
 <string name="account_error_signup_disabled">Le registrazioni sono attualmente disabilitate.</string>
 <string name="account_error_rate_limited">Troppi tentativi. Riprova più tardi.</string>
-<string name="account_error_qr_login_expired">Login tramite QR scaduto. Riprova.</string>
-<string name="account_error_invalid_qr_login">Codice login QR non valido.</string>
-<string name="account_error_qr_login_other_device">Questo login tramite QR è stato richiesto da un altro dispositivo.</string>
-<string name="account_error_qr_login_outdated">Il servizio di login QR è obsoleto. Riapplica il setup SQL del login TV.</string>
-<string name="account_error_qr_login_missing_setup">Setup backend per login QR mancante. Aggiorna il setup SQL del login TV.</string>
-<string name="account_error_qr_login_misconfigured">L\'URL del login QR non è configurato correttamente.</string>
-<string name="account_error_qr_login_invalid_request">La richiesta di login QR non è valida. Riprova.</string>
+<string name="account_error_qr_login_expired">Il codice di accesso è scaduto. Riprova.</string>
+<string name="account_error_invalid_qr_login">Codice di accesso non valido.</string>
+<string name="account_error_qr_login_other_device">Questo codice di accesso è stato richiesto da un altro dispositivo.</string>
+<string name="account_error_qr_login_outdated">Il servizio di accesso del dispositivo è obsoleto. Riapplica il setup SQL dell\'accesso dispositivo.</string>
+<string name="account_error_qr_login_missing_setup">Il backend di accesso del dispositivo non è configurato. Aggiorna il setup SQL dell\'accesso dispositivo.</string>
+<string name="account_error_qr_login_misconfigured">L\'URL di accesso non è configurato correttamente.</string>
+<string name="account_error_qr_login_invalid_request">La richiesta di accesso non era valida. Riprova.</string>
 <string name="account_error_no_internet">Nessuna connessione internet.</string>
 <string name="account_error_connection_timeout">Connessione scaduta. Riprova.</string>
 <string name="account_error_connection_refused">Impossibile connettersi al server.</string>
@@ -615,7 +615,7 @@
 <string name="action_close">Chiudi</string>
 
 <string name="supporters_contributors_title">Sostenitori &amp; Collaboratori</string>
-<string name="supporters_contributors_subtitle">Le persone che sostengono Nuvio e i collaboratori che lo sviluppano su TV e mobile.</string>
+<string name="supporters_contributors_subtitle">Le persone che sostengono Nuvio e i collaboratori che lo sviluppano su TV, mobile e VR.</string>
 <string name="supporters_contributors_supporters_copy">Sostenitori e donatori aiutano a mantenere il progetto vivo, a pagare le infrastrutture e a fare spazio per feature ambiziose.</string>
 <string name="supporters_contributors_donate_copy">Nuvio è gratuito e open source. Se vuoi supportare il progetto, puoi aiutare a coprire il tempo e l\'infrastruttura dietro allo stesso.</string>
 <string name="supporters_contributors_donation_progress_title">Server e manutenzione di questo mese</string>
@@ -642,9 +642,9 @@
 <string name="supporter_membership_tier_supporter_plus">Supporter Plus</string>
 <string name="supporter_membership_connected_title">Patreon è connesso</string>
 <string name="supporter_membership_connected_description">Nessun livello Nuvio attivo trovato su questo account Patreon. Visualizza le opzioni disponibili o aggiorna dopo aver modificato la tua iscrizione Patreon.</string>
-<string name="supporter_membership_scan_support">Scansiona per visualizzare l\'iscrizione</string>
+<string name="supporter_membership_scan_support">Visualizza iscrizione online</string>
 <string name="supporter_membership_scan_support_description">Apri la pagina dell\'iscrizione Supporter sul tuo telefono.</string>
-<string name="supporter_membership_scan_manage">Scansiona per gestire l\'iscrizione</string>
+<string name="supporter_membership_scan_manage">Gestisci iscrizione online</string>
 <string name="supporter_membership_scan_manage_description">Apri le impostazioni dell\'iscrizione Patreon sul tuo telefono.</string>
 <string name="cd_membership_qr">Codice QR della pagina iscrizione</string>
 <string name="supporters_tab">Sostenitori</string>
@@ -670,8 +670,8 @@
 <string name="contributors_error_title">Impossibile caricare i collaboratori</string>
 <string name="contributors_total_contributions">%1$d contributi totali</string>
 <string name="contributors_open_github">Apri Profilo GitHub</string>
-<string name="contributors_show_kofi_qr">Mostra QR Code di Ko-fi</string>
-<string name="contributors_hide_kofi_qr">Nascondi QR Code di Ko-fi</string>
+<string name="contributors_show_kofi_qr">Mostra link Ko-fi</string>
+<string name="contributors_hide_kofi_qr">Nascondi link Ko-fi</string>
 <string name="contributors_profile_unavailable">Link profilo GitHub non disponibile.</string>
 
 <string name="playback_loading_overlay">Overlay di caricamento</string>
@@ -756,7 +756,7 @@
 <string name="audio_enable_downmix_title">Abilita downmix</string>
 <string name="audio_enable_downmix_subtitle">Usa il percorso di downmix FFmpeg. Richiede l\'opzione Preferisci decoder dell\'app (FFmpeg). Se disabilitato, l\'audio segue il percorso precedente Android/dispositivo.</string>
 <string name="audio_tunneled">Riproduzione Tunneled</string>
-<string name="audio_tunneled_sub">Sincronizzazione audio/video a livello hardware. Può migliorare la riproduzione su alcuni dispositivi Android TV</string>
+<string name="audio_tunneled_sub">Sincronizzazione audio/video a livello hardware. Può migliorare la riproduzione su alcuni dispositivi</string>
 <string name="audio_force_optical_passthrough">Forza la transcodifica AC-3 (ottico/SPDIF)</string>
 <string name="audio_force_optical_passthrough_sub">Transcodifica in tempo reale i formati multicanale (TrueHD, DTS, AAC, ecc.) in Dolby Digital 5.1 per connessioni ottiche/SPDIF.</string>
     <!-- DV7 Handling Mode -->
@@ -1141,7 +1141,7 @@
 <string name="debrid_disconnect">Scollega</string>
 <string name="debrid_device_auth_connected">%1$s è collegato su questo dispositivo.</string>
 <string name="debrid_device_auth_starting">Avvio accesso sicuro...</string>
-<string name="debrid_device_auth_instructions">Scansiona il QR e inserisci questo codice per autorizzare Nuvio.</string>
+<string name="debrid_device_auth_instructions">Vai a questo indirizzo sul telefono o sul computer e inserisci il codice per autorizzare Nuvio.</string>
 <string name="debrid_device_auth_code_copied">Codice copiato.</string>
 <string name="debrid_device_auth_waiting">In attesa di autorizzazione...</string>
 <string name="debrid_device_auth_failed">Impossibile avviare l\'accesso.</string>
@@ -1229,7 +1229,7 @@
 <string name="debrid_formatter_configure">Apri editor web</string>
 <string name="debrid_formatter_reset_title">Ripristina formattazione</string>
 <string name="debrid_formatter_reset_subtitle">Ripristina la formattazione predefinita della sorgente.</string>
-<string name="debrid_formatter_qr_instruction">Scansiona questo codice QR con il telefono per configurare le impostazioni della sorgente Debrid.</string>
+<string name="debrid_formatter_qr_instruction">Apri questo indirizzo in un browser sulla stessa rete Wi-Fi per configurare le impostazioni delle sorgenti Debrid.</string>
 <string name="settings_stream_badges_section">Stile Fusion</string>
 <string name="settings_stream_size_badges_title">Badge dimensioni</string>
 <string name="settings_stream_size_badges_description">Mostra i badge delle dimensioni file nei risultati dei flussi e nei pannelli sorgente del player.</string>
@@ -1258,7 +1258,7 @@
 <string name="settings_fusion_badge_preview_empty">Nessuna immagine badge in stile Fusion in questo URL.</string>
 <string name="settings_fusion_badge_group_title">Gruppo %1$d</string>
 <string name="settings_fusion_badge_other_group_title">Altri badge Fusion</string>
-<string name="stream_badge_qr_instruction">Scansiona questo QR code sul telefono per gestire gli URL dei badge Fusion.</string>
+<string name="stream_badge_qr_instruction">Apri questo indirizzo in un browser sulla stessa rete Wi-Fi per gestire gli URL dei badge Fusion.</string>
 <string name="streams_size">DIMENSIONE %1$s</string>
 <string name="action_import">Importa</string>
 <string name="action_delete">Elimina</string>
@@ -1316,14 +1316,14 @@
 <string name="trakt_waiting_approval">In attesa di approvazione\u2026</string>
 <string name="qr_login_approved">Login Eseguito. Completamento accesso…</string>
 <string name="qr_login_pending">In attesa di approvazione dal tuo telefono…</string>
-<string name="qr_login_expired">Login Scaduto. Genera un nuovo QR Code.</string>
-<string name="qr_login_preparing">Preparazione login tramite QR...</string>
+<string name="qr_login_expired">Il codice di accesso è scaduto. Richiedi un nuovo codice.</string>
+<string name="qr_login_preparing">Preparazione del codice di accesso…</string>
 <string name="qr_login_device_auth_failed">Autenticazione dispositivo fallita</string>
-<string name="qr_login_scan_prompt">Scansiona il QR ed effettua l\'accesso sul tuo telefono</string>
-<string name="qr_login_start_failed">Avvio del login tramite QR fallito</string>
+<string name="qr_login_scan_prompt">Apri il link e inserisci il codice sul telefono o sul computer</string>
+<string name="qr_login_start_failed">Impossibile avviare l\'accesso con codice</string>
 <string name="qr_login_signing_in">Accesso in corso…</string>
 <string name="qr_login_success">Accesso effettuato con successo</string>
-<string name="qr_login_exchange_failed">Impossibile completare l\'accesso tramite QR</string>
+<string name="qr_login_exchange_failed">Impossibile completare l\'accesso con codice</string>
 <string name="trakt_code_expires">Il codice scade in %1$s</string>
 <string name="trakt_token_refreshes">Il token di accesso Trakt si rinnoverà tra %1$s</string>
 <string name="trakt_login_instruction">Premi Accedi per avviare l\'autenticazione del dispositivo Trakt. Un codice QR apparirà qui.</string>
@@ -1471,13 +1471,13 @@
 <string name="profile_save">Salva</string>
 <string name="profile_copy_settings_label">Copia impostazioni</string>
 <string name="profile_copy_settings_setup_title">Impostazioni profilo</string>
-<string name="profile_copy_settings_setup_subtitle">Inizia da zero oppure copia una volta le impostazioni TV da un altro profilo.</string>
+<string name="profile_copy_settings_setup_subtitle">Ricomincia da zero oppure copia una volta le impostazioni da un altro profilo.</string>
 <string name="profile_copy_settings_start_fresh">Inizia da zero</string>
 <string name="profile_copy_settings_primary_source">%1$s (Principale)</string>
 <string name="profile_copy_settings_create_fresh">Impostazioni: Inizia da zero</string>
 <string name="profile_copy_settings_create_source">Impostazioni: %1$s</string>
 <string name="profile_copy_settings_title">Copia impostazioni su %1$s</string>
-<string name="profile_copy_settings_subtitle">Scegli un profilo di origine. Le sue impostazioni TV supportate sostituiranno una volta le impostazioni di questo profilo.</string>
+<string name="profile_copy_settings_subtitle">Scegli un profilo di origine. Le sue impostazioni supportate sostituiranno una volta le impostazioni di questo profilo.</string>
 <string name="profile_copy_settings_from">Copia da</string>
 <string name="profile_copy_settings_action">Copia impostazioni</string>
 <string name="profile_copy_settings_copying">Copia in corso\u2026</string>
@@ -1529,7 +1529,7 @@
     <!-- Essential addon setup wizard -->
 <string name="essential_addon_setup_title">Configura gli add-on</string>
 <string name="essential_addon_setup_subtitle">Installa un add-on per iniziare lo streaming. Puoi aggiungerne altri in seguito dalla sezione Add-on.</string>
-<string name="essential_addon_show_qr">Mostra QR</string>
+<string name="essential_addon_show_qr">Gestisci dal telefono</string>
     <!-- Collection editor fallbacks -->
 <string name="collection_editor_no_trakt_lists_found">Nessuna lista Trakt trovata</string>
 <string name="collection_editor_untitled_folder">Cartella senza titolo</string>
@@ -1553,14 +1553,14 @@
 <string name="addon_delete_yes">Sì</string>
 <string name="addons_badge_disabled">Disattivato</string>
 <string name="addon_manage_from_phone_title">Gestisci dal telefono</string>
-<string name="addon_manage_from_phone_subtitle">Scansiona un codice QR per gestire gli addon e i cataloghi Home dal tuo telefono</string>
-<string name="addon_manage_addons_only_from_phone_subtitle">Scansiona un codice QR per installare o rimuovere add-on dal tuo telefono</string>
-<string name="addon_manage_collections_from_phone_subtitle">Scansiona un codice QR per gestire le collezioni dal tuo telefono</string>
+<string name="addon_manage_from_phone_subtitle">Apri una pagina web sul telefono o sul computer per gestire addon, cataloghi e collezioni</string>
+<string name="addon_manage_addons_only_from_phone_subtitle">Apri una pagina web sul telefono o sul computer per installare o rimuovere addon</string>
+<string name="addon_manage_collections_from_phone_subtitle">Apri una pagina web sul telefono o sul computer per gestire le collezioni</string>
 <string name="addon_reorder_title">Riordina cataloghi home</string>
 <string name="addon_reorder_subtitle">Controlla l\'ordine delle righe dei cataloghi nella Home (Classica + Moderna + Griglia)</string>
-<string name="addon_qr_scan_instruction">Scansiona con il tuo telefono per gestire addon e cataloghi</string>
-<string name="addon_qr_addons_only_scan_instruction">Scansiona con il tuo telefono per installare o rimuovere add-on</string>
-<string name="addon_qr_collections_scan_instruction">Scansiona con il telefono per gestire le collezioni</string>
+<string name="addon_qr_scan_instruction">Apri questo indirizzo nel browser di un telefono o computer connesso alla stessa rete Wi-Fi per gestire addon, cataloghi e collezioni</string>
+<string name="addon_qr_addons_only_scan_instruction">Apri questo indirizzo in un browser sulla stessa rete Wi-Fi per installare o rimuovere addon</string>
+<string name="addon_qr_collections_scan_instruction">Apri questo indirizzo in un browser sulla stessa rete Wi-Fi per gestire le collezioni</string>
 <string name="addon_qr_close">Chiudi</string>
 <string name="addon_confirm_title">Conferma modifiche addon &amp; cataloghi</string>
 <string name="addon_confirm_subtitle">Le seguenti modifiche sono state apportate dal tuo telefono:</string>
@@ -1988,8 +1988,8 @@
 <string name="account_loading">Caricamento\u2026</string>
 <string name="account_sync_description">Sincronizza la tua libreria, l\'avanzamento della visione, gli addon e i plugin su tutti i tuoi dispositivi.</string>
 <string name="account_sync_restart_note">La sincronizzazione non è in tempo reale tra dispositivi attivi. Riavvia questo dispositivo dopo l\'accesso o per ricevere modifiche fatte altrove.</string>
-<string name="account_signin_qr_title">Accedi con QR</string>
-<string name="account_signin_qr_subtitle">Scansiona un codice QR e completa l\'accesso via email sul tuo telefono</string>
+<string name="account_signin_qr_title">Accedi con un codice</string>
+<string name="account_signin_qr_subtitle">Inserisci un codice sul telefono o sul computer per accedere</string>
 <string name="account_signin_email_title">Accedi</string>
 <string name="account_signin_email_subtitle">Inserisci email e password del tuo account self-hosted</string>
 <string name="account_signed_in_label">Accesso effettuato</string>
@@ -2008,8 +2008,8 @@
 <string name="account_unknown_device">Dispositivo sconosciuto</string>
 
 <string name="auth_signin_title">Accedi</string>
-<string name="auth_signin_tv_disabled">L\'inserimento di email/password su TV è disabilitato. Continua con l\'accesso tramite QR Code.</string>
-<string name="auth_signin_qr_btn">Continua con QR Code</string>
+<string name="auth_signin_tv_disabled">L\'accesso con email/password è disabilitato su questo server. Continua con l\'accesso tramite codice.</string>
+<string name="auth_signin_qr_btn">Continua con un codice</string>
 <string name="auth_email_hint">Accedi direttamente con l\'account sul tuo server self-hosted.</string>
 <string name="auth_email_instruction">Inserisci email e password per continuare.</string>
 <string name="auth_email_placeholder">Indirizzo email</string>
@@ -2057,20 +2057,20 @@
 <string name="custom_server_session_clear_failed">Impossibile cancellare in sicurezza la sessione attuale. Il server non è stato modificato.</string>
 <string name="custom_server_restart_failed">Il server è stato salvato, ma non è stato possibile riavviare automaticamente l\'app. Riavviala manualmente.</string>
 
-<string name="auth_qr_title">Accedi con QR Code</string>
+<string name="auth_qr_title">Accedi con un codice</string>
 <string name="auth_qr_tagline">Guarda la tua libreria, ovunque</string>
 <string name="auth_qr_finishing">Completamento accesso\u2026</string>
 <string name="auth_qr_code_label">Codice: %1$s</string>
 <string name="auth_qr_expires">Scade in %1$s</string>
-<string name="auth_qr_scan_instruction">Scansiona il QR Code, approva sul browser e poi ritorna qui.</string>
+<string name="auth_qr_scan_instruction">Sul telefono o sul computer, apri il link qui sotto e inserisci il codice.</string>
 <string name="auth_qr_code_display">Codice: %1$s</string>
 <string name="auth_qr_manual_instruction">Oppure vai su %1$s e inserisci</string>
-<string name="auth_qr_refresh">Aggiorna QR</string>
+<string name="auth_qr_refresh">Nuovo codice</string>
 <string name="auth_qr_continue_without_account">Continua senza account</string>
-<string name="auth_qr_connected">Il tuo account è ora connesso a questa TV.</string>
+<string name="auth_qr_connected">Il tuo account è ora connesso a questo visore.</string>
 <string name="auth_qr_synced_data">I tuoi dati sincronizzati</string>
-<string name="auth_qr_generating">Generando QR Code\u2026</string>
-<string name="auth_qr_unavailable">QR Code non disponibile. Aggiorna per riprovare.</string>
+<string name="auth_qr_generating">Generazione del codice…</string>
+<string name="auth_qr_unavailable">Codice non disponibile. Richiedi un nuovo codice per riprovare.</string>
 <string name="auth_qr_please_wait">Attendi\u2026</string>
 <string name="auth_qr_continue">Continua</string>
 <string name="auth_qr_back">Indietro</string>
@@ -2109,8 +2109,8 @@
 <string name="plugin_add_repository">Aggiungi repository</string>
 <string name="plugin_add_btn">Aggiungi</string>
 <string name="plugin_manage_from_phone_title">Gestisci dal telefono</string>
-<string name="plugin_manage_from_phone_subtitle">Scansiona un codice QR per aggiungere o rimuovere repository dal tuo telefono</string>
-<string name="plugin_qr_instruction">Scansiona con il tuo telefono per gestire le repository</string>
+<string name="plugin_manage_from_phone_subtitle">Apri una pagina web sul telefono o sul computer per aggiungere o rimuovere repository</string>
+<string name="plugin_qr_instruction">Apri questo indirizzo in un browser sulla stessa rete Wi-Fi per gestire i repository</string>
 <string name="plugin_qr_close">Chiudi</string>
 <string name="plugin_confirm_title">Conferma modifiche repository</string>
 <string name="plugin_confirm_subtitle">Le seguenti modifiche sono state apportate dal tuo telefono:</string>
@@ -2414,7 +2414,7 @@
 <string name="collections_editor_pin_above">Fissa sopra i cataloghi</string>
 <string name="collections_editor_pin_above_desc">Mostra questa collezione sopra tutti i normali cataloghi della home. Più collezioni fissate seguono l\'ordine di creazione.</string>
 <string name="collections_editor_focus_glow">Effetto bagliore</string>
-<string name="collections_editor_focus_glow_desc">Usa il bagliore nativo della TV sulle schede del catalogo personalizzato in home screen</string>
+<string name="collections_editor_focus_glow_desc">Usa il bagliore di focus sulle schede del catalogo personalizzato di questa collezione nella home</string>
 <string name="collections_editor_view_mode">Modalità di visualizzazione</string>
 <string name="collections_editor_show_all_tab">Mostra scheda \"Tutte\"</string>
 <string name="collections_editor_show_all_tab_desc">Combina tutti i cataloghi in un\'unica scheda</string>
@@ -3144,4 +3144,19 @@
 <string name="stream_test_video_bitrate">Bitrate video medio: %1$s</string>
 <string name="stream_test_error_connection">Connessione fallita. Il link dell\'ultimo stream riprodotto potrebbe essere scaduto o non raggiungibile. Riproduci di nuovo il video e riprova.</string>
 
+<!-- NuvioVR -->
+<string name="custom_poster_qr_instruction">Apri questo indirizzo in un browser sulla stessa rete Wi-Fi per incollare un modello di URL del poster</string>
+<string name="mdblist_awaiting_instruction">Vai all\'indirizzo qui sotto e inserisci questo codice.</string>
+<string name="settings_vr">VR</string>
+<string name="vr_settings_subtitle">Ambiente e schermo nel visore</string>
+<string name="vr_settings_environment">Ambiente</string>
+<string name="vr_passthrough_title">Passthrough</string>
+<string name="vr_passthrough_subtitle">Mostra la tua stanza reale invece dell\'ambiente virtuale. Suggerimento: premi Y per passare rapidamente.</string>
+<string name="vr_dim_playback_title">Oscura l\'ambiente durante la riproduzione</string>
+<string name="vr_dim_playback_subtitle">Scurisce il cielo e il pavimento durante la riproduzione di un video, come al cinema.</string>
+<string name="vr_settings_screen">Schermo</string>
+<string name="vr_recenter_title">Ricentra lo schermo</string>
+<string name="vr_recenter_subtitle">Riporta lo schermo davanti a te.</string>
+<string name="player_vr_passthrough_on">Mostra ambiente circostante</string>
+<string name="player_vr_passthrough_off">Nascondi ambiente circostante</string>
 </resources>

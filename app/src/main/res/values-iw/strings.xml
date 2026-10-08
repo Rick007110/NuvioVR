@@ -18,26 +18,26 @@
     <string name="web_home_catalogs">קטלוגי ואוספי הבית</string>
     <string name="web_no_catalogs">אין קטלוגים זמינים בדף הבית</string>
     <string name="web_btn_save">שמירת השינויים</string>
-    <string name="web_connection_lost">החיבור לטלוויזיה אבד</string>
+    <string name="web_connection_lost">החיבור למשקפי ה-VR אבד</string>
     <string name="web_btn_remove">הסרה</string>
     <string name="web_badge_new">חדש</string>
     <string name="web_badge_disabled">מושבת</string>
     <string name="web_btn_enable">הפעלה</string>
     <string name="web_btn_disable">השבתה</string>
     <string name="web_error_addon_exists">תוסף זה כבר נמצא ברשימה</string>
-    <string name="web_status_waiting_tv">ממתין לטלוויזיה</string>
-    <string name="web_status_msg_waiting_tv">.אישור השינויים בטלוויזיה יחיל אותם</string>
+    <string name="web_status_waiting_tv">ממתין למשקפי ה-VR</string>
+    <string name="web_status_msg_waiting_tv">יש לאשר את השינויים במשקפי ה-VR כדי להחיל אותם.</string>
     <string name="web_status_changes_applied">השינויים הוחלו</string>
-    <string name="web_status_msg_addon_updated">.הגדרות התוסף עודכנו בטלוויזיה</string>
-    <string name="web_status_msg_repo_updated">.הגדרות המאגר עודכנו בטלוויזיה</string>
+    <string name="web_status_msg_addon_updated">הגדרות התוספים שלך עודכנו ב-NuvioVR.</string>
+    <string name="web_status_msg_repo_updated">הגדרות המאגרים שלך עודכנו ב-NuvioVR.</string>
     <string name="web_status_changes_rejected">השינויים נדחו</string>
-    <string name="web_status_msg_changes_rejected">.השינויים נדחו בטלוויזיה. הרשימה שלך שוחזרה למצב הקודם</string>
+    <string name="web_status_msg_changes_rejected">השינויים נדחו במשקפי ה-VR. הרשימה שלך שוחזרה.</string>
     <string name="web_status_error">משהו השתבש</string>
-    <string name="web_error_failed_save">השמירה נכשלה. יש לבדוק את החיבור לטלוויזיה.</string>
+    <string name="web_error_failed_save">השמירה נכשלה. יש לבדוק את החיבור למשקפי ה-VR.</string>
     <string name="web_btn_dismiss">ביטול</string>
     <string name="web_status_timeout">תם הזמן</string>
-    <string name="web_status_msg_timeout">.אין תגובה מהטלוויזיה. כדאי לנסות שוב</string>
-    <string name="web_status_msg_connection_lost">אין אפשרות להתחבר לשרת הטלוויזיה. ייתכן שהשינויים בכל זאת הוחלו</string>
+    <string name="web_status_msg_timeout">אין תגובה ממשקפי ה-VR. יש לנסות שוב.</string>
+    <string name="web_status_msg_connection_lost">שרת NuvioVR כבר אינו זמין. ייתכן שהשינויים הוחלו.</string>
     <string name="web_manage_repos_title">ניהול מאגרים</string>
     <string name="web_manage_repos_subtitle">ניהול המאגרים שלך</string>
     <string name="web_add_repo_url">URL הוספת מאגר לפי כתובת</string>
@@ -46,7 +46,7 @@
     <string name="web_error_repo_exists">מאגר זה כבר ברשימה</string>
     <string name="web_manage_collections_title">ניהול אוספים</string>
     <string name="web_manage_collections_subtitle">יצירת וניהול אוספים</string>
-    <string name="web_status_msg_collections_updated">.האוספים שלך עודכנו בטלוויזיה</string>
+    <string name="web_status_msg_collections_updated">האוספים שלך עודכנו ב-NuvioVR.</string>
     <string name="web_tab_addons">תוספים</string>
     <string name="web_tab_home_layout">פריסת דף הבית</string>
     <string name="web_tab_collections">אוספים</string>
@@ -418,15 +418,15 @@
     <string name="about_licenses_attributions">רישיונות וקרדיטים</string>
     <string name="about_licenses_attributions_subtitle">מקורות מידע, תודות ורישיונות Android</string>
     <string name="licenses_attributions_title">רישיונות וקרדיטים</string>
-    <string name="licenses_attributions_subtitle">ספקי מידע, קרדיטים לשירותים ורישיונות הפעלת Android שבהם משתמשת Nuvio TV.</string>
+    <string name="licenses_attributions_subtitle">ספקי מידע, קרדיטים לשירותים ורישיונות הפעלת Android שבהם משתמשת NuvioVR.</string>
     <string name="licenses_attributions_section_app">רישיון האפליקציה</string>
     <string name="licenses_attributions_section_data">מידע ושירותים</string>
     <string name="licenses_attributions_section_playback">רישיונות הפעלת Android</string>
     <string name="licenses_attributions_section_ui">ספריות ממשק משתמש</string>
     <string name="licenses_attributions_haze_title">Haze 1.7.2</string>
     <string name="licenses_attributions_haze_body">משמש לאפקטים של טשטוש רקע. נוצר על ידי Chris Banes. מסופק תחת רישיון Apache License, גרסה 2.0.</string>
-    <string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-    <string name="licenses_attributions_nuvio_body">קוד המקור ותנאי הרישיון זמינים במאגר הפרויקט. מורשה תחת רישיון GNU General Public License v3.0.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">מבוסס על Nuvio TV של Nuvio Media. קוד המקור ותנאי הרישיון זמינים במאגר הפרויקט. מופץ תחת רישיון GNU General Public License v3.0.</string>
     <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
     <string name="licenses_attributions_tmdb_body">Nuvio משתמשת ב-API של TMDB עבור מטא-דאטה של סרטים וסדרות, תמונות, טריילרים, שחקנים, פרטי הפקה, אוספים והמלצות. מוצר זה משתמש ב-API של TMDB אך אינו מאושר או מאומת על ידי TMDB.</string>
     <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -535,13 +535,13 @@
     <string name="account_error_password_too_weak">הסיסמה חלשה מדי.</string>
     <string name="account_error_signup_disabled">ההרשמה כרגע מושבתת.</string>
     <string name="account_error_rate_limited">יותר מדי ניסיונות. כדאי לנסות שוב מאוחר יותר.</string>
-    <string name="account_error_qr_login_expired">התחברות ה-QR פגה. כדאי לנסות שוב.</string>
-    <string name="account_error_invalid_qr_login">קוד התחברות QR שגוי.</string>
-    <string name="account_error_qr_login_other_device">התחברות QR זו התבקשה ממכשיר אחר.</string>
-    <string name="account_error_qr_login_outdated">שירות התחברות ה-QR מיושן. יש להחיל מחדש את הגדרת ה-SQL להתחברות בטלוויזיה.</string>
-    <string name="account_error_qr_login_missing_setup">חסרה הגדרה בשרת ההתחברות ב-QR. יש לעדכן את הגדרת ה-SQL להתחברות בטלוויזיה.</string>
-    <string name="account_error_qr_login_misconfigured">כתובת ה-URL להתחברות ב-QR מוגדרת בצורה שגויה.</string>
-    <string name="account_error_qr_login_invalid_request">בקשת התחברות ב-QR הייתה שגויה. כדאי לנסות שוב.</string>
+    <string name="account_error_qr_login_expired">תוקף קוד ההתחברות פג. יש לנסות שוב.</string>
+    <string name="account_error_invalid_qr_login">קוד התחברות לא תקין.</string>
+    <string name="account_error_qr_login_other_device">קוד ההתחברות הזה התבקש ממכשיר אחר.</string>
+    <string name="account_error_qr_login_outdated">שירות ההתחברות למכשירים מיושן. יש להחיל מחדש את הגדרת ה-SQL להתחברות מכשירים.</string>
+    <string name="account_error_qr_login_missing_setup">בשרת ההתחברות למכשירים חסרה הגדרה. יש לעדכן את הגדרת ה-SQL להתחברות מכשירים.</string>
+    <string name="account_error_qr_login_misconfigured">כתובת ה-URL להתחברות אינה מוגדרת כראוי.</string>
+    <string name="account_error_qr_login_invalid_request">בקשת ההתחברות לא הייתה תקינה. יש לנסות שוב.</string>
     <string name="account_error_no_internet">אין חיבור לאינטרנט.</string>
     <string name="account_error_connection_timeout">הזמן הקצוב לחיבור פג. כדאי לנסות שוב.</string>
     <string name="account_error_connection_refused">לא ניתן להתחבר לשרת.</string>
@@ -649,7 +649,7 @@
     <string name="action_close">סגירה</string>
 
     <string name="supporters_contributors_title">תומכים ותורמים</string>
-    <string name="supporters_contributors_subtitle">האנשים שתומכים ב-Nuvio והתורמים הבונים אותו בטלוויזיה ובנייד.</string>
+    <string name="supporters_contributors_subtitle">האנשים שתומכים ב-Nuvio והתורמים הבונים אותו בטלוויזיה, בנייד וב-VR.</string>
     <string name="supporters_contributors_supporters_copy">תומכים ותורמים עוזרים לשמור את הפרויקט בתנועה, מממנים תשתיות ומאפשרים פיצ׳רים שאפתניים.</string>
     <string name="supporters_contributors_donate_copy">Nuvio יישאר חינמי וקוד פתוח. תמיכה בפרויקט מסייעת לכסות את הזמן והתשתית שמאחוריו.</string>
     <string name="supporters_contributors_donation_progress_title">שרת ותחזוקה לחודש זה</string>
@@ -676,9 +676,9 @@
     <string name="supporter_membership_tier_supporter_plus">תומך פלוס</string>
     <string name="supporter_membership_connected_title">Patreon מחובר</string>
     <string name="supporter_membership_connected_description">לא נמצאה דרגת Nuvio פעילה בחשבון ה-Patreon הזה. אפשר לצפות באפשרויות הזמינות או לרענן לאחר שינוי מנוי ה-Patreon.</string>
-    <string name="supporter_membership_scan_support">סריקה כדי לצפות במנויים</string>
+    <string name="supporter_membership_scan_support">צפייה במנויים באינטרנט</string>
     <string name="supporter_membership_scan_support_description">יש לפתוח את עמוד המנויים התומכים בטלפון.</string>
-    <string name="supporter_membership_scan_manage">סריקה כדי לנהל את המנוי</string>
+    <string name="supporter_membership_scan_manage">ניהול מנויים באינטרנט</string>
     <string name="supporter_membership_scan_manage_description">יש לפתוח את הגדרות מנוי ה-Patreon בטלפון.</string>
     <string name="cd_membership_qr">קוד QR לעמוד המנוי</string>
     <string name="supporters_tab">תומכים</string>
@@ -704,8 +704,8 @@
     <string name="contributors_error_title">לא ניתן לטעון תורמים</string>
     <string name="contributors_total_contributions">%1$d תרומות סה״כ</string>
     <string name="contributors_open_github">פתיחת פרופיל GitHub</string>
-    <string name="contributors_show_kofi_qr">הצגת קוד QR של Ko-fi</string>
-    <string name="contributors_hide_kofi_qr">הסתרת קוד QR של Ko-fi</string>
+    <string name="contributors_show_kofi_qr">הצגת קישור Ko-fi</string>
+    <string name="contributors_hide_kofi_qr">הסתרת קישור Ko-fi</string>
     <string name="contributors_profile_unavailable">קישור לפרופיל GitHub אינו זמין.</string>
 
     <string name="playback_section_player_title">נגן</string>
@@ -817,7 +817,7 @@
     <string name="audio_enable_downmix_title">הפעלת downmix</string>
     <string name="audio_enable_downmix_subtitle">שימוש בנתיב ה-downmix של FFmpeg. דורש הפעלה של \"העדפת מפענחי אפליקציה (FFmpeg)\". כשכבוי, האודיו פועל לפי הנתיב הקודם של Android/המכשיר.</string>
     <string name="audio_tunneled">הפעלה במנהור (Tunneled)</string>
-    <string name="audio_tunneled_sub">מסייע לסנכרן בין הקול לתמונה. אפשר לנסות אם יש חוסר סנכרון בחלק מהמכשירים.</string>
+    <string name="audio_tunneled_sub">סנכרון אודיו/וידאו ברמת החומרה. עשוי לשפר את ההפעלה בחלק מהמכשירים</string>
     <string name="audio_force_optical_passthrough">כפיית קידוד מחדש ל-AC-3 (אופטי/SPDIF)</string>
     <string name="audio_force_optical_passthrough_sub">ממיר פורמטים רב-ערוציים (TrueHD, DTS, AAC וכו׳) ל-Dolby Digital 5.1 בזמן אמת עבור חיבורי Optical/SPDIF.</string>
     <!-- DV7 Handling Mode -->
@@ -1157,7 +1157,7 @@
     <string name="layout_custom_poster_clear">ניקוי</string>
     <string name="layout_custom_poster_active">✓ מקור פוסטרים מותאם אישית פעיל</string>
     <string name="layout_custom_poster_qr">הגדרה דרך הטלפון</string>
-    <string name="custom_poster_qr_instruction">סריקת קוד ה-QR עם הטלפון מאפשרת להדביק תבנית כתובת URL לפוסטר</string>
+    <string name="custom_poster_qr_instruction">יש לפתוח את הכתובת הזו בדפדפן באותה רשת Wi-Fi כדי להדביק תבנית כתובת URL לפוסטר</string>
 
     <!-- Custom Poster URL - Screen Toggles -->
     <string name="layout_custom_poster_screen_home">מסך הבית</string>
@@ -1193,7 +1193,7 @@
     <string name="mdblist_connected_as">מחובר בתור %1$s</string>
     <string name="mdblist_account_fallback">משתמש MDBList</string>
     <string name="mdblist_insufficient_scope">MDBList לא העניק הרשאה לעדכון היסטוריית הצפייה. יש להתחבר מחדש ולאשר גישת כתיבה.</string>
-    <string name="mdblist_awaiting_instruction">ניתן לסרוק את קוד ה-QR, או להזין את הקוד הזה בכתובת שלמטה.</string>
+    <string name="mdblist_awaiting_instruction">יש לעבור לכתובת שלמטה ולהזין את הקוד הזה.</string>
     <string name="mdblist_qr_description">קוד QR לחיבור חשבון ה-MDBList</string>
     <string name="mdblist_status_enter_code">יש לאשר את החיבור בחשבון ה-MDBList.</string>
     <string name="mdblist_status_syncing">מסנכרן היסטוריית צפייה והתקדמות הפעלה…</string>
@@ -1289,7 +1289,7 @@
     <string name="debrid_disconnect">ניתוק</string>
     <string name="debrid_device_auth_connected">%1$s מחובר במכשיר זה.</string>
     <string name="debrid_device_auth_starting">מתחיל התחברות מאובטחת…</string>
-    <string name="debrid_device_auth_instructions">יש לסרוק את קוד ה-QR ולהזין קוד זה כדי לאשר את Nuvio.</string>
+    <string name="debrid_device_auth_instructions">יש לעבור לכתובת הזו בטלפון או במחשב ולהזין את הקוד כדי לאשר את Nuvio.</string>
     <string name="debrid_device_auth_code_copied">הקוד הועתק.</string>
     <string name="debrid_device_auth_waiting">ממתין לאישור…</string>
     <string name="debrid_device_auth_failed">לא ניתן להתחיל את תהליך ההתחברות.</string>
@@ -1377,7 +1377,7 @@
     <string name="debrid_formatter_configure">פתיחת עורך אינטרנטי</string>
     <string name="debrid_formatter_reset_title">איפוס עיצוב</string>
     <string name="debrid_formatter_reset_subtitle">שחזור עיצוב מקור לברירת מחדל.</string>
-    <string name="debrid_formatter_qr_instruction">יש לסרוק את קוד ה-QR הזה בטלפון כדי להגדיר את הגדרות מקור ה-Debrid.</string>
+    <string name="debrid_formatter_qr_instruction">יש לפתוח את הכתובת הזו בדפדפן באותה רשת Wi-Fi כדי להגדיר את הגדרות מקורות Debrid.</string>
     <string name="settings_stream_badges_section">סגנון Fusion</string>
     <string name="settings_stream_size_badges_title">תגי גודל</string>
     <string name="settings_stream_size_badges_description">הצגת תגי גודל קובץ בתוצאות מקור ובפאנלי מקור בנגן.</string>
@@ -1406,7 +1406,7 @@
     <string name="settings_fusion_badge_preview_empty">אין תמונות תג בסגנון Fusion בכתובת זו.</string>
     <string name="settings_fusion_badge_group_title">קבוצה %1$d</string>
     <string name="settings_fusion_badge_other_group_title">תגי Fusion אחרים</string>
-    <string name="stream_badge_qr_instruction">יש לסרוק את קוד ה-QR הזה בטלפון כדי לנהל כתובות תג Fusion.</string>
+    <string name="stream_badge_qr_instruction">יש לפתוח את הכתובת הזו בדפדפן באותה רשת Wi-Fi כדי לנהל כתובות תג Fusion.</string>
     <string name="streams_size">גודל %1$s</string>
     <string name="action_import">ייבוא</string>
     <string name="action_delete">מחיקה</string>
@@ -1464,14 +1464,14 @@
     <string name="trakt_waiting_approval">ממתין לאישור…</string>
     <string name="qr_login_approved">ההתחברות אושרה. מסיים כניסה…</string>
     <string name="qr_login_pending">ממתין לאישור בטלפון שלך…</string>
-    <string name="qr_login_expired">פג תוקף קוד ה-QR. יש ללחוץ על \"רענון קוד QR\".</string>
-    <string name="qr_login_preparing">מכין כניסה עם קוד QR…</string>
+    <string name="qr_login_expired">תוקף קוד ההתחברות פג. יש לבקש קוד חדש.</string>
+    <string name="qr_login_preparing">מכין קוד התחברות…</string>
     <string name="qr_login_device_auth_failed">אימות המכשיר נכשל</string>
-    <string name="qr_login_scan_prompt">יש לסרוק קוד QR ולהתחבר בטלפון</string>
-    <string name="qr_login_start_failed">לא ניתן היה להתחיל התחברות באמצעות קוד QR</string>
+    <string name="qr_login_scan_prompt">יש לפתוח את הקישור ולהזין את הקוד בטלפון או במחשב</string>
+    <string name="qr_login_start_failed">לא ניתן להתחיל התחברות עם קוד</string>
     <string name="qr_login_signing_in">מחבר אותך…</string>
     <string name="qr_login_success">ההתחברות הצליחה</string>
-    <string name="qr_login_exchange_failed">לא ניתן היה להשלים כניסה באמצעות QR</string>
+    <string name="qr_login_exchange_failed">לא ניתן להשלים התחברות עם קוד</string>
     <string name="trakt_code_expires">הקוד יפוג בעוד %1$s</string>
     <string name="trakt_token_refreshes">אסימון גישה Trakt יתחדש בעוד %1$s</string>
     <string name="trakt_login_instruction">יש ללחוץ על \"התחברות\" להתחלת אימות מכשיר Trakt.</string>
@@ -1620,13 +1620,13 @@
     <string name="profile_save">שמירה</string>
     <string name="profile_copy_settings_label">העתקת הגדרות</string>
     <string name="profile_copy_settings_setup_title">הגדרות פרופיל</string>
-    <string name="profile_copy_settings_setup_subtitle">אפשר להתחיל מחדש או להעתיק הגדרות טלוויזיה מפרופיל אחר, פעם אחת.</string>
+    <string name="profile_copy_settings_setup_subtitle">אפשר להתחיל מאפס או להעתיק פעם אחת את ההגדרות מפרופיל אחר.</string>
     <string name="profile_copy_settings_start_fresh">התחלה מחדש</string>
     <string name="profile_copy_settings_primary_source">%1$s (ראשי)</string>
     <string name="profile_copy_settings_create_fresh">הגדרות: התחלה מחדש</string>
     <string name="profile_copy_settings_create_source">הגדרות: %1$s</string>
     <string name="profile_copy_settings_title">העתקת הגדרות אל %1$s</string>
-    <string name="profile_copy_settings_subtitle">יש לבחור פרופיל מקור. הגדרות הטלוויזיה הנתמכות שלו יחליפו את הגדרות הפרופיל הזה, פעם אחת.</string>
+    <string name="profile_copy_settings_subtitle">יש לבחור פרופיל מקור. ההגדרות הנתמכות שלו יחליפו את הגדרות הפרופיל הזה, פעם אחת.</string>
     <string name="profile_copy_settings_from">העתקה מ-</string>
     <string name="profile_copy_settings_action">העתקת הגדרות</string>
     <string name="profile_copy_settings_copying">מעתיק…</string>
@@ -1678,7 +1678,7 @@
     <!-- Essential addon setup wizard -->
     <string name="essential_addon_setup_title">הגדרת תוספים</string>
     <string name="essential_addon_setup_subtitle">התקנת תוסף אחד תאפשר צפייה. ניתן להוסיף עוד מאוחר יותר מתוך תוספים.</string>
-    <string name="essential_addon_show_qr">הצגת QR</string>
+    <string name="essential_addon_show_qr">ניהול מהטלפון</string>
     <!-- Collection editor fallbacks -->
     <string name="collection_editor_no_trakt_lists_found">לא נמצאו רשימות Trakt</string>
     <string name="collection_editor_untitled_folder">ללא כותרת</string>
@@ -1702,14 +1702,14 @@
     <string name="addon_delete_yes">כן</string>
     <string name="addons_badge_disabled">מושבת</string>
     <string name="addon_manage_from_phone_title">ניהול מהטלפון</string>
-    <string name="addon_manage_from_phone_subtitle">יש לסרוק קוד QR לניהול תוספים, קטלוגים ואוספים מהטלפון</string>
-    <string name="addon_manage_addons_only_from_phone_subtitle">יש לסרוק קוד QR כדי להתקין או להסיר תוספים מהטלפון</string>
-    <string name="addon_manage_collections_from_phone_subtitle">יש לסרוק קוד QR כדי לנהל אוספים מהטלפון</string>
+    <string name="addon_manage_from_phone_subtitle">יש לפתוח דף אינטרנט בטלפון או במחשב לניהול תוספים, קטלוגים ואוספים</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">יש לפתוח דף אינטרנט בטלפון או במחשב להתקנה או הסרה של תוספים</string>
+    <string name="addon_manage_collections_from_phone_subtitle">יש לפתוח דף אינטרנט בטלפון או במחשב לניהול אוספים</string>
     <string name="addon_reorder_title">סידור מחדש של קטלוגי הבית</string>
     <string name="addon_reorder_subtitle">קביעת סדר שורות הקטלוג בבית (קלאסי + מודרני + רשת)</string>
-    <string name="addon_qr_scan_instruction">יש לסרוק עם הטלפון לניהול תוספים, קטלוגים ואוספים</string>
-    <string name="addon_qr_addons_only_scan_instruction">יש לסרוק עם הטלפון כדי להתקין או להסיר תוספים</string>
-    <string name="addon_qr_collections_scan_instruction">יש לסרוק עם הטלפון כדי לנהל אוספים</string>
+    <string name="addon_qr_scan_instruction">יש לפתוח את הכתובת הזו בדפדפן בטלפון או במחשב המחוברים לאותה רשת Wi-Fi לניהול תוספים, קטלוגים ואוספים</string>
+    <string name="addon_qr_addons_only_scan_instruction">יש לפתוח את הכתובת הזו בדפדפן באותה רשת Wi-Fi להתקנה או הסרה של תוספים</string>
+    <string name="addon_qr_collections_scan_instruction">יש לפתוח את הכתובת הזו בדפדפן באותה רשת Wi-Fi לניהול אוספים</string>
     <string name="addon_qr_close">סגירה</string>
     <string name="addon_confirm_title">אישור שינויי תוסף וקטלוג</string>
     <string name="addon_confirm_subtitle">השינויים הבאים נעשו מהטלפון שלך:</string>
@@ -2165,8 +2165,8 @@
     <string name="account_loading">טוען…</string>
     <string name="account_sync_description">סנכרון הספרייה, התקדמות הצפייה, התוספים והפלאגינים שלך בין מכשירים.</string>
     <string name="account_sync_restart_note">הסנכרון אינו בזמן אמת בין מכשירים פעילים. יש להפעיל מחדש את המכשיר הזה לאחר הכניסה כדי לקבל שינויים שנעשו במקום אחר.</string>
-    <string name="account_signin_qr_title">התחברות עם קוד QR</string>
-    <string name="account_signin_qr_subtitle">יש לסרוק קוד QR ולהשלים כניסה באמצעות אימייל וסיסמה בטלפון</string>
+    <string name="account_signin_qr_title">התחברות עם קוד</string>
+    <string name="account_signin_qr_subtitle">יש להזין קוד בטלפון או במחשב כדי להתחבר</string>
     <string name="account_signin_email_title">התחברות</string>
     <string name="account_signin_email_subtitle">יש להזין את כתובת האימייל והסיסמה של החשבון</string>
     <string name="account_signed_in_label">מחובר</string>
@@ -2185,8 +2185,8 @@
     <string name="account_unknown_device">מכשיר לא ידוע</string>
 
     <string name="auth_signin_title">התחברות</string>
-    <string name="auth_signin_tv_disabled">הזנת אימייל/סיסמה בטלוויזיה מושבתת. יש להמשיך עם כניסת קוד QR.</string>
-    <string name="auth_signin_qr_btn">המשך עם קוד QR</string>
+    <string name="auth_signin_tv_disabled">התחברות באמצעות אימייל וסיסמה מושבתת בשרת זה. יש להמשיך עם התחברות באמצעות קוד.</string>
+    <string name="auth_signin_qr_btn">המשך עם קוד</string>
     <string name="auth_email_hint">יש להתחבר ישירות עם החשבון בשרת שלך.</string>
     <string name="auth_email_instruction">יש להזין את האימייל והסיסמה שלך כדי להמשיך.</string>
     <string name="auth_email_placeholder">כתובת אימייל</string>
@@ -2234,20 +2234,20 @@
     <string name="custom_server_session_clear_failed">לא ניתן לנקות בבטחה את ההתחברות הנוכחית. השרת לא שונה.</string>
     <string name="custom_server_restart_failed">השרת נשמר, אך לא ניתן היה להפעיל מחדש את האפליקציה באופן אוטומטי. יש להפעיל אותה מחדש באופן ידני.</string>
 
-    <string name="auth_qr_title">התחברות עם קוד QR</string>
+    <string name="auth_qr_title">התחברות עם קוד</string>
     <string name="auth_qr_tagline">צפייה בספרייה שלך, בכל מקום</string>
     <string name="auth_qr_finishing">מסיים כניסה…</string>
     <string name="auth_qr_code_label">קוד: %1$s</string>
     <string name="auth_qr_expires">יפוג בעוד %1$s</string>
-    <string name="auth_qr_scan_instruction">יש לסרוק את קוד ה-QR או להזין את הקוד הקצר בדפדפן.</string>
+    <string name="auth_qr_scan_instruction">בטלפון או במחשב, יש לעבור לקישור שלמטה ולהזין את הקוד.</string>
     <string name="auth_qr_code_display">קוד: %1$s</string>
     <string name="auth_qr_manual_instruction">אפשר גם לגשת אל %1$s ולהזין</string>
-    <string name="auth_qr_refresh">רענון קוד QR</string>
+    <string name="auth_qr_refresh">קוד חדש</string>
     <string name="auth_qr_continue_without_account">המשך ללא חשבון</string>
-    <string name="auth_qr_connected">החשבון שלך מחובר בטלוויזיה זו.</string>
+    <string name="auth_qr_connected">החשבון שלך מחובר במשקפי ה-VR האלה.</string>
     <string name="auth_qr_synced_data">הנתונים שלך</string>
-    <string name="auth_qr_generating">יוצר קוד QR…</string>
-    <string name="auth_qr_unavailable">קוד ה-QR לא זמין. יש לרענן כדי לנסות שוב.</string>
+    <string name="auth_qr_generating">יוצר קוד…</string>
+    <string name="auth_qr_unavailable">הקוד אינו זמין. יש לבקש קוד חדש כדי לנסות שוב.</string>
     <string name="auth_qr_please_wait">בהמתנה…</string>
     <string name="auth_qr_continue">המשך</string>
     <string name="auth_qr_back">חזרה</string>
@@ -2286,8 +2286,8 @@
     <string name="plugin_add_repository">הוספת מאגר</string>
     <string name="plugin_add_btn">הוספה</string>
     <string name="plugin_manage_from_phone_title">ניהול מהטלפון</string>
-    <string name="plugin_manage_from_phone_subtitle">יש לסרוק קוד QR להוספה או הסרה של מאגרים מהטלפון</string>
-    <string name="plugin_qr_instruction">יש לסרוק עם הטלפון לניהול מאגרים</string>
+    <string name="plugin_manage_from_phone_subtitle">יש לפתוח דף אינטרנט בטלפון או במחשב להוספה או הסרה של מאגרים</string>
+    <string name="plugin_qr_instruction">יש לפתוח את הכתובת הזו בדפדפן באותה רשת Wi-Fi לניהול מאגרים</string>
     <string name="plugin_qr_close">סגירה</string>
     <string name="plugin_confirm_title">אישור שינויי מאגר</string>
     <string name="plugin_confirm_subtitle">השינויים הבאים נעשו מהטלפון שלך:</string>
@@ -2591,7 +2591,7 @@
     <string name="collections_editor_pin_above">נעיצה מעל הקטלוגים</string>
     <string name="collections_editor_pin_above_desc">הצגת אוסף זה מעל כל קטלוגי הבית הרגילים. מספר אוספים נעוצים מסודרים לפי סדר יצירת האוספים.</string>
     <string name="collections_editor_focus_glow">זוהר בפוקוס</string>
-    <string name="collections_editor_focus_glow_desc">שימוש באפקט הזוהר המובנה של הטלוויזיה בכרטיסי האוסף המותאמים אישית במסך הבית</string>
+    <string name="collections_editor_focus_glow_desc">שימוש באפקט זוהר המיקוד בכרטיסי הקטלוג המותאמים אישית של האוסף הזה במסך הבית</string>
     <string name="collections_editor_view_mode">מצב תצוגה</string>
     <string name="collections_editor_show_all_tab">הצגת לשונית \"הכול\"</string>
     <string name="collections_editor_show_all_tab_desc">שילוב כל הקטלוגים בכרטיסייה אחת</string>
@@ -3370,4 +3370,17 @@
     <string name="autosync_toast_failed_no_reference">הסנכרון נכשל: אין בסרטון הזה כתוביות מוטמעות להשוואה.</string>
     <string name="autosync_toast_failed_unsupported">הסנכרון נכשל: הסנכרון האוטומטי לא תומך בפורמט הכתוביות הזה.</string>
     <string name="autosync_label_synced">מסונכרן אוטומטית</string>
+    <!-- NuvioVR -->
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">סביבה ומסך במשקפי ה-VR</string>
+    <string name="vr_settings_environment">סביבה</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">הצגת החדר האמיתי שלך במקום הסביבה הווירטואלית. טיפ: אפשר ללחוץ על Y למעבר מהיר.</string>
+    <string name="vr_dim_playback_title">עמעום הסביבה במהלך ההפעלה</string>
+    <string name="vr_dim_playback_subtitle">השמיים והרצפה מוחשכים בזמן הפעלת סרטון, כמו בקולנוע.</string>
+    <string name="vr_settings_screen">מסך</string>
+    <string name="vr_recenter_title">מרכוז המסך מחדש</string>
+    <string name="vr_recenter_subtitle">החזרת המסך אל מולך.</string>
+    <string name="player_vr_passthrough_on">הצגת הסביבה האמיתית</string>
+    <string name="player_vr_passthrough_off">הסתרת הסביבה האמיתית</string>
 </resources>

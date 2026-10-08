@@ -8,7 +8,6 @@ import android.content.Context
 import android.view.KeyEvent
 import android.widget.Toast
 import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -40,14 +39,11 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
-import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.input.key.onKeyEvent
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -68,8 +64,8 @@ import com.nuvio.tv.core.debrid.DebridDeviceAuthorizationTokenResult
 import com.nuvio.tv.core.debrid.DebridProvider
 import com.nuvio.tv.core.debrid.DebridProviderAuthMethod
 import com.nuvio.tv.core.debrid.DebridProviders
-import com.nuvio.tv.core.qr.QrCodeGenerator
 import com.nuvio.tv.ui.components.LoadingIndicator
+import com.nuvio.tv.ui.components.ManualLinkCard
 import com.nuvio.tv.domain.model.DebridStreamAudioChannel
 import com.nuvio.tv.domain.model.DebridStreamAudioTag
 import com.nuvio.tv.domain.model.DebridStreamEncode
@@ -711,7 +707,6 @@ fun DebridSettingsContent(
 
     if (uiState.isFormatterQrModeActive) {
         QrCodeOverlay(
-            qrBitmap = uiState.formatterQrCodeBitmap,
             serverUrl = uiState.formatterServerUrl,
             instruction = stringResource(R.string.debrid_formatter_qr_instruction),
             onClose = { viewModel.stopFormatterQrMode() }
@@ -1336,9 +1331,6 @@ private fun DebridDeviceAuthDialog(
             }
         } else {
             session?.let { activeSession ->
-                val qrBitmap = remember(activeSession.friendlyVerificationUrl) {
-                    runCatching { QrCodeGenerator.generate(activeSession.friendlyVerificationUrl, 420, margin = 1) }.getOrNull()
-                }
                 Text(
                     text = stringResource(R.string.debrid_device_auth_instructions),
                     style = MaterialTheme.typography.bodyMedium,
@@ -1346,20 +1338,11 @@ private fun DebridDeviceAuthDialog(
                     textAlign = TextAlign.Center,
                     modifier = Modifier.fillMaxWidth()
                 )
-                if (qrBitmap != null) {
-                    Image(
-                        bitmap = qrBitmap.asImageBitmap(),
-                        contentDescription = stringResource(R.string.cd_qr_code),
-                        modifier = Modifier
-                            .align(Alignment.CenterHorizontally)
-                            .size(196.dp),
-                        contentScale = ContentScale.Fit
-                    )
-                }
+                // VR: no QR code (can't be scanned from inside the headset); show URL + code to type.
                 DebridDeviceAuthCodes(
                     userCode = activeSession.userCode,
                     verificationUrl = activeSession.friendlyVerificationUrl,
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier.align(Alignment.CenterHorizontally)
                 )
             }
             statusMessage?.let { message ->
@@ -1416,25 +1399,12 @@ private fun DebridDeviceAuthCodes(
     verificationUrl: String,
     modifier: Modifier = Modifier
 ) {
-    Column(
-        modifier = modifier,
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(NuvioTheme.spacing.sm)
-    ) {
-        Text(
-            text = userCode,
-            style = MaterialTheme.typography.headlineSmall,
-            color = NuvioTheme.colors.TextPrimary,
-            fontWeight = FontWeight.SemiBold,
-            textAlign = TextAlign.Center
-        )
-        Text(
-            text = verificationUrl,
-            style = MaterialTheme.typography.bodySmall,
-            color = NuvioTheme.colors.TextTertiary,
-            textAlign = TextAlign.Center
-        )
-    }
+    ManualLinkCard(
+        url = verificationUrl,
+        code = userCode,
+        stripScheme = true,
+        modifier = modifier
+    )
 }
 
 private fun Throwable.isCancelledHttpRequest(): Boolean {

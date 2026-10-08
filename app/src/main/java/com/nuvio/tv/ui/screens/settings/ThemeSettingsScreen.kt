@@ -290,22 +290,8 @@ fun ThemeSettingsContent(
                 }
             }
 
-            SettingsGroupCard(
-                modifier = Modifier.fillMaxWidth(),
-                title = stringResource(R.string.appearance_launcher_artwork),
-                subtitle = stringResource(R.string.appearance_launcher_artwork_subtitle)
-            ) {
-                SettingsActionRow(
-                    title = stringResource(R.string.appearance_app_icon_and_banner),
-                    subtitle = stringResource(R.string.appearance_app_icon_and_banner_subtitle),
-                    value = appIconState.selected.localizedName(),
-                    enabled = appIconState.pending == null,
-                    onClick = {
-                        viewModel.onEvent(ThemeSettingsEvent.DismissAppIconFailure)
-                        showAppIconDialog = true
-                    }
-                )
-            }
+            // NuvioVR: no "Launcher artwork" group. The TV launcher icon/banner variants don't
+            // apply on Quest, where the VR activity is the only launcher entry.
 
             SettingsGroupCard(
                 modifier = Modifier.fillMaxWidth(),

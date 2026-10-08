@@ -18,26 +18,26 @@
     <string name="web_home_catalogs">Kezdőlap katalógusok és gyűjtemények</string>
     <string name="web_no_catalogs">Nincsenek elérhető kezdőlap katalógusok</string>
     <string name="web_btn_save">Változtatások mentése</string>
-    <string name="web_connection_lost">A TV-vel való kapcsolat megszakadt</string>
+    <string name="web_connection_lost">Megszakadt a kapcsolat a headsettel</string>
     <string name="web_btn_remove">Eltávolítás</string>
     <string name="web_badge_new">Új</string>
     <string name="web_badge_disabled">Kikapcsolva</string>
     <string name="web_btn_enable">Engedélyezés</string>
     <string name="web_btn_disable">Letiltás</string>
     <string name="web_error_addon_exists">Ez a bővítmény már szerepel a listában</string>
-    <string name="web_status_waiting_tv">Várakozás a TV-re</string>
-    <string name="web_status_msg_waiting_tv">Kérlek, hagyd jóvá a változtatásokat a TV-den az alkalmazáshoz.</string>
+    <string name="web_status_waiting_tv">Várakozás a headsetre</string>
+    <string name="web_status_msg_waiting_tv">Erősítsd meg a módosításokat a headseten az alkalmazásukhoz.</string>
     <string name="web_status_changes_applied">Változtatások alkalmazva</string>
-    <string name="web_status_msg_addon_updated">A bővítmény konfigurációja frissítve lett a TV-n.</string>
-    <string name="web_status_msg_repo_updated">A tároló konfigurációja frissítve lett a TV-n.</string>
+    <string name="web_status_msg_addon_updated">A bővítménykonfigurációd frissült a NuvioVR-ben.</string>
+    <string name="web_status_msg_repo_updated">Az adattár-konfigurációd frissült a NuvioVR-ben.</string>
     <string name="web_status_changes_rejected">Változtatások elutasítva</string>
-    <string name="web_status_msg_changes_rejected">A változtatások el lettek utasítva a TV-n. A listád visszaállt.</string>
+    <string name="web_status_msg_changes_rejected">A módosításokat elutasították a headseten. A listád vissza lett állítva.</string>
     <string name="web_status_error">Valami hiba történt</string>
-    <string name="web_error_failed_save">Sikertelen mentés. Ellenőrizd a kapcsolatot a TV-vel.</string>
+    <string name="web_error_failed_save">A mentés sikertelen. Ellenőrizd a kapcsolatot a headsettel.</string>
     <string name="web_btn_dismiss">Elvetés</string>
     <string name="web_status_timeout">Időtúllépés</string>
-    <string name="web_status_msg_timeout">Nincs válasz a TV-től. Kérlek, próbáld újra.</string>
-    <string name="web_status_msg_connection_lost">A TV szerver már nem elérhető. A változtatások valószínűleg alkalmazva lettek.</string>
+    <string name="web_status_msg_timeout">Nem érkezett válasz a headsettől. Próbáld újra.</string>
+    <string name="web_status_msg_connection_lost">A NuvioVR szerver már nem érhető el. Lehet, hogy a módosítások már érvénybe léptek.</string>
     <string name="web_manage_repos_title">Tárolók kezelése</string>
     <string name="web_manage_repos_subtitle">Tárolóid kezelése</string>
     <string name="web_add_repo_url">Tároló hozzáadása URL-ből</string>
@@ -46,7 +46,7 @@
     <string name="web_error_repo_exists">Ez a tároló már szerepel a listában</string>
     <string name="web_manage_collections_title">Gyűjtemények kezelése</string>
     <string name="web_manage_collections_subtitle">Saját gyűjteményeid létrehozása és kezelése</string>
-    <string name="web_status_msg_collections_updated">A gyűjteményeid frissítve lettek a TV-n.</string>
+    <string name="web_status_msg_collections_updated">A gyűjteményeid frissültek a NuvioVR-ben.</string>
     <string name="web_tab_addons">Bővítmények</string>
     <string name="web_tab_home_layout">Kezdőlap elrendezése</string>
     <string name="web_tab_collections">Gyűjtemények</string>
@@ -367,12 +367,12 @@
     <string name="about_licenses_attributions">Licencek és forrásmegjelölések</string>
     <string name="about_licenses_attributions_subtitle">Adatforrások, köszönetnyilvánítások és Android licencek</string>
     <string name="licenses_attributions_title">Licencek és forrásmegjelölések</string>
-    <string name="licenses_attributions_subtitle">A Nuvio TV által használt adatszolgáltatók, szolgáltatási köszönetnyilvánítások és Android lejátszási licencek.</string>
+    <string name="licenses_attributions_subtitle">A NuvioVR által használt adatszolgáltatók, szolgáltatási köszönetnyilvánítások és Android lejátszási licencek.</string>
     <string name="licenses_attributions_section_app">ALKALMAZÁS LICENC</string>
     <string name="licenses_attributions_section_data">ADATOK ÉS SZOLGÁLTATÁSOK</string>
     <string name="licenses_attributions_section_playback">ANDROID LEJÁTSZÁSI LICENCEK</string>
-    <string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-    <string name="licenses_attributions_nuvio_body">A forráskód és a licencfeltételek elérhetők a projekt tárolójában. Licenc: GNU General Public License v3.0.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">A Nuvio Media Nuvio TV alkalmazásán alapul. A forráskód és a licencfeltételek a projekt adattárában érhetők el. A GNU General Public License v3.0 licenc alatt érhető el.</string>
     <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
     <string name="licenses_attributions_tmdb_body">A Nuvio a TMDB API-t használja a filmek és tévéműsorok metaadataihoz, borítóképekhez, előzetesekhez, stáblistákhoz, gyártási adatokhoz, gyűjteményekhez és ajánlásokhoz. Ez a termék a TMDB API-t használja, de a TMDB nem támogatja és nem hagyta jóvá.</string>
     <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -480,13 +480,13 @@
     <string name="account_error_password_too_weak">A jelszó túl gyenge.</string>
     <string name="account_error_signup_disabled">A regisztráció jelenleg le van tiltva.</string>
     <string name="account_error_rate_limited">Túl sok próbálkozás. Kérlek, próbáld újra később.</string>
-    <string name="account_error_qr_login_expired">A QR bejelentkezés lejárt. Kérlek próbáld újra.</string>
-    <string name="account_error_invalid_qr_login">Érvénytelen QR bejelentkezési kód.</string>
-    <string name="account_error_qr_login_other_device">Ezt a QR bejelentkezést egy másik eszközről kérték.</string>
-    <string name="account_error_qr_login_outdated">A QR bejelentkezési szolgáltatás elavult. Alkalmazd újra a TV bejelentkezési SQL beállítást.</string>
-    <string name="account_error_qr_login_missing_setup">A QR bejelentkezési háttérrendszerből hiányzik a beállítás. Frissítsd a TV bejelentkezési SQL beállítását.</string>
-    <string name="account_error_qr_login_misconfigured">A QR bejelentkezési URL hibásan van konfigurálva.</string>
-    <string name="account_error_qr_login_invalid_request">A QR bejelentkezési kérés érvénytelen volt. Kérlek próbáld újra.</string>
+    <string name="account_error_qr_login_expired">A bejelentkezési kód lejárt. Próbáld újra.</string>
+    <string name="account_error_invalid_qr_login">Érvénytelen bejelentkezési kód.</string>
+    <string name="account_error_qr_login_other_device">Ezt a bejelentkezési kódot egy másik eszközről kérték.</string>
+    <string name="account_error_qr_login_outdated">Az eszközös bejelentkezési szolgáltatás elavult. Alkalmazd újra az eszközös bejelentkezés SQL beállítását.</string>
+    <string name="account_error_qr_login_missing_setup">Az eszközös bejelentkezés háttérrendszeréből hiányzik a beállítás. Frissítsd az eszközös bejelentkezés SQL beállítását.</string>
+    <string name="account_error_qr_login_misconfigured">A bejelentkezési URL hibásan van beállítva.</string>
+    <string name="account_error_qr_login_invalid_request">A bejelentkezési kérés érvénytelen volt. Próbáld újra.</string>
     <string name="account_error_no_internet">Nincs internetkapcsolat.</string>
     <string name="account_error_connection_timeout">A kapcsolat időtúllépés miatt megszakadt. Kérlek próbáld újra.</string>
     <string name="account_error_connection_refused">Nem sikerült csatlakozni a szerverhez.</string>
@@ -585,7 +585,7 @@
     <string name="action_close">Bezárás</string>
 
     <string name="supporters_contributors_title">Támogatók és közreműködők</string>
-    <string name="supporters_contributors_subtitle">A Nuvio támogatói, valamint a TV-s és mobil platformokon dolgozó közreműködők.</string>
+    <string name="supporters_contributors_subtitle">A Nuvio támogatói, valamint a TV-s, mobil és VR platformokon dolgozó közreműködők.</string>
     <string name="supporters_contributors_supporters_copy">A közreműködők és támogatók (adományozók) segítenek a projekt fenntartásában, az infrastruktúra finanszírozásában és az ambiciózus funkciók megvalósításában.</string>
     <string name="supporters_contributors_donate_copy">A Nuvio ingyenes és nyílt forráskódú marad. Ha szeretnéd támogatni a projektet, segíthetsz a ráfordított idő és az infrastruktúra költségeinek fedezésében.</string>
     <string name="supporters_contributors_donation_progress_title">E hónap szerver- és üzemeltetési költsége</string>
@@ -620,8 +620,8 @@
     <string name="contributors_error_title">A közreműködők betöltése sikertelen</string>
     <string name="contributors_total_contributions">Összesen %1$d hozzájárulás</string>
     <string name="contributors_open_github">GitHub profil megnyitása</string>
-    <string name="contributors_show_kofi_qr">Ko-fi QR-kód megjelenítése</string>
-    <string name="contributors_hide_kofi_qr">Ko-fi QR-kód elrejtése</string>
+    <string name="contributors_show_kofi_qr">Ko-fi link megjelenítése</string>
+    <string name="contributors_hide_kofi_qr">Ko-fi link elrejtése</string>
     <string name="contributors_profile_unavailable">A GitHub profil linkje nem érhető el.</string>
 
     <string name="playback_loading_overlay">Betöltési réteg</string>
@@ -706,7 +706,7 @@
     <string name="audio_enable_downmix_title">Lekeverés engedélyezése</string>
     <string name="audio_enable_downmix_subtitle">Az FFmpeg lekeverését (downmix) használja. Szükséges hozzá az Alkalmazás dekódereinek előnyben részesítése (FFmpeg). Ha ki van kapcsolva, a hang a korábbi Android/eszköz szintű feldolgozáson megy át.</string>
     <string name="audio_tunneled">Alagutazott (tunneled) lejátszás</string>
-    <string name="audio_tunneled_sub">Hang/videó szinkronizálása hardveres szinten. Javíthatja a lejátszást egyes Android TV eszközökön.</string>
+    <string name="audio_tunneled_sub">Hang/videó szinkronizálása hardveres szinten. Javíthatja a lejátszást egyes eszközökön.</string>
     <string name="audio_force_optical_passthrough">AC-3 átkódolás kényszerítése (optikai/SPDIF)</string>
     <string name="audio_force_optical_passthrough_sub">Valós időben Dolby Digital 5.1-re átkódolja a többcsatornás formátumokat (TrueHD, DTS, AAC stb.) optikai/SPDIF kapcsolatokhoz.</string>
     <!-- DV7 Handling Mode -->
@@ -1079,7 +1079,7 @@
     <string name="debrid_disconnect">Leválasztás</string>
     <string name="debrid_device_auth_connected">A %1$s csatlakoztatva van ezen az eszközön.</string>
     <string name="debrid_device_auth_starting">Biztonságos bejelentkezés indítása...</string>
-    <string name="debrid_device_auth_instructions">Olvasd be a QR-kódot, és írd be ezt a kódot a Nuvio jóváhagyásához.</string>
+    <string name="debrid_device_auth_instructions">Nyisd meg ezt a címet a telefonodon vagy számítógépeden, és írd be a kódot a Nuvio jóváhagyásához.</string>
     <string name="debrid_device_auth_code_copied">Kód másolva.</string>
     <string name="debrid_device_auth_waiting">Várakozás a jóváhagyásra...</string>
     <string name="debrid_device_auth_failed">Nem sikerült elindítani a bejelentkezést.</string>
@@ -1167,7 +1167,7 @@
     <string name="debrid_formatter_configure">Webes szerkesztő megnyitása</string>
     <string name="debrid_formatter_reset_title">Formázás visszaállítása</string>
     <string name="debrid_formatter_reset_subtitle">Alapértelmezett forrásformázás visszaállítása.</string>
-    <string name="debrid_formatter_qr_instruction">Olvasd be ezt a QR-kódot a telefonodon a Debrid forrás beállításainak konfigurálásához.</string>
+    <string name="debrid_formatter_qr_instruction">Nyisd meg ezt a címet egy böngészőben ugyanazon a Wi-Fi-hálózaton a Debrid forrásbeállítások konfigurálásához.</string>
     <string name="settings_stream_badges_section">Fusion stílus</string>
     <string name="settings_stream_size_badges_title">Méret jelvények</string>
     <string name="settings_stream_size_badges_description">Fájlméret jelvények megjelenítése a stream találatoknál és a lejátszó forráspanelein.</string>
@@ -1196,7 +1196,7 @@
     <string name="settings_fusion_badge_preview_empty">Nincsenek Fusion-stílusú jelvényképek ebben az URL-ben.</string>
     <string name="settings_fusion_badge_group_title">%1$d. csoport</string>
     <string name="settings_fusion_badge_other_group_title">Egyéb Fusion jelvények</string>
-    <string name="stream_badge_qr_instruction">Olvasd be ezt a QR-kódot a telefonoddal a Fusion jelvény URL-ek kezeléséhez.</string>
+    <string name="stream_badge_qr_instruction">Nyisd meg ezt a címet egy böngészőben ugyanazon a Wi-Fi-hálózaton a Fusion jelvény URL-ek kezeléséhez.</string>
     <string name="streams_size">MÉRET %1$s</string>
     <string name="action_import">Importálás</string>
     <string name="action_delete">Törlés</string>
@@ -1254,14 +1254,14 @@
     <string name="trakt_waiting_approval">Várakozás jóváhagyásra\u2026</string>
     <string name="qr_login_approved">Sikeres jóváhagyás. Bejelentkezés befejezése\u2026</string>
     <string name="qr_login_pending">Várakozás a telefonos jóváhagyásra\u2026</string>
-    <string name="qr_login_expired">A QR-kód lejárt. Kérj új kódot.</string>
-    <string name="qr_login_preparing">QR bejelentkezés előkészítése...</string>
+    <string name="qr_login_expired">A bejelentkezési kód lejárt. Kérj új kódot.</string>
+    <string name="qr_login_preparing">Bejelentkezési kód előkészítése…</string>
     <string name="qr_login_device_auth_failed">Nem sikerült az eszköz hitelesítése</string>
-    <string name="qr_login_scan_prompt">Szkenneld be a QR-kódot és jelentkezz be a telefonodon</string>
-    <string name="qr_login_start_failed">A QR bejelentkezés indítása sikertelen</string>
+    <string name="qr_login_scan_prompt">Nyisd meg a linket, és írd be a kódot a telefonodon vagy számítógépeden</string>
+    <string name="qr_login_start_failed">Nem sikerült elindítani a kódos bejelentkezést</string>
     <string name="qr_login_signing_in">Bejelentkezés…</string>
     <string name="qr_login_success">Sikeres bejelentkezés</string>
-    <string name="qr_login_exchange_failed">A QR bejelentkezés nem sikerült befejezni</string>
+    <string name="qr_login_exchange_failed">Nem sikerült befejezni a kódos bejelentkezést</string>
     <string name="trakt_code_expires">A kód lejár: %1$s múlva</string>
     <string name="trakt_token_refreshes">Trakt token frissítése: %1$s múlva</string>
     <string name="trakt_login_instruction">Nyomd meg a Bejelentkezés gombot a Trakt hitelesítéshez. Egy QR-kód fog megjelenni.</string>
@@ -1445,7 +1445,7 @@
     <!-- Essential addon setup wizard -->
     <string name="essential_addon_setup_title">Bővítmények beállítása</string>
     <string name="essential_addon_setup_subtitle">Telepíts egy bővítményt a streaming megkezdéséhez. Később továbbiakat is hozzáadhatsz a Bővítmények menüből.</string>
-    <string name="essential_addon_show_qr">QR megjelenítése</string>
+    <string name="essential_addon_show_qr">Kezelés telefonról</string>
     <!-- Collection editor fallbacks -->
     <string name="collection_editor_no_trakt_lists_found">Nem találhatók Trakt listák</string>
     <string name="collection_editor_untitled_folder">Névtelen</string>
@@ -1465,14 +1465,14 @@
     <string name="addon_remove">Eltávolítás</string>
     <string name="addons_badge_disabled">Kikapcsolva</string>
     <string name="addon_manage_from_phone_title">Kezelés telefonról</string>
-    <string name="addon_manage_from_phone_subtitle">Olvasd be a QR-kódot a bővítmények és a kezdőlap katalógusainak telefonos kezeléséhez</string>
-    <string name="addon_manage_addons_only_from_phone_subtitle">Olvasd be a QR-kódot bővítmények telepítéséhez vagy eltávolításához a telefonodról</string>
-    <string name="addon_manage_collections_from_phone_subtitle">Szkenneld be a QR-kódot a gyűjtemények telefonról történő kezeléséhez</string>
+    <string name="addon_manage_from_phone_subtitle">Nyiss meg egy weboldalt a telefonodon vagy számítógépeden a bővítmények, katalógusok és gyűjtemények kezeléséhez</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">Nyiss meg egy weboldalt a telefonodon vagy számítógépeden bővítmények telepítéséhez vagy eltávolításához</string>
+    <string name="addon_manage_collections_from_phone_subtitle">Nyiss meg egy weboldalt a telefonodon vagy számítógépeden a gyűjtemények kezeléséhez</string>
     <string name="addon_reorder_title">Kezdőlap katalógusainak sorrendje</string>
     <string name="addon_reorder_subtitle">A katalógusok sorrendjének módosítása a kezdőlapon (Klasszikus + Modern + Rács)</string>
-    <string name="addon_qr_scan_instruction">Olvasd be a telefonoddal a bővítmények és katalógusok kezeléséhez</string>
-    <string name="addon_qr_addons_only_scan_instruction">Olvasd be a telefonoddal bővítmények telepítéséhez vagy eltávolításához</string>
-    <string name="addon_qr_collections_scan_instruction">Szkenneld be telefonoddal a gyűjtemények kezeléséhez</string>
+    <string name="addon_qr_scan_instruction">Nyisd meg ezt a címet egy ugyanazon a Wi-Fi-hálózaton lévő telefon vagy számítógép böngészőjében a bővítmények, katalógusok és gyűjtemények kezeléséhez</string>
+    <string name="addon_qr_addons_only_scan_instruction">Nyisd meg ezt a címet egy böngészőben ugyanazon a Wi-Fi-hálózaton bővítmények telepítéséhez vagy eltávolításához</string>
+    <string name="addon_qr_collections_scan_instruction">Nyisd meg ezt a címet egy böngészőben ugyanazon a Wi-Fi-hálózaton a gyűjtemények kezeléséhez</string>
     <string name="addon_qr_close">Bezárás</string>
     <string name="addon_confirm_title">Bővítmény- és katalógusmódosítások megerősítése</string>
     <string name="addon_confirm_subtitle">A következő módosítások történtek a telefonról:</string>
@@ -1873,8 +1873,8 @@
     <string name="account_loading">Betöltés\u2026</string>
     <string name="account_sync_description">Könyvtár, megtekintési előzmények, bővítmények és beépülő modulok szinkronizálása az eszközök között.</string>
     <string name="account_sync_restart_note">A szinkronizálás nem valós idejű az aktív eszközök között. Indítsd újra ezt az eszközt bejelentkezés után, vagy ha máshol végzett módosításokat szeretnél érvényesíteni.</string>
-    <string name="account_signin_qr_title">Bejelentkezés QR-kóddal</string>
-    <string name="account_signin_qr_subtitle">Olvasd be a QR-kódot, és fejezd be a bejelentkezést e-mailben a telefonodon</string>
+    <string name="account_signin_qr_title">Bejelentkezés kóddal</string>
+    <string name="account_signin_qr_subtitle">Írj be egy kódot a telefonodon vagy számítógépeden a bejelentkezéshez</string>
     <string name="account_signin_email_title">Bejelentkezés</string>
     <string name="account_signin_email_subtitle">Add meg a saját üzemeltetésű fiókod e-mail címét és jelszavát</string>
     <string name="account_signed_in_label">Bejelentkezve</string>
@@ -1893,8 +1893,8 @@
     <string name="account_unknown_device">Ismeretlen eszköz</string>
 
     <string name="auth_signin_title">Bejelentkezés</string>
-    <string name="auth_signin_tv_disabled">Az e-mail és jelszó megadása TV-n le van tiltva. Folytasd a bejelentkezést QR-kóddal.</string>
-    <string name="auth_signin_qr_btn">Folytatás QR-kóddal</string>
+    <string name="auth_signin_tv_disabled">Az e-mail/jelszó alapú bejelentkezés ki van kapcsolva ezen a szerveren. Folytasd kódos bejelentkezéssel.</string>
+    <string name="auth_signin_qr_btn">Folytatás kóddal</string>
     <string name="auth_email_hint">Jelentkezz be közvetlenül a saját üzemeltetésű szervereden lévő fiókkal.</string>
     <string name="auth_email_instruction">A folytatáshoz add meg az e-mail címed és a jelszavad.</string>
     <string name="auth_email_placeholder">E-mail cím</string>
@@ -1942,19 +1942,19 @@
     <string name="custom_server_session_clear_failed">Nem sikerült biztonságosan törölni a jelenlegi munkamenetet. A szerver nem változott.</string>
     <string name="custom_server_restart_failed">A szerver elmentve, de az alkalmazás nem tudott automatikusan újraindulni. Indítsd újra kézzel.</string>
 
-    <string name="auth_qr_title">Bejelentkezés QR-kóddal</string>
+    <string name="auth_qr_title">Bejelentkezés kóddal</string>
     <string name="auth_qr_tagline">Nézd a könyvtáradat, bárhol</string>
     <string name="auth_qr_finishing">Bejelentkezés befejezése\u2026</string>
     <string name="auth_qr_code_label">Kód: %1$s</string>
     <string name="auth_qr_expires">Lejár: %1$s múlva</string>
-    <string name="auth_qr_scan_instruction">Olvasd be a QR-kódot, hagyd jóvá a böngészőben, majd térj vissza ide.</string>
+    <string name="auth_qr_scan_instruction">A telefonodon vagy számítógépeden nyisd meg az alábbi linket, és írd be a kódot.</string>
     <string name="auth_qr_code_display">Kód: %1$s</string>
-    <string name="auth_qr_refresh">QR-kód frissítése</string>
+    <string name="auth_qr_refresh">Új kód</string>
     <string name="auth_qr_continue_without_account">Folytatás fiók nélkül</string>
-    <string name="auth_qr_connected">Fiókod csatlakoztatva van ezen a TV-n.</string>
+    <string name="auth_qr_connected">Fiókod csatlakoztatva van ezen a headseten.</string>
     <string name="auth_qr_synced_data">Szinkronizált adataid</string>
-    <string name="auth_qr_generating">QR-kód generálása\u2026</string>
-    <string name="auth_qr_unavailable">A QR-kód nem elérhető. Próbáld újra a frissítéssel.</string>
+    <string name="auth_qr_generating">Kód generálása…</string>
+    <string name="auth_qr_unavailable">A kód nem érhető el. Kérj új kódot az újrapróbálkozáshoz.</string>
     <string name="auth_qr_please_wait">Kérjük, várj\u2026</string>
     <string name="auth_qr_continue">Folytatás</string>
     <string name="auth_qr_back">Vissza</string>
@@ -1993,8 +1993,8 @@
     <string name="plugin_add_repository">Adattár hozzáadása</string>
     <string name="plugin_add_btn">Hozzáadás</string>
     <string name="plugin_manage_from_phone_title">Kezelés telefonról</string>
-    <string name="plugin_manage_from_phone_subtitle">Olvasd be a QR-kódot adattárak hozzáadásához vagy törléséhez a telefonodról</string>
-    <string name="plugin_qr_instruction">Olvasd be a telefonoddal az adattárak kezeléséhez</string>
+    <string name="plugin_manage_from_phone_subtitle">Nyiss meg egy weboldalt a telefonodon vagy számítógépeden adattárak hozzáadásához vagy eltávolításához</string>
+    <string name="plugin_qr_instruction">Nyisd meg ezt a címet egy böngészőben ugyanazon a Wi-Fi-hálózaton az adattárak kezeléséhez</string>
     <string name="plugin_qr_close">Bezárás</string>
     <string name="plugin_confirm_title">Adattár-módosítások megerősítése</string>
     <string name="plugin_confirm_subtitle">A következő módosítások történtek a telefonról:</string>
@@ -2297,7 +2297,7 @@
     <string name="collections_editor_pin_above">Rögzítés a katalógusok fölé</string>
     <string name="collections_editor_pin_above_desc">Ez a gyűjtemény jelenjen meg minden általános kezdőlap katalógus fölött. Több rögzített gyűjtemény a létrehozás sorrendjét követi.</string>
     <string name="collections_editor_focus_glow">Fókusz ragyogás</string>
-    <string name="collections_editor_focus_glow_desc">Használja a TV natív ragyogás effektjét a gyűjtemény kezdőképernyős egyéni katalógus kártyáin</string>
+    <string name="collections_editor_focus_glow_desc">Fókuszragyogás használata a gyűjtemény kezdőképernyős egyéni katalóguskártyáin</string>
     <string name="collections_editor_view_mode">Nézet mód</string>
     <string name="collections_editor_show_all_tab">"Összes" fül megjelenítése</string>
     <string name="collections_editor_show_all_tab_desc">Összes katalógus egyesítése egyetlen fülön</string>
@@ -3021,4 +3021,23 @@ Próbálj meg egy másik forrást. [%1$s]</string>
     <string name="stream_test_video_bitrate">Átlagos videó bitráta: %1$s</string>
     <string name="stream_test_error_connection">A kapcsolat nem jött létre. A legutóbb lejátszott stream link lejárhatott, vagy nem elérhető. Játszd le újra a videót, majd próbáld meg ismét.</string>
 
+    <!-- NuvioVR -->
+    <string name="supporter_membership_scan_support">Tagság megtekintése online</string>
+    <string name="supporter_membership_scan_manage">Tagság kezelése online</string>
+    <string name="custom_poster_qr_instruction">Nyisd meg ezt a címet egy böngészőben ugyanazon a Wi-Fi-hálózaton a poszter URL-minta beillesztéséhez</string>
+    <string name="mdblist_awaiting_instruction">Nyisd meg az alábbi címet, és írd be ezt a kódot.</string>
+    <string name="profile_copy_settings_setup_subtitle">Kezdj tiszta lappal, vagy másold át egyszer egy másik profil beállításait.</string>
+    <string name="profile_copy_settings_subtitle">Válassz forrásprofilt. Annak támogatott beállításai egyszer felülírják ennek a profilnak a beállításait.</string>
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">Környezet és képernyő a headsetben</string>
+    <string name="vr_settings_environment">Környezet</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">A virtuális környezet helyett a valódi szobád látható. Tipp: nyomd meg az Y gombot a gyors váltáshoz.</string>
+    <string name="vr_dim_playback_title">Környezet elsötétítése lejátszás közben</string>
+    <string name="vr_dim_playback_subtitle">Az ég és a padló elsötétítése videólejátszás közben, mint egy moziban.</string>
+    <string name="vr_settings_screen">Képernyő</string>
+    <string name="vr_recenter_title">Képernyő középre igazítása</string>
+    <string name="vr_recenter_subtitle">A képernyő visszahelyezése eléd.</string>
+    <string name="player_vr_passthrough_on">Valós környezet megjelenítése</string>
+    <string name="player_vr_passthrough_off">Valós környezet elrejtése</string>
 </resources>

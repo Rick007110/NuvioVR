@@ -15,7 +15,6 @@ import com.nuvio.tv.core.logging.rawForLog
 import com.nuvio.tv.core.logging.urlForLog
 import com.nuvio.tv.core.plugin.PluginManager
 import com.nuvio.tv.core.profile.ProfileManager
-import com.nuvio.tv.core.qr.QrCodeGenerator
 import com.nuvio.tv.core.sync.AddonSyncService
 import com.nuvio.tv.core.sync.LibrarySyncService
 import com.nuvio.tv.core.sync.PluginSyncService
@@ -312,7 +311,6 @@ class AccountViewModel @Inject constructor(
                     qrLoginUrl = null,
                     qrLoginVerificationUri = null,
                     qrLoginNonce = nonce,
-                    qrLoginBitmap = null,
                     qrLoginStatus = context.getString(R.string.qr_login_preparing),
                     qrLoginExpiresAtMillis = null
                 )
@@ -332,15 +330,9 @@ class AccountViewModel @Inject constructor(
                     if (result.deviceCode.isBlank() || result.userCode.isBlank() || result.verificationUriComplete.isBlank()) {
                         Log.w(TAG, "QR_LOGIN[$traceId] start_device_login_session returned incomplete data deviceCodeBlank=${result.deviceCode.isBlank()} userCodeBlank=${result.userCode.isBlank()} urlBlank=${result.verificationUriComplete.isBlank()}")
                     }
-                    val qrStartedAtMs = SystemClock.elapsedRealtime()
-                    val qrBitmap = runCatching { QrCodeGenerator.generate(result.verificationUriComplete, 420, margin = 1) }
-                        .onFailure { e ->
-                            Log.e(TAG, "QR_LOGIN[$traceId] QR bitmap generation failed url=${result.verificationUriComplete.urlForLog()} urlLength=${result.verificationUriComplete.length} error=${e.diagnosticSummary()}", e)
-                        }
-                        .getOrNull()
                     Log.d(
                         TAG,
-                        "QR_LOGIN[$traceId] start_device_login_session ok totalElapsedMs=${SystemClock.elapsedRealtime() - startedAtMs} deviceCode=${result.deviceCode.rawForLog()} userCode=${result.userCode.rawForLog()} url=${result.verificationUriComplete.urlForLog()} urlLength=${result.verificationUriComplete.length} legacy=${result.legacy} expiresAt=${result.expiresAt} expiresAtMs=${expiresAtMillis ?: "-"} pollInterval=${result.pollIntervalSeconds} qrBitmap=${qrBitmap != null} qrElapsedMs=${SystemClock.elapsedRealtime() - qrStartedAtMs}"
+                        "QR_LOGIN[$traceId] start_device_login_session ok totalElapsedMs=${SystemClock.elapsedRealtime() - startedAtMs} deviceCode=${result.deviceCode.rawForLog()} userCode=${result.userCode.rawForLog()} url=${result.verificationUriComplete.urlForLog()} urlLength=${result.verificationUriComplete.length} legacy=${result.legacy} expiresAt=${result.expiresAt} expiresAtMs=${expiresAtMillis ?: "-"} pollInterval=${result.pollIntervalSeconds}"
                     )
                     _uiState.update {
                         it.copy(
@@ -349,7 +341,6 @@ class AccountViewModel @Inject constructor(
                             qrLoginUserCode = result.userCode,
                             qrLoginUrl = result.verificationUriComplete,
                             qrLoginVerificationUri = result.verificationUri,
-                            qrLoginBitmap = qrBitmap,
                             qrLoginStatus = context.getString(R.string.qr_login_scan_prompt),
                             qrLoginExpiresAtMillis = expiresAtMillis,
                             qrLoginPollIntervalSeconds = result.pollIntervalSeconds.coerceAtLeast(2)
@@ -450,7 +441,6 @@ class AccountViewModel @Inject constructor(
                 qrLoginUrl = null,
                 qrLoginVerificationUri = null,
                 qrLoginNonce = null,
-                qrLoginBitmap = null,
                 qrLoginStatus = null,
                 qrLoginExpiresAtMillis = null
             )

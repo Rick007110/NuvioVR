@@ -19,26 +19,26 @@
     <string name="web_home_catalogs">Domáce katalógy a kolekcie</string>
     <string name="web_no_catalogs">Žiadne domáce katalógy nie sú dostupné</string>
     <string name="web_btn_save">Uložiť zmeny</string>
-    <string name="web_connection_lost">Spojenie s TV bolo stratené</string>
+    <string name="web_connection_lost">Spojenie s headsetom bolo stratené</string>
     <string name="web_btn_remove">Odstrániť</string>
     <string name="web_badge_new">Nové</string>
     <string name="web_badge_disabled">Zakázané</string>
     <string name="web_btn_enable">Povoliť</string>
     <string name="web_btn_disable">Zakázať</string>
     <string name="web_error_addon_exists">Tento doplnok je už v zozname</string>
-    <string name="web_status_waiting_tv">Čaká sa na TV</string>
-    <string name="web_status_msg_waiting_tv">Potvrďte zmeny na vašom TV pre ich použitie.</string>
+    <string name="web_status_waiting_tv">Čaká sa na headset</string>
+    <string name="web_status_msg_waiting_tv">Potvrďte zmeny v headsete, aby sa použili.</string>
     <string name="web_status_changes_applied">Zmeny boli uložené</string>
-    <string name="web_status_msg_addon_updated">Konfigurácia doplnkov bola na TV aktualizovaná.</string>
-    <string name="web_status_msg_repo_updated">Konfigurácia repozitárov bola na TV aktualizovaná.</string>
+    <string name="web_status_msg_addon_updated">Konfigurácia doplnkov bola v NuvioVR aktualizovaná.</string>
+    <string name="web_status_msg_repo_updated">Konfigurácia repozitárov bola v NuvioVR aktualizovaná.</string>
     <string name="web_status_changes_rejected">Zmeny boli zamietnuté</string>
-    <string name="web_status_msg_changes_rejected">Zmeny boli odmietnuté na TV. Váš zoznam bol obnovený.</string>
+    <string name="web_status_msg_changes_rejected">Zmeny boli v headsete odmietnuté. Váš zoznam bol obnovený.</string>
     <string name="web_status_error">Niečo sa pokazilo</string>
-    <string name="web_error_failed_save">Uloženie zlyhalo. Skontrolujte pripojenie k TV.</string>
+    <string name="web_error_failed_save">Uloženie zlyhalo. Skontrolujte pripojenie k headsetu.</string>
     <string name="web_btn_dismiss">Zavrieť</string>
     <string name="web_status_timeout">Časový limit vypršal</string>
-    <string name="web_status_msg_timeout">Žiadna odpoveď od TV. Skúste to znova.</string>
-    <string name="web_status_msg_connection_lost">Server TV už nie je dostupný. Zmeny mohli byť použité.</string>
+    <string name="web_status_msg_timeout">Žiadna odpoveď od headsetu. Skúste to znova.</string>
+    <string name="web_status_msg_connection_lost">Server NuvioVR už nie je dostupný. Zmeny mohli byť použité.</string>
     <string name="web_manage_repos_title">Spravovať repozitáre</string>
     <string name="web_manage_repos_subtitle">Spravovať vaše repozitáre</string>
     <string name="web_add_repo_url">Pridať repozitár pomocou URL</string>
@@ -47,7 +47,7 @@
     <string name="web_error_repo_exists">Tento repozitár je už v zozname</string>
     <string name="web_manage_collections_title">Spravovať kolekcie</string>
     <string name="web_manage_collections_subtitle">Vytvoriť a spravovať vlastné kolekcie</string>
-    <string name="web_status_msg_collections_updated">Vaše kolekcie boli na TV aktualizované.</string>
+    <string name="web_status_msg_collections_updated">Vaše kolekcie boli v NuvioVR aktualizované.</string>
     <string name="web_tab_addons">Doplnky</string>
     <string name="web_tab_home_layout">Rozloženie domovskej obrazovky</string>
     <string name="web_tab_collections">Kolekcie</string>
@@ -365,12 +365,12 @@
     <string name="about_licenses_attributions">Licencie a atribúcie</string>
     <string name="about_licenses_attributions_subtitle">Zdroje dát, poďakovania a Android licencie</string>
     <string name="licenses_attributions_title">Licencie a atribúcie</string>
-    <string name="licenses_attributions_subtitle">Poskytovatelia dát, servisné kredity a Android licencie prehrávania používané Nuvio TV.</string>
+    <string name="licenses_attributions_subtitle">Poskytovatelia dát, poďakovania službám a Android licencie prehrávania používané v NuvioVR.</string>
     <string name="licenses_attributions_section_app">LICENCIA APLIKÁCIE</string>
     <string name="licenses_attributions_section_data">DÁT A SLUŽBY</string>
     <string name="licenses_attributions_section_playback">ANDROID LICENCIE PREHRÁVANIA</string>
-    <string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-    <string name="licenses_attributions_nuvio_body">Zdrojový kód a licenčné podmienky sú dostupné v repozitári projektu. Licencované pod GNU General Public License v3.0.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">Založené na Nuvio TV od Nuvio Media. Zdrojový kód a licenčné podmienky sú dostupné v repozitári projektu. Licencované pod GNU General Public License v3.0.</string>
     <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
     <string name="licenses_attributions_tmdb_body">Nuvio používa TMDB API pre metadáta filmov a TV, grafiku, trailery, obsadenie, produkčné detaily, kolekcie a odporúčania. Tento produkt používa TMDB API, ale nie je schválený ani certifikovaný TMDB.</string>
     <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -441,13 +441,13 @@
     <string name="account_error_password_too_weak">Heslo je príliš slabé.</string>
     <string name="account_error_signup_disabled">Registrácia je momentálne zakázaná.</string>
     <string name="account_error_rate_limited">Príliš veľa pokusov. Skúste to znova neskôr.</string>
-    <string name="account_error_qr_login_expired">QR prihlásenie vypršalo. Skúste to znova.</string>
-    <string name="account_error_invalid_qr_login">Neplatný kód QR prihlásenia.</string>
-    <string name="account_error_qr_login_other_device">Toto QR prihlásenie bolo vyžiadané z iného zariadenia.</string>
-    <string name="account_error_qr_login_outdated">Služba QR prihlásenia je zastaraná. Znova použite nastavenie TV login SQL.</string>
-    <string name="account_error_qr_login_missing_setup">Chýba nastavenie backendu QR prihlásenia. Aktualizujte nastavenie TV login SQL.</string>
-    <string name="account_error_qr_login_misconfigured">URL QR prihlásenia je nesprávne nakonfigurovaná.</string>
-    <string name="account_error_qr_login_invalid_request">Požiadavka QR prihlásenia bola neplatná. Skúste to znova.</string>
+    <string name="account_error_qr_login_expired">Platnosť prihlasovacieho kódu vypršala. Skúste to znova.</string>
+    <string name="account_error_invalid_qr_login">Neplatný prihlasovací kód.</string>
+    <string name="account_error_qr_login_other_device">Tento prihlasovací kód bol vyžiadaný z iného zariadenia.</string>
+    <string name="account_error_qr_login_outdated">Služba prihlásenia zariadenia je zastaraná. Znova použite SQL nastavenie prihlásenia zariadenia.</string>
+    <string name="account_error_qr_login_missing_setup">Backendu prihlásenia zariadenia chýba nastavenie. Aktualizujte SQL nastavenie prihlásenia zariadenia.</string>
+    <string name="account_error_qr_login_misconfigured">Prihlasovacia URL adresa je nesprávne nakonfigurovaná.</string>
+    <string name="account_error_qr_login_invalid_request">Požiadavka na prihlásenie bola neplatná. Skúste to znova.</string>
     <string name="account_error_no_internet">Žiadne internetové pripojenie.</string>
     <string name="account_error_connection_timeout">Časový limit pripojenia vypršal. Skúste to znova.</string>
     <string name="account_error_connection_refused">Nepodarilo sa pripojiť k serveru.</string>
@@ -521,7 +521,7 @@
 
     
     <string name="supporters_contributors_title">Podporovatelia a Prispievatelia</string>
-    <string name="supporters_contributors_subtitle">Ľudia podporujúci Nuvio a prispievatelia budujúci ho pre TV a mobil.</string>
+    <string name="supporters_contributors_subtitle">Ľudia podporujúci Nuvio a prispievatelia, ktorí ho budujú pre TV, mobil a VR.</string>
     <string name="supporters_contributors_supporters_copy">Podporovatelia a darcovia pomáhajú posúvať projekt vpred, financujú infraštruktúru a vytvárajú priestor pre vývoj náročnejších funkcií.</string>
     <string name="supporters_contributors_donate_copy">Nuvio zostane bezplatné a Open Source. Ak chcete podporiť projekt, môžete prispieť.</string>
     <string name="supporters_contributors_donate_button">Prispieť Nuvio</string>
@@ -548,8 +548,8 @@
     <string name="contributors_error_title">Nepodarilo sa načítať prispievateľov</string>
     <string name="contributors_total_contributions">%1$d celkových príspevkov</string>
     <string name="contributors_open_github">Otvoriť GitHub profil</string>
-    <string name="contributors_show_kofi_qr">Zobraziť Ko-fi QR</string>
-    <string name="contributors_hide_kofi_qr">Skryť Ko-fi QR</string>
+    <string name="contributors_show_kofi_qr">Zobraziť odkaz Ko-fi</string>
+    <string name="contributors_hide_kofi_qr">Skryť odkaz Ko-fi</string>
     <string name="contributors_profile_unavailable">Odkaz na GitHub profil nie je dostupný.</string>
    
     
@@ -630,7 +630,7 @@
     <string name="audio_decoder_priority">Priorita dekodéra</string>
     <string name="audio_enable_downmix_title">Povoliť downmix</string>
     <string name="audio_tunneled">Tunelované prehrávanie</string>
-    <string name="audio_tunneled_sub">Hardvérová synchronizácia audia a videa. Môže zlepšiť prehrávanie na niektorých Android TV zariadeniach.</string>
+    <string name="audio_tunneled_sub">Hardvérová synchronizácia audia a videa. Môže zlepšiť prehrávanie na niektorých zariadeniach</string>
     <string name="audio_dv_sub">Mapovať Dolby Vision Profile 7 na štandardné HEVC pre zariadenia bez hardvérovej podpory DV</string>
     <string name="audio_mpv_hwdec_title">Hardvérové dekódovanie (iba MPV)</string>
     <string name="audio_mpv_hwdec_dialog_subtitle">Vyberte, ako má libmpv používať hardvérové dekodéry.</string>
@@ -922,7 +922,7 @@
     <string name="debrid_disconnect">Odpojiť</string>
     <string name="debrid_device_auth_connected">%1$s je pripojený na tomto zariadení.</string>
     <string name="debrid_device_auth_starting">Spúšťa sa bezpečné prihlásenie...</string>
-    <string name="debrid_device_auth_instructions">Naskenujte QR a zadajte tento kód na schválenie Nuvio.</string>
+    <string name="debrid_device_auth_instructions">Otvorte túto adresu na telefóne alebo počítači a zadajte kód na schválenie Nuvio.</string>
     <string name="debrid_device_auth_code_copied">Kód bol skopírovaný.</string>
     <string name="debrid_device_auth_waiting">Čaká sa na schválenie...</string>
     <string name="debrid_device_auth_failed">Nepodarilo sa spustiť prihlásenie.</string>
@@ -1004,7 +1004,7 @@
     <string name="debrid_formatter_configure">Otvoriť webový editor</string>
     <string name="debrid_formatter_reset_title">Obnoviť formátovanie</string>
     <string name="debrid_formatter_reset_subtitle">Obnoviť predvolené formátovanie zdrojov.</string>
-    <string name="debrid_formatter_qr_instruction">Naskenujte tento QR kód na telefóne pre konfiguráciu nastavení Debrid zdrojov.</string>
+    <string name="debrid_formatter_qr_instruction">Otvorte túto adresu v prehliadači v rovnakej sieti Wi-Fi a nakonfigurujte nastavenia Debrid zdrojov.</string>
 
     
     <string name="animeskip_title">Anime Skip</string>
@@ -1061,14 +1061,14 @@
     <string name="trakt_waiting_approval">Čaká sa na schválenie…</string>
     <string name="qr_login_approved">Prihlásenie schválené. Dokončuje sa prihlásenie…</string>
     <string name="qr_login_pending">Čaká sa na schválenie na vašom telefóne…</string>
-    <string name="qr_login_expired">QR prihlásenie vypršalo. Vygenerujte nový kód.</string>
-    <string name="qr_login_preparing">Pripravuje sa QR prihlásenie...</string>
+    <string name="qr_login_expired">Platnosť prihlasovacieho kódu vypršala. Vyžiadajte si nový kód.</string>
+    <string name="qr_login_preparing">Pripravuje sa prihlasovací kód…</string>
     <string name="qr_login_device_auth_failed">Nepodarilo sa autentifikovať zariadenie</string>
-    <string name="qr_login_scan_prompt">Naskenujte QR a prihláste sa na telefóne</string>
-    <string name="qr_login_start_failed">Nepodarilo sa spustiť QR prihlásenie</string>
+    <string name="qr_login_scan_prompt">Prejdite na odkaz a zadajte kód na telefóne alebo počítači</string>
+    <string name="qr_login_start_failed">Nepodarilo sa spustiť prihlásenie kódom</string>
     <string name="qr_login_signing_in">Prihlasovanie…</string>
     <string name="qr_login_success">Úspešne prihlásený</string>
-    <string name="qr_login_exchange_failed">Nepodarilo sa dokončiť QR prihlásenie</string>
+    <string name="qr_login_exchange_failed">Nepodarilo sa dokončiť prihlásenie kódom</string>
     <string name="trakt_code_expires">Kód vyprší o %1$s</string>
     <string name="trakt_token_refreshes">Prístupový token Trakt sa obnoví o %1$s</string>
     <string name="trakt_login_instruction">Stlačte Prihlásiť sa pre spustenie autentifikácie Trakt. Tu sa zobrazí QR kód.</string>
@@ -1234,7 +1234,7 @@
     
     <string name="essential_addon_setup_title">Nastaviť doplnky</string>
     <string name="essential_addon_setup_subtitle">Nainštalujte jeden doplnok pre začatie streamovania. Ďalšie môžete pridať neskôr z Doplnkov.</string>
-    <string name="essential_addon_show_qr">Zobraziť QR</string>
+    <string name="essential_addon_show_qr">Spravovať z telefónu</string>
     
     <string name="collection_editor_no_trakt_lists_found">Nenašli sa žiadne Trakt zoznamy</string>
     <string name="collection_editor_untitled_folder">Bez názvu</string>
@@ -1254,14 +1254,14 @@
     <string name="addon_remove">Odstrániť</string>
     <string name="addons_badge_disabled">Zakázané</string>
     <string name="addon_manage_from_phone_title">Spravovať z telefónu</string>
-    <string name="addon_manage_from_phone_subtitle">Naskenujte QR kód a spravujte doplnky, katalógy a kolekcie z telefónu</string>
-    <string name="addon_manage_addons_only_from_phone_subtitle">Naskenujte QR kód pre inštaláciu alebo odstránenie doplnkov z telefónu</string>
-    <string name="addon_manage_collections_from_phone_subtitle">Naskenujte QR kód a spravujte kolekcie z telefónu</string>
+    <string name="addon_manage_from_phone_subtitle">Otvorte webovú stránku na telefóne alebo počítači a spravujte doplnky, katalógy a kolekcie</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">Otvorte webovú stránku na telefóne alebo počítači a nainštalujte alebo odstráňte doplnky</string>
+    <string name="addon_manage_collections_from_phone_subtitle">Otvorte webovú stránku na telefóne alebo počítači a spravujte kolekcie</string>
     <string name="addon_reorder_title">Zmeniť poradie katalógov</string>
     <string name="addon_reorder_subtitle">Ovláda poradie katalógov a kolekcií na domovskej obrazovke (Klasické + Moderné + Mriežka)</string>
-    <string name="addon_qr_scan_instruction">Naskenujte telefónom pre správu doplnkov, katalógov a kolekcií</string>
-    <string name="addon_qr_addons_only_scan_instruction">Naskenujte telefónom pre inštaláciu alebo odstránenie doplnkov</string>
-    <string name="addon_qr_collections_scan_instruction">Naskenujte telefónom pre správu kolekcií</string>
+    <string name="addon_qr_scan_instruction">Otvorte túto adresu v prehliadači na telefóne alebo počítači v rovnakej sieti Wi-Fi a spravujte doplnky, katalógy a kolekcie</string>
+    <string name="addon_qr_addons_only_scan_instruction">Otvorte túto adresu v prehliadači v rovnakej sieti Wi-Fi a nainštalujte alebo odstráňte doplnky</string>
+    <string name="addon_qr_collections_scan_instruction">Otvorte túto adresu v prehliadači v rovnakej sieti Wi-Fi a spravujte kolekcie</string>
     <string name="addon_qr_close">Zavrieť</string>
     <string name="addon_confirm_title">Potvrdiť zmeny doplnkov a katalógov</string>
     <string name="addon_confirm_subtitle">Nasledujúce zmeny boli vykonané z vášho telefónu:</string>
@@ -1628,8 +1628,8 @@
     <string name="account_loading">Načítava sa…</string>
     <string name="account_sync_description">Synchronizujte knižnicu, postup sledovania, doplnky a pluginy medzi zariadeniami.</string>
     <string name="account_sync_restart_note">Synchronizácia nie je v reálnom čase medzi aktívnymi zariadeniami. Reštartujte toto zariadenie po prihlásení alebo pre načítanie zmien vykonaných inde.</string>
-    <string name="account_signin_qr_title">Prihlásiť sa pomocou QR</string>
-    <string name="account_signin_qr_subtitle">Naskenujte QR kód a dokončite prihlásenie cez telefón</string>
+    <string name="account_signin_qr_title">Prihlásiť sa pomocou kódu</string>
+    <string name="account_signin_qr_subtitle">Na prihlásenie zadajte kód na telefóne alebo počítači</string>
     <string name="account_signed_in_label">Prihlásený</string>
     <string name="account_total_label">Celkom</string>
     <string name="account_loading_sync">Načítavajú sa synchronizačné údaje…</string>
@@ -1637,22 +1637,22 @@
 
     
     <string name="auth_signin_title">Prihlásiť sa</string>
-    <string name="auth_signin_tv_disabled">Zadávanie e-mailu/hesla na TV je vypnuté. Pokračujte prihlásením cez QR.</string>
-    <string name="auth_signin_qr_btn">Pokračovať cez QR</string>
+    <string name="auth_signin_tv_disabled">Prihlásenie e-mailom a heslom je na tomto serveri vypnuté. Pokračujte prihlásením pomocou kódu.</string>
+    <string name="auth_signin_qr_btn">Pokračovať pomocou kódu</string>
 
     
-    <string name="auth_qr_title">Prihlásiť sa cez QR</string>
+    <string name="auth_qr_title">Prihlásiť sa pomocou kódu</string>
     <string name="auth_qr_finishing">Dokončuje sa prihlásenie…</string>
     <string name="auth_qr_code_label">Kód: %1$s</string>
     <string name="auth_qr_expires">Vyprší o %1$s</string>
-    <string name="auth_qr_scan_instruction">Naskenujte QR, schváľte v prehliadači a vráťte sa sem.</string>
+    <string name="auth_qr_scan_instruction">Na telefóne alebo počítači prejdite na odkaz nižšie a zadajte kód.</string>
     <string name="auth_qr_code_display">Kód: %1$s</string>
-    <string name="auth_qr_refresh">Obnoviť QR</string>
+    <string name="auth_qr_refresh">Nový kód</string>
     <string name="auth_qr_continue_without_account">Pokračovať bez účtu</string>
-    <string name="auth_qr_connected">Váš účet je pripojený na tomto TV.</string>
+    <string name="auth_qr_connected">Váš účet je pripojený v tomto headsete.</string>
     <string name="auth_qr_synced_data">Vaše synchronizované údaje</string>
-    <string name="auth_qr_generating">Generuje sa QR…</string>
-    <string name="auth_qr_unavailable">QR nie je dostupný. Obnovte pre opätovný pokus.</string>
+    <string name="auth_qr_generating">Generuje sa kód…</string>
+    <string name="auth_qr_unavailable">Kód nie je dostupný. Vyžiadajte si nový kód a skúste to znova.</string>
     <string name="auth_qr_please_wait">Prosím čakajte…</string>
     <string name="auth_qr_continue">Pokračovať</string>
     <string name="auth_qr_back">Späť</string>
@@ -1689,8 +1689,8 @@
     <string name="plugin_add_repository">Pridať repozitár</string>
     <string name="plugin_add_btn">Pridať</string>
     <string name="plugin_manage_from_phone_title">Spravovať z telefónu</string>
-    <string name="plugin_manage_from_phone_subtitle">Naskenujte QR kód a pridajte alebo odstráňte repozitáre z telefónu</string>
-    <string name="plugin_qr_instruction">Naskenujte telefónom pre správu repozitárov</string>
+    <string name="plugin_manage_from_phone_subtitle">Otvorte webovú stránku na telefóne alebo počítači a pridajte alebo odstráňte repozitáre</string>
+    <string name="plugin_qr_instruction">Otvorte túto adresu v prehliadači v rovnakej sieti Wi-Fi a spravujte repozitáre</string>
     <string name="plugin_qr_close">Zavrieť</string>
     <string name="plugin_confirm_title">Potvrdiť zmeny repozitárov</string>
     <string name="plugin_confirm_subtitle">Nasledujúce zmeny boli vykonané z vášho telefónu:</string>
@@ -2017,7 +2017,7 @@
     <string name="collections_editor_pin_above">Pripnúť nad katalógy</string>
     <string name="collections_editor_pin_above_desc">Zobraziť túto kolekciu nad všetkými bežnými domácimi katalógmi. Viaceré pripnuté kolekcie sledujú poradie vytvorenia kolekcie.</string>
     <string name="collections_editor_focus_glow">Žiara pri zameraní</string>
-    <string name="collections_editor_focus_glow_desc">Použiť natívnu TV žiaru na vlastné katalógové karty tejto kolekcie na domovskej obrazovke</string>
+    <string name="collections_editor_focus_glow_desc">Použiť žiaru zamerania na vlastné katalógové karty tejto kolekcie na domovskej obrazovke</string>
     <string name="collections_editor_view_mode">Režim zobrazenia</string>
     <string name="collections_editor_show_all_tab">Zobraziť kartu „Všetko“</string>
     <string name="collections_editor_show_all_tab_desc">Skombinovať všetky katalógy do jednej karty</string>
@@ -2616,7 +2616,7 @@
 <string name="settings_fusion_badge_preview_empty">Na tejto adrese URL sa nenachádzajú žiadne obrázky odznakov štýlu Fusion.</string>
 <string name="settings_fusion_badge_group_title">Skupina %1$d</string>
 <string name="settings_fusion_badge_other_group_title">Ostatné odznaky Fusion</string>
-<string name="stream_badge_qr_instruction">Naskenujte tento QR kód telefónom na správu adries URL pre odznaky Fusion.</string>
+<string name="stream_badge_qr_instruction">Otvorte túto adresu v prehliadači v rovnakej sieti Wi-Fi a spravujte URL adresy odznakov Fusion.</string>
 <string name="streams_size">VEĽKOSŤ %1$s</string>
 <string name="action_import">Importovať</string>
 <string name="action_delete">Odstrániť</string>
@@ -2964,9 +2964,9 @@
     <string name="supporter_membership_tier_supporter_plus">Podporovateľ+</string>
     <string name="supporter_membership_connected_title">Patreon je pripojený</string>
     <string name="supporter_membership_connected_description">Na tomto účte Patreon sa nenašla žiadna aktívna úroveň Nuvio. Pozrite si dostupné možnosti alebo obnovte stav po zmene členstva na Patreone.</string>
-    <string name="supporter_membership_scan_support">Naskenujte pre zobrazenie členstva</string>
+    <string name="supporter_membership_scan_support">Zobraziť členstvo online</string>
     <string name="supporter_membership_scan_support_description">Otvorte stránku Členstvo podporovateľa na svojom telefóne.</string>
-    <string name="supporter_membership_scan_manage">Naskenujte pre správu členstva</string>
+    <string name="supporter_membership_scan_manage">Spravovať členstvo online</string>
     <string name="supporter_membership_scan_manage_description">Otvorte nastavenia členstva Patreon na svojom telefóne.</string>
     <string name="cd_membership_qr">QR kód stránky členstva</string>
     <string name="supporters_level_supporter">Podporovateľ</string>
@@ -3143,13 +3143,13 @@
     <string name="advanced_player_stats_hud_subtitle">Zobraziť tlačidlo v informáciách o streame na zapnutie/vypnutie živých údajov o CPU, pamäti, vyrovnávacej pamäti, dátovom toku a teplote počas prehrávania</string>
     <string name="profile_copy_settings_label">Kopírovať nastavenia</string>
     <string name="profile_copy_settings_setup_title">Nastavenia profilu</string>
-    <string name="profile_copy_settings_setup_subtitle">Začnite odznova alebo jednorazovo skopírujte nastavenia TV z iného profilu.</string>
+    <string name="profile_copy_settings_setup_subtitle">Začnite odznova alebo jednorazovo skopírujte nastavenia z iného profilu.</string>
     <string name="profile_copy_settings_start_fresh">Začať odznova</string>
     <string name="profile_copy_settings_primary_source">%1$s (Hlavný)</string>
     <string name="profile_copy_settings_create_fresh">Nastavenia: Začať odznova</string>
     <string name="profile_copy_settings_create_source">Nastavenia: %1$s</string>
     <string name="profile_copy_settings_title">Kopírovať nastavenia do profilu %1$s</string>
-    <string name="profile_copy_settings_subtitle">Vyberte zdrojový profil. Jeho podporované TV nastavenia jednorazovo nahradia nastavenia tohto profilu.</string>
+    <string name="profile_copy_settings_subtitle">Vyberte zdrojový profil. Jeho podporované nastavenia jednorazovo nahradia nastavenia tohto profilu.</string>
     <string name="profile_copy_settings_from">Kopírovať z</string>
     <string name="profile_copy_settings_action">Kopírovať nastavenia</string>
     <string name="profile_copy_settings_copying">Kopíruje sa\u2026</string>
@@ -3212,7 +3212,7 @@
     <string name="layout_custom_poster_clear">Vymazať</string>
     <string name="layout_custom_poster_active">✓ Vlastný zdroj plagátov je aktívny</string>
     <string name="layout_custom_poster_qr">Konfigurovať cez telefón</string>
-    <string name="custom_poster_qr_instruction">Naskenujte QR kód telefónom pre vloženie vzoru URL adresy plagátu</string>
+    <string name="custom_poster_qr_instruction">Otvorte túto adresu v prehliadači v rovnakej sieti Wi-Fi a vložte vzor URL adresy plagátu</string>
     <string name="layout_custom_poster_screen_home">Domov</string>
     <string name="layout_custom_poster_screen_continue_watching">Pokračovať v sledovaní</string>
     <string name="layout_custom_poster_screen_collections">Kolekcie</string>
@@ -3240,7 +3240,7 @@
     <string name="mdblist_connected_as">Pripojené ako %1$s</string>
     <string name="mdblist_account_fallback">Používateľ MDBList</string>
     <string name="mdblist_insufficient_scope">MDBList neudelil povolenie na aktualizáciu histórie sledovania. Znova sa pripojte a povoľte prístup na zápis.</string>
-    <string name="mdblist_awaiting_instruction">Naskenujte QR kód alebo zadajte tento kód na adrese nižšie.</string>
+    <string name="mdblist_awaiting_instruction">Prejdite na adresu nižšie a zadajte tento kód.</string>
     <string name="mdblist_qr_description">QR kód na pripojenie vášho účtu MDBList</string>
     <string name="mdblist_status_enter_code">Schváľte pripojenie vo svojom účte MDBList.</string>
     <string name="mdblist_status_syncing">Synchronizuje sa história sledovania a priebeh prehrávania…</string>
@@ -3383,4 +3383,17 @@
     <string name="autosync_toast_failed_no_reference">Synchronizácia zlyhala: toto video nemá žiadne vložené titulky na porovnanie.</string>
     <string name="autosync_toast_failed_unsupported">Synchronizácia zlyhala: Automatická synchronizácia nepodporuje tento formát titulkov.</string>
     <string name="autosync_label_synced">Automaticky synchronizované</string>
+    <!-- NuvioVR -->
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">Prostredie a obrazovka v headsete</string>
+    <string name="vr_settings_environment">Prostredie</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">Zobraziť skutočnú miestnosť namiesto virtuálneho prostredia. Tip: rýchlo prepnete stlačením Y.</string>
+    <string name="vr_dim_playback_title">Stlmiť prostredie počas prehrávania</string>
+    <string name="vr_dim_playback_subtitle">Stmaviť oblohu a podlahu počas prehrávania videa, ako v kine.</string>
+    <string name="vr_settings_screen">Obrazovka</string>
+    <string name="vr_recenter_title">Vycentrovať obrazovku</string>
+    <string name="vr_recenter_subtitle">Presunúť obrazovku späť pred vás.</string>
+    <string name="player_vr_passthrough_on">Zobraziť okolie</string>
+    <string name="player_vr_passthrough_off">Skryť okolie</string>
 </resources>

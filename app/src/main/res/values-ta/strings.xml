@@ -19,26 +19,26 @@
     <string name="web_home_catalogs">முகப்பு பட்டியல்கள் மற்றும் தொகுப்புகள்</string>
     <string name="web_no_catalogs">முகப்பு பட்டியல்கள் எதுவும் இல்லை</string>
     <string name="web_btn_save">மாற்றங்களை சேமி</string>
-    <string name="web_connection_lost">டிவியுடன் இணைப்பு துண்டிக்கப்பட்டது</string>
+    <string name="web_connection_lost">ஹெட்செட்டுடனான இணைப்பு துண்டிக்கப்பட்டது</string>
     <string name="web_btn_remove">அகற்று</string>
     <string name="web_badge_new">புதியது</string>
     <string name="web_badge_disabled">முடக்கப்பட்டது</string>
     <string name="web_btn_enable">இயக்கு</string>
     <string name="web_btn_disable">முடக்கு</string>
     <string name="web_error_addon_exists">இந்த ஆடான் ஏற்கனவே பட்டியலில் உள்ளது</string>
-    <string name="web_status_waiting_tv">டிவிக்காக காத்திருக்கிறது</string>
-    <string name="web_status_msg_waiting_tv">மாற்றங்களை செயல்படுத்த உங்கள் டிவியில் உறுதிப்படுத்தவும்.</string>
+    <string name="web_status_waiting_tv">ஹெட்செட்டுக்காகக் காத்திருக்கிறது</string>
+    <string name="web_status_msg_waiting_tv">மாற்றங்களைச் செயல்படுத்த உங்கள் ஹெட்செட்டில் உறுதிப்படுத்தவும்.</string>
     <string name="web_status_changes_applied">மாற்றங்கள் செயல்படுத்தப்பட்டன</string>
-    <string name="web_status_msg_addon_updated">உங்கள் ஆடான் அமைப்பு டிவியில் புதுப்பிக்கப்பட்டது.</string>
-    <string name="web_status_msg_repo_updated">உங்கள் சேமிப்பக அமைப்பு டிவியில் புதுப்பிக்கப்பட்டது.</string>
+    <string name="web_status_msg_addon_updated">உங்கள் ஆடான் அமைப்பு NuvioVR-இல் புதுப்பிக்கப்பட்டது.</string>
+    <string name="web_status_msg_repo_updated">உங்கள் களஞ்சிய அமைப்பு NuvioVR-இல் புதுப்பிக்கப்பட்டது.</string>
     <string name="web_status_changes_rejected">மாற்றங்கள் நிராகரிக்கப்பட்டன</string>
-    <string name="web_status_msg_changes_rejected">டிவியில் மாற்றங்கள் நிராகரிக்கப்பட்டன. உங்கள் பட்டியல் மீட்டமைக்கப்பட்டது.</string>
+    <string name="web_status_msg_changes_rejected">ஹெட்செட்டில் மாற்றங்கள் நிராகரிக்கப்பட்டன. உங்கள் பட்டியல் மீட்டமைக்கப்பட்டது.</string>
     <string name="web_status_error">ஏதோ தவறு ஏற்பட்டது</string>
-    <string name="web_error_failed_save">சேமிக்க முடியவில்லை. டிவி இணைப்பை சரிபார்க்கவும்.</string>
+    <string name="web_error_failed_save">சேமிக்க முடியவில்லை. ஹெட்செட்டுடனான இணைப்பைச் சரிபார்க்கவும்.</string>
     <string name="web_btn_dismiss">மூடு</string>
     <string name="web_status_timeout">நேரம் முடிந்தது</string>
-    <string name="web_status_msg_timeout">டிவியிலிருந்து பதில் இல்லை. மீண்டும் முயற்சிக்கவும்.</string>
-    <string name="web_status_msg_connection_lost">டிவி சேவையகத்தை இனி அணுக முடியவில்லை. மாற்றங்கள் செயல்படுத்தப்பட்டிருக்கலாம்.</string>
+    <string name="web_status_msg_timeout">ஹெட்செட்டிலிருந்து பதில் இல்லை. மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="web_status_msg_connection_lost">NuvioVR சேவையகத்தை இனி அணுக முடியவில்லை. மாற்றங்கள் செயல்படுத்தப்பட்டிருக்கலாம்.</string>
     <string name="web_manage_repos_title">சேமிப்பகங்களை நிர்வகிக்கவும்</string>
     <string name="web_manage_repos_subtitle">உங்கள் சேமிப்பகங்களை நிர்வகிக்கவும்</string>
     <string name="web_add_repo_url">URL மூலம் சேமிப்பகம் சேர்க்கவும்</string>
@@ -47,7 +47,7 @@
     <string name="web_error_repo_exists">இந்த சேமிப்பகம் ஏற்கனவே பட்டியலில் உள்ளது</string>
     <string name="web_manage_collections_title">தொகுப்புகளை நிர்வகிக்கவும்</string>
     <string name="web_manage_collections_subtitle">உங்கள் தனிப்பயன் தொகுப்புகளை உருவாக்கி நிர்வகிக்கவும்</string>
-    <string name="web_status_msg_collections_updated">உங்கள் தொகுப்புகள் டிவியில் புதுப்பிக்கப்பட்டன.</string>
+    <string name="web_status_msg_collections_updated">உங்கள் தொகுப்புகள் NuvioVR-இல் புதுப்பிக்கப்பட்டன.</string>
     <string name="web_tab_addons">ஆடான்கள்</string>
     <string name="web_tab_home_layout">முகப்பு அமைப்பு</string>
     <string name="web_tab_collections">தொகுப்புகள்</string>
@@ -344,12 +344,12 @@
     <string name="about_licenses_attributions">உரிமங்கள் &amp; நன்றிக்குறிப்புகள்</string>
     <string name="about_licenses_attributions_subtitle">தரவு மூலங்கள், நன்றிகள் மற்றும் ஆண்ட்ராய்டு உரிமங்கள்</string>
     <string name="licenses_attributions_title">உரிமங்கள் &amp; நன்றிக்குறிப்புகள்</string>
-    <string name="licenses_attributions_subtitle">நுவியோ டிவி பயன்படுத்தும் தரவு வழங்குநர்கள், சேவை நன்றிகள் மற்றும் ஆண்ட்ராய்டு இயக்க உரிமங்கள்.</string>
+    <string name="licenses_attributions_subtitle">NuvioVR பயன்படுத்தும் தரவு வழங்குநர்கள், சேவை நன்றிகள் மற்றும் ஆண்ட்ராய்டு இயக்க உரிமங்கள்.</string>
     <string name="licenses_attributions_section_app">செயலி உரிமம்</string>
     <string name="licenses_attributions_section_data">தரவு &amp; சேவைகள்</string>
     <string name="licenses_attributions_section_playback">ஆண்ட்ராய்டு இயக்க உரிமங்கள்</string>
-    <string name="licenses_attributions_nuvio_title">நுவியோ டிவி</string>
-    <string name="licenses_attributions_nuvio_body">மூலக் குறியீடு மற்றும் உரிம நிபந்தனைகள் திட்ட களஞ்சியத்தில் கிடைக்கின்றன. GNU பொது உரிமம் v3.0 கீழ் வழங்கப்படுகிறது.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">Nuvio Media உருவாக்கிய Nuvio TV-ஐ அடிப்படையாகக் கொண்டது. மூலக் குறியீடு மற்றும் உரிம நிபந்தனைகள் திட்டக் களஞ்சியத்தில் கிடைக்கின்றன. GNU General Public License v3.0 கீழ் உரிமம் பெற்றது.</string>
     <string name="licenses_attributions_tmdb_title">தி மூவி டேட்டாபேஸ் (TMDB)</string>
     <string name="licenses_attributions_tmdb_body">நுவியோ திரைப்படம் மற்றும் டிவி தகவல்கள், கலைப்படங்கள், முன்னோட்டங்கள், நடிகர்கள், தயாரிப்பு விவரங்கள், தொகுப்புகள் மற்றும் பரிந்துரைகளுக்காக TMDB API-ஐ பயன்படுத்துகிறது. இந்த தயாரிப்பு TMDB API-ஐ பயன்படுத்தினாலும் TMDB ஆதரவு அல்லது சான்றளிப்பு பெறவில்லை.</string>
     <string name="licenses_attributions_trakt_title">ட்ராக்ட்</string>
@@ -420,13 +420,13 @@
     <string name="account_error_password_too_weak">கடவுச்சொல் பலவீனமாக உள்ளது.</string>
     <string name="account_error_signup_disabled">பதிவு தற்போது முடக்கப்பட்டுள்ளது.</string>
     <string name="account_error_rate_limited">அதிக முயற்சிகள். பின்னர் முயற்சிக்கவும்.</string>
-    <string name="account_error_qr_login_expired">க்யூஆர் உள்நுழைவு காலாவதியானது. மீண்டும் முயற்சிக்கவும்.</string>
-    <string name="account_error_invalid_qr_login">தவறான க்யூஆர் உள்நுழைவு குறியீடு.</string>
-    <string name="account_error_qr_login_other_device">இந்த க்யூஆர் உள்நுழைவு மற்றொரு சாதனத்திலிருந்து கோரப்பட்டது.</string>
-    <string name="account_error_qr_login_outdated">க்யூஆர் உள்நுழைவு சேவை காலாவதியானது. டிவி உள்நுழைவு எஸ்க்யூஎல் அமைப்பை மீண்டும் செயல்படுத்து.</string>
-    <string name="account_error_qr_login_missing_setup">க்யூஆர் உள்நுழைவு பின்புற அமைப்பு இல்லை. டிவி உள்நுழைவு எஸ்க்யூஎல் அமைப்பை புதுப்பிக்கவும்.</string>
-    <string name="account_error_qr_login_misconfigured">க்யூஆர் உள்நுழைவு முகவரி தவறாக அமைக்கப்பட்டுள்ளது.</string>
-    <string name="account_error_qr_login_invalid_request">தவறான க்யூஆர் உள்நுழைவு கோரிக்கை. மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="account_error_qr_login_expired">உள்நுழைவுக் குறியீடு காலாவதியானது. மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="account_error_invalid_qr_login">தவறான உள்நுழைவுக் குறியீடு.</string>
+    <string name="account_error_qr_login_other_device">இந்த உள்நுழைவுக் குறியீடு மற்றொரு சாதனத்திலிருந்து கோரப்பட்டது.</string>
+    <string name="account_error_qr_login_outdated">சாதன உள்நுழைவு சேவை காலாவதியானது. சாதன உள்நுழைவு SQL அமைப்பை மீண்டும் செயல்படுத்தவும்.</string>
+    <string name="account_error_qr_login_missing_setup">சாதன உள்நுழைவு பின்தள அமைப்பு முழுமையடையவில்லை. சாதன உள்நுழைவு SQL அமைப்பைப் புதுப்பிக்கவும்.</string>
+    <string name="account_error_qr_login_misconfigured">உள்நுழைவு முகவரி தவறாக அமைக்கப்பட்டுள்ளது.</string>
+    <string name="account_error_qr_login_invalid_request">உள்நுழைவுக் கோரிக்கை தவறானது. மீண்டும் முயற்சிக்கவும்.</string>
     <string name="account_error_no_internet">இணைய இணைப்பு இல்லை.</string>
     <string name="account_error_connection_timeout">இணைப்பு நேரம் முடிந்தது. மீண்டும் முயற்சிக்கவும்.</string>
     <string name="account_error_connection_refused">சேவையகத்துடன் இணைக்க முடியவில்லை.</string>
@@ -499,7 +499,7 @@
 
         <!-- SupportersContributorsScreen -->
     <string name="supporters_contributors_title">ஆதரவாளர்கள் &amp; பங்களிப்பாளர்கள்</string>
-    <string name="supporters_contributors_subtitle">Nuvio-க்கு ஆதரவளிக்கும் மற்றும் டிவி, மொபைல் முழுவதும் இதை உருவாக்கும் நபர்கள்.</string>
+    <string name="supporters_contributors_subtitle">Nuvio-க்கு ஆதரவளிக்கும் நபர்கள் மற்றும் டிவி, மொபைல், VR முழுவதும் இதை உருவாக்கும் பங்களிப்பாளர்கள்.</string>
     <string name="supporters_contributors_supporters_copy">ஆதரவாளர்கள் மற்றும் நன்கொடையாளர்கள் இந்த திட்டம் தொடர்ந்து முன்னேற, கட்டமைப்பு செலவுகளை ஏற்க, மற்றும் பெரிய அம்சங்களுக்கு இடமளிக்க உதவுகின்றனர்.</string>
     <string name="supporters_contributors_donate_copy">Nuvio எப்போதும் இலவசமாகவும் திறந்த மூலமாகவும் இருக்கும். திட்டத்தை ஆதரிக்க விரும்பினால், இதற்கான நேரம் மற்றும் கட்டமைப்பு செலவுகளுக்கு உதவலாம்.</string>
     <string name="supporters_contributors_donate_button">Nuvio-க்கு நன்கொடை அளிக்கவும்</string>
@@ -526,8 +526,8 @@
     <string name="contributors_error_title">பங்களிப்பாளர்களை ஏற்ற முடியவில்லை</string>
     <string name="contributors_total_contributions">மொத்த பங்களிப்புகள் %1$d</string>
     <string name="contributors_open_github">GitHub சுயவிவரத்தை திற</string>
-    <string name="contributors_show_kofi_qr">Ko-fi QR-ஐ காட்டு</string>
-    <string name="contributors_hide_kofi_qr">Ko-fi QR-ஐ மறை</string>
+    <string name="contributors_show_kofi_qr">Ko-fi இணைப்பைக் காட்டு</string>
+    <string name="contributors_hide_kofi_qr">Ko-fi இணைப்பை மறை</string>
     <string name="contributors_profile_unavailable">GitHub சுயவிவர இணைப்பு கிடைக்கவில்லை.</string>
 
     <!-- PlaybackSettingsSections -->
@@ -605,7 +605,7 @@
     <string name="audio_decoder_prefer_app">செயலி டிகோடர்களுக்கு முன்னுரிமை (எப்எப்எம்பிஇஜி)</string>
     <string name="audio_decoder_priority">டிகோடர் முன்னுரிமை</string>
     <string name="audio_tunneled">டனல்டு இயக்கம்</string>
-    <string name="audio_tunneled_sub">வன்பொருள் நிலை ஒலி/காணொளி ஒத்திசைவு. சில ஆண்ட்ராய்டு டிவி சாதனங்களில் இயக்கத்தை மேம்படுத்தலாம்</string>
+    <string name="audio_tunneled_sub">வன்பொருள் நிலை ஒலி/காணொளி ஒத்திசைவு. சில சாதனங்களில் இயக்கத்தை மேம்படுத்தலாம்</string>
     <string name="audio_mpv_hwdec_title">வன்பொருள் டிகோடிங் (எம்பிவி மட்டும்)</string>
     <string name="audio_mpv_hwdec_dialog_subtitle">லிப்எம்பிவி வன்பொருள் டிகோடர்களை எவ்வாறு பயன்படுத்த வேண்டும் என்பதைத் தேர்ந்தெடுக்கவும்.</string>
     <string name="audio_mpv_hwdec_legacy_direct_copy">பழைய முறை (நேரடி -&gt; நகல்)</string>
@@ -909,14 +909,14 @@
     <string name="trakt_waiting_approval">அனுமதிக்காக காத்திருக்கிறது…</string>
     <string name="qr_login_approved">உள்நுழைவு அனுமதிக்கப்பட்டது. உள்நுழைவு முடிக்கப்படுகிறது…</string>
     <string name="qr_login_pending">உங்கள் தொலைபேசியில் அனுமதிக்க காத்திருக்கிறது…</string>
-    <string name="qr_login_expired">க்யூஆர் உள்நுழைவு காலாவதியானது. புதிய குறியீட்டை உருவாக்கவும்.</string>
-    <string name="qr_login_preparing">க்யூஆர் உள்நுழைவு தயாராகிறது...</string>
+    <string name="qr_login_expired">உள்நுழைவுக் குறியீடு காலாவதியானது. புதிய குறியீட்டைக் கோரவும்.</string>
+    <string name="qr_login_preparing">உள்நுழைவுக் குறியீடு தயாராகிறது…</string>
     <string name="qr_login_device_auth_failed">சாதனத்தை அங்கீகரிக்க முடியவில்லை</string>
-    <string name="qr_login_scan_prompt">க்யூஆர் ஐ ஸ்கேன் செய்து உங்கள் தொலைபேசியில் உள்நுழையவும்</string>
-    <string name="qr_login_start_failed">க்யூஆர் உள்நுழைவை தொடங்க முடியவில்லை</string>
+    <string name="qr_login_scan_prompt">உங்கள் தொலைபேசி அல்லது கணினியில் இணைப்புக்குச் சென்று குறியீட்டை உள்ளிடவும்</string>
+    <string name="qr_login_start_failed">குறியீட்டு உள்நுழைவைத் தொடங்க முடியவில்லை</string>
     <string name="qr_login_signing_in">உங்களை உள்நுழைக்கிறது…</string>
     <string name="qr_login_success">வெற்றிகரமாக உள்நுழைந்தது</string>
-    <string name="qr_login_exchange_failed">க்யூஆர் உள்நுழைவை முடிக்க முடியவில்லை</string>
+    <string name="qr_login_exchange_failed">குறியீட்டு உள்நுழைவை முடிக்க முடியவில்லை</string>
     <string name="trakt_code_expires">குறியீடு %1$s இல் காலாவதியாகும்</string>
     <string name="trakt_token_refreshes">ட்ராக்ட் அணுகல் டோக்கன் %1$s இல் புதுப்பிக்கப்படும்</string>
     <string name="trakt_login_instruction">உள்நுழைவை தொடங்க உள்நுழைவு பொத்தானை அழுத்தவும். க்யூஆர் குறியீடு இங்கு தோன்றும்.</string>
@@ -1082,7 +1082,7 @@
     <!-- Essential addon setup wizard -->
     <string name="essential_addon_setup_title">அட்ஆன்களை அமைக்கவும்</string>
     <string name="essential_addon_setup_subtitle">ஸ்ட்ரீமிங் தொடங்க ஒரு அட்ஆனை நிறுவவும். மேலும் பின்னர் அட்ஆன்களில் இருந்து சேர்க்கலாம்.</string>
-    <string name="essential_addon_show_qr">க்யூஆர் காட்டு</string>
+    <string name="essential_addon_show_qr">தொலைபேசியிலிருந்து நிர்வகி</string>
     <!-- Collection editor fallbacks -->
     <string name="collection_editor_no_trakt_lists_found">ட்ராக்ட் பட்டியல்கள் எதுவும் கிடைக்கவில்லை</string>
     <string name="collection_editor_untitled_folder">தலைப்பில்லாதது</string>
@@ -1101,14 +1101,14 @@
     <string name="addon_empty">அட்ஆன்கள் எதுவும் நிறுவப்படவில்லை. தொடங்க ஒன்றை சேர்க்கவும்.</string>
     <string name="addon_remove">அகற்று</string>
     <string name="addon_manage_from_phone_title">தொலைபேசியிலிருந்து நிர்வகிக்கவும்</string>
-    <string name="addon_manage_from_phone_subtitle">உங்கள் தொலைபேசியில் இருந்து அட்ஆன்கள், கேட்டலாக்கள் மற்றும் தொகுப்புகளை நிர்வகிக்க க்யூஆர் குறியீட்டை ஸ்கேன் செய்யவும்</string>
-    <string name="addon_manage_addons_only_from_phone_subtitle">உங்கள் தொலைபேசியில் இருந்து அட்ஆன்களை நிறுவ அல்லது அகற்ற க்யூஆர் குறியீட்டை ஸ்கேன் செய்யவும்</string>
-    <string name="addon_manage_collections_from_phone_subtitle">உங்கள் தொலைபேசியில் இருந்து தொகுப்புகளை நிர்வகிக்க க்யூஆர் குறியீட்டை ஸ்கேன் செய்யவும்</string>
+    <string name="addon_manage_from_phone_subtitle">அட்ஆன்கள், கேட்டலாக்கள் மற்றும் தொகுப்புகளை நிர்வகிக்க உங்கள் தொலைபேசி அல்லது கணினியில் ஒரு வலைப்பக்கத்தைத் திறக்கவும்</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">அட்ஆன்களை நிறுவ அல்லது அகற்ற உங்கள் தொலைபேசி அல்லது கணினியில் ஒரு வலைப்பக்கத்தைத் திறக்கவும்</string>
+    <string name="addon_manage_collections_from_phone_subtitle">தொகுப்புகளை நிர்வகிக்க உங்கள் தொலைபேசி அல்லது கணினியில் ஒரு வலைப்பக்கத்தைத் திறக்கவும்</string>
     <string name="addon_reorder_title">முகப்பு கேட்டலாக்களை மறுவரிசைப்படுத்து</string>
     <string name="addon_reorder_subtitle">முகப்பில் கேட்டலாக் மற்றும் தொகுப்பு வரிசை ஒழுங்கை கட்டுப்படுத்துகிறது (கிளாசிக் + மாடர்ன் + கிரிட்)</string>
-    <string name="addon_qr_scan_instruction">அட்ஆன்கள், கேட்டலாக்கள் மற்றும் தொகுப்புகளை நிர்வகிக்க உங்கள் தொலைபேசியில் ஸ்கேன் செய்யவும்</string>
-    <string name="addon_qr_addons_only_scan_instruction">அட்ஆன்களை நிறுவ அல்லது அகற்ற உங்கள் தொலைபேசியில் ஸ்கேன் செய்யவும்</string>
-    <string name="addon_qr_collections_scan_instruction">தொகுப்புகளை நிர்வகிக்க உங்கள் தொலைபேசியில் ஸ்கேன் செய்யவும்</string>
+    <string name="addon_qr_scan_instruction">அட்ஆன்கள், கேட்டலாக்கள் மற்றும் தொகுப்புகளை நிர்வகிக்க, அதே Wi-Fi-இல் உள்ள தொலைபேசி அல்லது கணினியின் உலாவியில் இந்த முகவரியைத் திறக்கவும்</string>
+    <string name="addon_qr_addons_only_scan_instruction">அட்ஆன்களை நிறுவ அல்லது அகற்ற, அதே Wi-Fi-இல் உள்ள உலாவியில் இந்த முகவரியைத் திறக்கவும்</string>
+    <string name="addon_qr_collections_scan_instruction">தொகுப்புகளை நிர்வகிக்க, அதே Wi-Fi-இல் உள்ள உலாவியில் இந்த முகவரியைத் திறக்கவும்</string>
     <string name="addon_qr_close">மூடு</string>
     <string name="addon_confirm_title">அட்ஆன் &amp; கேட்டலாக் மாற்றங்களை உறுதிப்படுத்து</string>
     <string name="addon_confirm_subtitle">உங்கள் தொலைபேசியில் இருந்து பின்வரும் மாற்றங்கள் செய்யப்பட்டன:</string>
@@ -1434,8 +1434,8 @@
     <string name="account_loading">ஏற்றப்படுகிறது\u2026</string>
     <string name="account_sync_description">உங்கள் நூலகம், பார்த்த முன்னேற்றம், அடான்கள் மற்றும் பிளகின்களை சாதனங்கள் முழுவதும் ஒத்திசைக்கவும்.</string>
     <string name="account_sync_restart_note">செயலில் உள்ள சாதனங்களுக்கு இடையில் ஒத்திசைவு உடனடி அல்ல. உள்நுழைந்த பிறகு அல்லது வேறு இடத்தில் செய்யப்பட்ட மாற்றங்களை பெற இந்த சாதனத்தை மீண்டும் தொடங்கவும்.</string>
-    <string name="account_signin_qr_title">க்யூஆர் மூலம் உள்நுழை</string>
-    <string name="account_signin_qr_subtitle">க்யூஆர் குறியீட்டை ஸ்கேன் செய்து உங்கள் கைபேசியில் மின்னஞ்சல் உள்நுழைவை முடிக்கவும்</string>
+    <string name="account_signin_qr_title">குறியீட்டுடன் உள்நுழை</string>
+    <string name="account_signin_qr_subtitle">உள்நுழைய உங்கள் தொலைபேசி அல்லது கணினியில் ஒரு குறியீட்டை உள்ளிடவும்</string>
     <string name="account_signed_in_label">உள்நுழைந்தது</string>
     <string name="account_total_label">மொத்தம்</string>
     <string name="account_loading_sync">ஒத்திசைவு தரவு ஏற்றப்படுகிறது\u2026</string>
@@ -1443,22 +1443,22 @@
 
     <!-- AuthSignInScreen -->
     <string name="auth_signin_title">உள்நுழை</string>
-    <string name="auth_signin_tv_disabled">தொலைக்காட்சியில் மின்னஞ்சல்/கடவுச்சொல் உள்ளீடு முடக்கப்பட்டுள்ளது. க்யூஆர் உள்நுழைவை தொடரவும்.</string>
-    <string name="auth_signin_qr_btn">க்யூஆர் மூலம் தொடர்க</string>
+    <string name="auth_signin_tv_disabled">இந்தச் சேவையகத்தில் மின்னஞ்சல்/கடவுச்சொல் உள்நுழைவு முடக்கப்பட்டுள்ளது. குறியீட்டு உள்நுழைவுடன் தொடரவும்.</string>
+    <string name="auth_signin_qr_btn">குறியீட்டுடன் தொடர்க</string>
 
     <!-- AuthQrSignInScreen -->
-    <string name="auth_qr_title">க்யூஆர் மூலம் உள்நுழை</string>
+    <string name="auth_qr_title">குறியீட்டுடன் உள்நுழை</string>
     <string name="auth_qr_finishing">உள்நுழைவு முடிக்கப்படுகிறது\u2026</string>
     <string name="auth_qr_code_label">குறியீடு: %1$s</string>
     <string name="auth_qr_expires">காலாவதி ஆகும் நேரம் %1$s</string>
-    <string name="auth_qr_scan_instruction">க்யூஆரை ஸ்கேன் செய்து, உலாவியில் ஒப்புதல் அளித்து, பின்னர் இங்கு திரும்பவும்.</string>
+    <string name="auth_qr_scan_instruction">உங்கள் தொலைபேசி அல்லது கணினியில், கீழே உள்ள இணைப்புக்குச் சென்று குறியீட்டை உள்ளிடவும்.</string>
     <string name="auth_qr_code_display">குறியீடு: %1$s</string>
-    <string name="auth_qr_refresh">க்யூஆர் புதுப்பி</string>
+    <string name="auth_qr_refresh">புதிய குறியீடு</string>
     <string name="auth_qr_continue_without_account">கணக்கு இல்லாமல் தொடர்க</string>
-    <string name="auth_qr_connected">இந்த தொலைக்காட்சியில் உங்கள் கணக்கு இணைக்கப்பட்டுள்ளது.</string>
+    <string name="auth_qr_connected">இந்த ஹெட்செட்டில் உங்கள் கணக்கு இணைக்கப்பட்டுள்ளது.</string>
     <string name="auth_qr_synced_data">உங்கள் ஒத்திசைக்கப்பட்ட தரவு</string>
-    <string name="auth_qr_generating">க்யூஆர் உருவாக்கப்படுகிறது\u2026</string>
-    <string name="auth_qr_unavailable">க்யூஆர் கிடைக்கவில்லை. மீண்டும் முயல புதுப்பிக்கவும்.</string>
+    <string name="auth_qr_generating">குறியீடு உருவாக்கப்படுகிறது…</string>
+    <string name="auth_qr_unavailable">குறியீடு கிடைக்கவில்லை. மீண்டும் முயல புதிய குறியீட்டைக் கோரவும்.</string>
     <string name="auth_qr_please_wait">தயவு செய்து காத்திருக்கவும்\u2026</string>
     <string name="auth_qr_continue">தொடர்க</string>
     <string name="auth_qr_back">பின்செல்</string>
@@ -1495,8 +1495,8 @@
     <string name="plugin_add_repository">களஞ்சியம் சேர்</string>
     <string name="plugin_add_btn">சேர்</string>
     <string name="plugin_manage_from_phone_title">கைபேசியில் இருந்து நிர்வகிக்கவும்</string>
-    <string name="plugin_manage_from_phone_subtitle">உங்கள் கைபேசியில் இருந்து களஞ்சியங்களை சேர்க்க அல்லது அகற்ற க்யூஆர் குறியீட்டை ஸ்கேன் செய்யவும்</string>
-    <string name="plugin_qr_instruction">களஞ்சியங்களை நிர்வகிக்க உங்கள் கைபேசியில் ஸ்கேன் செய்யவும்</string>
+    <string name="plugin_manage_from_phone_subtitle">களஞ்சியங்களைச் சேர்க்க அல்லது அகற்ற உங்கள் தொலைபேசி அல்லது கணினியில் ஒரு வலைப்பக்கத்தைத் திறக்கவும்</string>
+    <string name="plugin_qr_instruction">களஞ்சியங்களை நிர்வகிக்க, அதே Wi-Fi-இல் உள்ள உலாவியில் இந்த முகவரியைத் திறக்கவும்</string>
     <string name="plugin_qr_close">மூடு</string>
     <string name="plugin_confirm_title">களஞ்சிய மாற்றங்களை உறுதிப்படுத்து</string>
     <string name="plugin_confirm_subtitle">பின்வரும் மாற்றங்கள் உங்கள் கைபேசியில் இருந்து செய்யப்பட்டன:</string>
@@ -1823,7 +1823,7 @@
     <string name="collections_editor_pin_above">கேட்டலாக்களின் மேல் நிலைநிறுத்து</string>
     <string name="collections_editor_pin_above_desc">இந்த தொகுப்பை அனைத்து வழக்கமான முகப்பு கேட்டலாக்களின் மேல் காட்டு. பல நிலைநிறுத்தப்பட்ட தொகுப்புகள் உருவாக்க வரிசையைப் பின்பற்றும்.</string>
     <string name="collections_editor_focus_glow">கவன ஒளிர்வு</string>
-    <string name="collections_editor_focus_glow_desc">இந்த தொகுப்பின் முகப்புத்திரை தனிப்பயன் கேட்டலாக் அட்டைகளில் இயல்பான டிவி ஒளிர்வைப் பயன்படுத்து</string>
+    <string name="collections_editor_focus_glow_desc">இந்தத் தொகுப்பின் முகப்புத்திரை தனிப்பயன் கேட்டலாக் அட்டைகளில் ஃபோகஸ் ஒளிர்வைப் பயன்படுத்து</string>
     <string name="collections_editor_view_mode">காட்சி முறை</string>
     <string name="collections_editor_show_all_tab">\"அனைத்தும்\" தாவலை காட்டு</string>
     <string name="collections_editor_show_all_tab_desc">அனைத்து கேட்டலாக்களையும் ஒரு தாவலாக இணை</string>
@@ -2266,4 +2266,26 @@
     <string name="trakt_comments_error_request_failed">ட்ராக்ட் கருத்துகள் கோரிக்கை தோல்வியடைந்தது</string>
     <string name="trakt_library_error_fetch_list_items">பட்டியல் உருப்படிகளைப் பெற முடியவில்லை</string>
 
+    <!-- NuvioVR -->
+    <string name="supporter_membership_scan_support">உறுப்பினர் நிலையை ஆன்லைனில் காண்க</string>
+    <string name="supporter_membership_scan_manage">உறுப்பினர் நிலையை ஆன்லைனில் நிர்வகி</string>
+    <string name="custom_poster_qr_instruction">போஸ்டர் URL வடிவத்தை ஒட்ட, அதே Wi-Fi-இல் உள்ள உலாவியில் இந்த முகவரியைத் திறக்கவும்</string>
+    <string name="mdblist_awaiting_instruction">கீழே உள்ள முகவரிக்குச் சென்று இந்தக் குறியீட்டை உள்ளிடவும்.</string>
+    <string name="debrid_device_auth_instructions">Nuvio-வை அங்கீகரிக்க, உங்கள் தொலைபேசி அல்லது கணினியில் இந்த முகவரிக்குச் சென்று குறியீட்டை உள்ளிடவும்.</string>
+    <string name="debrid_formatter_qr_instruction">Debrid மூல அமைப்புகளை உள்ளமைக்க, அதே Wi-Fi-இல் உள்ள உலாவியில் இந்த முகவரியைத் திறக்கவும்.</string>
+    <string name="stream_badge_qr_instruction">Fusion பேட்ஜ் URL-களை நிர்வகிக்க, அதே Wi-Fi-இல் உள்ள உலாவியில் இந்த முகவரியைத் திறக்கவும்.</string>
+    <string name="profile_copy_settings_setup_subtitle">புதிதாகத் தொடங்கவும் அல்லது மற்றொரு சுயவிவரத்தின் அமைப்புகளை ஒருமுறை நகலெடுக்கவும்.</string>
+    <string name="profile_copy_settings_subtitle">மூல சுயவிவரத்தைத் தேர்ந்தெடுக்கவும். அதன் ஆதரிக்கப்படும் அமைப்புகள் இந்தச் சுயவிவரத்தின் அமைப்புகளை ஒருமுறை மாற்றியமைக்கும்.</string>
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">உங்கள் ஹெட்செட்டில் சூழல் மற்றும் திரை</string>
+    <string name="vr_settings_environment">சூழல்</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">மெய்நிகர் சூழலுக்குப் பதிலாக உங்கள் உண்மையான அறையைக் காட்டு. குறிப்பு: விரைவாக மாற Y-ஐ அழுத்தவும்.</string>
+    <string name="vr_dim_playback_title">இயக்கத்தின்போது சூழலை மங்கச்செய்</string>
+    <string name="vr_dim_playback_subtitle">காணொளி இயங்கும்போது, திரையரங்கில் இருப்பது போல வானத்தையும் தரையையும் இருட்டாக்கு.</string>
+    <string name="vr_settings_screen">திரை</string>
+    <string name="vr_recenter_title">திரையை மீண்டும் மையப்படுத்து</string>
+    <string name="vr_recenter_subtitle">திரையை மீண்டும் உங்கள் முன்னால் கொண்டு வா.</string>
+    <string name="player_vr_passthrough_on">சுற்றுப்புறத்தைக் காட்டு</string>
+    <string name="player_vr_passthrough_off">சுற்றுப்புறத்தை மறை</string>
 </resources>

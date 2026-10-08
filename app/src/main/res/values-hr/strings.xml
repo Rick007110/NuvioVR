@@ -19,26 +19,26 @@
     <string name="web_home_catalogs">Katalozi i kolekcije na početnom zaslonu</string>
     <string name="web_no_catalogs">Nema dostupnih kataloga za početni zaslon</string>
     <string name="web_btn_save">Spremi promjene</string>
-    <string name="web_connection_lost">Veza s TV-om je izgubljena</string>
+    <string name="web_connection_lost">Veza s VR naočalama je prekinuta</string>
     <string name="web_btn_remove">Ukloni</string>
     <string name="web_badge_new">Novo</string>
     <string name="web_badge_disabled">Onemogućeno</string>
     <string name="web_btn_enable">Omogući</string>
     <string name="web_btn_disable">Onemogući</string>
     <string name="web_error_addon_exists">Ovaj dodatak je već na popisu</string>
-    <string name="web_status_waiting_tv">Čeka se TV</string>
-    <string name="web_status_msg_waiting_tv">Potvrdi promjene na TV-u kako bi se primijenile.</string>
+    <string name="web_status_waiting_tv">Čeka se odgovor VR naočala</string>
+    <string name="web_status_msg_waiting_tv">Potvrdi promjene u VR naočalama kako bi se primijenile.</string>
     <string name="web_status_changes_applied">Promjene primijenjene</string>
-    <string name="web_status_msg_addon_updated">Konfiguracija dodataka ažurirana je na TV-u.</string>
-    <string name="web_status_msg_repo_updated">Konfiguracija repozitorija ažurirana je na TV-u.</string>
+    <string name="web_status_msg_addon_updated">Konfiguracija tvojih dodataka ažurirana je u NuvioVR-u.</string>
+    <string name="web_status_msg_repo_updated">Konfiguracija tvojih repozitorija ažurirana je u NuvioVR-u.</string>
     <string name="web_status_changes_rejected">Promjene odbijene</string>
-    <string name="web_status_msg_changes_rejected">Promjene su odbijene na TV-u. Popis je vraćen na prethodno stanje.</string>
+    <string name="web_status_msg_changes_rejected">Promjene su odbijene u VR naočalama. Tvoj popis je vraćen na prethodno stanje.</string>
     <string name="web_status_error">Nešto je pošlo po zlu</string>
-    <string name="web_error_failed_save">Spremanje nije uspjelo. Provjeri vezu s TV-om.</string>
+    <string name="web_error_failed_save">Spremanje nije uspjelo. Provjeri vezu s VR naočalama.</string>
     <string name="web_btn_dismiss">Odbaci</string>
     <string name="web_status_timeout">Isteklo vrijeme</string>
-    <string name="web_status_msg_timeout">TV ne odgovara. Pokušaj ponovno.</string>
-    <string name="web_status_msg_connection_lost">TV poslužitelj više nije dostupan. Promjene su možda primijenjene.</string>
+    <string name="web_status_msg_timeout">Nema odgovora od VR naočala. Pokušaj ponovno.</string>
+    <string name="web_status_msg_connection_lost">NuvioVR poslužitelj više nije dostupan. Promjene su možda primijenjene.</string>
     <string name="web_manage_repos_title">Upravljanje repozitorijima</string>
     <string name="web_manage_repos_subtitle">Upravljaj svojim repozitorijima</string>
     <string name="web_add_repo_url">Dodaj repozitorij putem URL-a</string>
@@ -47,7 +47,7 @@
     <string name="web_error_repo_exists">Ovaj repozitorij je već na popisu</string>
     <string name="web_manage_collections_title">Upravljanje kolekcijama</string>
     <string name="web_manage_collections_subtitle">Stvori i upravljaj vlastitim kolekcijama</string>
-    <string name="web_status_msg_collections_updated">Kolekcije su ažurirane na TV-u.</string>
+    <string name="web_status_msg_collections_updated">Tvoje kolekcije ažurirane su u NuvioVR-u.</string>
     <string name="web_tab_addons">Dodaci</string>
     <string name="web_tab_home_layout">Izgled početnog zaslona</string>
     <string name="web_tab_collections">Kolekcije</string>
@@ -419,15 +419,15 @@
     <string name="about_licenses_attributions">Licence i atribucije</string>
     <string name="about_licenses_attributions_subtitle">Izvori podataka, zahvale i Android licence</string>
     <string name="licenses_attributions_title">Licence i atribucije</string>
-    <string name="licenses_attributions_subtitle">Pružatelji podataka, zasluge za usluge i Android licence za reprodukciju koje koristi Nuvio TV.</string>
+    <string name="licenses_attributions_subtitle">Pružatelji podataka, zasluge za usluge i Android licence za reprodukciju koje koristi NuvioVR.</string>
     <string name="licenses_attributions_section_app">LICENCA APLIKACIJE</string>
     <string name="licenses_attributions_section_data">PODACI I USLUGE</string>
     <string name="licenses_attributions_section_playback">ANDROID LICENCE ZA REPRODUKCIJU</string>
     <string name="licenses_attributions_section_ui">UI BIBLIOTEKE</string>
     <string name="licenses_attributions_haze_title">Haze 1.7.2</string>
     <string name="licenses_attributions_haze_body">Koristi se za efekte zamućenja pozadine. Autor: Chris Banes. Licencirano pod Apache licencom, verzija 2.0.</string>
-    <string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-    <string name="licenses_attributions_nuvio_body">Izvorni kôd i uvjeti licence dostupni su u repozitoriju projekta. Licencirano pod GNU General Public License v3.0.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">Temelji se na aplikaciji Nuvio TV tvrtke Nuvio Media. Izvorni kôd i licencni uvjeti dostupni su u repozitoriju projekta. Licencirano pod GNU General Public License v3.0.</string>
     <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
     <string name="licenses_attributions_tmdb_body">Nuvio koristi TMDB API za metapodatke o filmovima i serijama, grafike, trailere, glumce, produkcijske detalje, kolekcije i preporuke. Ovaj proizvod koristi TMDB API, ali ga TMDB ne podržava niti certificira.</string>
     <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -536,13 +536,13 @@
     <string name="account_error_password_too_weak">Lozinka je preslaba.</string>
     <string name="account_error_signup_disabled">Registracija je trenutno onemogućena.</string>
     <string name="account_error_rate_limited">Previše pokušaja. Pokušaj ponovno kasnije.</string>
-    <string name="account_error_qr_login_expired">QR prijava je istekla. Pokušaj ponovno.</string>
-    <string name="account_error_invalid_qr_login">Neispravan kôd za QR prijavu.</string>
-    <string name="account_error_qr_login_other_device">Ova QR prijava zatražena je s drugog uređaja.</string>
-    <string name="account_error_qr_login_outdated">Usluga QR prijave je zastarjela. Ponovno primijeni SQL postavke za TV prijavu.</string>
-    <string name="account_error_qr_login_missing_setup">Backendu za QR prijavu nedostaju postavke. Ažuriraj SQL postavke za TV prijavu.</string>
-    <string name="account_error_qr_login_misconfigured">URL za QR prijavu nije ispravno konfiguriran.</string>
-    <string name="account_error_qr_login_invalid_request">Zahtjev za QR prijavu bio je neispravan. Pokušaj ponovno.</string>
+    <string name="account_error_qr_login_expired">Kôd za prijavu je istekao. Pokušaj ponovno.</string>
+    <string name="account_error_invalid_qr_login">Nevažeći kôd za prijavu.</string>
+    <string name="account_error_qr_login_other_device">Ovaj kôd za prijavu zatražen je s drugog uređaja.</string>
+    <string name="account_error_qr_login_outdated">Usluga prijave uređaja je zastarjela. Ponovno primijeni SQL postavke za prijavu uređaja.</string>
+    <string name="account_error_qr_login_missing_setup">Pozadinskom sustavu za prijavu uređaja nedostaju postavke. Ažuriraj SQL postavke za prijavu uređaja.</string>
+    <string name="account_error_qr_login_misconfigured">URL za prijavu nije ispravno konfiguriran.</string>
+    <string name="account_error_qr_login_invalid_request">Zahtjev za prijavu nije bio valjan. Pokušaj ponovno.</string>
     <string name="account_error_no_internet">Nema internetske veze.</string>
     <string name="account_error_connection_timeout">Veza je istekla. Pokušaj ponovno.</string>
     <string name="account_error_connection_refused">Nije moguće povezati se s poslužiteljem.</string>
@@ -649,7 +649,7 @@
     <string name="action_close">Zatvori</string>
 
     <string name="supporters_contributors_title">Podrži Nuvio</string>
-    <string name="supporters_contributors_subtitle">Ljudi koji podržavaju Nuvio i suradnici koji ga razvijaju na TV-u i mobitelima.</string>
+    <string name="supporters_contributors_subtitle">Ljudi koji podržavaju Nuvio i suradnici koji ga razvijaju na TV-u, mobitelima i VR-u.</string>
     <string name="supporters_contributors_supporters_copy">Podupiratelji i donatori pomažu da projekt napreduje, financiraju infrastrukturu i omogućuju ambiciozne značajke.</string>
     <string name="supporters_contributors_donate_copy">Nuvio će ostati besplatan i otvorenog koda. Ako želiš podržati projekt, možeš pomoći pokriti vrijeme i infrastrukturu iza njega.</string>
     <string name="supporters_contributors_donation_progress_title">Poslužitelji i održavanje ovog mjeseca</string>
@@ -676,9 +676,9 @@
     <string name="supporter_membership_tier_supporter_plus">Podupiratelj Plus</string>
     <string name="supporter_membership_connected_title">Patreon je povezan</string>
     <string name="supporter_membership_connected_description">Na ovom Patreon računu nije pronađena aktivna Nuvio razina. Pogledaj dostupne opcije ili osvježi nakon promjene Patreon članstva.</string>
-    <string name="supporter_membership_scan_support">Skeniraj za prikaz članstva</string>
+    <string name="supporter_membership_scan_support">Pogledaj članstvo online</string>
     <string name="supporter_membership_scan_support_description">Otvori stranicu članstva za podupiratelje na mobitelu.</string>
-    <string name="supporter_membership_scan_manage">Skeniraj za upravljanje članstvom</string>
+    <string name="supporter_membership_scan_manage">Upravljaj članstvom online</string>
     <string name="supporter_membership_scan_manage_description">Otvori postavke Patreon članstva na mobitelu.</string>
     <string name="cd_membership_qr">QR kôd stranice članstva</string>
     <string name="supporters_tab">Podupiratelji</string>
@@ -704,8 +704,8 @@
     <string name="contributors_error_title">Nije moguće učitati suradnike</string>
     <string name="contributors_total_contributions">Ukupno doprinosa: %1$d</string>
     <string name="contributors_open_github">Otvori GitHub profil</string>
-    <string name="contributors_show_kofi_qr">Prikaži Ko-fi QR</string>
-    <string name="contributors_hide_kofi_qr">Sakrij Ko-fi QR</string>
+    <string name="contributors_show_kofi_qr">Prikaži Ko-fi poveznicu</string>
+    <string name="contributors_hide_kofi_qr">Sakrij Ko-fi poveznicu</string>
     <string name="contributors_profile_unavailable">Poveznica na GitHub profil nije dostupna.</string>
 
     <string name="playback_section_player_title">Player</string>
@@ -817,7 +817,7 @@
     <string name="audio_enable_downmix_title">Omogući downmix</string>
     <string name="audio_enable_downmix_subtitle">Koristi FFmpeg downmix. Zahtijeva opciju Preferiraj dekodere aplikacije (FFmpeg). Kada je isključeno, zvuk ide prethodnim Android/uređajnim putem.</string>
     <string name="audio_tunneled">Tunelirana reprodukcija</string>
-    <string name="audio_tunneled_sub">Sinkronizacija zvuka i slike na razini hardvera. Može poboljšati reprodukciju na nekim Android TV uređajima</string>
+    <string name="audio_tunneled_sub">Sinkronizacija zvuka i slike na razini hardvera. Može poboljšati reprodukciju na nekim uređajima</string>
     <string name="audio_force_optical_passthrough">Prisilno AC-3 transkodiranje (optički/SPDIF)</string>
     <string name="audio_force_optical_passthrough_sub">U stvarnom vremenu transkodira višekanalne formate (TrueHD, DTS, AAC itd.) u Dolby Digital 5.1 za optičke/SPDIF veze.</string>
     <!-- DV7 način obrade -->
@@ -1133,7 +1133,7 @@
     <string name="layout_custom_poster_clear">Očisti</string>
     <string name="layout_custom_poster_active">✓ Prilagođeni izvor postera je aktivan</string>
     <string name="layout_custom_poster_qr">Konfiguriraj putem mobitela</string>
-    <string name="custom_poster_qr_instruction">Skeniraj QR kôd mobitelom i zalijepi uzorak URL-a postera</string>
+    <string name="custom_poster_qr_instruction">Otvori ovu adresu u pregledniku na istoj Wi-Fi mreži i zalijepi uzorak URL-a postera</string>
 
     <!-- Prilagođeni URL postera - prekidači zaslona -->
     <string name="layout_custom_poster_screen_home">Početna</string>
@@ -1169,7 +1169,7 @@
     <string name="mdblist_connected_as">Povezano kao %1$s</string>
     <string name="mdblist_account_fallback">MDBList korisnik</string>
     <string name="mdblist_insufficient_scope">MDBList nije dao dopuštenje za ažuriranje povijesti gledanja. Ponovno se poveži i dopusti pristup za pisanje.</string>
-    <string name="mdblist_awaiting_instruction">Skeniraj QR kôd ili unesi ovaj kôd na adresi ispod.</string>
+    <string name="mdblist_awaiting_instruction">Idi na adresu ispod i unesi ovaj kôd.</string>
     <string name="mdblist_qr_description">QR kôd za povezivanje MDBList računa</string>
     <string name="mdblist_status_enter_code">Odobri povezivanje u svom MDBList računu.</string>
     <string name="mdblist_status_syncing">Sinkronizacija povijesti gledanja i napretka reprodukcije…</string>
@@ -1259,7 +1259,7 @@
     <string name="debrid_disconnect">Prekini vezu</string>
     <string name="debrid_device_auth_connected">%1$s je povezan na ovom uređaju.</string>
     <string name="debrid_device_auth_starting">Pokretanje sigurne prijave...</string>
-    <string name="debrid_device_auth_instructions">Skeniraj QR i unesi ovaj kôd za odobrenje Nuvija.</string>
+    <string name="debrid_device_auth_instructions">Otvori ovu adresu na mobitelu ili računalu i unesi kôd za odobrenje Nuvija.</string>
     <string name="debrid_device_auth_code_copied">Kôd kopiran.</string>
     <string name="debrid_device_auth_waiting">Čeka se odobrenje...</string>
     <string name="debrid_device_auth_failed">Nije moguće pokrenuti prijavu.</string>
@@ -1347,7 +1347,7 @@
     <string name="debrid_formatter_configure">Otvori web uređivač</string>
     <string name="debrid_formatter_reset_title">Poništi oblikovanje</string>
     <string name="debrid_formatter_reset_subtitle">Vrati zadano oblikovanje izvora.</string>
-    <string name="debrid_formatter_qr_instruction">Skeniraj ovaj QR kôd mobitelom za konfiguraciju postavki Debrid izvora.</string>
+    <string name="debrid_formatter_qr_instruction">Otvori ovu adresu u pregledniku na istoj Wi-Fi mreži za konfiguriranje postavki Debrid izvora.</string>
     <string name="settings_stream_badges_section">Fusion stil</string>
     <string name="settings_stream_size_badges_title">Oznake veličine</string>
     <string name="settings_stream_size_badges_description">Prikaži oznake veličine datoteke u rezultatima streamova i pločama izvora u playeru.</string>
@@ -1376,7 +1376,7 @@
     <string name="settings_fusion_badge_preview_empty">Na ovom URL-u nema slika oznaka u Fusion stilu.</string>
     <string name="settings_fusion_badge_group_title">Grupa %1$d</string>
     <string name="settings_fusion_badge_other_group_title">Ostale Fusion oznake</string>
-    <string name="stream_badge_qr_instruction">Skeniraj ovaj QR kôd mobitelom za upravljanje URL-ovima Fusion oznaka.</string>
+    <string name="stream_badge_qr_instruction">Otvori ovu adresu u pregledniku na istoj Wi-Fi mreži za upravljanje URL-ovima Fusion oznaka.</string>
     <string name="streams_size">VELIČINA %1$s</string>
     <string name="action_import">Uvezi</string>
     <string name="action_delete">Izbriši</string>
@@ -1434,14 +1434,14 @@
     <string name="trakt_waiting_approval">Čeka se odobrenje…</string>
     <string name="qr_login_approved">Prijava odobrena. Dovršavanje prijave…</string>
     <string name="qr_login_pending">Čeka se odobrenje na mobitelu…</string>
-    <string name="qr_login_expired">QR prijava je istekla. Generiraj novi kôd.</string>
-    <string name="qr_login_preparing">Priprema QR prijave...</string>
+    <string name="qr_login_expired">Kôd za prijavu je istekao. Zatraži novi kôd.</string>
+    <string name="qr_login_preparing">Priprema koda za prijavu…</string>
     <string name="qr_login_device_auth_failed">Autentifikacija uređaja nije uspjela</string>
-    <string name="qr_login_scan_prompt">Skeniraj QR i prijavi se na mobitelu</string>
-    <string name="qr_login_start_failed">Pokretanje QR prijave nije uspjelo</string>
+    <string name="qr_login_scan_prompt">Otvori poveznicu i unesi kôd na mobitelu ili računalu</string>
+    <string name="qr_login_start_failed">Pokretanje prijave kodom nije uspjelo</string>
     <string name="qr_login_signing_in">Prijava u tijeku…</string>
     <string name="qr_login_success">Prijava uspješna</string>
-    <string name="qr_login_exchange_failed">Nije moguće dovršiti QR prijavu</string>
+    <string name="qr_login_exchange_failed">Prijavu kodom nije moguće dovršiti</string>
     <string name="trakt_code_expires">Kôd istječe za %1$s</string>
     <string name="trakt_token_refreshes">Trakt pristupni token osvježava se za %1$s</string>
     <string name="trakt_login_instruction">Pritisni Prijava za pokretanje Trakt autentifikacije uređaja. Ovdje će se pojaviti QR kôd.</string>
@@ -1590,13 +1590,13 @@
     <string name="profile_save">Spremi</string>
     <string name="profile_copy_settings_label">Kopiraj postavke</string>
     <string name="profile_copy_settings_setup_title">Postavke profila</string>
-    <string name="profile_copy_settings_setup_subtitle">Kreni ispočetka ili jednokratno kopiraj TV postavke s drugog profila.</string>
+    <string name="profile_copy_settings_setup_subtitle">Kreni ispočetka ili jednokratno kopiraj postavke iz drugog profila.</string>
     <string name="profile_copy_settings_start_fresh">Kreni ispočetka</string>
     <string name="profile_copy_settings_primary_source">%1$s (primarni)</string>
     <string name="profile_copy_settings_create_fresh">Postavke: ispočetka</string>
     <string name="profile_copy_settings_create_source">Postavke: %1$s</string>
     <string name="profile_copy_settings_title">Kopiraj postavke u %1$s</string>
-    <string name="profile_copy_settings_subtitle">Odaberi izvorni profil. Njegove podržane TV postavke jednokratno će zamijeniti postavke ovog profila.</string>
+    <string name="profile_copy_settings_subtitle">Odaberi izvorni profil. Njegove podržane postavke jednokratno će zamijeniti postavke ovog profila.</string>
     <string name="profile_copy_settings_from">Kopiraj iz</string>
     <string name="profile_copy_settings_action">Kopiraj postavke</string>
     <string name="profile_copy_settings_copying">Kopiranje\u2026</string>
@@ -1648,7 +1648,7 @@
     <!-- Čarobnjak za osnovno postavljanje dodataka -->
     <string name="essential_addon_setup_title">Postavi dodatke</string>
     <string name="essential_addon_setup_subtitle">Instaliraj jedan dodatak za početak streamanja. Više ih možeš dodati kasnije u Dodacima.</string>
-    <string name="essential_addon_show_qr">Prikaži QR</string>
+    <string name="essential_addon_show_qr">Upravljaj s mobitela</string>
     <!-- Zamjenske vrijednosti uređivača kolekcija -->
     <string name="collection_editor_no_trakt_lists_found">Nisu pronađeni Trakt popisi</string>
     <string name="collection_editor_untitled_folder">Bez naslova</string>
@@ -1672,14 +1672,14 @@
     <string name="addon_delete_yes">Da</string>
     <string name="addons_badge_disabled">Onemogućeno</string>
     <string name="addon_manage_from_phone_title">Upravljaj s mobitela</string>
-    <string name="addon_manage_from_phone_subtitle">Skeniraj QR kôd za upravljanje dodacima, katalozima i kolekcijama s mobitela</string>
-    <string name="addon_manage_addons_only_from_phone_subtitle">Skeniraj QR kôd za instaliranje ili uklanjanje dodataka s mobitela</string>
-    <string name="addon_manage_collections_from_phone_subtitle">Skeniraj QR kôd za upravljanje kolekcijama s mobitela</string>
+    <string name="addon_manage_from_phone_subtitle">Otvori web-stranicu na mobitelu ili računalu za upravljanje dodacima, katalozima i kolekcijama</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">Otvori web-stranicu na mobitelu ili računalu za instaliranje ili uklanjanje dodataka</string>
+    <string name="addon_manage_collections_from_phone_subtitle">Otvori web-stranicu na mobitelu ili računalu za upravljanje kolekcijama</string>
     <string name="addon_reorder_title">Promijeni redoslijed kataloga na početnom zaslonu</string>
     <string name="addon_reorder_subtitle">Određuje redoslijed redova kataloga i kolekcija na početnom zaslonu (Klasični + Moderni + Mrežni)</string>
-    <string name="addon_qr_scan_instruction">Skeniraj mobitelom za upravljanje dodacima, katalozima i kolekcijama</string>
-    <string name="addon_qr_addons_only_scan_instruction">Skeniraj mobitelom za instaliranje ili uklanjanje dodataka</string>
-    <string name="addon_qr_collections_scan_instruction">Skeniraj mobitelom za upravljanje kolekcijama</string>
+    <string name="addon_qr_scan_instruction">Otvori ovu adresu u pregledniku na mobitelu ili računalu spojenom na istu Wi-Fi mrežu za upravljanje dodacima, katalozima i kolekcijama</string>
+    <string name="addon_qr_addons_only_scan_instruction">Otvori ovu adresu u pregledniku na istoj Wi-Fi mreži za instaliranje ili uklanjanje dodataka</string>
+    <string name="addon_qr_collections_scan_instruction">Otvori ovu adresu u pregledniku na istoj Wi-Fi mreži za upravljanje kolekcijama</string>
     <string name="addon_qr_close">Zatvori</string>
     <string name="addon_confirm_title">Potvrdi promjene dodataka i kataloga</string>
     <string name="addon_confirm_subtitle">S mobitela su napravljene sljedeće promjene:</string>
@@ -2133,8 +2133,8 @@
     <string name="account_loading">Učitavanje\u2026</string>
     <string name="account_sync_description">Sinkroniziraj biblioteku, napredak gledanja, dodatke i pluginove na svim uređajima.</string>
     <string name="account_sync_restart_note">Sinkronizacija nije u stvarnom vremenu između aktivnih uređaja. Ponovno pokreni ovaj uređaj nakon prijave ili za preuzimanje promjena napravljenih drugdje.</string>
-    <string name="account_signin_qr_title">Prijava putem QR-a</string>
-    <string name="account_signin_qr_subtitle">Skeniraj QR kôd i dovrši prijavu e-mailom na mobitelu</string>
+    <string name="account_signin_qr_title">Prijava kodom</string>
+    <string name="account_signin_qr_subtitle">Unesi kôd na mobitelu ili računalu za prijavu</string>
     <string name="account_signin_email_title">Prijava</string>
     <string name="account_signin_email_subtitle">Unesi e-mail i lozinku računa na vlastitom poslužitelju</string>
     <string name="account_signed_in_label">Prijava aktivna</string>
@@ -2153,8 +2153,8 @@
     <string name="account_unknown_device">Nepoznati uređaj</string>
 
     <string name="auth_signin_title">Prijava</string>
-    <string name="auth_signin_tv_disabled">Unos e-maila/lozinke na TV-u je onemogućen. Nastavi s QR prijavom.</string>
-    <string name="auth_signin_qr_btn">Nastavi s QR-om</string>
+    <string name="auth_signin_tv_disabled">Prijava e-poštom i lozinkom onemogućena je na ovom poslužitelju. Nastavi s prijavom kodom.</string>
+    <string name="auth_signin_qr_btn">Nastavi s kodom</string>
     <string name="auth_email_hint">Prijavi se izravno računom na svom vlastitom poslužitelju.</string>
     <string name="auth_email_instruction">Unesi e-mail i lozinku za nastavak.</string>
     <string name="auth_email_placeholder">E-mail adresa</string>
@@ -2202,20 +2202,20 @@
     <string name="custom_server_session_clear_failed">Nije moguće sigurno očistiti trenutnu sesiju. Poslužitelj nije promijenjen.</string>
     <string name="custom_server_restart_failed">Poslužitelj je spremljen, ali aplikacija se nije mogla automatski ponovno pokrenuti. Pokreni je ponovno ručno.</string>
 
-    <string name="auth_qr_title">Prijava putem QR-a</string>
+    <string name="auth_qr_title">Prijava kodom</string>
     <string name="auth_qr_tagline">Gledaj svoju biblioteku bilo gdje</string>
     <string name="auth_qr_finishing">Dovršavanje prijave\u2026</string>
     <string name="auth_qr_code_label">Kôd: %1$s</string>
     <string name="auth_qr_expires">Istječe za %1$s</string>
-    <string name="auth_qr_scan_instruction">Skeniraj QR kôd ili unesi kratki kôd u pregledniku.</string>
+    <string name="auth_qr_scan_instruction">Na mobitelu ili računalu otvori poveznicu ispod i unesi kôd.</string>
     <string name="auth_qr_code_display">Kôd: %1$s</string>
     <string name="auth_qr_manual_instruction">Ili idi na %1$s i unesi</string>
-    <string name="auth_qr_refresh">Osvježi QR</string>
+    <string name="auth_qr_refresh">Novi kôd</string>
     <string name="auth_qr_continue_without_account">Nastavi bez računa</string>
-    <string name="auth_qr_connected">Tvoj račun je povezan na ovom TV-u.</string>
+    <string name="auth_qr_connected">Tvoj račun je povezan na ovim VR naočalama.</string>
     <string name="auth_qr_synced_data">Tvoji sinkronizirani podaci</string>
-    <string name="auth_qr_generating">Generiranje QR-a\u2026</string>
-    <string name="auth_qr_unavailable">QR nije dostupan. Osvježi za ponovni pokušaj.</string>
+    <string name="auth_qr_generating">Generiranje koda…</string>
+    <string name="auth_qr_unavailable">Kôd nije dostupan. Zatraži novi kôd za ponovni pokušaj.</string>
     <string name="auth_qr_please_wait">Pričekaj\u2026</string>
     <string name="auth_qr_continue">Nastavi</string>
     <string name="auth_qr_back">Natrag</string>
@@ -2254,8 +2254,8 @@
     <string name="plugin_add_repository">Dodaj repozitorij</string>
     <string name="plugin_add_btn">Dodaj</string>
     <string name="plugin_manage_from_phone_title">Upravljaj s mobitela</string>
-    <string name="plugin_manage_from_phone_subtitle">Skeniraj QR kôd za dodavanje ili uklanjanje repozitorija s mobitela</string>
-    <string name="plugin_qr_instruction">Skeniraj mobitelom za upravljanje repozitorijima</string>
+    <string name="plugin_manage_from_phone_subtitle">Otvori web-stranicu na mobitelu ili računalu za dodavanje ili uklanjanje repozitorija</string>
+    <string name="plugin_qr_instruction">Otvori ovu adresu u pregledniku na istoj Wi-Fi mreži za upravljanje repozitorijima</string>
     <string name="plugin_qr_close">Zatvori</string>
     <string name="plugin_confirm_title">Potvrdi promjene repozitorija</string>
     <string name="plugin_confirm_subtitle">S mobitela su napravljene sljedeće promjene:</string>
@@ -2544,7 +2544,7 @@
     <string name="collections_editor_pin_above">Prikvači iznad kataloga</string>
     <string name="collections_editor_pin_above_desc">Prikaži ovu kolekciju iznad svih uobičajenih kataloga na početnom zaslonu. Više prikvačenih kolekcija prati redoslijed stvaranja.</string>
     <string name="collections_editor_focus_glow">Sjaj fokusa</string>
-    <string name="collections_editor_focus_glow_desc">Koristi nativni TV sjaj na prilagođenim karticama kataloga ove kolekcije na početnom zaslonu</string>
+    <string name="collections_editor_focus_glow_desc">Koristi sjaj fokusa na prilagođenim karticama kataloga ove kolekcije na početnom zaslonu</string>
     <string name="collections_editor_view_mode">Način prikaza</string>
     <string name="collections_editor_show_all_tab">Prikaži karticu \"Sve\"</string>
     <string name="collections_editor_show_all_tab_desc">Spoji sve kataloge u jednu karticu</string>
@@ -3310,4 +3310,17 @@
     <string name="shuffle_save_failed">Nije moguće ažurirati nasumičnu reprodukciju. Pokušaj ponovno.</string>
     <string name="shuffle_change_selection">Odaberi epizode</string>
     <string name="shuffle_badge">Nasumična reprodukcija epizoda uključena</string>
+    <!-- NuvioVR -->
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">Okruženje i zaslon u VR naočalama</string>
+    <string name="vr_settings_environment">Okruženje</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">Prikaži svoju stvarnu sobu umjesto virtualnog okruženja. Savjet: pritisni Y za brzo prebacivanje.</string>
+    <string name="vr_dim_playback_title">Zatamni okruženje tijekom reprodukcije</string>
+    <string name="vr_dim_playback_subtitle">Zatamni nebo i pod dok se videozapis reproducira, kao u kinu.</string>
+    <string name="vr_settings_screen">Zaslon</string>
+    <string name="vr_recenter_title">Ponovno centriraj zaslon</string>
+    <string name="vr_recenter_subtitle">Vrati zaslon ispred sebe.</string>
+    <string name="player_vr_passthrough_on">Prikaži okolinu</string>
+    <string name="player_vr_passthrough_off">Sakrij okolinu</string>
 </resources>

@@ -19,26 +19,26 @@
     <string name="web_home_catalogs">Ana Sayfa Katalogları</string>
     <string name="web_no_catalogs">Ana sayfa kataloğu mevcut değil</string>
     <string name="web_btn_save">Değişiklikleri Kaydet</string>
-    <string name="web_connection_lost">TV bağlantısı koptu</string>
+    <string name="web_connection_lost">Gözlükle bağlantı kesildi</string>
     <string name="web_btn_remove">Kaldır</string>
     <string name="web_badge_new">Yeni</string>
     <string name="web_badge_disabled">Devre Dışı</string>
     <string name="web_btn_enable">Etkinleştir</string>
     <string name="web_btn_disable">Devre Dışı</string>
     <string name="web_error_addon_exists">Bu eklenti zaten listede var</string>
-    <string name="web_status_waiting_tv">TV Bekleniyor</string>
-    <string name="web_status_msg_waiting_tv">Değişiklikleri uygulamak için lütfen TV\'nizden onaylayın.</string>
+    <string name="web_status_waiting_tv">Gözlük Bekleniyor</string>
+    <string name="web_status_msg_waiting_tv">Değişiklikleri uygulamak için lütfen gözlüğünüzden onaylayın.</string>
     <string name="web_status_changes_applied">Değişiklikler Uygulandı</string>
-    <string name="web_status_msg_addon_updated">Eklenti yapılandırmanız TV\'de güncellendi.</string>
-    <string name="web_status_msg_repo_updated">Uzantı deposu yapılandırmanız TV\'de güncellendi.</string>
+    <string name="web_status_msg_addon_updated">Eklenti yapılandırmanız NuvioVR\'de güncellendi.</string>
+    <string name="web_status_msg_repo_updated">Uzantı deposu yapılandırmanız NuvioVR\'de güncellendi.</string>
     <string name="web_status_changes_rejected">Değişiklikler Reddedildi</string>
-    <string name="web_status_msg_changes_rejected">Değişiklikler TV\'de reddedildi. Listeniz eski haline döndürüldü.</string>
+    <string name="web_status_msg_changes_rejected">Değişiklikler gözlükte reddedildi. Listeniz eski haline döndürüldü.</string>
     <string name="web_status_error">Bir Şeyler Ters Gitti</string>
-    <string name="web_error_failed_save">Kaydedilemedi. TV ile bağlantınızı kontrol edin.</string>
+    <string name="web_error_failed_save">Kaydedilemedi. Gözlükle bağlantınızı kontrol edin.</string>
     <string name="web_btn_dismiss">Kapat</string>
     <string name="web_status_timeout">Zaman Aşımı</string>
-    <string name="web_status_msg_timeout">TV\'den yanıt alınamadı. Lütfen tekrar deneyin.</string>
-    <string name="web_status_msg_connection_lost">TV sunucusuna artık ulaşılamıyor. Değişiklikler uygulanmış olabilir.</string>
+    <string name="web_status_msg_timeout">Gözlükten yanıt alınamadı. Lütfen tekrar deneyin.</string>
+    <string name="web_status_msg_connection_lost">NuvioVR sunucusuna artık ulaşılamıyor. Değişiklikler uygulanmış olabilir.</string>
     <string name="web_manage_repos_title">Uzantı Depolarını Yönet</string>
     <string name="web_manage_repos_subtitle">Uzantı depolarınızı yönetin</string>
     <string name="web_add_repo_url">URL ile uzantı deposu ekle</string>
@@ -47,7 +47,7 @@
     <string name="web_error_repo_exists">Bu uzantı deposu zaten listede var</string>
     <string name="web_manage_collections_title">Koleksiyonları Yönet</string>
     <string name="web_manage_collections_subtitle">Özel koleksiyonlarınızı oluşturun ve düzenleyin</string>
-    <string name="web_status_msg_collections_updated">Koleksiyonlarınız TV\'de güncellendi.</string>
+    <string name="web_status_msg_collections_updated">Koleksiyonlarınız NuvioVR\'de güncellendi.</string>
     <string name="web_tab_addons">Eklentiler</string>
     <string name="web_tab_home_layout">Ana Sayfa Düzeni</string>
     <string name="web_tab_collections">Koleksiyonlar</string>
@@ -419,15 +419,15 @@
     <string name="about_licenses_attributions">Lisanslar ve Atıflar</string>
     <string name="about_licenses_attributions_subtitle">Veri kaynakları, teşekkürler ve Android lisansları</string>
     <string name="licenses_attributions_title">Lisanslar ve Atıflar</string>
-    <string name="licenses_attributions_subtitle">Nuvio TV tarafından kullanılan veri sağlayıcıları, hizmet kredileri ve Android oynatma lisansları.</string>
+    <string name="licenses_attributions_subtitle">NuvioVR tarafından kullanılan veri sağlayıcıları, hizmet kredileri ve Android oynatma lisansları.</string>
     <string name="licenses_attributions_section_app">UYGULAMA LİSANSI</string>
     <string name="licenses_attributions_section_data">VERİ VE HİZMETLER</string>
     <string name="licenses_attributions_section_playback">ANDROID OYNATMA LİSANSLARI</string>
     <string name="licenses_attributions_section_ui">ARAYÜZ KÜTÜPHANELERİ</string>
     <string name="licenses_attributions_haze_title">Haze 1.7.2</string>
     <string name="licenses_attributions_haze_body">Arka plan bulanıklık efektleri için kullanılır. Chris Banes tarafından oluşturulmuştur. Apache License, Version 2.0 altında lisanslanmıştır.</string>
-    <string name="licenses_attributions_nuvio_title">Nuvio TV</string>
-    <string name="licenses_attributions_nuvio_body">Kaynak kodu ve lisans koşulları proje deposunda mevcuttur. GNU Genel Kamu Lisansı v3.0 altında lisanslanmıştır.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">Nuvio Media tarafından geliştirilen Nuvio TV\'yi temel alır. Kaynak kodu ve lisans koşulları proje deposunda mevcuttur. GNU General Public License v3.0 altında lisanslanmıştır.</string>
     <string name="licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
     <string name="licenses_attributions_tmdb_body">Nuvio, film ve dizi meta verileri, görseller, fragmanlar, oyuncular, yapım detayları, koleksiyonlar ve öneriler için TMDB API\'sini kullanır. Bu ürün TMDB API\'sini kullanır ancak TMDB tarafından onaylanmamıştır veya sertifikalandırılmamıştır.</string>
     <string name="licenses_attributions_trakt_title">Trakt</string>
@@ -538,13 +538,13 @@
     <string name="account_error_password_too_weak">Şifre çok zayıf.</string>
     <string name="account_error_signup_disabled">Kayıt şu an kapalı.</string>
     <string name="account_error_rate_limited">Çok fazla deneme. Lütfen biraz sonra tekrar deneyin.</string>
-    <string name="account_error_qr_login_expired">QR giriş süresi doldu. Lütfen tekrar deneyin.</string>
-    <string name="account_error_invalid_qr_login">Geçersiz QR giriş kodu.</string>
-    <string name="account_error_qr_login_other_device">Bu QR girişi başka bir cihazdan istendi.</string>
-    <string name="account_error_qr_login_outdated">QR giriş hizmeti güncel değil. TV giriş SQL kurulumunu yeniden uygulayın.</string>
-    <string name="account_error_qr_login_missing_setup">QR giriş arka ucu eksik. TV giriş SQL kurulumunu güncelleyin.</string>
-    <string name="account_error_qr_login_misconfigured">QR giriş URL\'si hatalı yapılandırılmış.</string>
-    <string name="account_error_qr_login_invalid_request">QR giriş isteği geçersizdi. Lütfen tekrar deneyin.</string>
+    <string name="account_error_qr_login_expired">Giriş kodunun süresi doldu. Lütfen tekrar deneyin.</string>
+    <string name="account_error_invalid_qr_login">Geçersiz giriş kodu.</string>
+    <string name="account_error_qr_login_other_device">Bu giriş kodu başka bir cihazdan istendi.</string>
+    <string name="account_error_qr_login_outdated">Cihaz girişi hizmeti güncel değil. Cihaz girişi SQL kurulumunu yeniden uygulayın.</string>
+    <string name="account_error_qr_login_missing_setup">Cihaz girişi arka ucunun kurulumu eksik. Cihaz girişi SQL kurulumunu güncelleyin.</string>
+    <string name="account_error_qr_login_misconfigured">Giriş URL\'si hatalı yapılandırılmış.</string>
+    <string name="account_error_qr_login_invalid_request">Giriş isteği geçersizdi. Lütfen tekrar deneyin.</string>
     <string name="account_error_no_internet">İnternet bağlantısı yok.</string>
     <string name="account_error_connection_timeout">Bağlantı zaman aşımına uğradı. Lütfen tekrar deneyin.</string>
     <string name="account_error_connection_refused">Sunucuya bağlanılamadı.</string>
@@ -654,7 +654,7 @@
 
     <!-- SupportersContributorsScreen -->
     <string name="supporters_contributors_title">Destekleyenler ve Katkıda Bulunanlar</string>
-    <string name="supporters_contributors_subtitle">Nuvio\'nun arkasındaki güç: Projeyi destekleyenler ile TV ve mobil uygulamaları geliştiren ekip.</string>
+    <string name="supporters_contributors_subtitle">Nuvio\'yu destekleyenler ve onu TV, mobil ve VR için geliştiren katkıda bulunanlar.</string>
     <string name="supporters_contributors_supporters_copy">Bağışçı ve destekçilerimiz, projenin sürekliliğini sağlıyor, altyapı maliyetlerini karşılıyor ve yepyeni özellikler için bize alan yaratıyor.</string>
     <string name="supporters_contributors_donate_copy">Nuvio tamamen ücretsiz ve açık kaynak kalmaya devam edecektir. Ancak projeye destek olmak isterseniz, geliştirme süremi ve altyapı giderlerini karşılamama yardımcı olabilirsiniz.</string>
     <string name="supporters_contributors_donation_progress_title">Bu ayki sunucu ve bakım masrafları</string>
@@ -681,9 +681,9 @@
     <string name="supporter_membership_tier_supporter_plus">Destekçi Plus</string>
     <string name="supporter_membership_connected_title">Patreon bağlandı</string>
     <string name="supporter_membership_connected_description">Bu Patreon hesabında aktif bir Nuvio seviyesi bulunamadı. Mevcut seçenekleri görüntüleyin veya Patreon üyeliğinizi değiştirdikten sonra yenileyin.</string>
-    <string name="supporter_membership_scan_support">Üyeliği görüntülemek için taratın</string>
+    <string name="supporter_membership_scan_support">Üyeliği çevrimiçi görüntüle</string>
     <string name="supporter_membership_scan_support_description">Telefonunuzda Destekçi Üyeliği sayfasını açın.</string>
-    <string name="supporter_membership_scan_manage">Üyeliği yönetmek için taratın</string>
+    <string name="supporter_membership_scan_manage">Üyeliği çevrimiçi yönet</string>
     <string name="supporter_membership_scan_manage_description">Telefonunuzda Patreon üyelik ayarlarını açın.</string>
     <string name="cd_membership_qr">Üyelik sayfası QR kodu</string>
     <string name="supporters_tab">Destekleyenler</string>
@@ -709,8 +709,8 @@
     <string name="contributors_error_title">Katkıda bulunanlar listesi yüklenemedi</string>
     <string name="contributors_total_contributions">Toplam %1$d katkı</string>
     <string name="contributors_open_github">GitHub Profiline Git</string>
-    <string name="contributors_show_kofi_qr">Ko-fi QR Kodunu Göster</string>
-    <string name="contributors_hide_kofi_qr">Ko-fi QR Kodunu Gizle</string>
+    <string name="contributors_show_kofi_qr">Ko-fi Bağlantısını Göster</string>
+    <string name="contributors_hide_kofi_qr">Ko-fi Bağlantısını Gizle</string>
     <string name="contributors_profile_unavailable">Bu kişinin GitHub profiline ulaşılamıyor.</string>
     <string name="playback_section_player_title">Oynatıcı</string>
     <string name="playback_section_player_title_desc">Varsayılan oynatıcı, dahili motor ve hata durumunda alternatif oynatıcı.</string>
@@ -825,7 +825,7 @@
     <string name="audio_enable_downmix_title">Downmix\'i etkinleştir</string>
     <string name="audio_enable_downmix_subtitle">FFmpeg downmix yolunu kullanır. Uygulama kod çözücülerini (FFmpeg) tercih et seçeneğini gerektirir. Devre dışı bırakıldığında ses önceki Android/cihaz yolunu takip eder.</string>
     <string name="audio_tunneled">Tünelli Oynatma</string>
-    <string name="audio_tunneled_sub">Donanım seviyesinde ses/video senkronizasyonu. Bazı Android TV cihazlarında performansı artırabilir</string>
+    <string name="audio_tunneled_sub">Donanım seviyesinde ses/video senkronizasyonu. Bazı cihazlarda oynatmayı iyileştirebilir</string>
     <string name="audio_force_optical_passthrough">AC-3 Dönüştürmeyi Zorla (Optik/SPDIF)</string>
     <string name="audio_force_optical_passthrough_sub">Çok kanallı ses biçimlerini (TrueHD, DTS, AAC vb.) optik/SPDIF bağlantıları için gerçek zamanlı olarak Dolby Digital 5.1\'e dönüştürür.</string>
     <!-- DV7 Handling Mode -->
@@ -1158,7 +1158,7 @@
     <string name="layout_custom_poster_clear">Temizle</string>
     <string name="layout_custom_poster_active">✓ Özel poster kaynağı etkin</string>
     <string name="layout_custom_poster_qr">Telefon ile Yapılandır</string>
-    <string name="custom_poster_qr_instruction">Telefonunuzla QR kodu tarayarak bir poster URL şablonu yapıştırın</string>
+    <string name="custom_poster_qr_instruction">Bir poster URL şablonu yapıştırmak için bu adresi aynı Wi-Fi ağındaki bir tarayıcıda açın</string>
     <string name="layout_custom_poster_screen_home">Ana Sayfa</string>
     <string name="layout_custom_poster_screen_continue_watching">İzlemeye Devam Et</string>
     <string name="layout_custom_poster_screen_collections">Koleksiyonlar</string>
@@ -1188,7 +1188,7 @@
     <string name="mdblist_connected_as">%1$s olarak bağlı</string>
     <string name="mdblist_account_fallback">MDBList kullanıcısı</string>
     <string name="mdblist_insufficient_scope">MDBList izleme geçmişini güncelleme izni vermedi. Yeniden bağlanın ve yazma erişimine izin verin.</string>
-    <string name="mdblist_awaiting_instruction">QR kodu tarayın veya aşağıdaki adreste bu kodu girin.</string>
+    <string name="mdblist_awaiting_instruction">Aşağıdaki adrese gidin ve bu kodu girin.</string>
     <string name="mdblist_qr_description">MDBList hesabınızı bağlamak için QR kodu</string>
     <string name="mdblist_status_enter_code">Bağlantıyı MDBList hesabınızda onaylayın.</string>
     <string name="mdblist_status_syncing">İzleme geçmişi ve oynatma ilerlemesi eşitleniyor…</string>
@@ -1280,7 +1280,7 @@
     <string name="debrid_disconnect">Bağlantıyı Kes</string>
     <string name="debrid_device_auth_connected">%1$s bu cihaza bağlandı.</string>
     <string name="debrid_device_auth_starting">Güvenli giriş başlatılıyor...</string>
-    <string name="debrid_device_auth_instructions">Nuvio\'yu onaylamak için QR kodu taratın ve bu kodu girin.</string>
+    <string name="debrid_device_auth_instructions">Nuvio\'yu onaylamak için telefonunuzda veya bilgisayarınızda bu adrese gidin ve kodu girin.</string>
     <string name="debrid_device_auth_code_copied">Kod kopyalandı.</string>
     <string name="debrid_device_auth_waiting">Onay bekleniyor...</string>
     <string name="debrid_device_auth_failed">Giriş başlatıladı.</string>
@@ -1367,7 +1367,7 @@
     <string name="debrid_formatter_configure">Web düzenleyiciyi aç</string>
     <string name="debrid_formatter_reset_title">Biçimlendirmeyi sıfırla</string>
     <string name="debrid_formatter_reset_subtitle">Varsayılan kaynak biçimlendirmesini geri yükleyin.</string>
-    <string name="debrid_formatter_qr_instruction">Debrid kaynak ayarlarını yapılandırmak için bu QR kodu telefonunuzda taratın.</string>
+    <string name="debrid_formatter_qr_instruction">Debrid kaynak ayarlarını yapılandırmak için bu adresi aynı Wi-Fi ağındaki bir tarayıcıda açın.</string>
     <string name="settings_stream_badges_section">Fusion Tarzı</string>
     <string name="settings_stream_size_badges_title">Boyut etiketleri</string>
     <string name="settings_stream_size_badges_description">Yayın sonuçlarında ve oynatıcı kaynak panellerinde dosya boyutu etiketlerini gösterir.</string>
@@ -1396,7 +1396,7 @@
     <string name="settings_fusion_badge_preview_empty">Bu URL\'de Fusion tarzı etiket görseli yok.</string>
     <string name="settings_fusion_badge_group_title">Grup %1$d</string>
     <string name="settings_fusion_badge_other_group_title">Diğer Fusion etiketleri</string>
-    <string name="stream_badge_qr_instruction">Fusion etiket URL\'lerini yönetmek için telefonunuzdan bu QR kodu taratın.</string>
+    <string name="stream_badge_qr_instruction">Fusion etiket URL\'lerini yönetmek için bu adresi aynı Wi-Fi ağındaki bir tarayıcıda açın.</string>
     <string name="streams_size">BOYUT %1$s</string>
     <string name="action_import">İçe Aktar</string>
     <string name="action_delete">Sil</string>
@@ -1456,14 +1456,14 @@
     <string name="trakt_waiting_approval">Onay bekleniyor…</string>
     <string name="qr_login_approved">Giriş onaylandı. Oturum açılıyor…</string>
     <string name="qr_login_pending">Telefonunuzdan onay vermeniz bekleniyor…</string>
-    <string name="qr_login_expired">QR kodun süresi doldu. Yeni bir kod oluşturun.</string>
-    <string name="qr_login_preparing">QR giriş hazırlanıyor...</string>
+    <string name="qr_login_expired">Giriş kodunun süresi doldu. Yeni bir kod isteyin.</string>
+    <string name="qr_login_preparing">Giriş kodu hazırlanıyor…</string>
     <string name="qr_login_device_auth_failed">Cihaz doğrulaması başarısız</string>
-    <string name="qr_login_scan_prompt">QR kodu tarayın ve telefonunuzdan giriş yapın</string>
-    <string name="qr_login_start_failed">QR ile giriş başlatılamadı</string>
+    <string name="qr_login_scan_prompt">Telefonunuzda veya bilgisayarınızda bağlantıya gidin ve kodu girin</string>
+    <string name="qr_login_start_failed">Kodla giriş başlatılamadı</string>
     <string name="qr_login_signing_in">Giriş yapılıyor…</string>
     <string name="qr_login_success">Giriş başarılı</string>
-    <string name="qr_login_exchange_failed">QR ile giriş tamamlanamadı</string>
+    <string name="qr_login_exchange_failed">Kodla giriş tamamlanamadı</string>
     <string name="trakt_code_expires">Kodun süresi %1$s sonra dolacak</string>
     <string name="trakt_token_refreshes">Trakt erişim jetonu %1$s içinde yenilenir</string>
     <string name="trakt_login_instruction">Trakt cihazı kimlik doğrulamasını başlatmak için Giriş\'e basın. Burada bir QR kodu görünecektir.</string>
@@ -1607,13 +1607,13 @@
     <string name="profile_save">Değişiklikleri Kaydet</string>
     <string name="profile_copy_settings_label">Ayarları Kopyala</string>
     <string name="profile_copy_settings_setup_title">Profil Ayarları</string>
-    <string name="profile_copy_settings_setup_subtitle">Sıfırdan başlayın veya başka bir profilin TV ayarlarını bir kez kopyalayın.</string>
+    <string name="profile_copy_settings_setup_subtitle">Sıfırdan başlayın veya başka bir profilin ayarlarını bir kez kopyalayın.</string>
     <string name="profile_copy_settings_start_fresh">Sıfırdan Başla</string>
     <string name="profile_copy_settings_primary_source">%1$s (Ana)</string>
     <string name="profile_copy_settings_create_fresh">Ayarlar: Sıfırdan başla</string>
     <string name="profile_copy_settings_create_source">Ayarlar: %1$s</string>
     <string name="profile_copy_settings_title">Ayarları %1$s Profiline Kopyala</string>
-    <string name="profile_copy_settings_subtitle">Kaynak profili seçin. Desteklenen TV ayarları bu profilin ayarlarının yerini bir kez alır.</string>
+    <string name="profile_copy_settings_subtitle">Kaynak profili seçin. Desteklenen ayarları bu profilin ayarlarının yerini bir kez alır.</string>
     <string name="profile_copy_settings_from">Şuradan kopyala</string>
     <string name="profile_copy_settings_action">Ayarları Kopyala</string>
     <string name="profile_copy_settings_copying">Kopyalanıyor…</string>
@@ -1665,7 +1665,7 @@
     <!-- Essential addon setup wizard -->
     <string name="essential_addon_setup_title">Eklentileri ayarla</string>
     <string name="essential_addon_setup_subtitle">Yayın başlatmak için bir eklenti kurun. Daha fazlasını Eklentiler bölümünden ekleyebilirsiniz.</string>
-    <string name="essential_addon_show_qr">QR göster</string>
+    <string name="essential_addon_show_qr">Telefondan yönet</string>
     <!-- Collection editor fallbacks -->
     <string name="collection_editor_no_trakt_lists_found">Trakt listesi bulunamadı</string>
     <string name="collection_editor_untitled_folder">İsimsiz</string>
@@ -1689,14 +1689,14 @@
     <string name="addon_delete_yes">Evet</string>
     <string name="addons_badge_disabled">Kapalı</string>
     <string name="addon_manage_from_phone_title">Telefondan Yönet</string>
-    <string name="addon_manage_from_phone_subtitle">Telefondan eklentileri ve ana sayfa kataloglarını yönetmek için QR kodunu tayın</string>
-    <string name="addon_manage_addons_only_from_phone_subtitle">Eklenti yüklemek veya kaldırmak için telefonunuzdan QR kodu tarayın</string>
-    <string name="addon_manage_collections_from_phone_subtitle">Telefondan koleksiyonları yönetmek için QR kodunu tayın</string>
+    <string name="addon_manage_from_phone_subtitle">Eklentileri, katalogları ve koleksiyonları yönetmek için telefonunuzda veya bilgisayarınızda bir web sayfası açın</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">Eklenti yüklemek veya kaldırmak için telefonunuzda veya bilgisayarınızda bir web sayfası açın</string>
+    <string name="addon_manage_collections_from_phone_subtitle">Koleksiyonları yönetmek için telefonunuzda veya bilgisayarınızda bir web sayfası açın</string>
     <string name="addon_reorder_title">Ana Sayfa Kataloglarını Yeniden Sırala</string>
     <string name="addon_reorder_subtitle">Ana sayfadaki (Klasik/Modern/Grid) katalog sıralamasını yönet</string>
-    <string name="addon_qr_scan_instruction">Eklenti ve katalogları yönetmek için telefonla bu kodu tarayın</string>
-    <string name="addon_qr_addons_only_scan_instruction">Eklenti yüklemek veya kaldırmak için telefonunuzla tarayın</string>
-    <string name="addon_qr_collections_scan_instruction">Koleksiyonları yönetmek için telefonla bu kodu tarayın</string>
+    <string name="addon_qr_scan_instruction">Eklentileri, katalogları ve koleksiyonları yönetmek için bu adresi aynı Wi-Fi ağındaki bir telefon veya bilgisayarın tarayıcısında açın</string>
+    <string name="addon_qr_addons_only_scan_instruction">Eklenti yüklemek veya kaldırmak için bu adresi aynı Wi-Fi ağındaki bir tarayıcıda açın</string>
+    <string name="addon_qr_collections_scan_instruction">Koleksiyonları yönetmek için bu adresi aynı Wi-Fi ağındaki bir tarayıcıda açın</string>
     <string name="addon_qr_close">Kapat</string>
     <string name="addon_confirm_title">Eklenti &amp; Katalog Değişikliklerini Onaylayın</string>
     <string name="addon_confirm_subtitle">Telefonunuzdan şu değişiklikler yapıldı:</string>
@@ -2148,8 +2148,8 @@
     <string name="account_loading">Yükleniyor\u2026</string>
     <string name="account_sync_description">Kütüphanenizi, görüntüleme ilerlemenizi, eklentilerinizi ve uzantılarınızı cihazlar arasında eşitleyin.</string>
     <string name="account_sync_restart_note">Eşitleme tüm cihazlarda anında gerçekleşmez. Hesabınıza girdikten veya başka bir yerde yaptığınız değişiklikleri görebilmek için cihazı yeniden başlatın.</string>
-    <string name="account_signin_qr_title">QR ile Oturum Aç</string>
-    <string name="account_signin_qr_subtitle">QR kodunu taratıp e-posta ile girişinizi telefondan tamamlayın</string>
+    <string name="account_signin_qr_title">Kodla Oturum Aç</string>
+    <string name="account_signin_qr_subtitle">Oturum açmak için telefonunuzda veya bilgisayarınızda bir kod girin</string>
     <string name="account_signin_email_title">Giriş Yap</string>
     <string name="account_signin_email_subtitle">Kendi sunucundaki hesabın e-posta ve şifresini gir</string>
     <string name="account_signed_in_label">Oturum açıldı</string>
@@ -2161,8 +2161,8 @@
 
     <!-- AuthSignInScreen -->
     <string name="auth_signin_title">Oturum Aç</string>
-    <string name="auth_signin_tv_disabled">TV\'de E-Posta / Parola girişi devre dışı. QR ile Giriş sekmesinden devam edin.</string>
-    <string name="auth_signin_qr_btn">QR Kod ile Devam Et</string>
+    <string name="auth_signin_tv_disabled">Bu sunucuda e-posta/parola ile giriş devre dışı. Kodla giriş ile devam edin.</string>
+    <string name="auth_signin_qr_btn">Kodla Devam Et</string>
     <string name="auth_email_hint">Kendi sunucundaki hesabınla doğrudan giriş yap.</string>
     <string name="auth_email_instruction">Devam etmek için e-posta ve şifreni gir.</string>
     <string name="auth_email_placeholder">E-posta adresi</string>
@@ -2211,20 +2211,20 @@
     <string name="custom_server_restart_failed">Sunucu kaydedildi ancak uygulama otomatik olarak yeniden başlatılamadı. Lütfen manuel olarak yeniden başlatın.</string>
 
     <!-- AuthQrSignInScreen -->
-    <string name="auth_qr_title">QR Kod ile Oturum Aç</string>
+    <string name="auth_qr_title">Kodla Oturum Aç</string>
     <string name="auth_qr_tagline">Kütüphaneni her yerden izle</string>
     <string name="auth_qr_finishing">Hesap doğrulanıyor\u2026</string>
     <string name="auth_qr_code_label">Kodunuz: %1$s</string>
     <string name="auth_qr_expires">Geçerlilik süresi doluyor: %1$s</string>
-    <string name="auth_qr_scan_instruction">QR kodunu tarayın, tarayıcıda onaylayın ve ardından buraya dönün.</string>
+    <string name="auth_qr_scan_instruction">Telefonunuzda veya bilgisayarınızda aşağıdaki bağlantıya gidin ve kodu girin.</string>
     <string name="auth_qr_code_display">Kod: %1$s</string>
     <string name="auth_qr_manual_instruction">Veya %1$s adresine gidin ve şunu girin</string>
-    <string name="auth_qr_refresh">QR Kodunu Yenile</string>
+    <string name="auth_qr_refresh">Yeni Kod</string>
     <string name="auth_qr_continue_without_account">Hesapsız devam et</string>
-    <string name="auth_qr_connected">Hesabınız bu TV\'ye bağlandı.</string>
+    <string name="auth_qr_connected">Hesabınız bu gözlüğe bağlandı.</string>
     <string name="auth_qr_synced_data">Senkronize edilmiş verileriniz</string>
-    <string name="auth_qr_generating">QR oluşturuluyor\u2026</string>
-    <string name="auth_qr_unavailable">QR kodu kullanılamıyor. Yeniden denemek için yenileyin.</string>
+    <string name="auth_qr_generating">Kod oluşturuluyor…</string>
+    <string name="auth_qr_unavailable">Kod kullanılamıyor. Yeniden denemek için yeni bir kod isteyin.</string>
     <string name="auth_qr_please_wait">Lütfen bekleyin\u2026</string>
     <string name="auth_qr_continue">Devam Et</string>
     <string name="auth_qr_back">Geri</string>
@@ -2259,8 +2259,8 @@
     <string name="plugin_add_repository">Depo ekle</string>
     <string name="plugin_add_btn">Ekle</string>
     <string name="plugin_manage_from_phone_title">Telefondan Yönet</string>
-    <string name="plugin_manage_from_phone_subtitle">Yeni bir uzantı deposu eklemek ya da silmek için telefondan kodu tarayın</string>
-    <string name="plugin_qr_instruction">Depoları yönetmek için bu adresi açıp kontrol edin</string>
+    <string name="plugin_manage_from_phone_subtitle">Uzantı deposu eklemek veya kaldırmak için telefonunuzda veya bilgisayarınızda bir web sayfası açın</string>
+    <string name="plugin_qr_instruction">Depoları yönetmek için bu adresi aynı Wi-Fi ağındaki bir tarayıcıda açın</string>
     <string name="plugin_qr_close">Kapat</string>
     <string name="plugin_confirm_title">Depo Değişikliklerini Uygula</string>
     <string name="plugin_confirm_subtitle">Telefon aracılığıyla aşağıdaki eşitleme başlatıldı:</string>
@@ -2834,7 +2834,7 @@
     <string name="collections_editor_pin_above">Katalogların Üstüne Sabitle</string>
     <string name="collections_editor_pin_above_desc">Bu koleksiyonu tüm normal ana sayfa kataloglarının üstünde göster. Birden fazla sabitlenmiş koleksiyon oluşturulma sırasını takip eder.</string>
     <string name="collections_editor_focus_glow">Odak Parlaması</string>
-    <string name="collections_editor_focus_glow_desc">Bu koleksiyonun Ana Sayfa özel katalog kartlarında TV\'ye özgü parlamayı kullan</string>
+    <string name="collections_editor_focus_glow_desc">Bu koleksiyonun Ana Sayfa özel katalog kartlarında odak parlamasını kullan</string>
     <string name="collections_editor_view_mode">Görünüm Modu</string>
     <string name="collections_editor_show_all_tab">\"Tümü\" Sekmesini Göster</string>
     <string name="collections_editor_show_all_tab_desc">Tüm katalogları tek bir sekmede birleştir</string>
@@ -3368,4 +3368,17 @@
     <string name="autosync_toast_failed_no_reference">Eşitleme başarısız: Bu videoda karşılaştırılacak gömülü altyazı yok.</string>
     <string name="autosync_toast_failed_unsupported">Eşitleme başarısız: Otomatik Eşitleme bu altyazı formatını desteklemiyor.</string>
     <string name="autosync_label_synced">Otomatik eşitlendi</string>
+    <!-- NuvioVR -->
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">Gözlüğünüzdeki ortam ve ekran</string>
+    <string name="vr_settings_environment">Ortam</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">Sanal ortam yerine gerçek odanızı gösterir. İpucu: Hızlıca geçiş yapmak için Y\'ye basın.</string>
+    <string name="vr_dim_playback_title">Oynatma sırasında ortamı karart</string>
+    <string name="vr_dim_playback_subtitle">Video oynatılırken gökyüzünü ve zemini sinemadaki gibi karartır.</string>
+    <string name="vr_settings_screen">Ekran</string>
+    <string name="vr_recenter_title">Ekranı yeniden ortala</string>
+    <string name="vr_recenter_subtitle">Ekranı tekrar önünüze getirir.</string>
+    <string name="player_vr_passthrough_on">Çevreyi göster</string>
+    <string name="player_vr_passthrough_off">Çevreyi gizle</string>
 </resources>

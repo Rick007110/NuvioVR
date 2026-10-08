@@ -193,7 +193,7 @@
     <string name="audio_decoder_prefer_app">Preferă decoderele aplicației (FFmpeg)</string>
     <string name="audio_decoder_priority">Prioritate decodor</string>
     <string name="audio_tunneled">Redare prin tunel</string>
-    <string name="audio_tunneled_sub">Sincronizare audio/video la nivel hardware. Poate îmbunătăți redarea pe unele dispozitive Android TV</string>
+    <string name="audio_tunneled_sub">Sincronizare audio/video la nivel hardware. Poate îmbunătăți redarea pe unele dispozitive</string>
     <string name="audio_decoder_device_only_desc">Folosește doar decodoarele hardware încorporate. Cele mai compatibile, dar s-ar putea să nu suporte toate formatele.</string>
     <string name="audio_decoder_prefer_device_desc">Folosește decodoarele hardware când sunt disponibile, revine la FFmpeg dacă nu. Recomandat pentru majoritatea dispozitivelor.</string>
     <string name="audio_decoder_prefer_app_desc">Folosește decodoarele FFmpeg când sunt disponibile. Compatibilitate mai bună a formatelor, dar consumă mai mult CPU.</string>
@@ -422,7 +422,7 @@
     <string name="trakt_waiting_approval">Aștept aprobare…</string>
     <string name="qr_login_approved">Autentificare aprobată. Se finalizează conectarea…</string>
     <string name="qr_login_pending">Aștept aprobare pe telefonul dvs.…</string>
-    <string name="qr_login_expired">Autentificarea QR a expirat. Generați un cod nou.</string>
+    <string name="qr_login_expired">Codul de autentificare a expirat. Solicitați un cod nou.</string>
     <string name="trakt_code_expires">Codul expiră în %1$s</string>
     <string name="trakt_token_refreshes">Tokenul de acces Trakt se reînnoiește în %1$s</string>
     <string name="trakt_login_instruction">Apăsați Autentificare pentru a începe autentificarea dispozitivului Trakt. Un cod QR va apărea aici.</string>
@@ -507,10 +507,10 @@
     <string name="addon_empty">Niciun complement instalat. Adaugă unul pentru a începe.</string>
     <string name="addon_remove">Înlătură</string>
     <string name="addon_manage_from_phone_title">Gestionează de pe telefon</string>
-    <string name="addon_manage_from_phone_subtitle">Scanează un cod QR pentru a gestiona complementele și cataloagele Home de pe telefon</string>
+    <string name="addon_manage_from_phone_subtitle">Deschideți o pagină web pe telefon sau computer pentru a gestiona complementele, cataloagele și colecțiile</string>
     <string name="addon_reorder_title">Rearanjează cataloagele Home</string>
     <string name="addon_reorder_subtitle">Controlează ordinea rândurilor din catalog pe Home (Clasic + Modern + Grilă)</string>
-    <string name="addon_qr_scan_instruction">Scanează cu telefonul pentru a gestiona complementele și cataloagele</string>
+    <string name="addon_qr_scan_instruction">Deschideți această adresă într-un browser pe un telefon sau computer din aceeași rețea Wi-Fi pentru a gestiona complementele, cataloagele și colecțiile</string>
     <string name="addon_qr_close">Închide</string>
     <string name="addon_confirm_title">Confirmă modificările de complement și catalog</string>
     <string name="addon_confirm_subtitle">Următoarele modificări au fost făcute de pe telefon:</string>
@@ -677,8 +677,8 @@
     <!-- AccountSettingsContent -->
     <string name="account_loading">Încărcare\u2026</string>
     <string name="account_sync_description">Sincronizați biblioteca, progresul vizionărilor, suplimentele și plugin-urile pe toate dispozitivele.</string>
-    <string name="account_signin_qr_title">Autentificare cu QR</string>
-    <string name="account_signin_qr_subtitle">Scanați un cod QR și finalizați autentificarea prin e‑mail pe telefon</string>
+    <string name="account_signin_qr_title">Autentificare cu cod</string>
+    <string name="account_signin_qr_subtitle">Introduceți un cod pe telefon sau computer pentru a vă autentifica</string>
     <string name="account_signed_in_label">Autentificat</string>
     <string name="account_total_label">Total</string>
     <string name="account_loading_sync">Încărcare date de sincronizare\u2026</string>
@@ -686,22 +686,22 @@
 
     <!-- AuthSignInScreen -->
     <string name="auth_signin_title">Autentificare</string>
-    <string name="auth_signin_tv_disabled">Introducerea de e‑mail/parolă pe TV este dezactivată. Continuați cu autentificarea prin QR.</string>
-    <string name="auth_signin_qr_btn">Continuați cu QR</string>
+    <string name="auth_signin_tv_disabled">Autentificarea cu e-mail/parolă este dezactivată pe acest server. Continuați cu autentificarea prin cod.</string>
+    <string name="auth_signin_qr_btn">Continuați cu un cod</string>
 
     <!-- AuthQrSignInScreen -->
-    <string name="auth_qr_title">Autentificare cu QR</string>
+    <string name="auth_qr_title">Autentificare cu cod</string>
     <string name="auth_qr_finishing">Se finalizează autentificarea\u2026</string>
     <string name="auth_qr_code_label">Cod: %1$s</string>
     <string name="auth_qr_expires">Expiră în %1$s</string>
-    <string name="auth_qr_scan_instruction">Scanați QR, aprobați în browser, apoi reveniți aici.</string>
+    <string name="auth_qr_scan_instruction">Pe telefon sau computer, accesați linkul de mai jos și introduceți codul.</string>
     <string name="auth_qr_code_display">Cod: %1$s</string>
-    <string name="auth_qr_refresh">Reîmprospătează QR</string>
+    <string name="auth_qr_refresh">Cod nou</string>
     <string name="auth_qr_continue_without_account">Continuă fără cont</string>
-    <string name="auth_qr_connected">Contul tău este conectat pe acest TV.</string>
+    <string name="auth_qr_connected">Contul tău este conectat pe această cască VR.</string>
     <string name="auth_qr_synced_data">Datele tale sincronizate</string>
-    <string name="auth_qr_generating">Se generează QR\u2026</string>
-    <string name="auth_qr_unavailable">QR indisponibil. Reîncarcă pentru a reîncerca.</string>
+    <string name="auth_qr_generating">Se generează codul…</string>
+    <string name="auth_qr_unavailable">Cod indisponibil. Solicitați un cod nou pentru a reîncerca.</string>
     <string name="auth_qr_please_wait">Vă rugăm așteptați\u2026</string>
     <string name="auth_qr_continue">Continuă</string>
     <string name="auth_qr_back">Înapoi</string>
@@ -734,8 +734,8 @@
     <string name="plugin_add_repository">Adaugă depozit</string>
     <string name="plugin_add_btn">Adaugă</string>
     <string name="plugin_manage_from_phone_title">Gestionează de pe telefon</string>
-    <string name="plugin_manage_from_phone_subtitle">Scanează un cod QR pentru a adăuga sau elimina depozite de pe telefonul tău</string>
-    <string name="plugin_qr_instruction">Scanează cu telefonul pentru a gestiona depozitele</string>
+    <string name="plugin_manage_from_phone_subtitle">Deschideți o pagină web pe telefon sau computer pentru a adăuga sau elimina depozite</string>
+    <string name="plugin_qr_instruction">Deschideți această adresă într-un browser din aceeași rețea Wi-Fi pentru a gestiona depozitele</string>
     <string name="plugin_qr_close">Închide</string>
     <string name="plugin_confirm_title">Confirmă modificările depozitelor</string>
     <string name="plugin_confirm_subtitle">Următoarele modificări au fost făcute de pe telefonul tău:</string>
@@ -836,4 +836,59 @@
     <string name="update_ignore">Ignoră</string>
       <string name="playback_player_auto">Automat (Cel mai bun pentru conținut)</string>
     <string name="playback_player_auto_desc">ExoPlayer pentru Filme și Seriale · MPV pentru Anime</string>
+    <!-- NuvioVR -->
+    <string name="web_connection_lost">Conexiunea cu casca VR s-a pierdut</string>
+    <string name="web_status_waiting_tv">Se așteaptă casca VR</string>
+    <string name="web_status_msg_waiting_tv">Confirmați modificările în casca VR pentru a le aplica.</string>
+    <string name="web_status_msg_addon_updated">Configurația complementelor a fost actualizată în NuvioVR.</string>
+    <string name="web_status_msg_repo_updated">Configurația depozitelor a fost actualizată în NuvioVR.</string>
+    <string name="web_status_msg_changes_rejected">Modificările au fost respinse în casca VR. Lista a fost readusă la starea anterioară.</string>
+    <string name="web_error_failed_save">Salvarea a eșuat. Verificați conexiunea cu casca VR.</string>
+    <string name="web_status_msg_timeout">Niciun răspuns de la casca VR. Încercați din nou.</string>
+    <string name="web_status_msg_connection_lost">Serverul NuvioVR nu mai poate fi accesat. Este posibil ca modificările să fi fost aplicate.</string>
+    <string name="web_status_msg_collections_updated">Colecțiile au fost actualizate în NuvioVR.</string>
+    <string name="licenses_attributions_subtitle">Furnizori de date, mențiuni pentru servicii și licențe de redare Android folosite de NuvioVR.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">Bazat pe Nuvio TV de la Nuvio Media. Codul sursă și termenii licenței sunt disponibili în depozitul proiectului. Licențiat sub GNU General Public License v3.0.</string>
+    <string name="account_error_qr_login_expired">Codul de autentificare a expirat. Încercați din nou.</string>
+    <string name="account_error_invalid_qr_login">Cod de autentificare nevalid.</string>
+    <string name="account_error_qr_login_other_device">Acest cod de autentificare a fost solicitat de pe alt dispozitiv.</string>
+    <string name="account_error_qr_login_outdated">Serviciul de autentificare pe dispozitiv este învechit. Aplicați din nou configurarea SQL pentru autentificarea pe dispozitiv.</string>
+    <string name="account_error_qr_login_missing_setup">Backendul de autentificare pe dispozitiv nu este configurat. Actualizați configurarea SQL pentru autentificarea pe dispozitiv.</string>
+    <string name="account_error_qr_login_misconfigured">URL-ul de autentificare este configurat greșit.</string>
+    <string name="account_error_qr_login_invalid_request">Cererea de autentificare nu a fost validă. Încercați din nou.</string>
+    <string name="supporters_contributors_subtitle">Oamenii care susțin Nuvio și contribuitorii care îl dezvoltă pentru TV, mobil și VR.</string>
+    <string name="supporter_membership_scan_support">Vezi abonamentul online</string>
+    <string name="supporter_membership_scan_manage">Gestionează abonamentul online</string>
+    <string name="contributors_show_kofi_qr">Afișează linkul Ko-fi</string>
+    <string name="contributors_hide_kofi_qr">Ascunde linkul Ko-fi</string>
+    <string name="custom_poster_qr_instruction">Deschideți această adresă într-un browser din aceeași rețea Wi-Fi pentru a lipi un model de URL pentru postere</string>
+    <string name="mdblist_awaiting_instruction">Accesați adresa de mai jos și introduceți acest cod.</string>
+    <string name="debrid_device_auth_instructions">Accesați această adresă pe telefon sau computer și introduceți codul pentru a aproba Nuvio.</string>
+    <string name="debrid_formatter_qr_instruction">Deschideți această adresă într-un browser din aceeași rețea Wi-Fi pentru a configura setările surselor Debrid.</string>
+    <string name="stream_badge_qr_instruction">Deschideți această adresă într-un browser din aceeași rețea Wi-Fi pentru a gestiona URL-urile insignelor Fusion.</string>
+    <string name="qr_login_preparing">Se pregătește codul de autentificare…</string>
+    <string name="qr_login_scan_prompt">Accesați linkul și introduceți codul pe telefon sau computer</string>
+    <string name="qr_login_start_failed">Autentificarea cu cod nu a putut fi pornită</string>
+    <string name="qr_login_exchange_failed">Autentificarea cu cod nu a putut fi finalizată</string>
+    <string name="profile_copy_settings_setup_subtitle">Începeți de la zero sau copiați o singură dată setările din alt profil.</string>
+    <string name="profile_copy_settings_subtitle">Alegeți un profil sursă. Setările acceptate ale acestuia vor înlocui o singură dată setările acestui profil.</string>
+    <string name="essential_addon_show_qr">Gestionează de pe telefon</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">Deschideți o pagină web pe telefon sau computer pentru a instala sau elimina complemente</string>
+    <string name="addon_manage_collections_from_phone_subtitle">Deschideți o pagină web pe telefon sau computer pentru a gestiona colecțiile</string>
+    <string name="addon_qr_addons_only_scan_instruction">Deschideți această adresă într-un browser din aceeași rețea Wi-Fi pentru a instala sau elimina complemente</string>
+    <string name="addon_qr_collections_scan_instruction">Deschideți această adresă într-un browser din aceeași rețea Wi-Fi pentru a gestiona colecțiile</string>
+    <string name="collections_editor_focus_glow_desc">Folosește strălucirea de focalizare pe cardurile de catalog personalizate ale acestei colecții de pe ecranul principal</string>
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">Mediul și ecranul din casca VR</string>
+    <string name="vr_settings_environment">Mediu</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">Afișează camera reală în locul mediului virtual. Sfat: apăsați Y pentru a comuta rapid.</string>
+    <string name="vr_dim_playback_title">Estompează mediul în timpul redării</string>
+    <string name="vr_dim_playback_subtitle">Întunecă cerul și podeaua cât timp rulează un videoclip, ca la cinema.</string>
+    <string name="vr_settings_screen">Ecran</string>
+    <string name="vr_recenter_title">Recentrează ecranul</string>
+    <string name="vr_recenter_subtitle">Readuce ecranul în fața ta.</string>
+    <string name="player_vr_passthrough_on">Afișează împrejurimile</string>
+    <string name="player_vr_passthrough_off">Ascunde împrejurimile</string>
 </resources>

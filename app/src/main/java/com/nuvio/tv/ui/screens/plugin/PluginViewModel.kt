@@ -7,7 +7,6 @@ import com.nuvio.tv.R
 import com.nuvio.tv.core.plugin.PluginManager
 import com.nuvio.tv.core.plugin.PluginSafety
 import com.nuvio.tv.core.profile.ProfileManager
-import com.nuvio.tv.core.qr.QrCodeGenerator
 import com.nuvio.tv.core.server.DeviceIpAddress
 import com.nuvio.tv.core.server.RepositoryConfigServer
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -306,12 +305,9 @@ class PluginViewModel @Inject constructor(
         }
 
         val url = "http://$ip:${activeServer.listeningPort}"
-        val qrBitmap = QrCodeGenerator.generate(url, 512)
-
         _uiState.update {
             it.copy(
                 isQrModeActive = true,
-                qrCodeBitmap = qrBitmap,
                 serverUrl = url,
                 errorMessage = null
             )
@@ -323,7 +319,6 @@ class PluginViewModel @Inject constructor(
         _uiState.update {
             it.copy(
                 isQrModeActive = false,
-                qrCodeBitmap = null,
                 serverUrl = null,
                 pendingRepoChange = null
             )
@@ -384,7 +379,6 @@ class PluginViewModel @Inject constructor(
             _uiState.update {
                 it.copy(
                     isQrModeActive = false,
-                    qrCodeBitmap = null,
                     serverUrl = null
                 )
             }

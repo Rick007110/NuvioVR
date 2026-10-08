@@ -224,7 +224,7 @@
 
     <!-- SupportersContributorsScreen -->
     <string name="supporters_contributors_title">Supportrar &amp; bidragsgivare</string>
-    <string name="supporters_contributors_subtitle">Människorna bakom Nuvio och bidragsgivarna som bygger det för TV och mobil.</string>
+    <string name="supporters_contributors_subtitle">Människorna bakom Nuvio och bidragsgivarna som bygger det för TV, mobil och VR.</string>
     <string name="supporters_contributors_supporters_copy">Supportrar och donatorer hjälper projektet framåt, finansierar infrastruktur och skapar utrymme för ambitiösa funktioner.</string>
     <string name="supporters_contributors_donate_copy">Nuvio förblir gratis och öppen källkod. Om du vill stödja projektet kan du hjälpa till att täcka tiden och infrastrukturen bakom det.</string>
     <string name="supporters_contributors_donate_button">Donera till Nuvio</string>
@@ -244,8 +244,8 @@
     <string name="contributors_error_title">Kunde inte ladda bidragsgivare</string>
     <string name="contributors_total_contributions">%1$d totala bidrag</string>
     <string name="contributors_open_github">Öppna GitHub-profil</string>
-    <string name="contributors_show_kofi_qr">Visa Ko-fi QR</string>
-    <string name="contributors_hide_kofi_qr">Dölj Ko-fi QR</string>
+    <string name="contributors_show_kofi_qr">Visa Ko-fi-länk</string>
+    <string name="contributors_hide_kofi_qr">Dölj Ko-fi-länk</string>
     <string name="contributors_profile_unavailable">GitHub-profillänk ej tillgänglig.</string>
 
     <!-- PlaybackSettingsSections -->
@@ -292,7 +292,7 @@
     <string name="audio_decoder_prefer_app">Föredra appens avkodare (FFmpeg)</string>
     <string name="audio_decoder_priority">Avkodarprioritet</string>
     <string name="audio_tunneled">Tunneluppspelning</string>
-    <string name="audio_tunneled_sub">Ljud/video-synk på hårdvarunivå. Kan förbättra uppspelning på vissa Android TV-enheter</string>
+    <string name="audio_tunneled_sub">Ljud/video-synk på hårdvarunivå. Kan förbättra uppspelning på vissa enheter</string>
     <string name="audio_decoder_device_only_desc">Använd bara inbyggda hårdvaruavkodare. Mest kompatibelt men stödjer inte alla format.</string>
     <string name="audio_decoder_prefer_device_desc">Använd hårdvaruavkodare när tillgängliga, använd FFmpeg som reserv. Rekommenderas för de flesta enheter.</string>
     <string name="audio_decoder_prefer_app_desc">Använd FFmpeg-avkodare när tillgängliga. Bättre formatstöd men högre CPU-användning.</string>
@@ -543,7 +543,7 @@
     <string name="trakt_waiting_approval">Väntar på godkännande…</string>
     <string name="qr_login_approved">Inloggning godkänd. Slutför inloggning…</string>
     <string name="qr_login_pending">Väntar på godkännande på din telefon…</string>
-    <string name="qr_login_expired">QR-inloggningen har gått ut. Generera en ny kod.</string>
+    <string name="qr_login_expired">Inloggningskoden har gått ut. Begär en ny kod.</string>
     <string name="trakt_code_expires">Koden går ut om %1$s</string>
     <string name="trakt_token_refreshes">Trakt-åtkomsttoken uppdateras om %1$s</string>
     <string name="trakt_login_instruction">Tryck på Logga in för att starta Trakt-enhetsautentisering. En QR-kod visas här.</string>
@@ -654,10 +654,10 @@
     <string name="addon_empty">Inga tillägg installerade. Lägg till ett för att komma igång.</string>
     <string name="addon_remove">Ta bort</string>
     <string name="addon_manage_from_phone_title">Hantera från telefon</string>
-    <string name="addon_manage_from_phone_subtitle">Skanna en QR-kod för att hantera tillägg och hemkataloger från din telefon</string>
+    <string name="addon_manage_from_phone_subtitle">Öppna en webbsida på din telefon eller dator för att hantera tillägg, kataloger och samlingar</string>
     <string name="addon_reorder_title">Ordna om hemkataloger</string>
     <string name="addon_reorder_subtitle">Styr katalogradordning på Hem (Klassisk + Modern + Rutnät)</string>
-    <string name="addon_qr_scan_instruction">Skanna med din telefon för att hantera tillägg och kataloger</string>
+    <string name="addon_qr_scan_instruction">Öppna den här adressen i en webbläsare på en telefon eller dator på samma Wi-Fi för att hantera tillägg, kataloger och samlingar</string>
     <string name="addon_qr_close">Stäng</string>
     <string name="addon_confirm_title">Bekräfta tilläggsändringar &amp; katalogändringar</string>
     <string name="addon_confirm_subtitle">Följande ändringar gjordes från din telefon:</string>
@@ -890,8 +890,8 @@
     <string name="account_loading">Laddar\u2026</string>
     <string name="account_sync_description">Synkronisera ditt bibliotek, tittarframsteg, tillägg och plugins mellan enheter.</string>
     <string name="account_sync_restart_note">Synkronisering sker inte i realtid mellan aktiva enheter. Starta om denna enhet efter inloggning eller för att hämta ändringar gjorda på annat håll.</string>
-    <string name="account_signin_qr_title">Logga in med QR</string>
-    <string name="account_signin_qr_subtitle">Skanna en QR-kod och slutför e-postinloggning på din telefon</string>
+    <string name="account_signin_qr_title">Logga in med en kod</string>
+    <string name="account_signin_qr_subtitle">Ange en kod på din telefon eller dator för att logga in</string>
     <string name="account_signed_in_label">Inloggad</string>
     <string name="account_total_label">Totalt</string>
     <string name="account_loading_sync">Laddar synkdata\u2026</string>
@@ -899,22 +899,22 @@
 
     <!-- AuthSignInScreen -->
     <string name="auth_signin_title">Logga in</string>
-    <string name="auth_signin_tv_disabled">E-post-/lösenordsinmatning på TV är inaktiverad. Fortsätt med QR-inloggning.</string>
-    <string name="auth_signin_qr_btn">Fortsätt med QR</string>
+    <string name="auth_signin_tv_disabled">Inloggning med e-post/lösenord är inaktiverad på den här servern. Fortsätt med kodinloggning.</string>
+    <string name="auth_signin_qr_btn">Fortsätt med en kod</string>
 
     <!-- AuthQrSignInScreen -->
-    <string name="auth_qr_title">Logga in med QR</string>
+    <string name="auth_qr_title">Logga in med en kod</string>
     <string name="auth_qr_finishing">Slutför inloggning\u2026</string>
     <string name="auth_qr_code_label">Kod: %1$s</string>
     <string name="auth_qr_expires">Går ut om %1$s</string>
-    <string name="auth_qr_scan_instruction">Skanna QR, godkänn i webbläsaren och återkom sedan hit.</string>
+    <string name="auth_qr_scan_instruction">Gå till länken nedan på din telefon eller dator och ange koden.</string>
     <string name="auth_qr_code_display">Kod: %1$s</string>
-    <string name="auth_qr_refresh">Uppdatera QR</string>
+    <string name="auth_qr_refresh">Ny kod</string>
     <string name="auth_qr_continue_without_account">Fortsätt utan konto</string>
-    <string name="auth_qr_connected">Ditt konto är anslutet på denna TV.</string>
+    <string name="auth_qr_connected">Ditt konto är anslutet på det här headsetet.</string>
     <string name="auth_qr_synced_data">Din synkroniserade data</string>
-    <string name="auth_qr_generating">Genererar QR\u2026</string>
-    <string name="auth_qr_unavailable">QR ej tillgänglig. Uppdatera för att försöka igen.</string>
+    <string name="auth_qr_generating">Genererar kod…</string>
+    <string name="auth_qr_unavailable">Koden är inte tillgänglig. Begär en ny kod för att försöka igen.</string>
     <string name="auth_qr_please_wait">Vänta\u2026</string>
     <string name="auth_qr_continue">Fortsätt</string>
     <string name="auth_qr_back">Tillbaka</string>
@@ -947,8 +947,8 @@
     <string name="plugin_add_repository">Lägg till arkiv</string>
     <string name="plugin_add_btn">Lägg till</string>
     <string name="plugin_manage_from_phone_title">Hantera från telefon</string>
-    <string name="plugin_manage_from_phone_subtitle">Skanna en QR-kod för att lägga till eller ta bort arkiv från din telefon</string>
-    <string name="plugin_qr_instruction">Skanna med din telefon för att hantera arkiv</string>
+    <string name="plugin_manage_from_phone_subtitle">Öppna en webbsida på din telefon eller dator för att lägga till eller ta bort arkiv</string>
+    <string name="plugin_qr_instruction">Öppna den här adressen i en webbläsare på samma Wi-Fi för att hantera arkiv</string>
     <string name="plugin_qr_close">Stäng</string>
     <string name="plugin_confirm_title">Bekräfta arkivändringar</string>
     <string name="plugin_confirm_subtitle">Följande ändringar gjordes från din telefon:</string>
@@ -1223,26 +1223,26 @@
     <string name="web_home_catalogs">Hemkataloger och samlingar</string>
     <string name="web_no_catalogs">Inga hemkataloger tillgängliga</string>
     <string name="web_btn_save">Spara ändringar</string>
-    <string name="web_connection_lost">Anslutningen till TV förlorad</string>
+    <string name="web_connection_lost">Anslutningen till headsetet förlorad</string>
     <string name="web_btn_remove">Ta bort</string>
     <string name="web_badge_new">Nytt</string>
     <string name="web_badge_disabled">Inaktiverat</string>
     <string name="web_btn_enable">Aktivera</string>
     <string name="web_btn_disable">Inaktivera</string>
     <string name="web_error_addon_exists">Detta tillägg finns redan i listan</string>
-    <string name="web_status_waiting_tv">Väntar på TV</string>
-    <string name="web_status_msg_waiting_tv">Bekräfta ändringarna på din TV för att tillämpa dem.</string>
+    <string name="web_status_waiting_tv">Väntar på headsetet</string>
+    <string name="web_status_msg_waiting_tv">Bekräfta ändringarna i ditt headset för att tillämpa dem.</string>
     <string name="web_status_changes_applied">Ändringar tillämpade</string>
-    <string name="web_status_msg_addon_updated">Din tilläggskonfiguration har uppdaterats på TV:n.</string>
-    <string name="web_status_msg_repo_updated">Din arkivkonfiguration har uppdaterats på TV:n.</string>
+    <string name="web_status_msg_addon_updated">Din tilläggskonfiguration har uppdaterats i NuvioVR.</string>
+    <string name="web_status_msg_repo_updated">Din arkivkonfiguration har uppdaterats i NuvioVR.</string>
     <string name="web_status_changes_rejected">Ändringar avvisade</string>
-    <string name="web_status_msg_changes_rejected">Ändringarna avvisades på TV:n. Din lista har återställts.</string>
+    <string name="web_status_msg_changes_rejected">Ändringarna avvisades i headsetet. Din lista har återställts.</string>
     <string name="web_status_error">Något gick fel</string>
-    <string name="web_error_failed_save">Kunde inte spara. Kontrollera anslutningen till TV:n.</string>
+    <string name="web_error_failed_save">Kunde inte spara. Kontrollera anslutningen till headsetet.</string>
     <string name="web_btn_dismiss">Stäng</string>
     <string name="web_status_timeout">Tidsgräns nådd</string>
-    <string name="web_status_msg_timeout">Inget svar från TV:n. Försök igen.</string>
-    <string name="web_status_msg_connection_lost">TV-servern är inte längre tillgänglig. Ändringarna kan ha tillämpats.</string>
+    <string name="web_status_msg_timeout">Inget svar från headsetet. Försök igen.</string>
+    <string name="web_status_msg_connection_lost">NuvioVR-servern är inte längre tillgänglig. Ändringarna kan ha tillämpats.</string>
     <string name="web_manage_repos_title">Hantera arkiv</string>
     <string name="web_manage_repos_subtitle">Hantera dina arkiv</string>
     <string name="web_add_repo_url">Lägg till arkiv via URL</string>
@@ -1251,7 +1251,7 @@
     <string name="web_error_repo_exists">Detta arkiv finns redan i listan</string>
     <string name="web_manage_collections_title">Hantera samlingar</string>
     <string name="web_manage_collections_subtitle">Skapa och hantera dina anpassade samlingar</string>
-    <string name="web_status_msg_collections_updated">Dina samlingar har uppdaterats på TV:n.</string>
+    <string name="web_status_msg_collections_updated">Dina samlingar har uppdaterats i NuvioVR.</string>
     <string name="web_tab_addons">Tillägg</string>
     <string name="web_tab_home_layout">Hemlayout</string>
     <string name="web_tab_collections">Samlingar</string>
@@ -1333,11 +1333,11 @@
     <string name="tmdb_trailers_subtitle">Trailerkandidater från TMDB-videor för trailer-sektionen på detaljsidan</string>
 
     <!-- TraktScreen -->
-    <string name="qr_login_scan_prompt">Skanna QR och logga in på din telefon</string>
-    <string name="qr_login_start_failed">Kunde inte starta QR-inloggning</string>
+    <string name="qr_login_scan_prompt">Gå till länken och ange koden på din telefon eller dator</string>
+    <string name="qr_login_start_failed">Kunde inte starta inloggning med kod</string>
     <string name="qr_login_signing_in">Loggar in dig…</string>
     <string name="qr_login_success">Inloggning lyckades</string>
-    <string name="qr_login_exchange_failed">Kunde inte slutföra QR-inloggning</string>
+    <string name="qr_login_exchange_failed">Kunde inte slutföra inloggning med kod</string>
     <string name="trakt_library_source_title">Bibliotekskälla</string>
     <string name="trakt_library_source_subtitle">Välj vilket bibliotek som används för att spara och visa din samling</string>
     <string name="trakt_library_source_dialog_title">Bibliotekskälla</string>
@@ -1351,8 +1351,8 @@
     <string name="profile_edit_header">Redigera profil</string>
 
     <!-- AddonManagerScreen -->
-    <string name="addon_manage_collections_from_phone_subtitle">Skanna en QR-kod för att hantera samlingar från din telefon</string>
-    <string name="addon_qr_collections_scan_instruction">Skanna med din telefon för att hantera samlingar</string>
+    <string name="addon_manage_collections_from_phone_subtitle">Öppna en webbsida på din telefon eller dator för att hantera samlingar</string>
+    <string name="addon_qr_collections_scan_instruction">Öppna den här adressen i en webbläsare på samma Wi-Fi för att hantera samlingar</string>
 
     <!-- StreamScreen / P2P -->
     <string name="p2p_consent_title">P2P-streaming</string>
@@ -1569,7 +1569,7 @@
     <string name="collections_editor_pin_above">Fäst ovanför kataloger</string>
     <string name="collections_editor_pin_above_desc">Visa denna samling ovanför alla vanliga hemkataloger. Flera fästa samlingar följer skapandeordningen.</string>
     <string name="collections_editor_focus_glow">Fokusglöd</string>
-    <string name="collections_editor_focus_glow_desc">Använd det inbyggda TV-glödet på denna samlings anpassade katalogkort på hemskärmen</string>
+    <string name="collections_editor_focus_glow_desc">Använd fokusglöd på den här samlingens anpassade katalogkort på hemskärmen</string>
     <string name="collections_editor_view_mode">Visningsläge</string>
     <string name="collections_editor_show_all_tab">Visa \"Alla\"-flik</string>
     <string name="collections_editor_show_all_tab_desc">Kombinera alla kataloger i en flik</string>
@@ -1620,4 +1620,40 @@
     <string name="collections_card_subtitle">Gruppera kataloger i mappar på din hemskärm</string>
     <string name="collections_tab_all">Alla</string>
     <string name="collections_tab_combined">Kombinerat</string>
+    <!-- NuvioVR -->
+    <string name="licenses_attributions_subtitle">Dataleverantörer, tjänsteerkännanden och Android-uppspelningslicenser som används av NuvioVR.</string>
+    <string name="licenses_attributions_nuvio_title">NuvioVR</string>
+    <string name="licenses_attributions_nuvio_body">Baserad på Nuvio TV av Nuvio Media. Källkod och licensvillkor finns i projektets arkiv. Licensierad under GNU General Public License v3.0.</string>
+    <string name="account_error_qr_login_expired">Inloggningskoden har gått ut. Försök igen.</string>
+    <string name="account_error_invalid_qr_login">Ogiltig inloggningskod.</string>
+    <string name="account_error_qr_login_other_device">Den här inloggningskoden begärdes från en annan enhet.</string>
+    <string name="account_error_qr_login_outdated">Tjänsten för enhetsinloggning är inaktuell. Tillämpa SQL-konfigurationen för enhetsinloggning igen.</string>
+    <string name="account_error_qr_login_missing_setup">Backend för enhetsinloggning saknar konfiguration. Uppdatera SQL-konfigurationen för enhetsinloggning.</string>
+    <string name="account_error_qr_login_misconfigured">Inloggnings-URL:en är felkonfigurerad.</string>
+    <string name="account_error_qr_login_invalid_request">Inloggningsbegäran var ogiltig. Försök igen.</string>
+    <string name="supporter_membership_scan_support">Visa medlemskap online</string>
+    <string name="supporter_membership_scan_manage">Hantera medlemskap online</string>
+    <string name="custom_poster_qr_instruction">Öppna den här adressen i en webbläsare på samma Wi-Fi för att klistra in ett URL-mönster för affischer</string>
+    <string name="mdblist_awaiting_instruction">Gå till adressen nedan och ange den här koden.</string>
+    <string name="debrid_device_auth_instructions">Gå till den här adressen på din telefon eller dator och ange koden för att godkänna Nuvio.</string>
+    <string name="debrid_formatter_qr_instruction">Öppna den här adressen i en webbläsare på samma Wi-Fi för att konfigurera inställningar för Debrid-källor.</string>
+    <string name="stream_badge_qr_instruction">Öppna den här adressen i en webbläsare på samma Wi-Fi för att hantera URL:er för Fusion-märken.</string>
+    <string name="qr_login_preparing">Förbereder inloggningskod…</string>
+    <string name="profile_copy_settings_setup_subtitle">Börja från början eller kopiera inställningarna från en annan profil en gång.</string>
+    <string name="profile_copy_settings_subtitle">Välj en källprofil. Dess inställningar som stöds ersätter den här profilens inställningar en gång.</string>
+    <string name="essential_addon_show_qr">Hantera från telefonen</string>
+    <string name="addon_manage_addons_only_from_phone_subtitle">Öppna en webbsida på din telefon eller dator för att installera eller ta bort tillägg</string>
+    <string name="addon_qr_addons_only_scan_instruction">Öppna den här adressen i en webbläsare på samma Wi-Fi för att installera eller ta bort tillägg</string>
+    <string name="settings_vr">VR</string>
+    <string name="vr_settings_subtitle">Miljö och skärm i ditt headset</string>
+    <string name="vr_settings_environment">Miljö</string>
+    <string name="vr_passthrough_title">Passthrough</string>
+    <string name="vr_passthrough_subtitle">Visa ditt verkliga rum i stället för den virtuella miljön. Tips: tryck på Y för att snabbt växla.</string>
+    <string name="vr_dim_playback_title">Dämpa miljön under uppspelning</string>
+    <string name="vr_dim_playback_subtitle">Gör himlen och golvet mörkare medan en video spelas upp, som på bio.</string>
+    <string name="vr_settings_screen">Skärm</string>
+    <string name="vr_recenter_title">Centrera skärmen</string>
+    <string name="vr_recenter_subtitle">Flytta tillbaka skärmen framför dig.</string>
+    <string name="player_vr_passthrough_on">Visa omgivningen</string>
+    <string name="player_vr_passthrough_off">Dölj omgivningen</string>
 </resources>

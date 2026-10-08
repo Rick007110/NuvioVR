@@ -40,7 +40,6 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.focusRestorer
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
@@ -72,7 +71,7 @@ import coil3.request.ImageRequest
 import coil3.request.crossfade
 import com.nuvio.tv.BuildConfig
 import com.nuvio.tv.R
-import com.nuvio.tv.core.qr.QrCodeGenerator
+import com.nuvio.tv.ui.components.ManualLinkCard
 import com.nuvio.tv.data.repository.DevelopmentSponsor
 import com.nuvio.tv.data.repository.GitHubContributor
 import com.nuvio.tv.data.repository.SupporterMember
@@ -1167,11 +1166,6 @@ private fun ContributorDetailsDialog(
     val contributorSupportKey = contributor.githubLogin ?: contributor.name
     val supportLink = contributorSupportLink(contributorSupportKey)
     var showSupportQr by remember(contributor.id) { mutableStateOf(false) }
-    val supportQrBitmap = remember(supportLink?.kofiUrl) {
-        supportLink?.kofiUrl?.let { url ->
-            runCatching { QrCodeGenerator.generate(url, 360) }.getOrNull()
-        }
-    }
 
     LaunchedEffect(contributor.id) {
         primaryFocusRequester.requestFocusAfterFrames()
@@ -1214,19 +1208,20 @@ private fun ContributorDetailsDialog(
             }
         }
 
-        if (showSupportQr && supportQrBitmap != null) {
+        val supportUrl = supportLink?.kofiUrl
+        if (showSupportQr && supportUrl != null) {
+            // VR: a QR code can't be scanned from inside the headset, so show the link to type instead.
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(top = NuvioTheme.spacing.sm),
                 contentAlignment = Alignment.Center
             ) {
-                Image(
-                    bitmap = supportQrBitmap.asImageBitmap(),
-                    contentDescription = stringResource(R.string.cd_contributor_qr),
-                    modifier = Modifier
-                        .size(188.dp)
-                        .clip(RoundedCornerShape(20.dp))
+                ManualLinkCard(
+                    url = supportUrl,
+                    stripScheme = true,
+                    minWidth = 0.dp,
+                    modifier = Modifier.fillMaxWidth()
                 )
             }
         }
