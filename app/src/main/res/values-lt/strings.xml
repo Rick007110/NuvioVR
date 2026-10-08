@@ -1060,4 +1060,9 @@ Klaida: Bandomoji simuliuojama klaida — tai nėra tikras gedimas. Šaltinis gr
     <string name="vr_recenter_subtitle">Grąžinti ekraną priešais jus.</string>
     <string name="player_vr_passthrough_on">Rodyti tikrąją aplinką</string>
     <string name="player_vr_passthrough_off">Slėpti tikrąją aplinką</string>
+    <string name="addon_configure">Konfigūruoti</string>
+    <string name="addon_configure_hint">Pasirinkite nustatymus ir puslapyje paspauskite Install</string>
+    <string name="addon_configure_paste">Naudoti nukopijuotą nuorodą</string>
+    <string name="addon_configure_no_link">Iškarpinėje nerasta priedo nuorodos</string>
+    <string name="addon_configure_updated">%1$s įdiegtas su jūsų nustatymais</string>
 </resources>

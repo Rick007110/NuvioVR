@@ -3285,4 +3285,9 @@
   <string name="vr_recenter_subtitle">Μετακινεί την οθόνη ξανά μπροστά σας.</string>
   <string name="player_vr_passthrough_on">Εμφάνιση περιβάλλοντος χώρου</string>
   <string name="player_vr_passthrough_off">Απόκρυψη περιβάλλοντος χώρου</string>
+  <string name="addon_configure">Διαμόρφωση</string>
+  <string name="addon_configure_hint">Επιλέξτε τις ρυθμίσεις σας και πατήστε Install στη σελίδα</string>
+  <string name="addon_configure_paste">Χρήση αντιγραμμένου συνδέσμου</string>
+  <string name="addon_configure_no_link">Δεν βρέθηκε σύνδεσμος πρόσθετου στο πρόχειρο</string>
+  <string name="addon_configure_updated">Το %1$s εγκαταστάθηκε με τις ρυθμίσεις σας</string>
 </resources>

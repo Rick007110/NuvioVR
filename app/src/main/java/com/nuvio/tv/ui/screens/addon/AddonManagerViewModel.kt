@@ -186,6 +186,57 @@ class AddonManagerViewModel @Inject constructor(
         }
     }
 
+    /**
+     * Installs the addon URL produced by an addon's own configuration page (see
+     * [AddonConfigureDialog]). When [replaceBaseUrl] is set, the newly configured addon takes
+     * the old one's place in the list and the old one is removed.
+     */
+    fun applyConfiguredAddon(manifestUrl: String, replaceBaseUrl: String?) {
+        val normalizedUrl = normalizeAddonUrl(manifestUrl)
+        if (normalizedUrl == null) {
+            val message = context.getString(R.string.addon_error_invalid_scheme)
+            _uiState.update { it.copy(transientMessage = message, transientMessageIsError = true) }
+            return
+        }
+
+        viewModelScope.launch {
+            _uiState.update { it.copy(isInstalling = true, error = null, transientMessage = null) }
+            when (val result = addonRepository.fetchAddon(normalizedUrl)) {
+                is NetworkResult.Success -> {
+                    val previousOrder = _uiState.value.installedAddons.map { it.baseUrl }
+                    addonRepository.addAddon(normalizedUrl)
+                    val replacing = replaceBaseUrl != null &&
+                        normalizeUrlForComparison(replaceBaseUrl) != normalizeUrlForComparison(normalizedUrl)
+                    if (replacing) {
+                        addonRepository.removeAddon(replaceBaseUrl!!)
+                        addonRepository.setAddonOrder(
+                            previousOrder.map { if (it == replaceBaseUrl) result.data.baseUrl else it }
+                        )
+                    }
+                    val addonName = result.data.displayName.ifBlank { result.data.baseUrl }
+                    _uiState.update {
+                        it.copy(
+                            isInstalling = false,
+                            transientMessage = context.getString(R.string.addon_configure_updated, addonName),
+                            transientMessageIsError = false
+                        )
+                    }
+                }
+                is NetworkResult.Error -> {
+                    _uiState.update {
+                        it.copy(
+                            isInstalling = false,
+                            error = result.message,
+                            transientMessage = result.message,
+                            transientMessageIsError = true
+                        )
+                    }
+                }
+                NetworkResult.Loading -> Unit
+            }
+        }
+    }
+
     private fun normalizeAddonUrl(input: String): String? {
         var trimmed = input.trim()
         if (trimmed.startsWith("stremio://")) {

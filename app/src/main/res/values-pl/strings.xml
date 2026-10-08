@@ -3454,4 +3454,9 @@
     <string name="vr_recenter_subtitle">Przesuń ekran z powrotem przed siebie.</string>
     <string name="player_vr_passthrough_on">Pokaż otoczenie</string>
     <string name="player_vr_passthrough_off">Ukryj otoczenie</string>
+    <string name="addon_configure">Konfiguruj</string>
+    <string name="addon_configure_hint">Wybierz ustawienia i naciśnij Install na stronie</string>
+    <string name="addon_configure_paste">Użyj skopiowanego linku</string>
+    <string name="addon_configure_no_link">Nie znaleziono linku do dodatku w schowku</string>
+    <string name="addon_configure_updated">Zainstalowano %1$s z Twoimi ustawieniami</string>
 </resources>

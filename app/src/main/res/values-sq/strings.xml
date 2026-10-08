@@ -2921,4 +2921,9 @@
     <string name="vr_recenter_subtitle">Ktheje ekranin para teje.</string>
     <string name="player_vr_passthrough_on">Shfaq rrethinën</string>
     <string name="player_vr_passthrough_off">Fshih rrethinën</string>
+    <string name="addon_configure">Konfiguro</string>
+    <string name="addon_configure_hint">Zgjidh cilësimet dhe shtyp Install në faqe</string>
+    <string name="addon_configure_paste">Përdor lidhjen e kopjuar</string>
+    <string name="addon_configure_no_link">Nuk u gjet asnjë lidhje shtese në clipboard</string>
+    <string name="addon_configure_updated">%1$s u instalua me cilësimet e tua</string>
 </resources>

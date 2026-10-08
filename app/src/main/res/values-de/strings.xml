@@ -2301,4 +2301,9 @@
     <string name="vr_recenter_subtitle">Setzt den Bildschirm wieder direkt vor Sie.</string>
     <string name="player_vr_passthrough_on">Umgebung anzeigen</string>
     <string name="player_vr_passthrough_off">Umgebung ausblenden</string>
+    <string name="addon_configure">Konfigurieren</string>
+    <string name="addon_configure_hint">Wählen Sie Ihre Einstellungen und drücken Sie auf der Seite auf Install</string>
+    <string name="addon_configure_paste">Kopierten Link verwenden</string>
+    <string name="addon_configure_no_link">Kein Addon-Link in der Zwischenablage gefunden</string>
+    <string name="addon_configure_updated">%1$s mit Ihren Einstellungen installiert</string>
 </resources>

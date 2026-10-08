@@ -3040,4 +3040,9 @@ Próbálj meg egy másik forrást. [%1$s]</string>
     <string name="vr_recenter_subtitle">A képernyő visszahelyezése eléd.</string>
     <string name="player_vr_passthrough_on">Valós környezet megjelenítése</string>
     <string name="player_vr_passthrough_off">Valós környezet elrejtése</string>
+    <string name="addon_configure">Beállítás</string>
+    <string name="addon_configure_hint">Válaszd ki a beállításaidat, majd nyomd meg az Install gombot az oldalon</string>
+    <string name="addon_configure_paste">Másolt link használata</string>
+    <string name="addon_configure_no_link">Nem található bővítmény-link a vágólapon</string>
+    <string name="addon_configure_updated">%1$s telepítve a beállításaiddal</string>
 </resources>

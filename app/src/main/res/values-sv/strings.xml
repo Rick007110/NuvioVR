@@ -1656,4 +1656,9 @@
     <string name="vr_recenter_subtitle">Flytta tillbaka skärmen framför dig.</string>
     <string name="player_vr_passthrough_on">Visa omgivningen</string>
     <string name="player_vr_passthrough_off">Dölj omgivningen</string>
+    <string name="addon_configure">Konfigurera</string>
+    <string name="addon_configure_hint">Välj dina inställningar och tryck på Install på sidan</string>
+    <string name="addon_configure_paste">Använd kopierad länk</string>
+    <string name="addon_configure_no_link">Ingen tilläggslänk hittades i urklipp</string>
+    <string name="addon_configure_updated">%1$s installerades med dina inställningar</string>
 </resources>

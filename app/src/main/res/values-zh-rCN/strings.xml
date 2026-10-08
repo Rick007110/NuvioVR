@@ -3253,4 +3253,9 @@
     <string name="vr_recenter_subtitle">将屏幕移回您的正前方。</string>
     <string name="player_vr_passthrough_on">显示周围环境</string>
     <string name="player_vr_passthrough_off">隐藏周围环境</string>
+    <string name="addon_configure">配置</string>
+    <string name="addon_configure_hint">选择您的设置，然后在页面上点击 Install</string>
+    <string name="addon_configure_paste">使用已复制的链接</string>
+    <string name="addon_configure_no_link">剪贴板中未找到扩展链接</string>
+    <string name="addon_configure_updated">已按您的设置安装 %1$s</string>
 </resources>

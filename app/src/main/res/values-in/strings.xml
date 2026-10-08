@@ -2474,4 +2474,9 @@
     <string name="vr_recenter_subtitle">Pindahkan layar kembali ke depan Anda.</string>
     <string name="player_vr_passthrough_on">Tampilkan sekitar</string>
     <string name="player_vr_passthrough_off">Sembunyikan sekitar</string>
+    <string name="addon_configure">Konfigurasi</string>
+    <string name="addon_configure_hint">Pilih pengaturan Anda lalu tekan Install di halaman</string>
+    <string name="addon_configure_paste">Gunakan tautan yang disalin</string>
+    <string name="addon_configure_no_link">Tidak ada tautan addon di Clipboard</string>
+    <string name="addon_configure_updated">%1$s terpasang dengan pengaturan Anda</string>
 </resources>

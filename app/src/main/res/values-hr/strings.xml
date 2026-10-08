@@ -3323,4 +3323,9 @@
     <string name="vr_recenter_subtitle">Vrati zaslon ispred sebe.</string>
     <string name="player_vr_passthrough_on">Prikaži okolinu</string>
     <string name="player_vr_passthrough_off">Sakrij okolinu</string>
+    <string name="addon_configure">Konfiguriraj</string>
+    <string name="addon_configure_hint">Odaberi postavke i pritisni Install na stranici</string>
+    <string name="addon_configure_paste">Koristi kopiranu poveznicu</string>
+    <string name="addon_configure_no_link">U međuspremniku nije pronađena poveznica dodatka</string>
+    <string name="addon_configure_updated">%1$s instaliran s tvojim postavkama</string>
 </resources>

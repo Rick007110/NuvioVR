@@ -2714,4 +2714,9 @@
     <string name="vr_recenter_subtitle">Върни екрана пред себе си.</string>
     <string name="player_vr_passthrough_on">Покажи обкръжението</string>
     <string name="player_vr_passthrough_off">Скрий обкръжението</string>
+    <string name="addon_configure">Настрой</string>
+    <string name="addon_configure_hint">Избери настройките си и натисни Install на страницата</string>
+    <string name="addon_configure_paste">Използвай копирания линк</string>
+    <string name="addon_configure_no_link">В клипборда не е намерен линк към добавка</string>
+    <string name="addon_configure_updated">%1$s е инсталирана с твоите настройки</string>
 </resources>

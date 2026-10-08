@@ -3194,4 +3194,9 @@
     <string name="vr_recenter_subtitle">Traz a tela de volta para a sua frente.</string>
     <string name="player_vr_passthrough_on">Mostrar arredores</string>
     <string name="player_vr_passthrough_off">Ocultar arredores</string>
+    <string name="addon_configure">Configurar</string>
+    <string name="addon_configure_hint">Escolha suas configurações e pressione Install na página</string>
+    <string name="addon_configure_paste">Usar link copiado</string>
+    <string name="addon_configure_no_link">Nenhum link de addon encontrado na área de transferência</string>
+    <string name="addon_configure_updated">%1$s instalado com suas configurações</string>
 </resources>

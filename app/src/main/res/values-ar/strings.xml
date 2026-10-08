@@ -3060,4 +3060,9 @@
     <string name="vr_recenter_subtitle">إعادة الشاشة إلى أمامك.</string>
     <string name="player_vr_passthrough_on">إظهار المحيط</string>
     <string name="player_vr_passthrough_off">إخفاء المحيط</string>
+    <string name="addon_configure">إعداد</string>
+    <string name="addon_configure_hint">اختر إعداداتك واضغط Install على الصفحة</string>
+    <string name="addon_configure_paste">استخدام الرابط المنسوخ</string>
+    <string name="addon_configure_no_link">لم يتم العثور على رابط إضافة في الحافظة</string>
+    <string name="addon_configure_updated">تم تثبيت %1$s بإعداداتك</string>
 </resources>

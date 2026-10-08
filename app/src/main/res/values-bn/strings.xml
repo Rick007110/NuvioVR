@@ -3141,4 +3141,9 @@
     <string name="vr_recenter_subtitle">স্ক্রিনটিকে আবার আপনার সামনে নিয়ে আসুন।</string>
     <string name="player_vr_passthrough_on">চারপাশ দেখান</string>
     <string name="player_vr_passthrough_off">চারপাশ লুকান</string>
+    <string name="addon_configure">কনফিগার করুন</string>
+    <string name="addon_configure_hint">আপনার সেটিংস বেছে নিন এবং পৃষ্ঠায় Install চাপুন</string>
+    <string name="addon_configure_paste">কপি করা লিঙ্ক ব্যবহার করুন</string>
+    <string name="addon_configure_no_link">ক্লিপবোর্ডে কোনো অ্যাডন লিঙ্ক পাওয়া যায়নি</string>
+    <string name="addon_configure_updated">%1$s আপনার সেটিংস সহ ইনস্টল হয়েছে</string>
     </resources>

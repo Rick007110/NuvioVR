@@ -3380,4 +3380,9 @@
     <string name="vr_recenter_subtitle">Đưa màn hình trở lại phía trước bạn.</string>
     <string name="player_vr_passthrough_on">Hiện không gian xung quanh</string>
     <string name="player_vr_passthrough_off">Ẩn không gian xung quanh</string>
+    <string name="addon_configure">Cấu hình</string>
+    <string name="addon_configure_hint">Chọn cài đặt của bạn rồi nhấn Install trên trang</string>
+    <string name="addon_configure_paste">Dùng liên kết đã sao chép</string>
+    <string name="addon_configure_no_link">Không tìm thấy liên kết tiện ích trong bảng nhớ tạm</string>
+    <string name="addon_configure_updated">Đã cài đặt %1$s với cài đặt của bạn</string>
 </resources>

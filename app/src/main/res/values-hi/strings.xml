@@ -1056,4 +1056,9 @@
     <string name="vr_recenter_subtitle">स्क्रीन को वापस अपने सामने ले आएं।</string>
     <string name="player_vr_passthrough_on">आसपास का दृश्य दिखाएं</string>
     <string name="player_vr_passthrough_off">आसपास का दृश्य छिपाएं</string>
+    <string name="addon_configure">कॉन्फ़िगर करें</string>
+    <string name="addon_configure_hint">अपनी सेटिंग्स चुनें और पेज पर Install दबाएं</string>
+    <string name="addon_configure_paste">कॉपी किया गया लिंक इस्तेमाल करें</string>
+    <string name="addon_configure_no_link">क्लिपबोर्ड पर कोई ऐडऑन लिंक नहीं मिला</string>
+    <string name="addon_configure_updated">%1$s आपकी सेटिंग्स के साथ इंस्टॉल हो गया</string>
 </resources>

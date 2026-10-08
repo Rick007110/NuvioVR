@@ -891,4 +891,9 @@
     <string name="vr_recenter_subtitle">Readuce ecranul în fața ta.</string>
     <string name="player_vr_passthrough_on">Afișează împrejurimile</string>
     <string name="player_vr_passthrough_off">Ascunde împrejurimile</string>
+    <string name="addon_configure">Configurează</string>
+    <string name="addon_configure_hint">Alege setările și apasă Install pe pagină</string>
+    <string name="addon_configure_paste">Folosește linkul copiat</string>
+    <string name="addon_configure_no_link">Nu s-a găsit niciun link de complement în clipboard</string>
+    <string name="addon_configure_updated">%1$s a fost instalat cu setările tale</string>
 </resources>

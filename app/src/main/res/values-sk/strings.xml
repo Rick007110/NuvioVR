@@ -3396,4 +3396,9 @@
     <string name="vr_recenter_subtitle">Presunúť obrazovku späť pred vás.</string>
     <string name="player_vr_passthrough_on">Zobraziť okolie</string>
     <string name="player_vr_passthrough_off">Skryť okolie</string>
+    <string name="addon_configure">Nastaviť</string>
+    <string name="addon_configure_hint">Vyberte nastavenia a na stránke stlačte Install</string>
+    <string name="addon_configure_paste">Použiť skopírovaný odkaz</string>
+    <string name="addon_configure_no_link">V schránke sa nenašiel odkaz na doplnok</string>
+    <string name="addon_configure_updated">%1$s bol nainštalovaný s vašimi nastaveniami</string>
 </resources>

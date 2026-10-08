@@ -2288,4 +2288,9 @@
     <string name="vr_recenter_subtitle">திரையை மீண்டும் உங்கள் முன்னால் கொண்டு வா.</string>
     <string name="player_vr_passthrough_on">சுற்றுப்புறத்தைக் காட்டு</string>
     <string name="player_vr_passthrough_off">சுற்றுப்புறத்தை மறை</string>
+    <string name="addon_configure">கட்டமை</string>
+    <string name="addon_configure_hint">உங்கள் அமைப்புகளைத் தேர்ந்தெடுத்து, பக்கத்தில் Install ஐ அழுத்தவும்</string>
+    <string name="addon_configure_paste">நகலெடுத்த இணைப்பைப் பயன்படுத்து</string>
+    <string name="addon_configure_no_link">கிளிப்போர்டில் அட்ஆன் இணைப்பு எதுவும் இல்லை</string>
+    <string name="addon_configure_updated">%1$s உங்கள் அமைப்புகளுடன் நிறுவப்பட்டது</string>
 </resources>

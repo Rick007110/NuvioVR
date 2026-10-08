@@ -3141,4 +3141,9 @@
     <string name="vr_recenter_subtitle">Вернуть экран прямо перед вами.</string>
     <string name="player_vr_passthrough_on">Показать окружение</string>
     <string name="player_vr_passthrough_off">Скрыть окружение</string>
+    <string name="addon_configure">Настроить</string>
+    <string name="addon_configure_hint">Выберите настройки и нажмите Install на странице</string>
+    <string name="addon_configure_paste">Использовать скопированную ссылку</string>
+    <string name="addon_configure_no_link">В буфере обмена не найдена ссылка на аддон</string>
+    <string name="addon_configure_updated">%1$s установлен с вашими настройками</string>
 </resources>

@@ -1535,4 +1535,9 @@
     <string name="vr_recenter_subtitle">Vrati ekran ispred sebe.</string>
     <string name="player_vr_passthrough_on">Prikaži okolinu</string>
     <string name="player_vr_passthrough_off">Sakrij okolinu</string>
+    <string name="addon_configure">Podesi</string>
+    <string name="addon_configure_hint">Odaberi postavke i pritisni Install na stranici</string>
+    <string name="addon_configure_paste">Koristi kopirani link</string>
+    <string name="addon_configure_no_link">U Clipboardu nije pronađen link addona</string>
+    <string name="addon_configure_updated">%1$s je instaliran s tvojim postavkama</string>
 </resources>

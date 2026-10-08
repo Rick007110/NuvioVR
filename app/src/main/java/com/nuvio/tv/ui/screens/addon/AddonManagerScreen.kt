@@ -162,6 +162,7 @@ fun AddonManagerScreen(
     val deleteDialogFocusRequester = remember { FocusRequester() }
     var isEditing by remember { mutableStateOf(false) }
     var addonUrlPendingDeletion by remember { mutableStateOf<String?>(null) }
+    var configureTarget by remember { mutableStateOf<AddonConfigureTarget?>(null) }
     val hasHomeVisibleCatalogs = remember(uiState.installedAddons) {
         uiState.installedAddons.any { addon ->
             addon.enabled && addon.catalogs.any { catalog -> !catalog.isSearchOnlyCatalog() }
@@ -397,6 +398,26 @@ fun AddonManagerScreen(
                                 ) {
                                     Text(text = if (uiState.isInstalling) stringResource(R.string.addon_installing) else stringResource(R.string.addon_install_btn))
                                 }
+
+                                // VR: open the addon's website to configure it before installing.
+                                Button(
+                                    onClick = {
+                                        configureTarget = newAddonConfigureTarget(uiState.installUrl)
+                                        isEditing = false
+                                        keyboardController?.hide()
+                                    },
+                                    enabled = !uiState.isInstalling && uiState.installUrl.isNotBlank(),
+                                    modifier = Modifier.semantics { role = Role.Button },
+                                    colors = ButtonDefaults.colors(
+                                        containerColor = NuvioTheme.colors.BackgroundCard,
+                                        contentColor = NuvioTheme.colors.TextPrimary,
+                                        focusedContainerColor = NuvioTheme.colors.FocusBackground,
+                                        focusedContentColor = NuvioTheme.colors.Primary
+                                    ),
+                                    shape = ButtonDefaults.shape(RoundedCornerShape(NuvioTheme.radii.md))
+                                ) {
+                                    Text(text = stringResource(R.string.addon_configure))
+                                }
                             }
 
                             AnimatedVisibility(visible = uiState.error != null) {
@@ -496,6 +517,17 @@ fun AddonManagerScreen(
                             }
                         },
                         onRemove = { addonUrlPendingDeletion = addon.baseUrl },
+                        onConfigure = if (addon.behaviorHints?.configurable == true || addon.behaviorHints?.configurationRequired == true) {
+                            {
+                                configureTarget = AddonConfigureTarget(
+                                    title = addon.displayName,
+                                    startUrl = addonConfigureUrl(addon.baseUrl),
+                                    replaceBaseUrl = addon.baseUrl
+                                )
+                            }
+                        } else {
+                            null
+                        },
                         onEnabledChange = { enabled -> viewModel.setAddonEnabled(addon.baseUrl, enabled) },
                         isReadOnly = viewModel.isReadOnly,
                         showReorder = !isEssential,
@@ -503,6 +535,18 @@ fun AddonManagerScreen(
                     )
                 }
             }
+        }
+
+        configureTarget?.let { target ->
+            AddonConfigureDialog(
+                title = target.title,
+                startUrl = target.startUrl,
+                onManifestUrl = { manifestUrl ->
+                    configureTarget = null
+                    viewModel.applyConfiguredAddon(manifestUrl, target.replaceBaseUrl)
+                },
+                onDismiss = { configureTarget = null }
+            )
         }
 
         // QR Code overlay — Popup renders above the entire screen
@@ -1260,6 +1304,7 @@ private fun AddonCard(
     onMoveDown: () -> Unit,
     onRemove: () -> Unit,
     onEnabledChange: (Boolean) -> Unit,
+    onConfigure: (() -> Unit)? = null,
     isReadOnly: Boolean = false,
     showReorder: Boolean = true,
     toggleFocusRequester: FocusRequester? = null
@@ -1308,6 +1353,7 @@ private fun AddonCard(
                 onMoveDown = onMoveDown,
                 onRemove = onRemove,
                 onEnabledChange = onEnabledChange,
+                onConfigure = onConfigure,
                 showReorder = showReorder,
                 toggleFocusRequester = effectiveToggleFocusRequester
             )
@@ -1326,6 +1372,7 @@ private fun AddonCardContent(
     onMoveDown: () -> Unit = {},
     onRemove: () -> Unit = {},
     onEnabledChange: (Boolean) -> Unit = {},
+    onConfigure: (() -> Unit)? = null,
     showReorder: Boolean = true,
     toggleFocusRequester: FocusRequester? = null
 ) {
@@ -1431,6 +1478,21 @@ private fun AddonCardContent(
                             Icon(imageVector = Icons.Default.ArrowDownward, contentDescription = stringResource(R.string.cd_move_down))
                         }
                     }
+                    if (onConfigure != null) {
+                        Button(
+                            onClick = onConfigure,
+                            modifier = Modifier.semantics { role = Role.Button },
+                            colors = ButtonDefaults.colors(
+                                containerColor = NuvioTheme.colors.BackgroundCard,
+                                contentColor = NuvioTheme.colors.TextSecondary,
+                                focusedContainerColor = NuvioTheme.colors.FocusBackground,
+                                focusedContentColor = NuvioTheme.colors.Primary
+                            ),
+                            shape = ButtonDefaults.shape(RoundedCornerShape(NuvioTheme.radii.md))
+                        ) {
+                            Text(text = stringResource(R.string.addon_configure))
+                        }
+                    }
                     Button(
                         onClick = onRemove,
                         modifier = Modifier.semantics { role = Role.Button },
@@ -1479,4 +1541,23 @@ private fun AddonCardContent(
 
 private fun CatalogDescriptor.isSearchOnlyCatalog(): Boolean {
     return extra.any { extra -> extra.name.equals("search", ignoreCase = true) && extra.isRequired }
+}
+
+/** What the in-app configure browser opens, and which installed addon it replaces (if any). */
+private data class AddonConfigureTarget(
+    val title: String,
+    val startUrl: String,
+    val replaceBaseUrl: String?
+)
+
+/** Opens a not-yet-installed addon's website: its configure page for a manifest URL, else the URL as typed. */
+private fun newAddonConfigureTarget(input: String): AddonConfigureTarget {
+    var url = input.trim()
+    if (url.startsWith("stremio://", ignoreCase = true)) url = "https://" + url.substring("stremio://".length)
+    if (!url.startsWith("http://", ignoreCase = true) && !url.startsWith("https://", ignoreCase = true)) {
+        url = "https://$url"
+    }
+    val startUrl = if (url.substringBefore('?').endsWith("/manifest.json")) addonConfigureUrl(url.substringBefore('?')) else url
+    val title = android.net.Uri.parse(startUrl).host ?: startUrl
+    return AddonConfigureTarget(title = title, startUrl = startUrl, replaceBaseUrl = null)
 }

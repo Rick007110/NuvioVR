@@ -3166,4 +3166,9 @@
     <string name="player_vr_passthrough_off">Omgeving verbergen</string>
     <string name="custom_poster_qr_instruction">Open dit adres in een browser op hetzelfde wifi-netwerk om een poster-URL-patroon te plakken</string>
     <string name="mdblist_awaiting_instruction">Ga naar het adres hieronder en voer deze code in.</string>
+    <string name="addon_configure">Configureren</string>
+    <string name="addon_configure_hint">Kies je instellingen en druk op de pagina op Install</string>
+    <string name="addon_configure_paste">Gekopieerde link gebruiken</string>
+    <string name="addon_configure_no_link">Geen add-on-link gevonden op het klembord</string>
+    <string name="addon_configure_updated">%1$s geïnstalleerd met jouw instellingen</string>
 </resources>

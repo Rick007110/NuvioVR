@@ -2760,4 +2760,9 @@
     <string name="vr_recenter_subtitle">Повернути екран перед вами.</string>
     <string name="player_vr_passthrough_on">Показати оточення</string>
     <string name="player_vr_passthrough_off">Приховати оточення</string>
+    <string name="addon_configure">Налаштувати</string>
+    <string name="addon_configure_hint">Виберіть налаштування та натисніть Install на сторінці</string>
+    <string name="addon_configure_paste">Використати скопійоване посилання</string>
+    <string name="addon_configure_no_link">У буфері обміну не знайдено посилання на адон</string>
+    <string name="addon_configure_updated">%1$s встановлено з вашими налаштуваннями</string>
 </resources>
