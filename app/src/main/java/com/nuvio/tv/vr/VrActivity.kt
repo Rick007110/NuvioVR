@@ -18,7 +18,6 @@ import com.meta.spatial.toolkit.AppSystemActivity
 import com.meta.spatial.toolkit.AvatarBody
 import com.meta.spatial.toolkit.Box
 import com.meta.spatial.toolkit.Controller
-import com.meta.spatial.toolkit.CylinderShapeOptions
 import com.meta.spatial.toolkit.DpDisplayOptions
 import com.meta.spatial.toolkit.Grabbable
 import com.meta.spatial.toolkit.GrabbableType
@@ -27,9 +26,9 @@ import com.meta.spatial.toolkit.Mesh
 import com.meta.spatial.toolkit.MeshCollision
 import com.meta.spatial.toolkit.PanelRegistration
 import com.meta.spatial.toolkit.PanelStyleOptions
+import com.meta.spatial.toolkit.QuadShapeOptions
 import com.meta.spatial.toolkit.Scale
 import com.meta.spatial.toolkit.Transform
-import com.meta.spatial.toolkit.TransformParent
 import com.meta.spatial.toolkit.UIPanelSettings
 import com.meta.spatial.toolkit.Visible
 import com.meta.spatial.toolkit.createPanelEntity
@@ -44,7 +43,7 @@ import kotlinx.coroutines.launch
 
 /**
  * The app's launcher on Quest. Owns the OpenXR scene and hosts the regular [MainActivity]
- * UI on a floating, curved, grabbable screen. Controller rays and hand-tracking pinches
+ * UI on a floating, grabbable screen. Controller rays and hand-tracking pinches
  * reach the panel as pointer events (see [VrPointerBridge]); face buttons are mapped here.
  *
  * By default the screen floats in a virtual night-sky environment; passthrough (the real
@@ -57,7 +56,6 @@ class VrActivity : AppSystemActivity() {
     private var sky: Entity? = null
     private var skyDim: Entity? = null
     private var floor: Entity? = null
-    private var screenGlow: Entity? = null
 
     override fun registerFeatures(): List<SpatialFeature> = listOf(VRFeature(this), ComposeFeature())
 
@@ -67,12 +65,7 @@ class VrActivity : AppSystemActivity() {
             classIdCreator = { MainActivity::class.java },
             settingsCreator = {
                 UIPanelSettings(
-                    // A gentle curve, like a cinema screen wrapping around the viewer.
-                    shape = CylinderShapeOptions(
-                        radius = SCREEN_CURVE_RADIUS_M,
-                        width = SCREEN_WIDTH_M,
-                        height = SCREEN_WIDTH_M * 9f / 16f
-                    ),
+                    shape = QuadShapeOptions(width = SCREEN_WIDTH_M, height = SCREEN_WIDTH_M * 9f / 16f),
                     // The UI was designed for a 960x540dp TV canvas; 320 dpi renders it at 1920x1080.
                     display = DpDisplayOptions(960f, 540f, dpi = 320),
                     style = PanelStyleOptions(themeResourceId = R.style.Theme_MyApplication_Panel)
@@ -99,24 +92,10 @@ class VrActivity : AppSystemActivity() {
             environmentIntensity = 0.3f
         )
         createEnvironment()
-        val panel = Entity.createPanelEntity(
+        mainPanel = Entity.createPanelEntity(
             R.id.vr_main_panel,
             Transform(BROWSE_POSE),
             Grabbable(enabled = true, type = GrabbableType.PIVOT_Y)
-        )
-        mainPanel = panel
-        screenGlow = Entity.create(
-            listOf(
-                Mesh("mesh://box".toUri(), hittable = MeshCollision.NoCollision),
-                Box(
-                    Vector3(-GLOW_WIDTH_M / 2, -GLOW_HEIGHT_M / 2, 0f),
-                    Vector3(GLOW_WIDTH_M / 2, GLOW_HEIGHT_M / 2, 0f)
-                ),
-                transparentMaterial(R.drawable.vr_screen_glow),
-                // Just behind the screen (away from the viewer), and moves with it when grabbed.
-                Transform(Pose(Vector3(0f, 0f, GLOW_DEPTH_OFFSET_M))),
-                TransformParent(panel)
-            )
         )
 
         scope.launch {
@@ -184,8 +163,6 @@ class VrActivity : AppSystemActivity() {
         sky?.setComponent(Visible(virtual && !dimmed))
         skyDim?.setComponent(Visible(virtual && dimmed))
         floor?.setComponent(Visible(virtual && !dimmed))
-        // The glow would bleed into the picture during playback.
-        screenGlow?.setComponent(Visible(virtual && !playing))
     }
 
     private fun recenterScreen() {
@@ -214,11 +191,7 @@ class VrActivity : AppSystemActivity() {
 
     private companion object {
         const val SCREEN_WIDTH_M = 2.0f
-        const val SCREEN_CURVE_RADIUS_M = 3.5f
         const val CINEMA_SCALE = 1.35f
-        const val GLOW_WIDTH_M = 3.0f
-        const val GLOW_HEIGHT_M = 1.9f
-        const val GLOW_DEPTH_OFFSET_M = 0.15f
         const val FLOOR_HALF_SIZE_M = 6f
 
         // In LOCAL_FLOOR space the user stands at the origin looking down +Z.
