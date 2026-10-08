@@ -1188,6 +1188,15 @@ open class MainActivity : ComponentActivity() {
                                 )
                             }
 
+                            // VR: pinchable back button for hand tracking on every non-root screen.
+                            // The player shows its own, together with its controls.
+                            if (currentRoute != null &&
+                                currentRoute !in rootRoutes &&
+                                !currentRoute.startsWith("player")
+                            ) {
+                                com.nuvio.tv.vr.VrBackButton(modifier = Modifier.align(Alignment.TopStart))
+                            }
+
                             val autoNextOverlay by externalPlaybackTracker.autoNextOverlay.collectAsState()
                             autoNextOverlay?.let { ov ->
                                 com.nuvio.tv.ui.screens.player.LoadingOverlay(

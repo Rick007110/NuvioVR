@@ -2214,6 +2214,12 @@ private fun PlayerControlsOverlay(
                 )
         )
 
+        // VR: back button for hand tracking, shown with the rest of the controls.
+        com.nuvio.tv.vr.VrBackButton(
+            modifier = Modifier.align(Alignment.TopStart),
+            onClick = onBack
+        )
+
         // Bottom gradient
         Box(
             modifier = Modifier
