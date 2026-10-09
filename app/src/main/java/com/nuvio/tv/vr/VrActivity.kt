@@ -74,6 +74,8 @@ class VrActivity : AppSystemActivity() {
     private var hallLights: Entity? = null
     private var controlBar: Entity? = null
     private var controlBarShown = false
+    private var lastControlBarPose: Pose? = null
+    private var controlBarStillFrames = 0
 
     private var sceneState: SceneState? = null
     private var onBigScreen = false
@@ -187,6 +189,36 @@ class VrActivity : AppSystemActivity() {
         }
         environmentIntensity += (targetEnvironment - environmentIntensity) * LIGHT_SMOOTHING
         if (++frame % 2 == 0) applyLighting()
+        keepControlBarTilted()
+    }
+
+    /**
+     * Grabbing (PIVOT_Y) stands the control bar upright. Once it has been let go and stays put,
+     * tilt it back towards the viewer, keeping the direction the viewer turned it to.
+     */
+    private fun keepControlBarTilted() {
+        val bar = controlBar ?: return
+        if (!controlBarShown) return
+        if (bar.tryGetComponent<Grabbable>()?.isGrabbed == true) {
+            controlBarStillFrames = 0
+            lastControlBarPose = null
+            return
+        }
+        val pose = bar.tryGetComponent<Transform>()?.transform ?: return
+        val last = lastControlBarPose
+        val still = last != null &&
+            (pose.t - last.t).length() < 0.001f &&
+            kotlin.math.abs(pose.q.w - last.q.w) < 0.0001f
+        controlBarStillFrames = if (still) controlBarStillFrames + 1 else 0
+        lastControlBarPose = pose
+        if (controlBarStillFrames < CONTROL_BAR_SETTLE_FRAMES) return
+        val forward = pose.q.times(Vector3(0f, 0f, 1f))
+        val upright = kotlin.math.abs(forward.y) < 0.05f
+        if (!upright) return
+        val yawDeg = Math.toDegrees(kotlin.math.atan2(forward.x, forward.z).toDouble()).toFloat()
+        bar.setComponent(Transform(Pose(pose.t, Quaternion(CONTROL_BAR_TILT_DEG, yawDeg, 0f))))
+        controlBarStillFrames = 0
+        lastControlBarPose = null
     }
 
     override fun onRecenter(isUserInitiated: Boolean) {
@@ -338,6 +370,7 @@ class VrActivity : AppSystemActivity() {
         const val CONTROL_BAR_HEIGHT_M = CONTROL_BAR_WIDTH_M * VR_CONTROL_BAR_HEIGHT_DP / VR_CONTROL_BAR_WIDTH_DP
         val CONTROL_BAR_POSE = Pose(Vector3(0f, 0.78f, 0.7f), Quaternion(CONTROL_BAR_TILT_DEG, 0f, 0f))
         const val CONTROL_BAR_TILT_DEG = 35f
+        const val CONTROL_BAR_SETTLE_FRAMES = 20
 
         // House lights up (browsing) vs down (playing in the cinema).
         const val BROWSE_AMBIENT = 0.55f
