@@ -271,6 +271,7 @@ class VrActivity : AppSystemActivity() {
         if (showControlBar && !controlBarShown) controlBar?.setComponent(Transform(CONTROL_BAR_POSE))
         controlBar?.setComponent(Visible(showControlBar))
         controlBarShown = showControlBar
+        VrSession.setControlBarActive(showControlBar)
 
         placeScreen(state)
     }
@@ -332,10 +333,11 @@ class VrActivity : AppSystemActivity() {
         const val BIG_SCREEN_SCALE = 12.0f / SCREEN_WIDTH_M
         const val SCENE_POINTER_DISTANCE_M = 20f
 
-        // Control bar: just below eye level, within arm's reach.
+        // Control bar: well below eye level, within arm's reach, tilted up towards the viewer.
         const val CONTROL_BAR_WIDTH_M = 1.0f
         const val CONTROL_BAR_HEIGHT_M = CONTROL_BAR_WIDTH_M * VR_CONTROL_BAR_HEIGHT_DP / VR_CONTROL_BAR_WIDTH_DP
-        val CONTROL_BAR_POSE = Pose(Vector3(0f, 0.95f, 0.75f), Quaternion(0f, 0f, 0f))
+        val CONTROL_BAR_POSE = Pose(Vector3(0f, 0.78f, 0.7f), Quaternion(CONTROL_BAR_TILT_DEG, 0f, 0f))
+        const val CONTROL_BAR_TILT_DEG = 35f
 
         // House lights up (browsing) vs down (playing in the cinema).
         const val BROWSE_AMBIENT = 0.55f

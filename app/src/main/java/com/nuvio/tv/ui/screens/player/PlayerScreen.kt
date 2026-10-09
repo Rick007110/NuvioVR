@@ -574,6 +574,12 @@ fun PlayerScreen(
     }
 
     // VR: mirror the player to the cinema control bar near the viewer, and run its commands.
+    // While that bar is shown, the on-screen controls only appear when the bar asks for them.
+    val vrControlBarActive by com.nuvio.tv.vr.VrSession.controlBarActive.collectAsState()
+    var vrScreenControlsRequested by remember { mutableStateOf(false) }
+    LaunchedEffect(uiState.showControls) {
+        if (!uiState.showControls) vrScreenControlsRequested = false
+    }
     val vrTimeline by viewModel.playbackTimeline.collectAsState()
     val vrTitle = uiState.contentName ?: uiState.title
     LaunchedEffect(vrTitle, uiState.isPlaying, vrTimeline.currentPosition / 1000, vrTimeline.duration) {
@@ -589,6 +595,7 @@ fun PlayerScreen(
     DisposableEffect(Unit) {
         onDispose { com.nuvio.tv.vr.VrSession.setPlayerState(null) }
     }
+    val vrHandleBackPress by rememberUpdatedState(handleBackPress)
     LaunchedEffect(Unit) {
         com.nuvio.tv.vr.VrSession.playerCommands.collect { command ->
             when (command) {
@@ -598,8 +605,12 @@ fun PlayerScreen(
                 is com.nuvio.tv.vr.VrSession.PlayerCommand.SeekTo -> viewModel.onEvent(PlayerEvent.OnSeekTo(command.positionMs))
                 com.nuvio.tv.vr.VrSession.PlayerCommand.Subtitles -> viewModel.onEvent(PlayerEvent.OnShowSubtitleOverlay)
                 com.nuvio.tv.vr.VrSession.PlayerCommand.Audio -> viewModel.onEvent(PlayerEvent.OnShowAudioOverlay)
-                com.nuvio.tv.vr.VrSession.PlayerCommand.ToggleScreenControls -> viewModel.onEvent(PlayerEvent.OnToggleControls)
-                com.nuvio.tv.vr.VrSession.PlayerCommand.Back -> handleBackPress()
+                com.nuvio.tv.vr.VrSession.PlayerCommand.ToggleScreenControls -> {
+                    val showing = uiState.showControls && (!vrControlBarActive || vrScreenControlsRequested)
+                    vrScreenControlsRequested = !showing
+                    if (showing || !uiState.showControls) viewModel.onEvent(PlayerEvent.OnToggleControls)
+                }
+                com.nuvio.tv.vr.VrSession.PlayerCommand.Back -> vrHandleBackPress()
             }
         }
     }
@@ -1350,6 +1361,7 @@ fun PlayerScreen(
         // Controls overlay
         AnimatedVisibility(
             visible = uiState.showControls && uiState.error == null &&
+                (!vrControlBarActive || vrScreenControlsRequested) &&
                 !uiState.showLoadingOverlay && !uiState.showPauseOverlay &&
                 !uiState.showStreamInfoOverlay &&
                 !uiState.showSubtitleStylePanel &&

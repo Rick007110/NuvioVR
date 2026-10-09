@@ -1,5 +1,10 @@
 package com.nuvio.tv.vr
 
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.slideInVertically
+import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -26,6 +31,8 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Audiotrack
 import androidx.compose.material.icons.filled.ClosedCaption
 import androidx.compose.material.icons.filled.Forward10
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material.icons.filled.PushPin
 import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Replay10
@@ -35,6 +42,7 @@ import androidx.compose.material.icons.filled.VisibilityOff
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -45,12 +53,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.nuvio.tv.vr.VrSession.PlayerCommand
+import kotlinx.coroutines.delay
 
 /** Width x height of the control bar canvas, in dp; see [VrActivity] for its size in metres. */
 const val VR_CONTROL_BAR_WIDTH_DP = 1000f
@@ -62,13 +72,71 @@ private val Accent = Color(0xFF8B5CF6)
 /**
  * Compact player controls shown close to the viewer while a film plays on the cinema screen,
  * so pausing, seeking and going back never need a long reach to the big screen.
+ *
+ * With auto-hide on (the arrow button) the bar collapses to a thin handle so it doesn't distract
+ * from the film, and opens again when the viewer points at it.
  */
 @Composable
 fun VrControlBar() {
     val state by VrSession.playerState.collectAsState()
-    val passthrough by VrSession.passthroughEnabled.collectAsState()
+    val autoHide by VrSession.controlBarAutoHide.collectAsState()
+    var pointedAt by remember { mutableStateOf(false) }
+    var expanded by remember { mutableStateOf(true) }
+    LaunchedEffect(autoHide, pointedAt) {
+        when {
+            !autoHide -> expanded = true
+            pointedAt -> {
+                delay(OPEN_DELAY_MS) // only when really aiming at it, not when sweeping past
+                expanded = true
+            }
+            else -> {
+                delay(CLOSE_DELAY_MS)
+                expanded = false
+            }
+        }
+    }
     val player = state ?: return
 
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .pointerInput(Unit) {
+                awaitPointerEventScope {
+                    while (true) {
+                        when (awaitPointerEvent().type) {
+                            PointerEventType.Enter, PointerEventType.Move, PointerEventType.Press -> pointedAt = true
+                            PointerEventType.Exit -> pointedAt = false
+                            else -> Unit
+                        }
+                    }
+                }
+            }
+    ) {
+        AnimatedVisibility(
+            visible = expanded,
+            enter = fadeIn() + slideInVertically { it / 3 },
+            exit = fadeOut() + slideOutVertically { it / 3 }
+        ) {
+            BarContent(player = player, autoHide = autoHide)
+        }
+        if (!expanded) {
+            Box(
+                modifier = Modifier
+                    .align(Alignment.Center)
+                    .size(width = 220.dp, height = 10.dp)
+                    .clip(RoundedCornerShape(5.dp))
+                    .background(Color.White.copy(alpha = 0.35f))
+            )
+        }
+    }
+}
+
+private const val OPEN_DELAY_MS = 250L
+private const val CLOSE_DELAY_MS = 2500L
+
+@Composable
+private fun BarContent(player: VrSession.PlayerState, autoHide: Boolean) {
+    val passthrough by VrSession.passthroughEnabled.collectAsState()
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -115,6 +183,9 @@ fun VrControlBar() {
                 VrSession.togglePassthrough()
             }
             BarButton(Icons.Default.Tune) { VrSession.sendPlayerCommand(PlayerCommand.ToggleScreenControls) }
+            BarButton(if (autoHide) Icons.Default.PushPin else Icons.Default.KeyboardArrowDown) {
+                VrSession.setControlBarAutoHide(!autoHide)
+            }
         }
     }
 }

@@ -24,6 +24,7 @@ object VrSession {
     private const val KEY_PASSTHROUGH = "passthrough_enabled"
     private const val KEY_DIM_DURING_PLAYBACK = "dim_during_playback"
     private const val KEY_CINEMA_HALL = "cinema_hall"
+    private const val KEY_CONTROL_BAR_AUTO_HIDE = "control_bar_auto_hide"
 
     private var prefs: SharedPreferences? = null
 
@@ -92,6 +93,25 @@ object VrSession {
     )
     val playerCommands: SharedFlow<PlayerCommand> = _playerCommands.asSharedFlow()
 
+    private val _controlBarActive = MutableStateFlow(false)
+
+    /** True while the cinema control bar is shown; the player then hides its own controls. */
+    val controlBarActive: StateFlow<Boolean> = _controlBarActive.asStateFlow()
+
+    private val _controlBarAutoHide = MutableStateFlow(false)
+
+    /** The control bar collapses to a thin handle and opens again when the viewer points at it. */
+    val controlBarAutoHide: StateFlow<Boolean> = _controlBarAutoHide.asStateFlow()
+
+    fun setControlBarAutoHide(enabled: Boolean) {
+        _controlBarAutoHide.value = enabled
+        prefs?.edit()?.putBoolean(KEY_CONTROL_BAR_AUTO_HIDE, enabled)?.apply()
+    }
+
+    fun setControlBarActive(active: Boolean) {
+        _controlBarActive.value = active
+    }
+
     fun setPlayerState(state: PlayerState?) {
         _playerState.value = state
     }
@@ -109,6 +129,7 @@ object VrSession {
         _passthroughEnabled.value = preferences.getBoolean(KEY_PASSTHROUGH, false)
         _dimDuringPlayback.value = preferences.getBoolean(KEY_DIM_DURING_PLAYBACK, true)
         _cinemaHall.value = preferences.getBoolean(KEY_CINEMA_HALL, true)
+        _controlBarAutoHide.value = preferences.getBoolean(KEY_CONTROL_BAR_AUTO_HIDE, false)
     }
 
     fun setPassthroughEnabled(enabled: Boolean) {
