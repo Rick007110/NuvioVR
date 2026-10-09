@@ -63,6 +63,43 @@ object VrSession {
     /** Asks the scene to move the screen back in front of the user. */
     val recenterRequests: SharedFlow<Unit> = _recenterRequests.asSharedFlow()
 
+    /** What the cinema control bar shows about the player; null when nothing is playing. */
+    data class PlayerState(
+        val title: String,
+        val isPlaying: Boolean,
+        val positionMs: Long,
+        val durationMs: Long
+    )
+
+    /** Commands from the cinema control bar to the player. */
+    sealed interface PlayerCommand {
+        data object PlayPause : PlayerCommand
+        data object SeekBackward : PlayerCommand
+        data object SeekForward : PlayerCommand
+        data class SeekTo(val positionMs: Long) : PlayerCommand
+        data object Subtitles : PlayerCommand
+        data object Audio : PlayerCommand
+        data object ToggleScreenControls : PlayerCommand
+        data object Back : PlayerCommand
+    }
+
+    private val _playerState = MutableStateFlow<PlayerState?>(null)
+    val playerState: StateFlow<PlayerState?> = _playerState.asStateFlow()
+
+    private val _playerCommands = MutableSharedFlow<PlayerCommand>(
+        extraBufferCapacity = 8,
+        onBufferOverflow = BufferOverflow.DROP_OLDEST
+    )
+    val playerCommands: SharedFlow<PlayerCommand> = _playerCommands.asSharedFlow()
+
+    fun setPlayerState(state: PlayerState?) {
+        _playerState.value = state
+    }
+
+    fun sendPlayerCommand(command: PlayerCommand) {
+        _playerCommands.tryEmit(command)
+    }
+
     private var panelActivity = WeakReference<Activity>(null)
 
     fun init(context: Context) {

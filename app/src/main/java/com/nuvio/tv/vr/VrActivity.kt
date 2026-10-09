@@ -4,7 +4,9 @@ import android.graphics.Color
 import android.os.Bundle
 import android.view.KeyEvent
 import androidx.core.net.toUri
+import androidx.compose.ui.platform.ComposeView
 import com.meta.spatial.compose.ComposeFeature
+import com.meta.spatial.compose.ComposeViewPanelRegistration
 import com.meta.spatial.core.Entity
 import com.meta.spatial.core.Pose
 import com.meta.spatial.core.Quaternion
@@ -12,6 +14,7 @@ import com.meta.spatial.core.Query
 import com.meta.spatial.core.SpatialFeature
 import com.meta.spatial.core.SystemBase
 import com.meta.spatial.core.Vector3
+import com.meta.spatial.isdk.IsdkSystem
 import com.meta.spatial.runtime.ButtonBits
 import com.meta.spatial.runtime.ReferenceSpace
 import com.meta.spatial.toolkit.ActivityPanelRegistration
@@ -69,6 +72,8 @@ class VrActivity : AppSystemActivity() {
     private var floor: Entity? = null
     private var hall: Entity? = null
     private var hallLights: Entity? = null
+    private var controlBar: Entity? = null
+    private var controlBarShown = false
 
     private var sceneState: SceneState? = null
     private var onBigScreen = false
@@ -93,6 +98,18 @@ class VrActivity : AppSystemActivity() {
                     style = PanelStyleOptions(themeResourceId = R.style.Theme_MyApplication_Panel)
                 )
             }
+        ),
+        // Player controls close to the viewer while the film plays on the far cinema screen.
+        ComposeViewPanelRegistration(
+            R.id.vr_control_bar,
+            composeViewCreator = { _, context -> ComposeView(context).apply { setContent { VrControlBar() } } },
+            settingsCreator = {
+                UIPanelSettings(
+                    shape = QuadShapeOptions(width = CONTROL_BAR_WIDTH_M, height = CONTROL_BAR_HEIGHT_M),
+                    display = DpDisplayOptions(VR_CONTROL_BAR_WIDTH_DP, VR_CONTROL_BAR_HEIGHT_DP, dpi = 320),
+                    style = PanelStyleOptions(themeResourceId = R.style.Theme_MyApplication_Panel)
+                )
+            }
         )
     )
 
@@ -114,6 +131,14 @@ class VrActivity : AppSystemActivity() {
             Transform(BROWSE_POSE),
             Grabbable(enabled = true, type = GrabbableType.PIVOT_Y)
         )
+        controlBar = Entity.createPanelEntity(
+            R.id.vr_control_bar,
+            Transform(CONTROL_BAR_POSE),
+            Grabbable(enabled = true, type = GrabbableType.PIVOT_Y),
+            Visible(false)
+        )
+        // Controller rays and hand pinches reach only 5 m by default; the cinema screen is 11 m away.
+        systemManager.tryFindSystem<IsdkSystem>()?.setScenePointerDistance(SCENE_POINTER_DISTANCE_M)
 
         scope.launch {
             combine(
@@ -241,6 +266,11 @@ class VrActivity : AppSystemActivity() {
         val cinema = environment == Environment.CINEMA
         hall?.setComponent(Visible(cinema))
         hallLights?.setComponent(Visible(cinema && !dimmed))
+        val showControlBar = cinema && state.playing
+        // Each time it appears, put it back within reach (it may have been grabbed elsewhere).
+        if (showControlBar && !controlBarShown) controlBar?.setComponent(Transform(CONTROL_BAR_POSE))
+        controlBar?.setComponent(Visible(showControlBar))
+        controlBarShown = showControlBar
 
         placeScreen(state)
     }
@@ -297,12 +327,15 @@ class VrActivity : AppSystemActivity() {
         // In LOCAL_FLOOR space the user stands at the origin looking down +Z.
         val BROWSE_POSE = Pose(Vector3(0f, 1.35f, 2.2f), Quaternion(0f, 0f, 0f))
 
-        // Cinema screen: the unscaled 2 m panel at 1.85 m covers the same ~57 degrees as the
-        // 12 m screen frame on the stage (tools/cinema/generate_cinema.py). Placing a 6x scaled
-        // panel on the stage itself (11 m away) made it unreachable for controller rays and
-        // hand pinches, so the player controls could not be opened.
-        val BIG_SCREEN_POSE = Pose(Vector3(0f, 1.25f, 1.85f), Quaternion(0f, 0f, 0f))
-        const val BIG_SCREEN_SCALE = 1f
+        // Cinema screen on the stage (see tools/cinema/generate_cinema.py): 12 x 6.75 m.
+        val BIG_SCREEN_POSE = Pose(Vector3(0f, 3.2f, 11.0f), Quaternion(0f, 0f, 0f))
+        const val BIG_SCREEN_SCALE = 12.0f / SCREEN_WIDTH_M
+        const val SCENE_POINTER_DISTANCE_M = 20f
+
+        // Control bar: just below eye level, within arm's reach.
+        const val CONTROL_BAR_WIDTH_M = 1.0f
+        const val CONTROL_BAR_HEIGHT_M = CONTROL_BAR_WIDTH_M * VR_CONTROL_BAR_HEIGHT_DP / VR_CONTROL_BAR_WIDTH_DP
+        val CONTROL_BAR_POSE = Pose(Vector3(0f, 0.95f, 0.75f), Quaternion(0f, 0f, 0f))
 
         // House lights up (browsing) vs down (playing in the cinema).
         const val BROWSE_AMBIENT = 0.55f

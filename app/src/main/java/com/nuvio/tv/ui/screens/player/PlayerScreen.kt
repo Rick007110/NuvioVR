@@ -573,6 +573,37 @@ fun PlayerScreen(
         onDispose { com.nuvio.tv.vr.VrSession.setPlayingVideo(false) }
     }
 
+    // VR: mirror the player to the cinema control bar near the viewer, and run its commands.
+    val vrTimeline by viewModel.playbackTimeline.collectAsState()
+    val vrTitle = uiState.contentName ?: uiState.title
+    LaunchedEffect(vrTitle, uiState.isPlaying, vrTimeline.currentPosition / 1000, vrTimeline.duration) {
+        com.nuvio.tv.vr.VrSession.setPlayerState(
+            com.nuvio.tv.vr.VrSession.PlayerState(
+                title = vrTitle,
+                isPlaying = uiState.isPlaying,
+                positionMs = vrTimeline.currentPosition,
+                durationMs = vrTimeline.duration
+            )
+        )
+    }
+    DisposableEffect(Unit) {
+        onDispose { com.nuvio.tv.vr.VrSession.setPlayerState(null) }
+    }
+    LaunchedEffect(Unit) {
+        com.nuvio.tv.vr.VrSession.playerCommands.collect { command ->
+            when (command) {
+                com.nuvio.tv.vr.VrSession.PlayerCommand.PlayPause -> viewModel.onEvent(PlayerEvent.OnPlayPause)
+                com.nuvio.tv.vr.VrSession.PlayerCommand.SeekBackward -> viewModel.onEvent(PlayerEvent.OnSeekBackward)
+                com.nuvio.tv.vr.VrSession.PlayerCommand.SeekForward -> viewModel.onEvent(PlayerEvent.OnSeekForward)
+                is com.nuvio.tv.vr.VrSession.PlayerCommand.SeekTo -> viewModel.onEvent(PlayerEvent.OnSeekTo(command.positionMs))
+                com.nuvio.tv.vr.VrSession.PlayerCommand.Subtitles -> viewModel.onEvent(PlayerEvent.OnShowSubtitleOverlay)
+                com.nuvio.tv.vr.VrSession.PlayerCommand.Audio -> viewModel.onEvent(PlayerEvent.OnShowAudioOverlay)
+                com.nuvio.tv.vr.VrSession.PlayerCommand.ToggleScreenControls -> viewModel.onEvent(PlayerEvent.OnToggleControls)
+                com.nuvio.tv.vr.VrSession.PlayerCommand.Back -> handleBackPress()
+            }
+        }
+    }
+
     val transparentLetterbox = uiState.transparentLetterbox &&
         uiState.internalPlayerEngine != InternalPlayerEngine.MVP_PLAYER
     DisposableEffect(transparentLetterbox) {

@@ -6,4 +6,5 @@
     <item name="player_view_subtitle_style_tag" type="id" />
     <item name="player_view_sidecar_generation_tag" type="id" />
     <item name="vr_main_panel" type="id" />
+    <item name="vr_control_bar" type="id" />
 </resources>
